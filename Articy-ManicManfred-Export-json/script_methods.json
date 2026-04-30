@@ -1,0 +1,8 @@
+{
+  "ScriptMethods": [
+    {
+      "Name": "restart",
+      "ReturnType": "void"
+    }
+  ]
+}

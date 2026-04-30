@@ -1,0 +1,767 @@
+{
+  "FFr_F74205FC.DisplayName": {
+    "en": {
+      "Text": "Fight"
+    },
+    "Context": "Flow/Name unknown/Fight"
+  },
+  "FFr_F74205FC.Text": {
+    "Context": "Flow/Name unknown/Fight"
+  },
+  "Dlg_C136D4C1.DisplayName": {
+    "en": {
+      "Text": "In the home of Mina Harker"
+    },
+    "Context": "Documents/Cutscene/In the home of Mina Harker"
+  },
+  "Dlg_C136D4C1.Text": {
+    "en": {
+      "Text": "Van Helsing visits Mina in her home to discuss the looming confrontation with Dracula"
+    },
+    "Context": "Documents/Cutscene/In the home of Mina Harker"
+  },
+  "Dlg_56A97563.DisplayName": {
+    "en": {
+      "Text": "Dracula and Mina - First meeting"
+    },
+    "de": {
+      "Text": "Dracula und Mina - erstes Treffen"
+    },
+    "Context": "Flow/Dracula and Mina - First meeting"
+  },
+  "Dlg_56A97563.Text": {
+    "en": {
+      "Text": "Mina and Dracula meet for the first time"
+    },
+    "de": {
+      "Text": "Mina und Dracula treffen sich zum ersten Mal"
+    },
+    "Context": "Flow/Dracula and Mina - First meeting"
+  },
+  "Dlg_1D304105.DisplayName": {
+    "en": {
+      "Text": "Dracula and Mina - Final Confrontation"
+    },
+    "Context": "Flow/Dracula and Mina - Final Confrontation"
+  },
+  "Dlg_1D304105.Text": {
+    "en": {
+      "Text": "Mina meets Dracula again. This time for their final confrontation."
+    },
+    "Context": "Flow/Dracula and Mina - Final Confrontation"
+  },
+  "Dlg_5142C39F.DisplayName": {
+    "en": {
+      "Text": "Name known"
+    },
+    "Context": "Flow/Dracula and Mina - Final Confrontation/Name known"
+  },
+  "Dlg_5142C39F.Text": {
+    "Context": "Flow/Dracula and Mina - Final Confrontation/Name known"
+  },
+  "Dlg_7D2BBE27.DisplayName": {
+    "en": {
+      "Text": "Name unknown"
+    },
+    "Context": "Flow/Dracula and Mina - Final Confrontation/Name unknown"
+  },
+  "Dlg_7D2BBE27.Text": {
+    "Context": "Flow/Dracula and Mina - Final Confrontation/Name unknown"
+  },
+  "Dlg_0CDBDF52.DisplayName": {
+    "en": {
+      "Text": "In the home of Mina Harker"
+    },
+    "Context": "Flow/In the home of Mina Harker"
+  },
+  "Dlg_0CDBDF52.Text": {
+    "en": {
+      "Text": "Van Helsing visits Mina in her home to discuss the looming confrontation with Dracula"
+    },
+    "Context": "Flow/In the home of Mina Harker"
+  },
+  "DFr_4ECD2D64.Text": {
+    "en": {
+      "Text": "Oh my dear Mina, I really think it is too early for you to confront Dracula again. There is so much more I need to teach you."
+    },
+    "Context": "Documents/In the home of Mina Harker/Van Helsing: \"Oh my dear Mina, I really think it...\""
+  },
+  "DFr_75BE8DC3.Text": {
+    "en": {
+      "Text": "Professor Van Helsing, it is touching how worried you are. However, time is not on our side here. If Dracula continues building a secure and covert foothold in London we might never get to him."
+    },
+    "Context": "Documents/In the home of Mina Harker/Mina Harker: \"Professor Van Helsing, it is touchi...\""
+  },
+  "DFr_1858218B.Text": {
+    "en": {
+      "Text": "You are of course right. I just wish we had more time. I am still plagued by the injury I received on the graveyard…"
+    },
+    "Context": "Documents/In the home of Mina Harker/Van Helsing: \"You are of course right. I just wis...\""
+  },
+  "DFr_81F49125.Text": {
+    "en": {
+      "Text": "…where we put the ghoulish thing to rest that inhabited the body of poor Lucy."
+    },
+    "Context": "Documents/In the home of Mina Harker/Mina Harker: \"…where we put the ghoulish thing to...\""
+  },
+  "DFr_9FCE43B6.Text": {
+    "en": {
+      "Text": "Never forget – it was not Lucy we encountered in this tomb. Lucy passed away days before. It was the evil seed Dracula left to sprout. But in the end we saved her soul. I just wished it would not have left me walking on crutches, for I cannot stand the thought of you facing this monster alone."
+    },
+    "Context": "Documents/In the home of Mina Harker/Van Helsing: \"Never forget – it was not Lucy we e...\""
+  },
+  "DFr_4A2E923C.Text": {
+    "en": {
+      "Text": "Lord Godalming, Mr. Morris, and Dr. Seward are on their way to the Carpathians to cut off any possibility of retreat for Dracula. This leaves just us two here in London, and you are in no way fit to put yourself in danger. Don’t worry, my friend, you have prepared me well."
+    },
+    "Context": "Documents/In the home of Mina Harker/Mina Harker: \"Lord Godalming, Mr. Morris, and Dr....\""
+  },
+  "DFr_29D96F09.Text": {
+    "en": {
+      "Text": "Sweet Mina, my heart aches, but you speak reason beyond doubt. Let me hold you in my arms for a moment, before you make your way to the monster's lair."
+    },
+    "Context": "Documents/In the home of Mina Harker/Van Helsing: \"Sweet Mina, my heart aches, but you...\""
+  },
+  "DFr_A09EA63E.Text": {
+    "en": {
+      "Text": "Before I deal with you as is right and proper, do me the courtesy of telling me your name."
+    },
+    "de": {
+      "Text": "Bevor ich Sie so behandle, wie es sich gehört, tun Sie mir einen Gefallen und nennen Sie mir Ihren Namen.",
+      "VOAsset": "0x0100000000004102"
+    },
+    "Context": "Flow/Dracula and Mina - First meeting/Count Dracula: \"Before I deal with you as is right...\""
+  },
+  "DFr_FBFFCC6A.MenuText": {
+    "en": {
+      "Text": "Don't talk to me about courtesy."
+    },
+    "Context": "Flow/Dracula and Mina - First meeting/Mina Harker: \"You are not deserving of any courte...\""
+  },
+  "DFr_FBFFCC6A.Text": {
+    "en": {
+      "Text": "You are not deserving of any courtesy, Count Dracula. You have killed my dear husband, and my most beloved friend."
+    },
+    "de": {
+      "Text": "Sie haben keine Höflichkeit verdient, Graf Dracula. Sie haben meinen geliebten Ehemann und meine beste Freundin getötet.",
+      "VOAsset": "0x010000000000410E"
+    },
+    "Context": "Flow/Dracula and Mina - First meeting/Mina Harker: \"You are not deserving of any courte...\""
+  },
+  "DFr_661E4107.MenuText": {
+    "en": {
+      "Text": "Do I not look familiar to you?"
+    },
+    "Context": "Flow/Dracula and Mina - First meeting/Mina Harker: \"Look closely, Count. Is my face not...\""
+  },
+  "DFr_661E4107.Text": {
+    "en": {
+      "Text": "Look closely, Count. Is my face not familiar to you? If you were a gentleman, I might be offended. But you are not."
+    },
+    "de": {
+      "Text": "Sehen Sie genau hin, Graf. Kommt Ihnen mein Gesicht nicht bekannt vor? Wenn Sie ein Gentleman wären, wäre ich vielleicht beleidigt. Aber das sind Sie ja nicht.",
+      "VOAsset": "0x0100000000004111"
+    },
+    "Context": "Flow/Dracula and Mina - First meeting/Mina Harker: \"Look closely, Count. Is my face not...\""
+  },
+  "DFr_F120EE49.Text": {
+    "en": {
+      "Text": "It's Mrs. Harker for the likes of you. Count Dracula, your hellish existence will end tonight."
+    },
+    "de": {
+      "Text": "Es ist Mrs. Harker für Leute wie Sie. Graf Dracula, Ihre höllische Existenz wird heute Nacht enden."
+    },
+    "Context": "Flow/Dracula and Mina - First meeting/Mina Harker: \"It's Mrs. Harker for the likes of y...\""
+  },
+  "DFr_07823A4E.Text": {
+    "en": {
+      "Text": "Please spare me the charade. I know who - what you are. And I will have my revenge on you!"
+    },
+    "de": {
+      "Text": "Bitte ersparen Sie mir diese Scharade. Ich weiß, wer und was Sie sind. Und ich werde mich rächen!",
+      "VOAsset": "0x010000000000410B"
+    },
+    "Context": "Flow/Dracula and Mina - First meeting/Mina Harker: \"Please spare me the charade. I know...\""
+  },
+  "DFr_A30F0F3E.Text": {
+    "en": {
+      "Text": "You have the nerve to creep in to my house like a common burglar?"
+    },
+    "de": {
+      "Text": "Sie besitzen die Frechheit, sich wie eine gewöhnliche Einbrecherin in mein Haus zu schleichen ?",
+      "VOAsset": "0x01000000000040FF"
+    },
+    "Context": "Flow/Dracula and Mina - First meeting/Count Dracula: \"You have the nerve to creep in to m...\""
+  },
+  "DFr_787D5B84.Text": {
+    "en": {
+      "Text": "You have me at a disadvantage, Madam. I do not know you, and clearly you must confuse me with someone else. I have never killed anyone."
+    },
+    "de": {
+      "Text": "Ich bin Ihnen gegenüber im Nachteil, Madame. Ich kenne Sie nicht, und Sie müssen mich offensichtlich mit jemandem verwechseln. Ich habe noch nie jemanden getötet.",
+      "VOAsset": "0x0100000000004108"
+    },
+    "Context": "Flow/Dracula and Mina - First meeting/Count Dracula: \"You have me at a disadvantage, Mada...\""
+  },
+  "DFr_28661C9D.Text": {
+    "en": {
+      "Text": "I remember now - poor Mr. Harker carried a picture of you near his heart. You are Mina."
+    },
+    "de": {
+      "Text": "Ich erinnere mich jetzt - der arme Mr. Harker trug ein Bild von Ihnen an seinem Herzen. Sie sind Mina.",
+      "VOAsset": "0x0100000000004114"
+    },
+    "Context": "Flow/Dracula and Mina - First meeting/Count Dracula: \"I remember now - poor Mr. Harker ca...\""
+  },
+  "DFr_7D562513.Text": {
+    "en": {
+      "Text": "If it is true that you know and understand who I am, then you must also understand that your undertaking is preposterous and can only end with your own demise."
+    },
+    "de": {
+      "Text": "Wenn es wahr ist , dass Sie wissen und verstehen, wer ich bin, dann müssen Sie auch verstehen, dass Ihr Vorhaben absurd ist und nur mit dem eigenen Untergang enden kann."
+    },
+    "Context": "Flow/Dracula and Mina - First meeting/Count Dracula: \"If it is true that you know and und...\""
+  },
+  "DFr_3853B303.Text": {
+    "en": {
+      "Text": "It will be your demise! I am not as unprepared as you might think. Professor Van Helsing sends his regards!"
+    },
+    "de": {
+      "Text": "Es wird Ihr Untergang sein! Ich bin nicht so unvorbereitet, wie Sie vielleicht denken. Professor Van Helsing sendet Grüße!"
+    },
+    "Context": "Flow/Dracula and Mina - First meeting/Mina Harker: \"It will be your demise! I am not as...\""
+  },
+  "DFr_FB902F8F.Text": {
+    "en": {
+      "Text": "The mighty Dracula is fleeing from a mere woman? This was not the last you have seen of me. We shall meet again."
+    },
+    "de": {
+      "Text": "Der mächtige Dracula flieht vor einer einfachen Frau? Das war nicht unser letztes Aufeinandertreffen! Wir werden uns wiedersehen."
+    },
+    "Context": "Flow/Dracula and Mina - First meeting/Mina Harker: \"The mighty Dracula is fleeing from...\""
+  },
+  "DFr_5A1E03D7.MenuText": {
+    "en": {
+      "Text": "I don't think so."
+    },
+    "Context": "Flow/Dracula and Mina - First meeting/Mina Harker: \"Dracula speaking about courtesy? Yo...\""
+  },
+  "DFr_5A1E03D7.Text": {
+    "en": {
+      "Text": "Dracula speaking about courtesy? You are but a killer! You shall learn of my name, though now is not the time."
+    },
+    "de": {
+      "Text": "Dracula spricht von Höflichkeit? Sie sind nur ein Mörder! Sie werden meinen Namen erfahren, aber nicht jetzt.",
+      "VOAsset": "0x0100000000004105"
+    },
+    "Context": "Flow/Dracula and Mina - First meeting/Mina Harker: \"Dracula speaking about courtesy? Yo...\""
+  },
+  "DFr_F64F2548.Text": {
+    "en": {
+      "Text": "Wretched creature! You will no longer find safe haven in this city, my legion will come for you and sniff out your hiding place!"
+    },
+    "de": {
+      "Text": "Sie elende Kreatur! Sie werden in dieser Stadt keinen sicheren Unterschlupf mehr finden, meine Legion wird Ihr Versteck ausfindig machen und Sie holen kommen!"
+    },
+    "Context": "Flow/Dracula and Mina - First meeting/Count Dracula: \"Wretched creature! You will no long...\""
+  },
+  "DFr_A4498EEC.Text": {
+    "en": {
+      "Text": "I told you that we would meet again."
+    },
+    "de": {
+      "Text": "Ich sagte Ihnen, dass wir uns wiedersehen würden."
+    },
+    "Context": "Flow/Name known/Mina Harker: \"I told you that we would meet again...\""
+  },
+  "DFr_93D9D222.Text": {
+    "en": {
+      "Text": "I told you that we would meet again."
+    },
+    "de": {
+      "Text": "Ich sagte Ihnen, dass wir uns wiedersehen würden."
+    },
+    "Context": "Flow/Name unknown/Mina Harker: \"I told you that we would meet again...\""
+  },
+  "DFr_98AFBD41.Text": {
+    "en": {
+      "Text": "Oh my dear Mina, I really think it is too early for you to confront Dracula again. There is so much more I need to teach you."
+    },
+    "Context": "Flow/In the home of Mina Harker/Van Helsing: \"Oh my dear Mina, I really think it...\""
+  },
+  "DFr_8CD3D329.Text": {
+    "en": {
+      "Text": "Professor Van Helsing, it is touching how worried you are. However, time is not on our side here. If Dracula continues building a secure and covert foothold in London we might never get to him."
+    },
+    "Context": "Flow/In the home of Mina Harker/Mina Harker: \"Professor Van Helsing, it is touchi...\""
+  },
+  "DFr_D42AE295.Text": {
+    "en": {
+      "Text": "You are of course right. I just wish we had more time. I am still plagued by the injury I received on the graveyard…"
+    },
+    "Context": "Flow/In the home of Mina Harker/Van Helsing: \"You are of course right. I just wis...\""
+  },
+  "DFr_61D9B14D.Text": {
+    "en": {
+      "Text": "…where we put the ghoulish thing to rest that inhabited the body of poor Lucy."
+    },
+    "Context": "Flow/In the home of Mina Harker/Mina Harker: \"…where we put the ghoulish thing to...\""
+  },
+  "DFr_7FDC8D75.Text": {
+    "en": {
+      "Text": "Never forget – it was not Lucy we encountered in this tomb. Lucy passed away days before. It was the evil seed Dracula left to sprout. But in the end we saved her soul. I just wished it would not have left me walking on crutches, for I cannot stand the thought of you facing this monster alone."
+    },
+    "Context": "Flow/In the home of Mina Harker/Van Helsing: \"Never forget – it was not Lucy we e...\""
+  },
+  "DFr_B382606F.Text": {
+    "en": {
+      "Text": "Lord Godalming, Mr. Morris, and Dr. Seward are on their way to the Carpathians to cut off any possibility of retreat for Dracula. This leaves just us two here in London, and you are in no way fit to put yourself in danger. Don’t worry, my friend, you have prepared me well."
+    },
+    "Context": "Flow/In the home of Mina Harker/Mina Harker: \"Lord Godalming, Mr. Morris, and Dr....\""
+  },
+  "DFr_9D7BEA64.Text": {
+    "en": {
+      "Text": "Sweet Mina, my heart aches, but you speak reason beyond doubt. Let me hold you in my arms for a moment, before you make your way to the monster's lair."
+    },
+    "Context": "Flow/In the home of Mina Harker/Van Helsing: \"Sweet Mina, my heart aches, but you...\""
+  },
+  "DFr_C5AAD3A3.Text": {
+    "en": {
+      "Text": "So you did, Miss Mina."
+    },
+    "de": {
+      "Text": "Das haben Sie, Miss Mina. Schauen Sie nicht so überrascht, ich sagte Ihnen doch, dass ich herausfinden würde, wer Sie sind."
+    },
+    "Context": "Flow/Name known/Count Dracula: \"So you did, Miss Mina.\""
+  },
+  "DFr_E1D144A8.Text": {
+    "en": {
+      "Text": "So you did, Miss Mina. Don't look so surprised, I told you I would find out who you are."
+    },
+    "de": {
+      "Text": "Das haben Sie, Miss Mina. Schauen Sie nicht so überrascht, ich sagte Ihnen doch, dass ich herausfinden würde, wer Sie sind."
+    },
+    "Context": "Flow/Name unknown/Count Dracula: \"So you did, Miss Mina. Don't look s...\""
+  },
+  "DFr_F66A1A55.Text": {
+    "en": {
+      "Text": "In the end it always comes down to sniff out a Judas and help them to their 30 pieces of silver."
+    },
+    "de": {
+      "Text": "Am Ende geht es immer darum, einen Judas aufzuspüren und ihm zu seinen 30 Silberlingen zu verhelfen."
+    },
+    "Context": "Flow/Name unknown/Count Dracula: \"In the end it always comes down to...\""
+  },
+  "DFr_AD592E00.Text": {
+    "en": {
+      "Text": "I don't believe a word you say. Wherever you got your information from, none of my friends betrayed me!"
+    },
+    "de": {
+      "Text": "Ich glaube kein Wort von dem, was Sie sagen. Woher auch immer Sie Ihre Informationen haben, keiner meiner Freunde hat mich verraten!"
+    },
+    "Context": "Flow/Name unknown/Mina Harker: \"I don't believe a word you say. Whe...\""
+  },
+  "DFr_CF026575.Text": {
+    "en": {
+      "Text": "If you say so."
+    },
+    "de": {
+      "Text": "Wenn Sie es sagen."
+    },
+    "Context": "Flow/Name unknown/Count Dracula: \"If you say so.\""
+  },
+  "DFr_1C31E623.Text": {
+    "en": {
+      "Text": "You spoke of courtesy last time we met,  so now do me the courtesy of answering  some questions I have for you."
+    },
+    "de": {
+      "Text": "Bei unserem letzten Treffen sprachen Sie von Höflichkeit, also seien Sie jetzt so nett und beantworten Sie mir einige Fragen, die ich an Sie habe."
+    },
+    "Context": "Flow/Name unknown/Mina Harker: \"You spoke of courtesy last time we...\""
+  },
+  "DFr_74FA77F2.Text": {
+    "en": {
+      "Text": "It will be my pleasure. But I cannot guarantee that you will like what I have to say."
+    },
+    "de": {
+      "Text": "Es wird mir ein Vergnügen sein. Aber ich kann nicht garantieren, dass Ihnen gefallen wird, was ich zu sagen habe."
+    },
+    "Context": "Flow/Name unknown/Count Dracula: \"It will be my pleasure. But I canno...\""
+  },
+  "DFr_93ABBB31.Text": {
+    "en": {
+      "Text": "What do you want to know?"
+    },
+    "de": {
+      "Text": "Was wollen Sie wissen?"
+    },
+    "Context": "Flow/Name unknown/Count Dracula: \"What do you want to know?\""
+  },
+  "DFr_68FD9FF5.MenuText": {
+    "en": {
+      "Text": "Why did you kill my husband?"
+    },
+    "Context": "Flow/Name unknown/Mina Harker: \"Why did you have to kill my dear Jo...\""
+  },
+  "DFr_68FD9FF5.Text": {
+    "en": {
+      "Text": "Why did you have to kill my dear Jonathan? He travelled all the way just to help you."
+    },
+    "de": {
+      "Text": "Warum mussten Sie meinen lieben Jonathan töten? Er ist den ganzen Weg gereist, nur um Ihnen zu helfen."
+    },
+    "Context": "Flow/Name unknown/Mina Harker: \"Why did you have to kill my dear Jo...\""
+  },
+  "DFr_AD57DFD9.MenuText": {
+    "en": {
+      "Text": "Why did you come to London?"
+    },
+    "Context": "Flow/Name unknown/Mina Harker: \"Why did you come to London of all p...\""
+  },
+  "DFr_AD57DFD9.Text": {
+    "en": {
+      "Text": "Why did you come to London of all places? What do you expect to find here?"
+    },
+    "de": {
+      "Text": "Warum sind Sie ausgerechnet nach London gekommen? Was erwarten Sie hier zu finden?"
+    },
+    "Context": "Flow/Name unknown/Mina Harker: \"Why did you come to London of all p...\""
+  },
+  "DFr_6EFE198A.MenuText": {
+    "en": {
+      "Text": "That's all."
+    },
+    "Context": "Flow/Name unknown/Mina Harker: \"Actually, I cannot think of another...\""
+  },
+  "DFr_6EFE198A.Text": {
+    "en": {
+      "Text": "Actually, I cannot think of another question."
+    },
+    "de": {
+      "Text": "Mir fällt keine andere Frage mehr ein."
+    },
+    "Context": "Flow/Name unknown/Mina Harker: \"Actually, I cannot think of another...\""
+  },
+  "DFr_5B051EC9.MenuText": {
+    "en": {
+      "Text": "Are you ready to die?"
+    },
+    "Context": "Flow/Name unknown/Mina Harker: \"There is only one question I need t...\""
+  },
+  "DFr_5B051EC9.Text": {
+    "en": {
+      "Text": "There is only one question I need the answer to: Are you prepared to go to hell?"
+    },
+    "de": {
+      "Text": "Es gibt nur eine Frage, auf die ich eine Antwort brauche: Sind Sie bereit, in die Hölle zu gehen?"
+    },
+    "Context": "Flow/Name unknown/Mina Harker: \"There is only one question I need t...\""
+  },
+  "DFr_53E250E4.Text": {
+    "en": {
+      "Text": "You do not ask the lion why it kills the antelope. It is the natural order."
+    },
+    "de": {
+      "Text": "Man fragt den Löwen nicht, warum er die Antilope tötet. Es ist die natürliche Ordnung."
+    },
+    "Context": "Flow/Name unknown/Count Dracula: \"You do not ask the lion why it kill...\""
+  },
+  "DFr_DDF374BE.Text": {
+    "en": {
+      "Text": "I have great plans for this city. I will shape it according to my vision."
+    },
+    "de": {
+      "Text": "Ich habe große Pläne für diese Stadt. Ich werde sie nach meiner Vision formen."
+    },
+    "Context": "Flow/Name unknown/Count Dracula: \"I have great plans for this city. I...\""
+  },
+  "DFr_27740989.Text": {
+    "en": {
+      "Text": "As you wish. However, I am starting to grow bored by you. Time to end this."
+    },
+    "de": {
+      "Text": "Nun gut. Sie fangen jedoch an mich zu langweilen. Es ist Zeit, dies zu beenden."
+    },
+    "Context": "Flow/Name unknown/Count Dracula: \"As you wish. However, I am starting...\""
+  },
+  "DFr_FBA8580C.Text": {
+    "en": {
+      "Text": "After you beat my useful but pathetic pet Renfield,  I increased my efforts."
+    },
+    "de": {
+      "Text": "Nachdem Sie meine nützliche, aber erbärmliche Kreatur Renfield besiegt hast, habe ich meine Bemühungen verstärkt."
+    },
+    "Context": "Flow/Name unknown/Count Dracula: \"After you beat my useful but pathet...\""
+  },
+  "DFr_EED3834C.Text": {
+    "en": {
+      "Text": "Renfield proved useful in discovering your identity."
+    },
+    "de": {
+      "Text": "Renfield hat sich als nützlich erwiesen, um Ihre Identität herauszufinden."
+    },
+    "Context": "Flow/Name unknown/Count Dracula: \"Renfield proved useful in discoveri...\""
+  },
+  "DFr_E9B9F1EF.Text": {
+    "en": {
+      "Text": "As you couldn't even dispose of that pathetic creature, forgive me if I am not overly worried."
+    },
+    "de": {
+      "Text": "Da Sie diese erbärmliche Kreatur nicht einmal loswerden konnten, verzeihen Sie mir, wenn ich mir keine allzu großen Sorgen mache."
+    },
+    "Context": "Flow/Name unknown/Count Dracula: \"As you couldn't even dispose of tha...\""
+  },
+  "DFr_3426F6D2.Text": {
+    "en": {
+      "Text": "Keep gloating, pride comes before a fall."
+    },
+    "de": {
+      "Text": "Frohlocken Sie nur, Hochmut kommt vor dem Fall.",
+      "VOAsset": "0x010000000000411F"
+    },
+    "Context": "Flow/Name unknown/Mina Harker: \"Keep gloating, pride comes before a...\""
+  },
+  "Ntt_0D0E25AA.DisplayName": {
+    "en": {
+      "Text": "Count Dracula"
+    },
+    "de": {
+      "Text": "Graf Dracula"
+    },
+    "Context": "Entities/Characters/Count Dracula"
+  },
+  "Ntt_0D0E25AA.Text": {
+    "en": {
+      "Text": "The villain of this story."
+    },
+    "de": {
+      "Text": "Der Bösewicht in dieser Geschichte."
+    },
+    "Context": "Entities/Characters/Count Dracula"
+  },
+  "Ntt_0D0E25AA.CharacterInfo.Background": {
+    "en": {
+      "Text": "Count Dracula has grown tired of his castle in the remote Carpathian mountains. He enlisted the services of solicitor Jonathan Harker to purchase a residence in London. After killing Harker, he travelled to England by ship, lying in Transylvanian soil. "
+    },
+    "de": {
+      "Text": "Graf Dracula hat genug von seinem Schloss in den abgelegenen Karpaten. Er nahm die Dienste des Anwalts Jonathan Harker in Anspruch, um einen Wohnsitz in London zu erwerben. Nachdem er Harker ermordet hatte, reiste er mit dem Schiff nach England, wo er auf transsilvanischem Boden lag. "
+    },
+    "Context": "Entities/Characters/Count Dracula"
+  },
+  "Ntt_0D0E25AA.CharacterInfo.Motivation": {
+    "en": {
+      "Text": "Dracula's short term goal of coming to England was to be closer to society again. In the long run he plans to expand his power and establish a new monarchy of vampires."
+    },
+    "de": {
+      "Text": "Draculas kurzfristiges Ziel, nach England zu kommen, war es, der Gesellschaft wieder näher zu sein. Langfristig will er seine Macht ausbauen und eine neue Monarchie der Vampire errichten."
+    },
+    "Context": "Entities/Characters/Count Dracula"
+  },
+  "Ntt_0D0E25AA.CharacterInfo.Appearance": {
+    "en": {
+      "Text": "Slender, well dressed in latest British fashion. Appears young when well fed, seems to grow older when not consuming blood on regular basis."
+    },
+    "de": {
+      "Text": "Schlank, gut gekleidet nach der neuesten britischen Mode. Wirkt jung, wenn er gut genährt ist, scheint älter zu werden, wenn er nicht regelmäßig Blut zu sich nimmt."
+    },
+    "Context": "Entities/Characters/Count Dracula"
+  },
+  "Ntt_55B1A627.DisplayName": {
+    "en": {
+      "Text": "Mina Harker"
+    },
+    "de": {
+      "Text": "Mina Harker"
+    },
+    "Context": "Entities/Characters/Mina Harker"
+  },
+  "Ntt_55B1A627.Text": {
+    "en": {
+      "Text": "The hero."
+    },
+    "de": {
+      "Text": "Die Heldin"
+    },
+    "Context": "Entities/Characters/Mina Harker"
+  },
+  "Ntt_55B1A627.CharacterInfo.Background": {
+    "en": {
+      "Text": "Mina worked as a schoolteacher in London. After the death of her husband Jonathan and her best friend Lucy, she was forcefully thrown into the dark world of the supernatural. Dr. Seward introduced her to Professor Van Helsing, who helped her to understand the evil they were facing. Mina’s meticulously kept journal and letters were instrumental in deciphering Dracula’s plans."
+    },
+    "de": {
+      "Text": "Mina arbeitete als Lehrerin in London. Nach dem Tod ihres Mannes Jonathan und ihrer besten Freundin Lucy wurde sie gewaltsam in die dunkle Welt des Übernatürlichen hineingeworfen. Dr. Seward machte sie mit Professor Van Helsing bekannt, der ihr half, das Böse zu verstehen, dem sie gegenüberstanden. Minas akribisch geführte Tagebücher und Briefe halfen ihr, Draculas Pläne zu entschlüsseln."
+    },
+    "Context": "Entities/Characters/Mina Harker"
+  },
+  "Ntt_55B1A627.CharacterInfo.Motivation": {
+    "en": {
+      "Text": "Mina is still coping with the loss of Jonathan and Lucy. However, she is not consumed by a blind rage for revenge, she has come to a rational realization that others need to be saved from from suffering the same fate. She knows that they are facing a cunning and evil adversary, so she is biding her time and preparing and training for the final confrontation."
+    },
+    "Context": "Entities/Characters/Mina Harker"
+  },
+  "Ntt_55B1A627.CharacterInfo.Appearance": {
+    "en": {
+      "Text": "While still maintaining a lady-like appearance when in public, Mina prefers a more functional attire when out on a mission.  "
+    },
+    "Context": "Entities/Characters/Mina Harker"
+  },
+  "Ntt_EB2BB718.DisplayName": {
+    "en": {
+      "Text": "Van Helsing"
+    },
+    "de": {
+      "Text": "Van Helsing"
+    },
+    "Context": "Entities/Characters/Van Helsing"
+  },
+  "Ntt_EB2BB718.Text": {
+    "en": {
+      "Text": "The old, wise teacher."
+    },
+    "de": {
+      "Text": "Der alte, weise Lehrer."
+    },
+    "Context": "Entities/Characters/Van Helsing"
+  },
+  "Ntt_EB2BB718.CharacterInfo.Background": {
+    "en": {
+      "Text": "Abraham Van Helsing is from the Netherlands. He is a polymath doctor, an expert in many fields. Philosopher and metaphysician, and one of the most advanced scientists of his day.  "
+    },
+    "Context": "Entities/Characters/Van Helsing"
+  },
+  "Ntt_EB2BB718.CharacterInfo.Motivation": {
+    "en": {
+      "Text": "After the death of Jonathan Harker by the hands of Dracula, Van Helsing vowed to keep Mina safe from any harm. Not able to dissuade her from her path of revenge, he now trains her and tries to teach her everything he can about vampires."
+    },
+    "de": {
+      "Text": "Nach dem Tod von Jonathan Harker durch Dracula schwor Van Helsing, Mina vor allem Unheil zu bewahren. Da er sie nicht von ihrem Rachefeldzug abbringen konnte, bildet er sie nun aus und versucht, ihr alles, was er über Vampire weiß, beizubringen."
+    },
+    "Context": "Entities/Characters/Van Helsing"
+  },
+  "Ntt_EB2BB718.CharacterInfo.Appearance": {
+    "en": {
+      "Text": "His graying hair seems to be the only thing giving away his advanced age. His posture and poise are still that of a man in the prime of his years. "
+    },
+    "Context": "Entities/Characters/Van Helsing"
+  },
+  "Ntt_D4B565DB.DisplayName": {
+    "en": {
+      "Text": "Apple Girl"
+    },
+    "de": {
+      "Text": "Apple Girl"
+    },
+    "Context": "Entities/Characters/Apple Girl"
+  },
+  "Ntt_D4B565DB.Text": {
+    "en": {
+      "Text": "Girl who sells apples"
+    },
+    "de": {
+      "Text": "Mädchen, das Äpfel verkauft"
+    },
+    "Context": "Entities/Characters/Apple Girl"
+  },
+  "Stake.DisplayName": {
+    "en": {
+      "Text": "Stake"
+    },
+    "de": {
+      "Text": "Pfahl"
+    },
+    "Context": "Entities/Items/Stake"
+  },
+  "Stake.Text": {
+    "Context": "Entities/Items/Stake"
+  },
+  "Stake.ItemBasics.FlavorText": {
+    "en": {
+      "Text": "The ultimate weapon against the creatures of the night. Carved from white oak and then blessed by a priest. "
+    },
+    "Context": "Entities/Items/Stake"
+  },
+  "ReflexPotion.DisplayName": {
+    "en": {
+      "Text": "Reflex Potion"
+    },
+    "de": {
+      "Text": "Reflex-Trank"
+    },
+    "Context": "Entities/Items/Reflex Potion"
+  },
+  "ReflexPotion.Text": {
+    "Context": "Entities/Items/Reflex Potion"
+  },
+  "Peppermint.DisplayName": {
+    "en": {
+      "Text": "Peppermint"
+    },
+    "de": {
+      "Text": "Pfefferminz"
+    },
+    "Context": "Entities/Items/Peppermint"
+  },
+  "Peppermint.Text": {
+    "Context": "Entities/Items/Peppermint"
+  },
+  "Milk.DisplayName": {
+    "en": {
+      "Text": "Milk"
+    },
+    "de": {
+      "Text": "Milch"
+    },
+    "Context": "Entities/Items/Milk"
+  },
+  "Milk.Text": {
+    "Context": "Entities/Items/Milk"
+  },
+  "FirabolicusSparkles.DisplayName": {
+    "en": {
+      "Text": "Firabolicus Sparkles"
+    },
+    "de": {
+      "Text": "Firabolicus Funke"
+    },
+    "Context": "Entities/Items/Firabolicus Sparkles"
+  },
+  "FirabolicusSparkles.Text": {
+    "Context": "Entities/Items/Firabolicus Sparkles"
+  },
+  "Ntt_067CDBA3.DisplayName": {
+    "en": {
+      "Text": "Apple"
+    },
+    "de": {
+      "Text": "Apfel"
+    },
+    "Context": "Entities/Items/Apple"
+  },
+  "Ntt_067CDBA3.Text": {
+    "Context": "Entities/Items/Apple"
+  },
+  "Alcohol.DisplayName": {
+    "en": {
+      "Text": "Alcohol"
+    },
+    "de": {
+      "Text": "Alkohol"
+    },
+    "Context": "Entities/Items/Alcohol"
+  },
+  "Alcohol.Text": {
+    "Context": "Entities/Items/Alcohol"
+  },
+  "SkimmedMilk.DisplayName": {
+    "en": {
+      "Text": "Skimmed Milk"
+    },
+    "de": {
+      "Text": "Magermilch"
+    },
+    "Context": "Entities/Items/Skimmed Milk"
+  },
+  "SkimmedMilk.Text": {
+    "Context": "Entities/Items/Skimmed Milk"
+  }
+}

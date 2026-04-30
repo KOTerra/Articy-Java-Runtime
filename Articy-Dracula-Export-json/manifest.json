@@ -1,0 +1,74 @@
+{
+  "Settings": {
+    "set_TextFormatter": "",
+    "set_IncludingAssets": "True",
+    "set_IncludedNodes": "Settings, Project, GlobalVariables, ObjectDefinitions, Packages, ScriptMethods, Hierarchy, Assets, Languages",
+    "set_UseScriptSupport": "True",
+    "RuleSetChecksum": "5DF1C2DE118CD9C4DEE1FFAC27D20312CB9FD54D-DA39A3EE5E6B4B0D3255BFEF95601890AFD80709",
+    "ExportVersion": "2.1",
+    "RuleSetId": "01000000000000FF",
+    "RuleSetName": "Default Export Ruleset (complete Project)"
+  },
+  "Project": {
+    "Name": "Dracula ",
+    "DetailName": "A demo project for the First Steps tutorial series",
+    "Guid": "fa4ff0cf-e346-4035-ac89-1195f0654062",
+    "TechnicalName": "Dracula_articyXBasics"
+  },
+  "Languages": [
+    {
+      "CultureName": "de",
+      "ArticyLanguageId": 128,
+      "LanguageName": "German",
+      "IsVoiceOver": true
+    },
+    {
+      "CultureName": "en",
+      "ArticyLanguageId": 127,
+      "LanguageName": "English",
+      "IsVoiceOver": true
+    }
+  ],
+  "GlobalVariables": {
+    "FileName": "global_variables.json",
+    "Hash": "4rG8kfDSY1UL0RqsVWbp93BpXIyobJqlBOrT02ey04Y="
+  },
+  "ObjectDefinitions": {
+    "Types": {
+      "FileName": "object_definitions.json",
+      "Hash": "1wowJ6bPCsAzMmeQckBhR/tbIzURQmujuWV3L8avdPI="
+    },
+    "Texts": {
+      "FileName": "object_definitions_localization.json",
+      "Hash": "RBNvo1WzZ4oRRq0W9+hknpT7T8If536DEMBg9hyq/4o="
+    }
+  },
+  "Packages": [
+    {
+      "Name": "All objects",
+      "Id": "0x0100000000000102",
+      "Description": "Exports all objects & types of the project",
+      "IsDefaultPackage": true,
+      "IsIncluded": true,
+      "ScriptFragmentHash": "mlYw9mNw5DT/RsCRiOf9fGH8L6xPrexPVxszRhqTkFU=",
+      "Files": {
+        "Objects": {
+          "FileName": "package_0100000000000102_objects.json",
+          "Hash": "m2Y90AjzVE3wQcreghm+2czK4KwRnPI9f8gXmk0rxSE="
+        },
+        "Texts": {
+          "FileName": "package_0100000000000102_localization.json",
+          "Hash": "QcBgnUxmId9KGg2BKSd6fCzwjt6mGNjrMYspnkITUrg="
+        }
+      }
+    }
+  ],
+  "ScriptMethods": {
+    "FileName": "script_methods.json",
+    "Hash": "+Hc7CrqwO4HgaJLz4pXA58UKo/0PYZLVIzK1n03xTOY="
+  },
+  "Hierarchy": {
+    "FileName": "hierarchy.json",
+    "Hash": "V9W9IQtbYKSVAy1vl+U1fdEnDDji8Z2AFnSQXsI3MKE="
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "Settings": {
+    "set_TextFormatter": "",
+    "set_IncludingAssets": "True",
+    "set_IncludedNodes": "Settings, Project, GlobalVariables, ObjectDefinitions, Packages, ScriptMethods, Hierarchy, Assets, Languages",
+    "set_UseScriptSupport": "True",
+    "RuleSetChecksum": "5DF1C2DE118CD9C4DEE1FFAC27D20312CB9FD54D-DA39A3EE5E6B4B0D3255BFEF95601890AFD80709",
+    "ExportVersion": "2.1",
+    "RuleSetId": "0100000000002C31",
+    "RuleSetName": "Export complete project"
+  },
+  "Project": {
+    "Name": "Maniac Manfred X",
+    "DetailName": "A demo project for the articy:draft engine export(s).",
+    "Guid": "c33e1c87-7468-4cd0-94ab-dac6727570d7",
+    "TechnicalName": "ManiacManfred"
+  },
+  "Languages": [
+    {
+      "CultureName": "de",
+      "ArticyLanguageId": 128,
+      "LanguageName": "German",
+      "IsVoiceOver": true
+    },
+    {
+      "CultureName": "en",
+      "ArticyLanguageId": 127,
+      "LanguageName": "English",
+      "IsVoiceOver": true
+    }
+  ],
+  "GlobalVariables": {
+    "FileName": "global_variables.json",
+    "Hash": "zkNlyxZOmdv4dJWxjxkbXHi0IRpAmHGs3Xd00Ufm9HA="
+  },
+  "ObjectDefinitions": {
+    "Types": {
+      "FileName": "object_definitions.json",
+      "Hash": "hOAOgHNnhwbddthDD3gHpMeVFL7Zee4Y69fAJtf1XJc="
+    },
+    "Texts": {
+      "FileName": "object_definitions_localization.json",
+      "Hash": "RBNvo1WzZ4oRRq0W9+hknpT7T8If536DEMBg9hyq/4o="
+    }
+  },
+  "Packages": [
+    {
+      "Name": "Export package",
+      "Id": "0x0100000000002C34",
+      "Description": "",
+      "IsDefaultPackage": true,
+      "IsIncluded": true,
+      "ScriptFragmentHash": "AK/y+E7unJ1kcH9iZdQfafUoyLkMS8TT/zqu5GsPUHM=",
+      "Files": {
+        "Objects": {
+          "FileName": "package_0100000000002C34_objects.json",
+          "Hash": "TT7XQjBpUl7Kr4oCAMdvXb/6iw3z7cIJ63HgLwPAgpw="
+        },
+        "Texts": {
+          "FileName": "package_0100000000002C34_localization.json",
+          "Hash": "fEFolUP47J90sgW3MTCjOvI3sPqB5KtbvFj5yydOpHI="
+        }
+      }
+    }
+  ],
+  "ScriptMethods": {
+    "FileName": "script_methods.json",
+    "Hash": "2nf2fV1ATthGX2hp1yXKOXDS9afiuL0tVi1yPvUEaJg="
+  },
+  "Hierarchy": {
+    "FileName": "hierarchy.json",
+    "Hash": "M3RFXkes2LlKJ7H3++cPQeAy8BklMk5jpLNfPPcmo6w="
+  }
+}

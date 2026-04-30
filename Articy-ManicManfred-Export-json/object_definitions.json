@@ -1,0 +1,2758 @@
+{
+  "ObjectDefinitions": [
+    {
+      "Type": "Point",
+      "Class": "Primitive",
+      "Properties": [
+        {
+          "Property": "x",
+          "Type": "Float"
+        },
+        {
+          "Property": "y",
+          "Type": "Float"
+        }
+      ]
+    },
+    {
+      "Type": "Color",
+      "Class": "Primitive",
+      "Properties": [
+        {
+          "Property": "a",
+          "Type": "Float"
+        },
+        {
+          "Property": "r",
+          "Type": "Float"
+        },
+        {
+          "Property": "g",
+          "Type": "Float"
+        },
+        {
+          "Property": "b",
+          "Type": "Float"
+        }
+      ]
+    },
+    {
+      "Type": "Size",
+      "Class": "Primitive",
+      "Properties": [
+        {
+          "Property": "w",
+          "Type": "Float"
+        },
+        {
+          "Property": "h",
+          "Type": "Float"
+        }
+      ]
+    },
+    {
+      "Type": "Rect",
+      "Class": "Primitive",
+      "Properties": [
+        {
+          "Property": "x",
+          "Type": "Float"
+        },
+        {
+          "Property": "y",
+          "Type": "Float"
+        },
+        {
+          "Property": "w",
+          "Type": "Float"
+        },
+        {
+          "Property": "h",
+          "Type": "Float"
+        }
+      ]
+    },
+    {
+      "Type": "PreviewImage",
+      "Class": "ArticyObject",
+      "Properties": [
+        {
+          "Property": "ViewBox",
+          "Type": "Rect"
+        },
+        {
+          "Property": "Mode",
+          "Type": "PreviewImageViewBoxModes"
+        },
+        {
+          "Property": "Asset",
+          "Type": "Id"
+        }
+      ]
+    },
+    {
+      "Type": "Transformation",
+      "Class": "ArticyObject",
+      "Properties": [
+        {
+          "Property": "Pivot",
+          "Type": "Point"
+        },
+        {
+          "Property": "Rotation",
+          "Type": "Float"
+        },
+        {
+          "Property": "Translation",
+          "Type": "Point"
+        },
+        {
+          "Property": "Matrix",
+          "Type": "Array",
+          "ItemType": "Float"
+        }
+      ]
+    },
+    {
+      "Type": "OutgoingConnection",
+      "Class": "ArticyObject",
+      "Properties": [
+        {
+          "Property": "Label",
+          "Type": "ArticyString"
+        },
+        {
+          "Property": "Color",
+          "Type": "Color"
+        },
+        {
+          "Property": "TargetPin",
+          "Type": "InputPin"
+        },
+        {
+          "Property": "Target",
+          "Type": "Id"
+        }
+      ]
+    },
+    {
+      "Type": "IncomingConnection",
+      "Class": "ArticyObject",
+      "Properties": [
+        {
+          "Property": "Label",
+          "Type": "ArticyString"
+        },
+        {
+          "Property": "Color",
+          "Type": "Color"
+        },
+        {
+          "Property": "SourcePin",
+          "Type": "OutputPin"
+        },
+        {
+          "Property": "Source",
+          "Type": "Id"
+        }
+      ]
+    },
+    {
+      "Type": "OutputPin",
+      "Class": "ArticyObject",
+      "Properties": [
+        {
+          "Property": "Text",
+          "Type": "Script_Instruction"
+        },
+        {
+          "Property": "Id",
+          "Type": "Id"
+        },
+        {
+          "Property": "Owner",
+          "Type": "Id"
+        },
+        {
+          "Property": "Connections",
+          "Type": "Array",
+          "ItemType": "OutgoingConnection"
+        }
+      ]
+    },
+    {
+      "Type": "InputPin",
+      "Class": "ArticyObject",
+      "Properties": [
+        {
+          "Property": "Text",
+          "Type": "Script_Condition"
+        },
+        {
+          "Property": "Id",
+          "Type": "Id"
+        },
+        {
+          "Property": "Owner",
+          "Type": "Id"
+        },
+        {
+          "Property": "Connections",
+          "Type": "Array",
+          "ItemType": "OutgoingConnection"
+        }
+      ]
+    },
+    {
+      "Type": "LocationAnchor",
+      "Class": "ArticyObject",
+      "Properties": [
+        {
+          "Property": "AnchorPositionX",
+          "Type": "Float"
+        },
+        {
+          "Property": "AnchorPositionY",
+          "Type": "Float"
+        },
+        {
+          "Property": "AnchorColor",
+          "Type": "Color"
+        },
+        {
+          "Property": "AnchorSize",
+          "Type": "LocationAnchorSize"
+        }
+      ]
+    },
+    {
+      "Type": "MouseCursor",
+      "Class": "Enum",
+      "DisplayName": "MouseCursor",
+      "Values": {
+        "Point": 0,
+        "Take": 1,
+        "Speak": 2,
+        "Walk": 3,
+        "Inspect": 4,
+        "Use": 5,
+        "Auto": 255
+      },
+      "DisplayNames": {
+        "Point": "Point",
+        "Take": "Take",
+        "Speak": "Speak",
+        "Walk": "Walk",
+        "Inspect": "Inspect",
+        "Use": "Use",
+        "Auto": "Auto"
+      }
+    },
+    {
+      "Type": "ShapeType",
+      "Class": "Enum",
+      "DisplayName": "ShapeType",
+      "Values": {
+        "Invalid": 0,
+        "Spot": 1,
+        "Circle": 2,
+        "Rectangle": 3,
+        "Path": 4,
+        "Polygon": 5,
+        "Link": 6
+      },
+      "DisplayNames": {
+        "Invalid": "Invalid",
+        "Spot": "Spot",
+        "Circle": "Circle",
+        "Rectangle": "Rectangle",
+        "Path": "Path",
+        "Polygon": "Polygon",
+        "Link": "Link"
+      }
+    },
+    {
+      "Type": "SelectabilityModes",
+      "Class": "Enum",
+      "DisplayName": "SelectabilityModes",
+      "Values": {
+        "Unselectable": 0,
+        "Selectable": 1
+      },
+      "DisplayNames": {
+        "Unselectable": "Unselectable",
+        "Selectable": "Selectable"
+      }
+    },
+    {
+      "Type": "VisibilityModes",
+      "Class": "Enum",
+      "DisplayName": "VisibilityModes",
+      "Values": {
+        "Invisible": 0,
+        "Visible": 1
+      },
+      "DisplayNames": {
+        "Invisible": "Invisible",
+        "Visible": "Visible"
+      }
+    },
+    {
+      "Type": "OutlineStyle",
+      "Class": "Enum",
+      "DisplayName": "OutlineStyle",
+      "Values": {
+        "Solid": 0,
+        "Dot": 1,
+        "Dash": 2,
+        "DashDot": 3,
+        "DashDotDot": 4
+      },
+      "DisplayNames": {
+        "Solid": "Solid",
+        "Dot": "Dot",
+        "Dash": "Dash",
+        "DashDot": "DashDot",
+        "DashDotDot": "DashDotDot"
+      }
+    },
+    {
+      "Type": "PathCaps",
+      "Class": "Enum",
+      "DisplayName": "PathCaps",
+      "Values": {
+        "ColoredDot": 0,
+        "None": 1,
+        "LineArrowHead": 2,
+        "FilledArrowHead": 3,
+        "Diamond": 4,
+        "Square": 5,
+        "Disc": 6
+      },
+      "DisplayNames": {
+        "ColoredDot": "ColoredDot",
+        "None": "None",
+        "LineArrowHead": "LineArrowHead",
+        "FilledArrowHead": "FilledArrowHead",
+        "Diamond": "Diamond",
+        "Square": "Square",
+        "Disc": "Disc"
+      }
+    },
+    {
+      "Type": "LocationAnchorSize",
+      "Class": "Enum",
+      "DisplayName": "LocationAnchorSize",
+      "Values": {
+        "Small": 0,
+        "Medium": 1,
+        "Large": 2
+      },
+      "DisplayNames": {
+        "Small": "Small",
+        "Medium": "Medium",
+        "Large": "Large"
+      }
+    },
+    {
+      "Type": "PreviewImageViewBoxModes",
+      "Class": "Enum",
+      "DisplayName": "PreviewImageViewBoxModes",
+      "Values": {
+        "FromAsset": 0,
+        "Custom": 1
+      },
+      "DisplayNames": {
+        "FromAsset": "FromAsset",
+        "Custom": "Custom"
+      }
+    },
+    {
+      "Type": "FlowFragment",
+      "Class": "FlowFragment",
+      "DisplayName": "FlowFragment",
+      "Properties": [
+        {
+          "Property": "Attachments",
+          "Type": "Array",
+          "ItemType": "Id"
+        },
+        {
+          "Property": "DisplayName",
+          "Type": "ArticyMultiLanguageString"
+        },
+        {
+          "Property": "PreviewImage",
+          "Type": "PreviewImage"
+        },
+        {
+          "Property": "Color",
+          "Type": "Color"
+        },
+        {
+          "Property": "Text",
+          "Type": "ArticyMultiLanguageString"
+        },
+        {
+          "Property": "ExternalId",
+          "Type": "String"
+        },
+        {
+          "Property": "Position",
+          "Type": "Point"
+        },
+        {
+          "Property": "ZIndex",
+          "Type": "Float"
+        },
+        {
+          "Property": "Size",
+          "Type": "Size"
+        },
+        {
+          "Property": "ShortId",
+          "Type": "UInt"
+        },
+        {
+          "Property": "Id",
+          "Type": "Id"
+        },
+        {
+          "Property": "TechnicalName",
+          "Type": "String"
+        },
+        {
+          "Property": "Parent",
+          "Type": "Id"
+        },
+        {
+          "Property": "InputPins",
+          "Type": "Array",
+          "ItemType": "InputPin"
+        },
+        {
+          "Property": "OutputPins",
+          "Type": "Array",
+          "ItemType": "OutputPin"
+        }
+      ]
+    },
+    {
+      "Type": "Dialogue",
+      "Class": "Dialogue",
+      "DisplayName": "Dialogue",
+      "Properties": [
+        {
+          "Property": "Attachments",
+          "Type": "Array",
+          "ItemType": "Id"
+        },
+        {
+          "Property": "DisplayName",
+          "Type": "ArticyMultiLanguageString"
+        },
+        {
+          "Property": "PreviewImage",
+          "Type": "PreviewImage"
+        },
+        {
+          "Property": "Color",
+          "Type": "Color"
+        },
+        {
+          "Property": "Text",
+          "Type": "ArticyMultiLanguageString"
+        },
+        {
+          "Property": "ExternalId",
+          "Type": "String"
+        },
+        {
+          "Property": "Position",
+          "Type": "Point"
+        },
+        {
+          "Property": "ZIndex",
+          "Type": "Float"
+        },
+        {
+          "Property": "Size",
+          "Type": "Size"
+        },
+        {
+          "Property": "ShortId",
+          "Type": "UInt"
+        },
+        {
+          "Property": "Id",
+          "Type": "Id"
+        },
+        {
+          "Property": "TechnicalName",
+          "Type": "String"
+        },
+        {
+          "Property": "Parent",
+          "Type": "Id"
+        },
+        {
+          "Property": "InputPins",
+          "Type": "Array",
+          "ItemType": "InputPin"
+        },
+        {
+          "Property": "OutputPins",
+          "Type": "Array",
+          "ItemType": "OutputPin"
+        }
+      ]
+    },
+    {
+      "Type": "DialogueFragment",
+      "Class": "DialogueFragment",
+      "DisplayName": "DialogueFragment",
+      "Properties": [
+        {
+          "Property": "MenuText",
+          "Type": "ArticyMultiLanguageString"
+        },
+        {
+          "Property": "StageDirections",
+          "Type": "ArticyString"
+        },
+        {
+          "Property": "Speaker",
+          "Type": "Id"
+        },
+        {
+          "Property": "SplitHeight",
+          "Type": "Float"
+        },
+        {
+          "Property": "Color",
+          "Type": "Color"
+        },
+        {
+          "Property": "Text",
+          "Type": "ArticyMultiLanguageString"
+        },
+        {
+          "Property": "ExternalId",
+          "Type": "String"
+        },
+        {
+          "Property": "Position",
+          "Type": "Point"
+        },
+        {
+          "Property": "ZIndex",
+          "Type": "Float"
+        },
+        {
+          "Property": "Size",
+          "Type": "Size"
+        },
+        {
+          "Property": "ShortId",
+          "Type": "UInt"
+        },
+        {
+          "Property": "Id",
+          "Type": "Id"
+        },
+        {
+          "Property": "TechnicalName",
+          "Type": "String"
+        },
+        {
+          "Property": "Parent",
+          "Type": "Id"
+        },
+        {
+          "Property": "InputPins",
+          "Type": "Array",
+          "ItemType": "InputPin"
+        },
+        {
+          "Property": "OutputPins",
+          "Type": "Array",
+          "ItemType": "OutputPin"
+        }
+      ]
+    },
+    {
+      "Type": "DialogChoice",
+      "Class": "DialogueFragment",
+      "InheritsFrom": "DialogueFragment",
+      "Template": {
+        "TechnicalName": "DialogChoice",
+        "DisplayName": "DialogChoice",
+        "Color": {
+          "a": 1.0,
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Features": [
+          {
+            "TechnicalName": "Soundfile",
+            "DisplayName": "Soundfile",
+            "Properties": [
+              {
+                "Property": "Sound",
+                "Type": "Id",
+                "DisplayName": "Sound"
+              }
+            ],
+            "Constraints": [
+              {
+                "Property": "Sound",
+                "Type": "ReferenceSlot",
+                "AllowedModelTypes": [
+                  "Asset"
+                ],
+                "PlaceholderValue": "",
+                "AllowedAssetCategories": [
+                  "None",
+                  "Audio"
+                ],
+                "AllowedModelTemplates": []
+              }
+            ]
+          },
+          {
+            "TechnicalName": "DialogChoice",
+            "DisplayName": "DialogChoice",
+            "Properties": [
+              {
+                "Property": "RequiredItem",
+                "Type": "Id",
+                "DisplayName": "Required item"
+              },
+              {
+                "Property": "LocationChange",
+                "Type": "Id",
+                "DisplayName": "Location change"
+              },
+              {
+                "Property": "MoraleChange",
+                "Type": "Script_Instruction",
+                "DisplayName": "Morale Change"
+              }
+            ],
+            "Constraints": [
+              {
+                "Property": "RequiredItem",
+                "Type": "ReferenceSlot",
+                "AllowedModelTypes": [
+                  "Entity"
+                ],
+                "PlaceholderValue": "",
+                "AllowedAssetCategories": [
+                  "None"
+                ],
+                "AllowedModelTemplates": [
+                  "Item"
+                ]
+              },
+              {
+                "Property": "LocationChange",
+                "Type": "ReferenceSlot",
+                "AllowedModelTypes": [
+                  "Location"
+                ],
+                "PlaceholderValue": "",
+                "AllowedAssetCategories": [
+                  "None"
+                ],
+                "AllowedModelTemplates": []
+              },
+              {
+                "Property": "MoraleChange",
+                "Type": "Script",
+                "ScriptType": "Outcome",
+                "PlaceholderValue": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Hub",
+      "Class": "Hub",
+      "DisplayName": "Hub",
+      "Properties": [
+        {
+          "Property": "DisplayName",
+          "Type": "ArticyString"
+        },
+        {
+          "Property": "Color",
+          "Type": "Color"
+        },
+        {
+          "Property": "Text",
+          "Type": "ArticyString"
+        },
+        {
+          "Property": "ExternalId",
+          "Type": "String"
+        },
+        {
+          "Property": "Position",
+          "Type": "Point"
+        },
+        {
+          "Property": "ZIndex",
+          "Type": "Float"
+        },
+        {
+          "Property": "Size",
+          "Type": "Size"
+        },
+        {
+          "Property": "ShortId",
+          "Type": "UInt"
+        },
+        {
+          "Property": "Id",
+          "Type": "Id"
+        },
+        {
+          "Property": "TechnicalName",
+          "Type": "String"
+        },
+        {
+          "Property": "Parent",
+          "Type": "Id"
+        },
+        {
+          "Property": "InputPins",
+          "Type": "Array",
+          "ItemType": "InputPin"
+        },
+        {
+          "Property": "OutputPins",
+          "Type": "Array",
+          "ItemType": "OutputPin"
+        }
+      ]
+    },
+    {
+      "Type": "Comment",
+      "Class": "Comment",
+      "DisplayName": "Comment",
+      "Properties": [
+        {
+          "Property": "CreatedBy",
+          "Type": "ArticyString"
+        },
+        {
+          "Property": "CreatedOn",
+          "Type": "DateTime"
+        },
+        {
+          "Property": "Color",
+          "Type": "Color"
+        },
+        {
+          "Property": "Text",
+          "Type": "ArticyString"
+        },
+        {
+          "Property": "ExternalId",
+          "Type": "String"
+        },
+        {
+          "Property": "Position",
+          "Type": "Point"
+        },
+        {
+          "Property": "ZIndex",
+          "Type": "Float"
+        },
+        {
+          "Property": "Size",
+          "Type": "Size"
+        },
+        {
+          "Property": "ShortId",
+          "Type": "UInt"
+        },
+        {
+          "Property": "Id",
+          "Type": "Id"
+        },
+        {
+          "Property": "TechnicalName",
+          "Type": "String"
+        },
+        {
+          "Property": "Parent",
+          "Type": "Id"
+        }
+      ]
+    },
+    {
+      "Type": "Jump",
+      "Class": "Jump",
+      "DisplayName": "Jump",
+      "Properties": [
+        {
+          "Property": "Color",
+          "Type": "Color"
+        },
+        {
+          "Property": "Text",
+          "Type": "ArticyString"
+        },
+        {
+          "Property": "ExternalId",
+          "Type": "String"
+        },
+        {
+          "Property": "Position",
+          "Type": "Point"
+        },
+        {
+          "Property": "ZIndex",
+          "Type": "Float"
+        },
+        {
+          "Property": "Size",
+          "Type": "Size"
+        },
+        {
+          "Property": "ShortId",
+          "Type": "UInt"
+        },
+        {
+          "Property": "Id",
+          "Type": "Id"
+        },
+        {
+          "Property": "TechnicalName",
+          "Type": "String"
+        },
+        {
+          "Property": "Parent",
+          "Type": "Id"
+        },
+        {
+          "Property": "Target",
+          "Type": "Id"
+        },
+        {
+          "Property": "TargetPin",
+          "Type": "Id"
+        },
+        {
+          "Property": "InputPins",
+          "Type": "Array",
+          "ItemType": "InputPin"
+        },
+        {
+          "Property": "OutputPins",
+          "Type": "Array",
+          "ItemType": "OutputPin"
+        }
+      ]
+    },
+    {
+      "Type": "Entity",
+      "Class": "Entity",
+      "DisplayName": "Entity",
+      "Properties": [
+        {
+          "Property": "Attachments",
+          "Type": "Array",
+          "ItemType": "Id"
+        },
+        {
+          "Property": "DisplayName",
+          "Type": "ArticyMultiLanguageString"
+        },
+        {
+          "Property": "Color",
+          "Type": "Color"
+        },
+        {
+          "Property": "Text",
+          "Type": "ArticyMultiLanguageString"
+        },
+        {
+          "Property": "ExternalId",
+          "Type": "String"
+        },
+        {
+          "Property": "Position",
+          "Type": "Point"
+        },
+        {
+          "Property": "ZIndex",
+          "Type": "Float"
+        },
+        {
+          "Property": "Size",
+          "Type": "Size"
+        },
+        {
+          "Property": "PreviewImage",
+          "Type": "PreviewImage"
+        },
+        {
+          "Property": "ShortId",
+          "Type": "UInt"
+        },
+        {
+          "Property": "Id",
+          "Type": "Id"
+        },
+        {
+          "Property": "TechnicalName",
+          "Type": "String"
+        },
+        {
+          "Property": "Parent",
+          "Type": "Id"
+        }
+      ]
+    },
+    {
+      "Type": "Item",
+      "Class": "Entity",
+      "InheritsFrom": "Entity",
+      "Template": {
+        "TechnicalName": "Item",
+        "DisplayName": "Item",
+        "Color": {
+          "a": 1.0,
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Features": [
+          {
+            "TechnicalName": "ItemCombination",
+            "DisplayName": "ItemCombination",
+            "Properties": [
+              {
+                "Property": "ValidCombination",
+                "Type": "Id",
+                "DisplayName": "Valid combination"
+              },
+              {
+                "Property": "CombinationResult",
+                "Type": "Id",
+                "DisplayName": "Combination result"
+              },
+              {
+                "Property": "LinkIfSuccess",
+                "Type": "Id",
+                "DisplayName": "Link if success"
+              },
+              {
+                "Property": "LinkIfFailure",
+                "Type": "Id",
+                "DisplayName": "Link if failure"
+              }
+            ],
+            "Constraints": [
+              {
+                "Property": "ValidCombination",
+                "Type": "ReferenceSlot",
+                "AllowedModelTypes": [
+                  "Entity"
+                ],
+                "PlaceholderValue": "",
+                "AllowedAssetCategories": [
+                  "None"
+                ],
+                "AllowedModelTemplates": [
+                  "Item"
+                ]
+              },
+              {
+                "Property": "CombinationResult",
+                "Type": "ReferenceSlot",
+                "AllowedModelTypes": [
+                  "Entity"
+                ],
+                "PlaceholderValue": "",
+                "AllowedAssetCategories": [
+                  "None"
+                ],
+                "AllowedModelTemplates": [
+                  "Item"
+                ]
+              },
+              {
+                "Property": "LinkIfSuccess",
+                "Type": "ReferenceSlot",
+                "AllowedModelTypes": [
+                  "DialogueFragment",
+                  "Dialogue"
+                ],
+                "PlaceholderValue": "",
+                "AllowedAssetCategories": [
+                  "None"
+                ],
+                "AllowedModelTemplates": []
+              },
+              {
+                "Property": "LinkIfFailure",
+                "Type": "ReferenceSlot",
+                "AllowedModelTypes": [
+                  "DialogueFragment",
+                  "Dialogue"
+                ],
+                "PlaceholderValue": "",
+                "AllowedAssetCategories": [
+                  "None"
+                ],
+                "AllowedModelTemplates": []
+              }
+            ]
+          },
+          {
+            "TechnicalName": "VariableBinding",
+            "DisplayName": "VariableBinding",
+            "Properties": [
+              {
+                "Property": "VariableName",
+                "Type": "Script_Condition",
+                "DisplayName": "Variable"
+              }
+            ],
+            "Constraints": [
+              {
+                "Property": "VariableName",
+                "Type": "Script",
+                "ScriptType": "Condition",
+                "PlaceholderValue": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Character",
+      "Class": "Entity",
+      "InheritsFrom": "Entity",
+      "Template": {
+        "TechnicalName": "Character",
+        "DisplayName": "Character",
+        "Color": {
+          "a": 1.0,
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Features": [
+          {
+            "TechnicalName": "Character",
+            "DisplayName": "Character",
+            "Properties": [
+              {
+                "Property": "Age",
+                "Type": "Float",
+                "DisplayName": "Age"
+              },
+              {
+                "Property": "VoiceActor",
+                "Type": "ArticyString",
+                "DisplayName": "Voice Actor"
+              },
+              {
+                "Property": "BackgroundStory",
+                "Type": "ArticyMultiLanguageString",
+                "DisplayName": "Background Story",
+                "Localizable": true
+              },
+              {
+                "Property": "Motivation",
+                "Type": "ArticyMultiLanguageString",
+                "DisplayName": "Motivation",
+                "Localizable": true
+              },
+              {
+                "Property": "Likes",
+                "Type": "Array",
+                "DisplayName": "Likes",
+                "ToolTip": "Which other characters does this one like?",
+                "ItemType": "Id"
+              },
+              {
+                "Property": "Dislikes",
+                "Type": "Array",
+                "DisplayName": "Dislikes",
+                "ToolTip": "Which other characters does this one dislike?",
+                "ItemType": "Id"
+              },
+              {
+                "Property": "LikedBy",
+                "Type": "Array",
+                "DisplayName": "Liked by",
+                "ItemType": "Id"
+              },
+              {
+                "Property": "DislikedBy",
+                "Type": "Array",
+                "DisplayName": "Disliked by",
+                "ItemType": "Id"
+              }
+            ],
+            "Constraints": [
+              {
+                "Property": "Age",
+                "Type": "Number",
+                "MinValue": "0",
+                "MaxValue": "100",
+                "Precision": "0",
+                "MinPrecision": "0",
+                "MaxPrecision": "0",
+                "Unit": "years"
+              },
+              {
+                "Property": "VoiceActor",
+                "Type": "Text",
+                "MaxLength": "2048",
+                "PlaceholderValue": "",
+                "IsLocalized": "False",
+                "AllowsLinebreaks": "False",
+                "HasVoiceOver": "False"
+              },
+              {
+                "Property": "BackgroundStory",
+                "Type": "Text",
+                "MaxLength": "2048",
+                "PlaceholderValue": "",
+                "IsLocalized": "True",
+                "AllowsLinebreaks": "True",
+                "HasVoiceOver": "False"
+              },
+              {
+                "Property": "Motivation",
+                "Type": "Text",
+                "MaxLength": "2048",
+                "PlaceholderValue": "",
+                "IsLocalized": "True",
+                "AllowsLinebreaks": "True",
+                "HasVoiceOver": "False"
+              },
+              {
+                "Property": "Likes",
+                "Type": "ReferenceStrip",
+                "MaxReferenceCount": "10000",
+                "AllowedModelTypes": [
+                  "Entity"
+                ],
+                "PlaceholderValue": "",
+                "AllowedAssetCategories": [
+                  "None"
+                ],
+                "AllowedModelTemplates": [
+                  "Character"
+                ]
+              },
+              {
+                "Property": "Dislikes",
+                "Type": "ReferenceStrip",
+                "MaxReferenceCount": "10000",
+                "AllowedModelTypes": [
+                  "Entity"
+                ],
+                "PlaceholderValue": "",
+                "AllowedAssetCategories": [
+                  "None"
+                ],
+                "AllowedModelTemplates": [
+                  "Character"
+                ]
+              },
+              {
+                "Property": "LikedBy",
+                "Type": "QueryReferenceStrip",
+                "MaxReferenceCount": "10000",
+                "AllowedModelTypes": [],
+                "PlaceholderValue": ""
+              },
+              {
+                "Property": "DislikedBy",
+                "Type": "QueryReferenceStrip",
+                "MaxReferenceCount": "10000",
+                "AllowedModelTypes": [],
+                "PlaceholderValue": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Player_Character",
+      "Class": "Entity",
+      "InheritsFrom": "Entity",
+      "Template": {
+        "TechnicalName": "Player_Character",
+        "DisplayName": "Player Character",
+        "Color": {
+          "a": 1.0,
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Features": [
+          {
+            "TechnicalName": "Morale",
+            "DisplayName": "Morale",
+            "Properties": [
+              {
+                "Property": "MoraleValue",
+                "Type": "Int",
+                "DisplayName": "Morale Value"
+              }
+            ],
+            "Constraints": [
+              {
+                "Property": "MoraleValue",
+                "Type": "Number",
+                "MinValue": "-3.4028234663852886E+38",
+                "MaxValue": "3.4028234663852886E+38",
+                "Precision": "0",
+                "MinPrecision": "0",
+                "MaxPrecision": "0",
+                "Unit": null
+              }
+            ]
+          },
+          {
+            "TechnicalName": "Character",
+            "DisplayName": "Character",
+            "Properties": [
+              {
+                "Property": "Age",
+                "Type": "Float",
+                "DisplayName": "Age"
+              },
+              {
+                "Property": "VoiceActor",
+                "Type": "ArticyString",
+                "DisplayName": "Voice Actor"
+              },
+              {
+                "Property": "BackgroundStory",
+                "Type": "ArticyMultiLanguageString",
+                "DisplayName": "Background Story",
+                "Localizable": true
+              },
+              {
+                "Property": "Motivation",
+                "Type": "ArticyMultiLanguageString",
+                "DisplayName": "Motivation",
+                "Localizable": true
+              },
+              {
+                "Property": "Likes",
+                "Type": "Array",
+                "DisplayName": "Likes",
+                "ToolTip": "Which other characters does this one like?",
+                "ItemType": "Id"
+              },
+              {
+                "Property": "Dislikes",
+                "Type": "Array",
+                "DisplayName": "Dislikes",
+                "ToolTip": "Which other characters does this one dislike?",
+                "ItemType": "Id"
+              },
+              {
+                "Property": "LikedBy",
+                "Type": "Array",
+                "DisplayName": "Liked by",
+                "ItemType": "Id"
+              },
+              {
+                "Property": "DislikedBy",
+                "Type": "Array",
+                "DisplayName": "Disliked by",
+                "ItemType": "Id"
+              }
+            ],
+            "Constraints": [
+              {
+                "Property": "Age",
+                "Type": "Number",
+                "MinValue": "0",
+                "MaxValue": "100",
+                "Precision": "0",
+                "MinPrecision": "0",
+                "MaxPrecision": "0",
+                "Unit": "years"
+              },
+              {
+                "Property": "VoiceActor",
+                "Type": "Text",
+                "MaxLength": "2048",
+                "PlaceholderValue": "",
+                "IsLocalized": "False",
+                "AllowsLinebreaks": "False",
+                "HasVoiceOver": "False"
+              },
+              {
+                "Property": "BackgroundStory",
+                "Type": "Text",
+                "MaxLength": "2048",
+                "PlaceholderValue": "",
+                "IsLocalized": "True",
+                "AllowsLinebreaks": "True",
+                "HasVoiceOver": "False"
+              },
+              {
+                "Property": "Motivation",
+                "Type": "Text",
+                "MaxLength": "2048",
+                "PlaceholderValue": "",
+                "IsLocalized": "True",
+                "AllowsLinebreaks": "True",
+                "HasVoiceOver": "False"
+              },
+              {
+                "Property": "Likes",
+                "Type": "ReferenceStrip",
+                "MaxReferenceCount": "10000",
+                "AllowedModelTypes": [
+                  "Entity"
+                ],
+                "PlaceholderValue": "",
+                "AllowedAssetCategories": [
+                  "None"
+                ],
+                "AllowedModelTemplates": [
+                  "Character"
+                ]
+              },
+              {
+                "Property": "Dislikes",
+                "Type": "ReferenceStrip",
+                "MaxReferenceCount": "10000",
+                "AllowedModelTypes": [
+                  "Entity"
+                ],
+                "PlaceholderValue": "",
+                "AllowedAssetCategories": [
+                  "None"
+                ],
+                "AllowedModelTemplates": [
+                  "Character"
+                ]
+              },
+              {
+                "Property": "LikedBy",
+                "Type": "QueryReferenceStrip",
+                "MaxReferenceCount": "10000",
+                "AllowedModelTypes": [],
+                "PlaceholderValue": ""
+              },
+              {
+                "Property": "DislikedBy",
+                "Type": "QueryReferenceStrip",
+                "MaxReferenceCount": "10000",
+                "AllowedModelTypes": [],
+                "PlaceholderValue": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Location",
+      "Class": "Location",
+      "DisplayName": "Location",
+      "Properties": [
+        {
+          "Property": "Attachments",
+          "Type": "Array",
+          "ItemType": "Id"
+        },
+        {
+          "Property": "DisplayName",
+          "Type": "ArticyString"
+        },
+        {
+          "Property": "PreviewImage",
+          "Type": "PreviewImage"
+        },
+        {
+          "Property": "Color",
+          "Type": "Color"
+        },
+        {
+          "Property": "Text",
+          "Type": "ArticyString"
+        },
+        {
+          "Property": "ExternalId",
+          "Type": "String"
+        },
+        {
+          "Property": "Position",
+          "Type": "Point"
+        },
+        {
+          "Property": "ZIndex",
+          "Type": "Float"
+        },
+        {
+          "Property": "Size",
+          "Type": "Size"
+        },
+        {
+          "Property": "ShortId",
+          "Type": "UInt"
+        },
+        {
+          "Property": "Id",
+          "Type": "Id"
+        },
+        {
+          "Property": "TechnicalName",
+          "Type": "String"
+        },
+        {
+          "Property": "Parent",
+          "Type": "Id"
+        }
+      ]
+    },
+    {
+      "Type": "LocationSettings",
+      "Class": "Location",
+      "InheritsFrom": "Location",
+      "Template": {
+        "TechnicalName": "LocationSettings",
+        "DisplayName": "LocationSettings",
+        "Color": {
+          "a": 1.0,
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Features": [
+          {
+            "TechnicalName": "Soundfile",
+            "DisplayName": "Soundfile",
+            "Properties": [
+              {
+                "Property": "Sound",
+                "Type": "Id",
+                "DisplayName": "Sound"
+              }
+            ],
+            "Constraints": [
+              {
+                "Property": "Sound",
+                "Type": "ReferenceSlot",
+                "AllowedModelTypes": [
+                  "Asset"
+                ],
+                "PlaceholderValue": "",
+                "AllowedAssetCategories": [
+                  "None",
+                  "Audio"
+                ],
+                "AllowedModelTemplates": []
+              }
+            ]
+          },
+          {
+            "TechnicalName": "LocationSettings",
+            "DisplayName": "LocationSettings",
+            "Properties": [
+              {
+                "Property": "InitialDialog",
+                "Type": "Id",
+                "DisplayName": "Initial dialog"
+              },
+              {
+                "Property": "IsStartLocation",
+                "Type": "Bool",
+                "DisplayName": "Is start location"
+              },
+              {
+                "Property": "Backgrounds",
+                "Type": "Array",
+                "DisplayName": "Backgrounds",
+                "ItemType": "Id"
+              },
+              {
+                "Property": "InitialDialogCondition",
+                "Type": "Script_Condition",
+                "DisplayName": "Initial dialog condition"
+              }
+            ],
+            "Constraints": [
+              {
+                "Property": "InitialDialog",
+                "Type": "ReferenceSlot",
+                "AllowedModelTypes": [
+                  "DialogueFragment",
+                  "Dialogue"
+                ],
+                "PlaceholderValue": "",
+                "AllowedAssetCategories": [
+                  "None"
+                ],
+                "AllowedModelTemplates": []
+              },
+              {
+                "Property": "IsStartLocation",
+                "Type": "Boolean",
+                "DisplayAsCombobox": "False"
+              },
+              {
+                "Property": "Backgrounds",
+                "Type": "ReferenceStrip",
+                "MaxReferenceCount": "10000",
+                "AllowedModelTypes": [
+                  "Asset"
+                ],
+                "PlaceholderValue": "",
+                "AllowedAssetCategories": [
+                  "None",
+                  "Image",
+                  "Video",
+                  "Audio",
+                  "Document",
+                  "Misc",
+                  "All"
+                ],
+                "AllowedModelTemplates": [
+                  "BackgroundImage"
+                ]
+              },
+              {
+                "Property": "InitialDialogCondition",
+                "Type": "Script",
+                "ScriptType": "Condition",
+                "PlaceholderValue": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Spot",
+      "Class": "Spot",
+      "DisplayName": "Spot",
+      "Properties": [
+        {
+          "Property": "DisplayName",
+          "Type": "ArticyString"
+        },
+        {
+          "Property": "Color",
+          "Type": "Color"
+        },
+        {
+          "Property": "Text",
+          "Type": "ArticyString"
+        },
+        {
+          "Property": "ExternalId",
+          "Type": "String"
+        },
+        {
+          "Property": "Position",
+          "Type": "Point"
+        },
+        {
+          "Property": "ZIndex",
+          "Type": "Float"
+        },
+        {
+          "Property": "Size",
+          "Type": "Size"
+        },
+        {
+          "Property": "PreviewImage",
+          "Type": "PreviewImage"
+        },
+        {
+          "Property": "ShortId",
+          "Type": "UInt"
+        },
+        {
+          "Property": "Visibility",
+          "Type": "VisibilityModes"
+        },
+        {
+          "Property": "ShowDisplayName",
+          "Type": "Boolean"
+        },
+        {
+          "Property": "DisplayNameColor",
+          "Type": "Color"
+        },
+        {
+          "Property": "DisplayNameSize",
+          "Type": "Int"
+        },
+        {
+          "Property": "OutlineColor",
+          "Type": "Color"
+        },
+        {
+          "Property": "OutlineSize",
+          "Type": "Float"
+        },
+        {
+          "Property": "OutlineStyle",
+          "Type": "OutlineStyle"
+        },
+        {
+          "Property": "DropShadow",
+          "Type": "Boolean"
+        },
+        {
+          "Property": "Selectability",
+          "Type": "SelectabilityModes"
+        },
+        {
+          "Property": "Id",
+          "Type": "Id"
+        },
+        {
+          "Property": "TechnicalName",
+          "Type": "String"
+        },
+        {
+          "Property": "Parent",
+          "Type": "Id"
+        }
+      ]
+    },
+    {
+      "Type": "Zone",
+      "Class": "Zone",
+      "DisplayName": "Zone",
+      "Properties": [
+        {
+          "Property": "DisplayName",
+          "Type": "ArticyString"
+        },
+        {
+          "Property": "PreviewImage",
+          "Type": "PreviewImage"
+        },
+        {
+          "Property": "Vertices",
+          "Type": "Array",
+          "ItemType": "Point"
+        },
+        {
+          "Property": "Transform",
+          "Type": "Transformation"
+        },
+        {
+          "Property": "ShapeType",
+          "Type": "ShapeType"
+        },
+        {
+          "Property": "Color",
+          "Type": "Color"
+        },
+        {
+          "Property": "Text",
+          "Type": "ArticyString"
+        },
+        {
+          "Property": "ExternalId",
+          "Type": "String"
+        },
+        {
+          "Property": "ZIndex",
+          "Type": "Float"
+        },
+        {
+          "Property": "Size",
+          "Type": "Size"
+        },
+        {
+          "Property": "ShortId",
+          "Type": "UInt"
+        },
+        {
+          "Property": "Visibility",
+          "Type": "VisibilityModes"
+        },
+        {
+          "Property": "OutlineColor",
+          "Type": "Color"
+        },
+        {
+          "Property": "OutlineSize",
+          "Type": "Float"
+        },
+        {
+          "Property": "OutlineStyle",
+          "Type": "OutlineStyle"
+        },
+        {
+          "Property": "ShowDisplayName",
+          "Type": "Boolean"
+        },
+        {
+          "Property": "DisplayNameColor",
+          "Type": "Color"
+        },
+        {
+          "Property": "DisplayNameSize",
+          "Type": "Int"
+        },
+        {
+          "Property": "DropShadow",
+          "Type": "Boolean"
+        },
+        {
+          "Property": "Selectability",
+          "Type": "SelectabilityModes"
+        },
+        {
+          "Property": "Id",
+          "Type": "Id"
+        },
+        {
+          "Property": "TechnicalName",
+          "Type": "String"
+        },
+        {
+          "Property": "Parent",
+          "Type": "Id"
+        }
+      ]
+    },
+    {
+      "Type": "Conditional_Zone",
+      "Class": "Zone",
+      "InheritsFrom": "Zone",
+      "Template": {
+        "TechnicalName": "Conditional_Zone",
+        "DisplayName": "InteractionZone",
+        "Color": {
+          "a": 1.0,
+          "r": 0.4392157,
+          "g": 0.18039216,
+          "b": 0.62352943
+        },
+        "Features": [
+          {
+            "TechnicalName": "ZoneCondition",
+            "DisplayName": "ZoneCondition",
+            "Properties": [
+              {
+                "Property": "IfConditionTrue",
+                "Type": "Id",
+                "DisplayName": "If condition is true"
+              },
+              {
+                "Property": "IfConditionFalse",
+                "Type": "Id",
+                "DisplayName": "If condition is false"
+              },
+              {
+                "Property": "CursorIfConditionTrue",
+                "Type": "MouseCursor",
+                "DisplayName": "Cursor if condition is true"
+              },
+              {
+                "Property": "CursorIfConditionFalse",
+                "Type": "MouseCursor",
+                "DisplayName": "Cursor if condition is false"
+              },
+              {
+                "Property": "ItemToInteractWith",
+                "Type": "Id",
+                "DisplayName": "Item to interact with"
+              },
+              {
+                "Property": "LinkIfItemValid",
+                "Type": "Id",
+                "DisplayName": "Link if item is valid"
+              },
+              {
+                "Property": "LinkIfItemInvalid",
+                "Type": "Id",
+                "DisplayName": "Link if item is invalid"
+              },
+              {
+                "Property": "ClickCondition",
+                "Type": "Script_Condition",
+                "DisplayName": "Click condition"
+              },
+              {
+                "Property": "OnClickInstruction",
+                "Type": "Script_Instruction",
+                "DisplayName": "On click instruction"
+              },
+              {
+                "Property": "InteractionCondition",
+                "Type": "Script_Condition",
+                "DisplayName": "Interaction condition"
+              },
+              {
+                "Property": "InstructionIfItemValid",
+                "Type": "Script_Instruction",
+                "DisplayName": "Instruction if item is valid"
+              }
+            ],
+            "Constraints": [
+              {
+                "Property": "IfConditionTrue",
+                "Type": "ReferenceSlot",
+                "AllowedModelTypes": [
+                  "Dialogue",
+                  "Location",
+                  "DialogueFragment",
+                  "Entity"
+                ],
+                "PlaceholderValue": "",
+                "AllowedAssetCategories": [
+                  "None"
+                ],
+                "AllowedModelTemplates": [
+                  "Item"
+                ]
+              },
+              {
+                "Property": "IfConditionFalse",
+                "Type": "ReferenceSlot",
+                "AllowedModelTypes": [
+                  "Dialogue",
+                  "Location",
+                  "DialogueFragment",
+                  "Entity"
+                ],
+                "PlaceholderValue": "",
+                "AllowedAssetCategories": [
+                  "None"
+                ],
+                "AllowedModelTemplates": [
+                  "Item"
+                ]
+              },
+              {
+                "Property": "CursorIfConditionTrue",
+                "Type": "Enum",
+                "IsLocalized": "False",
+                "SortMode": "BySortIndex",
+                "IsSearchable": "False"
+              },
+              {
+                "Property": "CursorIfConditionFalse",
+                "Type": "Enum",
+                "IsLocalized": "False",
+                "SortMode": "BySortIndex",
+                "IsSearchable": "False"
+              },
+              {
+                "Property": "ItemToInteractWith",
+                "Type": "ReferenceSlot",
+                "AllowedModelTypes": [
+                  "Entity"
+                ],
+                "PlaceholderValue": "",
+                "AllowedAssetCategories": [
+                  "None"
+                ],
+                "AllowedModelTemplates": [
+                  "Item"
+                ]
+              },
+              {
+                "Property": "LinkIfItemValid",
+                "Type": "ReferenceSlot",
+                "AllowedModelTypes": [
+                  "DialogueFragment",
+                  "Dialogue",
+                  "Location",
+                  "Condition",
+                  "Instruction"
+                ],
+                "PlaceholderValue": "",
+                "AllowedAssetCategories": [
+                  "None"
+                ],
+                "AllowedModelTemplates": []
+              },
+              {
+                "Property": "LinkIfItemInvalid",
+                "Type": "ReferenceSlot",
+                "AllowedModelTypes": [
+                  "DialogueFragment",
+                  "Dialogue",
+                  "Location",
+                  "Condition",
+                  "Instruction"
+                ],
+                "PlaceholderValue": "",
+                "AllowedAssetCategories": [
+                  "None"
+                ],
+                "AllowedModelTemplates": []
+              },
+              {
+                "Property": "ClickCondition",
+                "Type": "Script",
+                "ScriptType": "Condition",
+                "PlaceholderValue": ""
+              },
+              {
+                "Property": "OnClickInstruction",
+                "Type": "Script",
+                "ScriptType": "Outcome",
+                "PlaceholderValue": ""
+              },
+              {
+                "Property": "InteractionCondition",
+                "Type": "Script",
+                "ScriptType": "Condition",
+                "PlaceholderValue": ""
+              },
+              {
+                "Property": "InstructionIfItemValid",
+                "Type": "Script",
+                "ScriptType": "Outcome",
+                "PlaceholderValue": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Path",
+      "Class": "Path",
+      "DisplayName": "Path",
+      "Properties": [
+        {
+          "Property": "DisplayName",
+          "Type": "ArticyString"
+        },
+        {
+          "Property": "PreviewImage",
+          "Type": "PreviewImage"
+        },
+        {
+          "Property": "Vertices",
+          "Type": "Array",
+          "ItemType": "Point"
+        },
+        {
+          "Property": "Transform",
+          "Type": "Transformation"
+        },
+        {
+          "Property": "Color",
+          "Type": "Color"
+        },
+        {
+          "Property": "Text",
+          "Type": "ArticyString"
+        },
+        {
+          "Property": "ExternalId",
+          "Type": "String"
+        },
+        {
+          "Property": "ZIndex",
+          "Type": "Float"
+        },
+        {
+          "Property": "Size",
+          "Type": "Size"
+        },
+        {
+          "Property": "ShortId",
+          "Type": "UInt"
+        },
+        {
+          "Property": "Visibility",
+          "Type": "VisibilityModes"
+        },
+        {
+          "Property": "Selectability",
+          "Type": "SelectabilityModes"
+        },
+        {
+          "Property": "ShowDisplayName",
+          "Type": "Boolean"
+        },
+        {
+          "Property": "DisplayNameColor",
+          "Type": "Color"
+        },
+        {
+          "Property": "DisplayNameSize",
+          "Type": "Int"
+        },
+        {
+          "Property": "DropShadow",
+          "Type": "Boolean"
+        },
+        {
+          "Property": "OutlineColor",
+          "Type": "Color"
+        },
+        {
+          "Property": "OutlineSize",
+          "Type": "Float"
+        },
+        {
+          "Property": "OutlineStyle",
+          "Type": "OutlineStyle"
+        },
+        {
+          "Property": "StartCap",
+          "Type": "PathCaps"
+        },
+        {
+          "Property": "EndCap",
+          "Type": "PathCaps"
+        },
+        {
+          "Property": "LineWidth",
+          "Type": "Float"
+        },
+        {
+          "Property": "Id",
+          "Type": "Id"
+        },
+        {
+          "Property": "TechnicalName",
+          "Type": "String"
+        },
+        {
+          "Property": "Parent",
+          "Type": "Id"
+        }
+      ]
+    },
+    {
+      "Type": "Link",
+      "Class": "Link",
+      "DisplayName": "Link",
+      "Properties": [
+        {
+          "Property": "Color",
+          "Type": "Color"
+        },
+        {
+          "Property": "Text",
+          "Type": "ArticyString"
+        },
+        {
+          "Property": "ExternalId",
+          "Type": "String"
+        },
+        {
+          "Property": "Position",
+          "Type": "Point"
+        },
+        {
+          "Property": "ZIndex",
+          "Type": "Float"
+        },
+        {
+          "Property": "Size",
+          "Type": "Size"
+        },
+        {
+          "Property": "Target",
+          "Type": "Id"
+        },
+        {
+          "Property": "ShortId",
+          "Type": "UInt"
+        },
+        {
+          "Property": "Visibility",
+          "Type": "VisibilityModes"
+        },
+        {
+          "Property": "ShowDisplayName",
+          "Type": "Boolean"
+        },
+        {
+          "Property": "DisplayNameColor",
+          "Type": "Color"
+        },
+        {
+          "Property": "DisplayNameSize",
+          "Type": "Int"
+        },
+        {
+          "Property": "Selectability",
+          "Type": "SelectabilityModes"
+        },
+        {
+          "Property": "DropShadow",
+          "Type": "Boolean"
+        },
+        {
+          "Property": "Id",
+          "Type": "Id"
+        },
+        {
+          "Property": "TechnicalName",
+          "Type": "String"
+        },
+        {
+          "Property": "Parent",
+          "Type": "Id"
+        }
+      ]
+    },
+    {
+      "Type": "Asset",
+      "Class": "Asset",
+      "DisplayName": "Asset",
+      "Properties": [
+        {
+          "Property": "DisplayName",
+          "Type": "ArticyString"
+        },
+        {
+          "Property": "Filename",
+          "Type": "ArticyString"
+        },
+        {
+          "Property": "OriginalSource",
+          "Type": "ArticyString"
+        },
+        {
+          "Property": "PreviewImage",
+          "Type": "PreviewImage"
+        },
+        {
+          "Property": "Color",
+          "Type": "Color"
+        },
+        {
+          "Property": "Text",
+          "Type": "ArticyString"
+        },
+        {
+          "Property": "ExternalId",
+          "Type": "String"
+        },
+        {
+          "Property": "Position",
+          "Type": "Point"
+        },
+        {
+          "Property": "ZIndex",
+          "Type": "Float"
+        },
+        {
+          "Property": "Size",
+          "Type": "Size"
+        },
+        {
+          "Property": "ShortId",
+          "Type": "UInt"
+        },
+        {
+          "Property": "Id",
+          "Type": "Id"
+        },
+        {
+          "Property": "TechnicalName",
+          "Type": "String"
+        },
+        {
+          "Property": "Parent",
+          "Type": "Id"
+        }
+      ]
+    },
+    {
+      "Type": "BackgroundImage",
+      "Class": "Asset",
+      "InheritsFrom": "Asset",
+      "Template": {
+        "TechnicalName": "BackgroundImage",
+        "DisplayName": "BackgroundImage",
+        "Color": {
+          "a": 1.0,
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Features": [
+          {
+            "TechnicalName": "VariableBinding",
+            "DisplayName": "VariableBinding",
+            "Properties": [
+              {
+                "Property": "VariableName",
+                "Type": "Script_Condition",
+                "DisplayName": "Variable"
+              }
+            ],
+            "Constraints": [
+              {
+                "Property": "VariableName",
+                "Type": "Script",
+                "ScriptType": "Condition",
+                "PlaceholderValue": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Condition",
+      "Class": "Condition",
+      "DisplayName": "Condition",
+      "Properties": [
+        {
+          "Property": "DisplayName",
+          "Type": "ArticyString"
+        },
+        {
+          "Property": "Text",
+          "Type": "ArticyString"
+        },
+        {
+          "Property": "ExternalId",
+          "Type": "String"
+        },
+        {
+          "Property": "Position",
+          "Type": "Point"
+        },
+        {
+          "Property": "ZIndex",
+          "Type": "Float"
+        },
+        {
+          "Property": "Size",
+          "Type": "Size"
+        },
+        {
+          "Property": "ShortId",
+          "Type": "UInt"
+        },
+        {
+          "Property": "Expression",
+          "Type": "Script_Condition"
+        },
+        {
+          "Property": "Color",
+          "Type": "Color"
+        },
+        {
+          "Property": "Id",
+          "Type": "Id"
+        },
+        {
+          "Property": "TechnicalName",
+          "Type": "String"
+        },
+        {
+          "Property": "Parent",
+          "Type": "Id"
+        },
+        {
+          "Property": "InputPins",
+          "Type": "Array",
+          "ItemType": "InputPin"
+        },
+        {
+          "Property": "OutputPins",
+          "Type": "Array",
+          "ItemType": "OutputPin"
+        }
+      ]
+    },
+    {
+      "Type": "Instruction",
+      "Class": "Instruction",
+      "DisplayName": "Instruction",
+      "Properties": [
+        {
+          "Property": "DisplayName",
+          "Type": "ArticyString"
+        },
+        {
+          "Property": "Text",
+          "Type": "ArticyString"
+        },
+        {
+          "Property": "ExternalId",
+          "Type": "String"
+        },
+        {
+          "Property": "Position",
+          "Type": "Point"
+        },
+        {
+          "Property": "ZIndex",
+          "Type": "Float"
+        },
+        {
+          "Property": "Size",
+          "Type": "Size"
+        },
+        {
+          "Property": "ShortId",
+          "Type": "UInt"
+        },
+        {
+          "Property": "Expression",
+          "Type": "Script_Instruction"
+        },
+        {
+          "Property": "Color",
+          "Type": "Color"
+        },
+        {
+          "Property": "Id",
+          "Type": "Id"
+        },
+        {
+          "Property": "TechnicalName",
+          "Type": "String"
+        },
+        {
+          "Property": "Parent",
+          "Type": "Id"
+        },
+        {
+          "Property": "InputPins",
+          "Type": "Array",
+          "ItemType": "InputPin"
+        },
+        {
+          "Property": "OutputPins",
+          "Type": "Array",
+          "ItemType": "OutputPin"
+        }
+      ]
+    },
+    {
+      "Type": "LocationText",
+      "Class": "LocationText",
+      "DisplayName": "LocationText",
+      "Properties": [
+        {
+          "Property": "DisplayName",
+          "Type": "ArticyString"
+        },
+        {
+          "Property": "PreviewImage",
+          "Type": "PreviewImage"
+        },
+        {
+          "Property": "Anchors",
+          "Type": "Array",
+          "ItemType": "LocationAnchor"
+        },
+        {
+          "Property": "Vertices",
+          "Type": "Array",
+          "ItemType": "Point"
+        },
+        {
+          "Property": "Transform",
+          "Type": "Transformation"
+        },
+        {
+          "Property": "ShapeType",
+          "Type": "ShapeType"
+        },
+        {
+          "Property": "Color",
+          "Type": "Color"
+        },
+        {
+          "Property": "Text",
+          "Type": "ArticyString"
+        },
+        {
+          "Property": "ExternalId",
+          "Type": "String"
+        },
+        {
+          "Property": "ZIndex",
+          "Type": "Float"
+        },
+        {
+          "Property": "Size",
+          "Type": "Size"
+        },
+        {
+          "Property": "ShortId",
+          "Type": "UInt"
+        },
+        {
+          "Property": "Visibility",
+          "Type": "VisibilityModes"
+        },
+        {
+          "Property": "OutlineColor",
+          "Type": "Color"
+        },
+        {
+          "Property": "OutlineSize",
+          "Type": "Float"
+        },
+        {
+          "Property": "OutlineStyle",
+          "Type": "OutlineStyle"
+        },
+        {
+          "Property": "Selectability",
+          "Type": "SelectabilityModes"
+        },
+        {
+          "Property": "ForcedWidth",
+          "Type": "Float"
+        },
+        {
+          "Property": "ForcedHeight",
+          "Type": "Float"
+        },
+        {
+          "Property": "DropShadow",
+          "Type": "Boolean"
+        },
+        {
+          "Property": "Id",
+          "Type": "Id"
+        },
+        {
+          "Property": "TechnicalName",
+          "Type": "String"
+        },
+        {
+          "Property": "Parent",
+          "Type": "Id"
+        }
+      ]
+    },
+    {
+      "Type": "LocationImage",
+      "Class": "LocationImage",
+      "DisplayName": "LocationImage",
+      "Properties": [
+        {
+          "Property": "DisplayName",
+          "Type": "ArticyString"
+        },
+        {
+          "Property": "PreviewImage",
+          "Type": "PreviewImage"
+        },
+        {
+          "Property": "Anchors",
+          "Type": "Array",
+          "ItemType": "LocationAnchor"
+        },
+        {
+          "Property": "Vertices",
+          "Type": "Array",
+          "ItemType": "Point"
+        },
+        {
+          "Property": "Transform",
+          "Type": "Transformation"
+        },
+        {
+          "Property": "ShapeType",
+          "Type": "ShapeType"
+        },
+        {
+          "Property": "Color",
+          "Type": "Color"
+        },
+        {
+          "Property": "Text",
+          "Type": "ArticyString"
+        },
+        {
+          "Property": "ExternalId",
+          "Type": "String"
+        },
+        {
+          "Property": "ZIndex",
+          "Type": "Float"
+        },
+        {
+          "Property": "Size",
+          "Type": "Size"
+        },
+        {
+          "Property": "ShortId",
+          "Type": "UInt"
+        },
+        {
+          "Property": "Visibility",
+          "Type": "VisibilityModes"
+        },
+        {
+          "Property": "OutlineColor",
+          "Type": "Color"
+        },
+        {
+          "Property": "OutlineSize",
+          "Type": "Float"
+        },
+        {
+          "Property": "OutlineStyle",
+          "Type": "OutlineStyle"
+        },
+        {
+          "Property": "Selectability",
+          "Type": "SelectabilityModes"
+        },
+        {
+          "Property": "DropShadow",
+          "Type": "Boolean"
+        },
+        {
+          "Property": "ClipRect",
+          "Type": "Rect"
+        },
+        {
+          "Property": "ImageOpacity",
+          "Type": "Float"
+        },
+        {
+          "Property": "ImageAsset",
+          "Type": "Id"
+        },
+        {
+          "Property": "CachedImageWidth",
+          "Type": "Int"
+        },
+        {
+          "Property": "CachedImageHeight",
+          "Type": "Int"
+        },
+        {
+          "Property": "ShowDisplayName",
+          "Type": "Boolean"
+        },
+        {
+          "Property": "DisplayNameColor",
+          "Type": "Color"
+        },
+        {
+          "Property": "DisplayNameSize",
+          "Type": "Int"
+        },
+        {
+          "Property": "Id",
+          "Type": "Id"
+        },
+        {
+          "Property": "TechnicalName",
+          "Type": "String"
+        },
+        {
+          "Property": "Parent",
+          "Type": "Id"
+        }
+      ]
+    },
+    {
+      "Type": "DisplayCondition",
+      "Class": "LocationImage",
+      "InheritsFrom": "LocationImage",
+      "Template": {
+        "TechnicalName": "DisplayCondition",
+        "DisplayName": "DisplayCondition",
+        "Color": {
+          "a": 1.0,
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Features": [
+          {
+            "TechnicalName": "DisplayCondition",
+            "DisplayName": "DisplayCondition",
+            "Properties": [
+              {
+                "Property": "ShowMeIf",
+                "Type": "Script_Condition",
+                "DisplayName": "Show me if"
+              }
+            ],
+            "Constraints": [
+              {
+                "Property": "ShowMeIf",
+                "Type": "Script",
+                "ScriptType": "Condition",
+                "PlaceholderValue": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Document",
+      "Class": "Document",
+      "DisplayName": "Document",
+      "Properties": [
+        {
+          "Property": "DisplayName",
+          "Type": "ArticyString"
+        },
+        {
+          "Property": "Color",
+          "Type": "Color"
+        },
+        {
+          "Property": "Text",
+          "Type": "ArticyString"
+        },
+        {
+          "Property": "ExternalId",
+          "Type": "String"
+        },
+        {
+          "Property": "Position",
+          "Type": "Point"
+        },
+        {
+          "Property": "ZIndex",
+          "Type": "Float"
+        },
+        {
+          "Property": "Size",
+          "Type": "Size"
+        },
+        {
+          "Property": "ShortId",
+          "Type": "UInt"
+        },
+        {
+          "Property": "Id",
+          "Type": "Id"
+        },
+        {
+          "Property": "TechnicalName",
+          "Type": "String"
+        },
+        {
+          "Property": "Parent",
+          "Type": "Id"
+        }
+      ]
+    },
+    {
+      "Type": "TextObject",
+      "Class": "TextObject",
+      "DisplayName": "TextObject",
+      "Properties": [
+        {
+          "Property": "DisplayName",
+          "Type": "ArticyString"
+        },
+        {
+          "Property": "Attachments",
+          "Type": "Array",
+          "ItemType": "Id"
+        },
+        {
+          "Property": "PreviewImage",
+          "Type": "PreviewImage"
+        },
+        {
+          "Property": "Color",
+          "Type": "Color"
+        },
+        {
+          "Property": "Text",
+          "Type": "ArticyString"
+        },
+        {
+          "Property": "ExternalId",
+          "Type": "String"
+        },
+        {
+          "Property": "Position",
+          "Type": "Point"
+        },
+        {
+          "Property": "ZIndex",
+          "Type": "Float"
+        },
+        {
+          "Property": "Size",
+          "Type": "Size"
+        },
+        {
+          "Property": "ShortId",
+          "Type": "UInt"
+        },
+        {
+          "Property": "Id",
+          "Type": "Id"
+        },
+        {
+          "Property": "TechnicalName",
+          "Type": "String"
+        },
+        {
+          "Property": "Parent",
+          "Type": "Id"
+        }
+      ]
+    },
+    {
+      "Type": "UserFolder",
+      "Class": "UserFolder",
+      "DisplayName": "UserFolder",
+      "Properties": [
+        {
+          "Property": "DisplayName",
+          "Type": "ArticyString"
+        },
+        {
+          "Property": "ExternalId",
+          "Type": "String"
+        },
+        {
+          "Property": "ShortId",
+          "Type": "UInt"
+        },
+        {
+          "Property": "Id",
+          "Type": "Id"
+        },
+        {
+          "Property": "TechnicalName",
+          "Type": "String"
+        },
+        {
+          "Property": "Parent",
+          "Type": "Id"
+        },
+        {
+          "Property": "ZIndex",
+          "Type": "Float"
+        }
+      ]
+    }
+  ]
+}

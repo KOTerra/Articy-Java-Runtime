@@ -1,0 +1,6608 @@
+{
+  "Objects": [
+    {
+      "Type": "FlowFragment",
+      "Properties": {
+        "TechnicalName": "FFr_F74205FC",
+        "Id": "0x01000000000038B4",
+        "Parent": "0x01000000000036C3",
+        "Attachments": [],
+        "DisplayName": "FFr_F74205FC.DisplayName",
+        "PreviewImage": {
+          "ViewBox": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.0,
+            "h": 0.0
+          },
+          "Mode": "FromAsset",
+          "Asset": "0x0000000000000000"
+        },
+        "Color": {
+          "r": 1.0,
+          "g": 0.0,
+          "b": 0.0
+        },
+        "Text": "FFr_F74205FC.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 4000.0,
+          "y": 750.0
+        },
+        "ZIndex": 18.0,
+        "Size": {
+          "w": 275.0,
+          "h": 200.0
+        },
+        "ShortId": 4148299260,
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x01000000000038B7",
+            "Owner": "0x01000000000038B4"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x01000000000038B8",
+            "Owner": "0x01000000000038B4"
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Dialogue",
+      "Properties": {
+        "TechnicalName": "Dlg_C136D4C1",
+        "Id": "0x010000000000414E",
+        "Parent": "0x010000000000414B",
+        "Attachments": [],
+        "DisplayName": "Dlg_C136D4C1.DisplayName",
+        "PreviewImage": {
+          "ViewBox": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.0,
+            "h": 0.0
+          },
+          "Mode": "FromAsset",
+          "Asset": "0x0000000000000000"
+        },
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "Dlg_C136D4C1.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": -8.0,
+          "y": 0.0
+        },
+        "ZIndex": 0.0,
+        "Size": {
+          "w": 291.0,
+          "h": 200.0
+        },
+        "ShortId": 3241596097,
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000004151",
+            "Owner": "0x010000000000414E",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x0100000000004159",
+                "Target": "0x0100000000004156"
+              }
+            ]
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000004152",
+            "Owner": "0x010000000000414E"
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Dialogue",
+      "Properties": {
+        "TechnicalName": "Dlg_56A97563",
+        "Id": "0x0100000000002CC2",
+        "Parent": "0x0300000043CE43F7",
+        "Attachments": [
+          "0x01000000000001A8",
+          "0x0100000000000136"
+        ],
+        "DisplayName": "Dlg_56A97563.DisplayName",
+        "PreviewImage": {
+          "ViewBox": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.0,
+            "h": 0.0
+          },
+          "Mode": "FromAsset",
+          "Asset": "0x0000000000000000"
+        },
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "Dlg_56A97563.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": -983.0,
+          "y": 475.0
+        },
+        "ZIndex": 2.0,
+        "Size": {
+          "w": 291.0,
+          "h": 200.0
+        },
+        "ShortId": 1453946211,
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000002D3F",
+            "Owner": "0x0100000000002CC2",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x0100000000002CE9",
+                "Target": "0x0100000000002CE8"
+              }
+            ]
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000002D40",
+            "Owner": "0x0100000000002CC2",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x01000000000041CB",
+                "Target": "0x0100000000004197"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Dialogue",
+      "Properties": {
+        "TechnicalName": "Dlg_1D304105",
+        "Id": "0x01000000000036B3",
+        "Parent": "0x0300000043CE43F7",
+        "Attachments": [
+          "0x01000000000001A8",
+          "0x0100000000000136"
+        ],
+        "DisplayName": "Dlg_1D304105.DisplayName",
+        "PreviewImage": {
+          "ViewBox": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.0,
+            "h": 0.0
+          },
+          "Mode": "FromAsset",
+          "Asset": "0x0000000000000000"
+        },
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "Dlg_1D304105.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": -183.0,
+          "y": 475.0
+        },
+        "ZIndex": 3.0,
+        "Size": {
+          "w": 291.0,
+          "h": 200.0
+        },
+        "ShortId": 489701637,
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x01000000000036B6",
+            "Owner": "0x01000000000036B3",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x01000000000036CB",
+                "Target": "0x01000000000036C9"
+              }
+            ]
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x01000000000036B7",
+            "Owner": "0x01000000000036B3"
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Dialogue",
+      "Properties": {
+        "TechnicalName": "Dlg_5142C39F",
+        "Id": "0x01000000000036BD",
+        "Parent": "0x01000000000036B3",
+        "Attachments": [],
+        "DisplayName": "Dlg_5142C39F.DisplayName",
+        "PreviewImage": {
+          "ViewBox": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.0,
+            "h": 0.0
+          },
+          "Mode": "FromAsset",
+          "Asset": "0x0000000000000000"
+        },
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "Dlg_5142C39F.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 642.0,
+          "y": 325.0
+        },
+        "ZIndex": 0.0,
+        "Size": {
+          "w": 291.0,
+          "h": 200.0
+        },
+        "ShortId": 1363329951,
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x01000000000036C0",
+            "Owner": "0x01000000000036BD",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x0100000000004243",
+                "Target": "0x0100000000004242"
+              }
+            ]
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x01000000000036C1",
+            "Owner": "0x01000000000036BD"
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Dialogue",
+      "Properties": {
+        "TechnicalName": "Dlg_7D2BBE27",
+        "Id": "0x01000000000036C3",
+        "Parent": "0x01000000000036B3",
+        "Attachments": [],
+        "DisplayName": "Dlg_7D2BBE27.DisplayName",
+        "PreviewImage": {
+          "ViewBox": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.0,
+            "h": 0.0
+          },
+          "Mode": "FromAsset",
+          "Asset": "0x0000000000000000"
+        },
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "Dlg_7D2BBE27.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 642.0,
+          "y": 600.0
+        },
+        "ZIndex": 1.0,
+        "Size": {
+          "w": 291.0,
+          "h": 200.0
+        },
+        "ShortId": 2100018727,
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x01000000000036C6",
+            "Owner": "0x01000000000036C3",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x010000000000383E",
+                "Target": "0x010000000000383B"
+              }
+            ]
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x01000000000036C7",
+            "Owner": "0x01000000000036C3"
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Dialogue",
+      "Properties": {
+        "TechnicalName": "Dlg_0CDBDF52",
+        "Id": "0x0100000000004197",
+        "Parent": "0x0300000043CE43F7",
+        "Attachments": [
+          "0x01000000000001A8",
+          "0x0100000000000335"
+        ],
+        "DisplayName": "Dlg_0CDBDF52.DisplayName",
+        "PreviewImage": {
+          "ViewBox": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.0,
+            "h": 0.0
+          },
+          "Mode": "FromAsset",
+          "Asset": "0x0000000000000000"
+        },
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "Dlg_0CDBDF52.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": -575.0,
+          "y": 475.0
+        },
+        "ZIndex": 0.0,
+        "Size": {
+          "w": 291.0,
+          "h": 200.0
+        },
+        "ShortId": 215736146,
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x01000000000041CB",
+            "Owner": "0x0100000000004197",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x0100000000004199",
+                "Target": "0x0100000000004198"
+              }
+            ]
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x01000000000041CC",
+            "Owner": "0x0100000000004197",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x01000000000036B6",
+                "Target": "0x01000000000036B3"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "DialogueLine",
+      "Properties": {
+        "TechnicalName": "DFr_4ECD2D64",
+        "Id": "0x0100000000004156",
+        "Parent": "0x010000000000414E",
+        "MenuText": "",
+        "StageDirections": "",
+        "Speaker": "0x0100000000000335",
+        "SplitHeight": 64.0,
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "DFr_4ECD2D64.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "ZIndex": 0.0,
+        "Size": {
+          "w": 225.0,
+          "h": 200.0
+        },
+        "ShortId": 1322069348,
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000004159",
+            "Owner": "0x0100000000004156"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x010000000000415A",
+            "Owner": "0x0100000000004156",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x0100000000004162",
+                "Target": "0x010000000000415F"
+              }
+            ]
+          }
+        ]
+      },
+      "Template": {
+        "DialogueFragment": {
+          "CameraAngle": 0,
+          "Soundfile": "0x0000000000000000"
+        }
+      }
+    },
+    {
+      "Type": "DialogueLine",
+      "Properties": {
+        "TechnicalName": "DFr_75BE8DC3",
+        "Id": "0x010000000000415F",
+        "Parent": "0x010000000000414E",
+        "MenuText": "",
+        "StageDirections": "",
+        "Speaker": "0x01000000000001A8",
+        "SplitHeight": 64.0,
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "DFr_75BE8DC3.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 289.0,
+          "y": 0.0
+        },
+        "ZIndex": 3.0,
+        "Size": {
+          "w": 225.0,
+          "h": 200.0
+        },
+        "ShortId": 1975422403,
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000004162",
+            "Owner": "0x010000000000415F"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000004163",
+            "Owner": "0x010000000000415F",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x010000000000416B",
+                "Target": "0x0100000000004168"
+              }
+            ]
+          }
+        ]
+      },
+      "Template": {
+        "DialogueFragment": {
+          "CameraAngle": 0,
+          "Soundfile": "0x0000000000000000"
+        }
+      }
+    },
+    {
+      "Type": "DialogueLine",
+      "Properties": {
+        "TechnicalName": "DFr_1858218B",
+        "Id": "0x0100000000004168",
+        "Parent": "0x010000000000414E",
+        "MenuText": "",
+        "StageDirections": "",
+        "Speaker": "0x0100000000000335",
+        "SplitHeight": 64.0,
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "DFr_1858218B.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 578.0,
+          "y": 0.0
+        },
+        "ZIndex": 5.0,
+        "Size": {
+          "w": 225.0,
+          "h": 200.0
+        },
+        "ShortId": 408428939,
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x010000000000416B",
+            "Owner": "0x0100000000004168"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x010000000000416C",
+            "Owner": "0x0100000000004168",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x0100000000004174",
+                "Target": "0x0100000000004171"
+              }
+            ]
+          }
+        ]
+      },
+      "Template": {
+        "DialogueFragment": {
+          "CameraAngle": 0,
+          "Soundfile": "0x0000000000000000"
+        }
+      }
+    },
+    {
+      "Type": "DialogueLine",
+      "Properties": {
+        "TechnicalName": "DFr_81F49125",
+        "Id": "0x0100000000004171",
+        "Parent": "0x010000000000414E",
+        "MenuText": "",
+        "StageDirections": "",
+        "Speaker": "0x01000000000001A8",
+        "SplitHeight": 64.0,
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "DFr_81F49125.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 867.0,
+          "y": 0.0
+        },
+        "ZIndex": 7.0,
+        "Size": {
+          "w": 225.0,
+          "h": 200.0
+        },
+        "ShortId": 2180288805,
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000004174",
+            "Owner": "0x0100000000004171"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000004175",
+            "Owner": "0x0100000000004171",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x010000000000417D",
+                "Target": "0x010000000000417A"
+              }
+            ]
+          }
+        ]
+      },
+      "Template": {
+        "DialogueFragment": {
+          "CameraAngle": 0,
+          "Soundfile": "0x0000000000000000"
+        }
+      }
+    },
+    {
+      "Type": "DialogueLine",
+      "Properties": {
+        "TechnicalName": "DFr_9FCE43B6",
+        "Id": "0x010000000000417A",
+        "Parent": "0x010000000000414E",
+        "MenuText": "",
+        "StageDirections": "",
+        "Speaker": "0x0100000000000335",
+        "SplitHeight": 64.0,
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "DFr_9FCE43B6.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 1156.0,
+          "y": 0.0
+        },
+        "ZIndex": 9.0,
+        "Size": {
+          "w": 225.0,
+          "h": 200.0
+        },
+        "ShortId": 2681095094,
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x010000000000417D",
+            "Owner": "0x010000000000417A"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x010000000000417E",
+            "Owner": "0x010000000000417A",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x0100000000004186",
+                "Target": "0x0100000000004183"
+              }
+            ]
+          }
+        ]
+      },
+      "Template": {
+        "DialogueFragment": {
+          "CameraAngle": 0,
+          "Soundfile": "0x0000000000000000"
+        }
+      }
+    },
+    {
+      "Type": "DialogueLine",
+      "Properties": {
+        "TechnicalName": "DFr_4A2E923C",
+        "Id": "0x0100000000004183",
+        "Parent": "0x010000000000414E",
+        "MenuText": "",
+        "StageDirections": "",
+        "Speaker": "0x01000000000001A8",
+        "SplitHeight": 64.0,
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "DFr_4A2E923C.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 1445.0,
+          "y": 0.0
+        },
+        "ZIndex": 11.0,
+        "Size": {
+          "w": 225.0,
+          "h": 200.0
+        },
+        "ShortId": 1244566076,
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000004186",
+            "Owner": "0x0100000000004183"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000004187",
+            "Owner": "0x0100000000004183",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x010000000000418F",
+                "Target": "0x010000000000418C"
+              }
+            ]
+          }
+        ]
+      },
+      "Template": {
+        "DialogueFragment": {
+          "CameraAngle": 0,
+          "Soundfile": "0x0000000000000000"
+        }
+      }
+    },
+    {
+      "Type": "DialogueLine",
+      "Properties": {
+        "TechnicalName": "DFr_29D96F09",
+        "Id": "0x010000000000418C",
+        "Parent": "0x010000000000414E",
+        "MenuText": "",
+        "StageDirections": "composed",
+        "Speaker": "0x0100000000000335",
+        "SplitHeight": 64.0,
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "DFr_29D96F09.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 1734.0,
+          "y": 0.0
+        },
+        "ZIndex": 13.0,
+        "Size": {
+          "w": 225.0,
+          "h": 200.0
+        },
+        "ShortId": 702115593,
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x010000000000418F",
+            "Owner": "0x010000000000418C"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000004190",
+            "Owner": "0x010000000000418C",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x0100000000004152",
+                "Target": "0x010000000000414E"
+              }
+            ]
+          }
+        ]
+      },
+      "Template": {
+        "DialogueFragment": {
+          "CameraAngle": 0,
+          "Soundfile": "0x0000000000000000"
+        }
+      }
+    },
+    {
+      "Type": "DialogueLine",
+      "Properties": {
+        "TechnicalName": "DFr_A09EA63E",
+        "Id": "0x0100000000002CC3",
+        "Parent": "0x0100000000002CC2",
+        "MenuText": "",
+        "StageDirections": "",
+        "Speaker": "0x0100000000000136",
+        "SplitHeight": 64.0,
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "DFr_A09EA63E.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 750.0,
+          "y": 575.0
+        },
+        "ZIndex": 0.0,
+        "Size": {
+          "w": 225.0,
+          "h": 200.0
+        },
+        "ShortId": 2694751806,
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000002CC4",
+            "Owner": "0x0100000000002CC3"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000002CC5",
+            "Owner": "0x0100000000002CC3",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x0100000000002CCA",
+                "Target": "0x0100000000002CC9"
+              },
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x0100000000002CD2",
+                "Target": "0x0100000000002CD1"
+              },
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x0100000000002D24",
+                "Target": "0x0100000000002D23"
+              }
+            ]
+          }
+        ]
+      },
+      "Template": {
+        "DialogueFragment": {
+          "CameraAngle": 0,
+          "Soundfile": "0x0000000000000000"
+        }
+      }
+    },
+    {
+      "Type": "DialogueLine",
+      "Properties": {
+        "TechnicalName": "DFr_FBFFCC6A",
+        "Id": "0x0100000000002CC9",
+        "Parent": "0x0100000000002CC2",
+        "MenuText": "DFr_FBFFCC6A.MenuText",
+        "StageDirections": "",
+        "Speaker": "0x01000000000001A8",
+        "SplitHeight": 64.0,
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "DFr_FBFFCC6A.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 1150.0,
+          "y": 450.0
+        },
+        "ZIndex": 1.0,
+        "Size": {
+          "w": 250.0,
+          "h": 225.0
+        },
+        "ShortId": 4227845226,
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000002CCA",
+            "Owner": "0x0100000000002CC9"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000002CCB",
+            "Owner": "0x0100000000002CC9",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x0100000000002CF0",
+                "Target": "0x0100000000002CEF"
+              }
+            ]
+          }
+        ]
+      },
+      "Template": {
+        "DialogueFragment": {
+          "CameraAngle": 0,
+          "Soundfile": "0x0000000000000000"
+        }
+      }
+    },
+    {
+      "Type": "DialogueLine",
+      "Properties": {
+        "TechnicalName": "DFr_661E4107",
+        "Id": "0x0100000000002CD1",
+        "Parent": "0x0100000000002CC2",
+        "MenuText": "DFr_661E4107.MenuText",
+        "StageDirections": "",
+        "Speaker": "0x01000000000001A8",
+        "SplitHeight": 64.0,
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "DFr_661E4107.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 1150.0,
+          "y": 725.0
+        },
+        "ZIndex": 3.0,
+        "Size": {
+          "w": 250.0,
+          "h": 225.0
+        },
+        "ShortId": 1713258759,
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000002CD2",
+            "Owner": "0x0100000000002CD1"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000002CD3",
+            "Owner": "0x0100000000002CD1",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x0100000000002CF7",
+                "Target": "0x0100000000002CF6"
+              }
+            ]
+          }
+        ]
+      },
+      "Template": {
+        "DialogueFragment": {
+          "CameraAngle": 0,
+          "Soundfile": "0x0000000000000000"
+        }
+      }
+    },
+    {
+      "Type": "DialogueLine",
+      "Properties": {
+        "TechnicalName": "DFr_F120EE49",
+        "Id": "0x0100000000002CD9",
+        "Parent": "0x0100000000002CC2",
+        "MenuText": "",
+        "StageDirections": "",
+        "Speaker": "0x01000000000001A8",
+        "SplitHeight": 64.0,
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "DFr_F120EE49.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 1800.0,
+          "y": 725.0
+        },
+        "ZIndex": 3.0,
+        "Size": {
+          "w": 250.0,
+          "h": 225.0
+        },
+        "ShortId": 4045467209,
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000002CDA",
+            "Owner": "0x0100000000002CD9"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000002CDB",
+            "Owner": "0x0100000000002CD9",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x0100000000003D1E",
+                "Target": "0x0100000000003D1C"
+              }
+            ]
+          }
+        ]
+      },
+      "Template": {
+        "DialogueFragment": {
+          "CameraAngle": 0,
+          "Soundfile": "0x0000000000000000"
+        }
+      }
+    },
+    {
+      "Type": "DialogueLine",
+      "Properties": {
+        "TechnicalName": "DFr_07823A4E",
+        "Id": "0x0100000000002CE0",
+        "Parent": "0x0100000000002CC2",
+        "MenuText": "",
+        "StageDirections": "",
+        "Speaker": "0x01000000000001A8",
+        "SplitHeight": 64.0,
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "DFr_07823A4E.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 1800.0,
+          "y": 450.0
+        },
+        "ZIndex": 7.0,
+        "Size": {
+          "w": 250.0,
+          "h": 225.0
+        },
+        "ShortId": 125975118,
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000002CE1",
+            "Owner": "0x0100000000002CE0"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000002CE2",
+            "Owner": "0x0100000000002CE0",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x0100000000002CFF",
+                "Target": "0x0100000000002CFE"
+              }
+            ]
+          }
+        ]
+      },
+      "Template": {
+        "DialogueFragment": {
+          "CameraAngle": 0,
+          "Soundfile": "0x0000000000000000"
+        }
+      }
+    },
+    {
+      "Type": "DialogueLine",
+      "Properties": {
+        "TechnicalName": "DFr_A30F0F3E",
+        "Id": "0x0100000000002CE8",
+        "Parent": "0x0100000000002CC2",
+        "MenuText": "",
+        "StageDirections": "",
+        "Speaker": "0x0100000000000136",
+        "SplitHeight": 64.0,
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "DFr_A30F0F3E.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 450.0,
+          "y": 575.0
+        },
+        "ZIndex": 0.0,
+        "Size": {
+          "w": 225.0,
+          "h": 200.0
+        },
+        "ShortId": 2735673150,
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000002CE9",
+            "Owner": "0x0100000000002CE8"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000002CEA",
+            "Owner": "0x0100000000002CE8",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x0100000000002CC4",
+                "Target": "0x0100000000002CC3"
+              }
+            ]
+          }
+        ]
+      },
+      "Template": {
+        "DialogueFragment": {
+          "CameraAngle": 0,
+          "Soundfile": "0x0000000000000000"
+        }
+      }
+    },
+    {
+      "Type": "DialogueLine",
+      "Properties": {
+        "TechnicalName": "DFr_787D5B84",
+        "Id": "0x0100000000002CEF",
+        "Parent": "0x0100000000002CC2",
+        "MenuText": "",
+        "StageDirections": "",
+        "Speaker": "0x0100000000000136",
+        "SplitHeight": 64.0,
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "DFr_787D5B84.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 1475.0,
+          "y": 450.0
+        },
+        "ZIndex": 0.0,
+        "Size": {
+          "w": 250.0,
+          "h": 225.0
+        },
+        "ShortId": 2021481348,
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000002CF0",
+            "Owner": "0x0100000000002CEF"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000002CF1",
+            "Owner": "0x0100000000002CEF",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x0100000000002CE1",
+                "Target": "0x0100000000002CE0"
+              }
+            ]
+          }
+        ]
+      },
+      "Template": {
+        "DialogueFragment": {
+          "CameraAngle": 0,
+          "Soundfile": "0x0000000000000000"
+        }
+      }
+    },
+    {
+      "Type": "DialogueLine",
+      "Properties": {
+        "TechnicalName": "DFr_28661C9D",
+        "Id": "0x0100000000002CF6",
+        "Parent": "0x0100000000002CC2",
+        "MenuText": "",
+        "StageDirections": "",
+        "Speaker": "0x0100000000000136",
+        "SplitHeight": 64.0,
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "DFr_28661C9D.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 1475.0,
+          "y": 725.0
+        },
+        "ZIndex": 0.0,
+        "Size": {
+          "w": 250.0,
+          "h": 225.0
+        },
+        "ShortId": 677780637,
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000002CF7",
+            "Owner": "0x0100000000002CF6"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000002CF8",
+            "Owner": "0x0100000000002CF6",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x0100000000002CDA",
+                "Target": "0x0100000000002CD9"
+              }
+            ]
+          }
+        ]
+      },
+      "Template": {
+        "DialogueFragment": {
+          "CameraAngle": 0,
+          "Soundfile": "0x0000000000000000"
+        }
+      }
+    },
+    {
+      "Type": "DialogueLine",
+      "Properties": {
+        "TechnicalName": "DFr_7D562513",
+        "Id": "0x0100000000002CFE",
+        "Parent": "0x0100000000002CC2",
+        "MenuText": "",
+        "StageDirections": "smiling",
+        "Speaker": "0x0100000000000136",
+        "SplitHeight": 64.0,
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "DFr_7D562513.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 2425.0,
+          "y": 575.0
+        },
+        "ZIndex": 0.0,
+        "Size": {
+          "w": 325.0,
+          "h": 250.0
+        },
+        "ShortId": 2102797587,
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000002CFF",
+            "Owner": "0x0100000000002CFE"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000002D00",
+            "Owner": "0x0100000000002CFE",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x0100000000002D07",
+                "Target": "0x0100000000002D06"
+              }
+            ]
+          }
+        ]
+      },
+      "Template": {
+        "DialogueFragment": {
+          "CameraAngle": 0,
+          "Soundfile": "0x0000000000000000"
+        }
+      }
+    },
+    {
+      "Type": "DialogueLine",
+      "Properties": {
+        "TechnicalName": "DFr_3853B303",
+        "Id": "0x0100000000002D06",
+        "Parent": "0x0100000000002CC2",
+        "MenuText": "",
+        "StageDirections": "revealing stake",
+        "Speaker": "0x01000000000001A8",
+        "SplitHeight": 64.0,
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "DFr_3853B303.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 2825.0,
+          "y": 575.0
+        },
+        "ZIndex": 3.0,
+        "Size": {
+          "w": 275.0,
+          "h": 250.0
+        },
+        "ShortId": 945009411,
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000002D07",
+            "Owner": "0x0100000000002D06"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000002D08",
+            "Owner": "0x0100000000002D06",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x0100000000002ECB",
+                "Target": "0x0100000000002ECA"
+              }
+            ]
+          }
+        ]
+      },
+      "Template": {
+        "DialogueFragment": {
+          "CameraAngle": 0,
+          "Soundfile": "0x0000000000000000"
+        }
+      }
+    },
+    {
+      "Type": "DialogueLine",
+      "Properties": {
+        "TechnicalName": "DFr_FB902F8F",
+        "Id": "0x0100000000002D19",
+        "Parent": "0x0100000000002CC2",
+        "MenuText": "",
+        "StageDirections": "",
+        "Speaker": "0x01000000000001A8",
+        "SplitHeight": 64.0,
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "DFr_FB902F8F.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 3575.0,
+          "y": 550.0
+        },
+        "ZIndex": 3.0,
+        "Size": {
+          "w": 275.0,
+          "h": 250.0
+        },
+        "ShortId": 4220530575,
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000002D1A",
+            "Owner": "0x0100000000002D19"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000002D1B",
+            "Owner": "0x0100000000002D19",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x0100000000002D40",
+                "Target": "0x0100000000002CC2"
+              }
+            ]
+          }
+        ]
+      },
+      "Template": {
+        "DialogueFragment": {
+          "CameraAngle": 0,
+          "Soundfile": "0x0000000000000000"
+        }
+      }
+    },
+    {
+      "Type": "DialogueLine",
+      "Properties": {
+        "TechnicalName": "DFr_5A1E03D7",
+        "Id": "0x0100000000002D23",
+        "Parent": "0x0100000000002CC2",
+        "MenuText": "DFr_5A1E03D7.MenuText",
+        "StageDirections": "",
+        "Speaker": "0x01000000000001A8",
+        "SplitHeight": 64.0,
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "DFr_5A1E03D7.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 1150.0,
+          "y": 175.0
+        },
+        "ZIndex": 38.0,
+        "Size": {
+          "w": 250.0,
+          "h": 225.0
+        },
+        "ShortId": 1511916503,
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000002D24",
+            "Owner": "0x0100000000002D23"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000002D25",
+            "Owner": "0x0100000000002D23",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x0100000000002CF0",
+                "Target": "0x0100000000002CEF"
+              }
+            ]
+          }
+        ]
+      },
+      "Template": {
+        "DialogueFragment": {
+          "CameraAngle": 0,
+          "Soundfile": "0x0000000000000000"
+        }
+      }
+    },
+    {
+      "Type": "DialogueLine",
+      "Properties": {
+        "TechnicalName": "DFr_F64F2548",
+        "Id": "0x0100000000002ECA",
+        "Parent": "0x0100000000002CC2",
+        "MenuText": "",
+        "StageDirections": "",
+        "Speaker": "0x0100000000000136",
+        "SplitHeight": 64.0,
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "DFr_F64F2548.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 3200.0,
+          "y": 575.0
+        },
+        "ZIndex": 30.0,
+        "Size": {
+          "w": 300.0,
+          "h": 225.0
+        },
+        "ShortId": 4132382024,
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000002ECB",
+            "Owner": "0x0100000000002ECA"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000002ECC",
+            "Owner": "0x0100000000002ECA",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x0100000000002D1A",
+                "Target": "0x0100000000002D19"
+              }
+            ]
+          }
+        ]
+      },
+      "Template": {
+        "DialogueFragment": {
+          "CameraAngle": 0,
+          "Soundfile": "0x0000000000000000"
+        }
+      }
+    },
+    {
+      "Type": "DialogueLine",
+      "Properties": {
+        "TechnicalName": "DFr_A4498EEC",
+        "Id": "0x0100000000004242",
+        "Parent": "0x01000000000036BD",
+        "MenuText": "",
+        "StageDirections": "",
+        "Speaker": "0x01000000000001A8",
+        "SplitHeight": 64.0,
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "DFr_A4498EEC.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 439.0,
+          "y": 418.0
+        },
+        "ZIndex": 1.0,
+        "Size": {
+          "w": 225.0,
+          "h": 200.0
+        },
+        "ShortId": 2756284140,
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000004243",
+            "Owner": "0x0100000000004242"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000004244",
+            "Owner": "0x0100000000004242",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x0100000000004249",
+                "Target": "0x0100000000004248"
+              }
+            ]
+          }
+        ]
+      },
+      "Template": {
+        "DialogueFragment": {
+          "CameraAngle": 2,
+          "Soundfile": "0x0000000000000000"
+        }
+      }
+    },
+    {
+      "Type": "DialogueLine",
+      "Properties": {
+        "TechnicalName": "DFr_93D9D222",
+        "Id": "0x010000000000383B",
+        "Parent": "0x01000000000036C3",
+        "MenuText": "",
+        "StageDirections": "",
+        "Speaker": "0x01000000000001A8",
+        "SplitHeight": 64.0,
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "DFr_93D9D222.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": -150.0,
+          "y": 525.0
+        },
+        "ZIndex": 1.0,
+        "Size": {
+          "w": 225.0,
+          "h": 200.0
+        },
+        "ShortId": 2480525858,
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x010000000000383E",
+            "Owner": "0x010000000000383B"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x010000000000383F",
+            "Owner": "0x010000000000383B",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x0100000000003845",
+                "Target": "0x0100000000003842"
+              }
+            ]
+          }
+        ]
+      },
+      "Template": {
+        "DialogueFragment": {
+          "CameraAngle": 2,
+          "Soundfile": "0x0000000000000000"
+        }
+      }
+    },
+    {
+      "Type": "DialogueLine",
+      "Properties": {
+        "TechnicalName": "DFr_98AFBD41",
+        "Id": "0x0100000000004198",
+        "Parent": "0x0100000000004197",
+        "MenuText": "",
+        "StageDirections": "",
+        "Speaker": "0x0100000000000335",
+        "SplitHeight": 64.0,
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "DFr_98AFBD41.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "ZIndex": 0.0,
+        "Size": {
+          "w": 225.0,
+          "h": 200.0
+        },
+        "ShortId": 2561654081,
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000004199",
+            "Owner": "0x0100000000004198"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x010000000000419A",
+            "Owner": "0x0100000000004198",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x01000000000041A0",
+                "Target": "0x010000000000419F"
+              }
+            ]
+          }
+        ]
+      },
+      "Template": {
+        "DialogueFragment": {
+          "CameraAngle": 0,
+          "Soundfile": "0x0000000000000000"
+        }
+      }
+    },
+    {
+      "Type": "DialogueLine",
+      "Properties": {
+        "TechnicalName": "DFr_8CD3D329",
+        "Id": "0x010000000000419F",
+        "Parent": "0x0100000000004197",
+        "MenuText": "",
+        "StageDirections": "",
+        "Speaker": "0x01000000000001A8",
+        "SplitHeight": 64.0,
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "DFr_8CD3D329.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 289.0,
+          "y": 0.0
+        },
+        "ZIndex": 3.0,
+        "Size": {
+          "w": 225.0,
+          "h": 200.0
+        },
+        "ShortId": 2362692393,
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x01000000000041A0",
+            "Owner": "0x010000000000419F"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x01000000000041A1",
+            "Owner": "0x010000000000419F",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x01000000000041A7",
+                "Target": "0x01000000000041A6"
+              }
+            ]
+          }
+        ]
+      },
+      "Template": {
+        "DialogueFragment": {
+          "CameraAngle": 0,
+          "Soundfile": "0x0000000000000000"
+        }
+      }
+    },
+    {
+      "Type": "DialogueLine",
+      "Properties": {
+        "TechnicalName": "DFr_D42AE295",
+        "Id": "0x01000000000041A6",
+        "Parent": "0x0100000000004197",
+        "MenuText": "",
+        "StageDirections": "",
+        "Speaker": "0x0100000000000335",
+        "SplitHeight": 64.0,
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "DFr_D42AE295.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 578.0,
+          "y": 0.0
+        },
+        "ZIndex": 5.0,
+        "Size": {
+          "w": 225.0,
+          "h": 200.0
+        },
+        "ShortId": 3559580309,
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x01000000000041A7",
+            "Owner": "0x01000000000041A6"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x01000000000041A8",
+            "Owner": "0x01000000000041A6",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x01000000000041AE",
+                "Target": "0x01000000000041AD"
+              }
+            ]
+          }
+        ]
+      },
+      "Template": {
+        "DialogueFragment": {
+          "CameraAngle": 0,
+          "Soundfile": "0x0000000000000000"
+        }
+      }
+    },
+    {
+      "Type": "DialogueLine",
+      "Properties": {
+        "TechnicalName": "DFr_61D9B14D",
+        "Id": "0x01000000000041AD",
+        "Parent": "0x0100000000004197",
+        "MenuText": "",
+        "StageDirections": "",
+        "Speaker": "0x01000000000001A8",
+        "SplitHeight": 64.0,
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "DFr_61D9B14D.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 867.0,
+          "y": 0.0
+        },
+        "ZIndex": 7.0,
+        "Size": {
+          "w": 225.0,
+          "h": 200.0
+        },
+        "ShortId": 1641656653,
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x01000000000041AE",
+            "Owner": "0x01000000000041AD"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x01000000000041AF",
+            "Owner": "0x01000000000041AD",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x01000000000041B5",
+                "Target": "0x01000000000041B4"
+              }
+            ]
+          }
+        ]
+      },
+      "Template": {
+        "DialogueFragment": {
+          "CameraAngle": 0,
+          "Soundfile": "0x0000000000000000"
+        }
+      }
+    },
+    {
+      "Type": "DialogueLine",
+      "Properties": {
+        "TechnicalName": "DFr_7FDC8D75",
+        "Id": "0x01000000000041B4",
+        "Parent": "0x0100000000004197",
+        "MenuText": "",
+        "StageDirections": "",
+        "Speaker": "0x0100000000000335",
+        "SplitHeight": 64.0,
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "DFr_7FDC8D75.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 1156.0,
+          "y": 0.0
+        },
+        "ZIndex": 9.0,
+        "Size": {
+          "w": 225.0,
+          "h": 200.0
+        },
+        "ShortId": 2145160565,
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x01000000000041B5",
+            "Owner": "0x01000000000041B4"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x01000000000041B6",
+            "Owner": "0x01000000000041B4",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x01000000000041BC",
+                "Target": "0x01000000000041BB"
+              }
+            ]
+          }
+        ]
+      },
+      "Template": {
+        "DialogueFragment": {
+          "CameraAngle": 0,
+          "Soundfile": "0x0000000000000000"
+        }
+      }
+    },
+    {
+      "Type": "DialogueLine",
+      "Properties": {
+        "TechnicalName": "DFr_B382606F",
+        "Id": "0x01000000000041BB",
+        "Parent": "0x0100000000004197",
+        "MenuText": "",
+        "StageDirections": "",
+        "Speaker": "0x01000000000001A8",
+        "SplitHeight": 64.0,
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "DFr_B382606F.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 1445.0,
+          "y": 0.0
+        },
+        "ZIndex": 11.0,
+        "Size": {
+          "w": 225.0,
+          "h": 200.0
+        },
+        "ShortId": 3011666031,
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x01000000000041BC",
+            "Owner": "0x01000000000041BB"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x01000000000041BD",
+            "Owner": "0x01000000000041BB",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x01000000000041C3",
+                "Target": "0x01000000000041C2"
+              }
+            ]
+          }
+        ]
+      },
+      "Template": {
+        "DialogueFragment": {
+          "CameraAngle": 0,
+          "Soundfile": "0x0000000000000000"
+        }
+      }
+    },
+    {
+      "Type": "DialogueLine",
+      "Properties": {
+        "TechnicalName": "DFr_9D7BEA64",
+        "Id": "0x01000000000041C2",
+        "Parent": "0x0100000000004197",
+        "MenuText": "",
+        "StageDirections": "composed",
+        "Speaker": "0x0100000000000335",
+        "SplitHeight": 64.0,
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "DFr_9D7BEA64.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 1734.0,
+          "y": 0.0
+        },
+        "ZIndex": 13.0,
+        "Size": {
+          "w": 225.0,
+          "h": 200.0
+        },
+        "ShortId": 2642143844,
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x01000000000041C3",
+            "Owner": "0x01000000000041C2"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x01000000000041C4",
+            "Owner": "0x01000000000041C2",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x01000000000041CC",
+                "Target": "0x0100000000004197"
+              }
+            ]
+          }
+        ]
+      },
+      "Template": {
+        "DialogueFragment": {
+          "CameraAngle": 0,
+          "Soundfile": "0x0000000000000000"
+        }
+      }
+    },
+    {
+      "Type": "DialogueFragment",
+      "Properties": {
+        "TechnicalName": "DFr_C5AAD3A3",
+        "Id": "0x0100000000004248",
+        "Parent": "0x01000000000036BD",
+        "MenuText": "",
+        "StageDirections": "",
+        "Speaker": "0x0100000000000136",
+        "SplitHeight": 64.0,
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "DFr_C5AAD3A3.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 789.0,
+          "y": 418.0
+        },
+        "ZIndex": 2.0,
+        "Size": {
+          "w": 225.0,
+          "h": 200.0
+        },
+        "ShortId": 3316306851,
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000004249",
+            "Owner": "0x0100000000004248"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x010000000000424A",
+            "Owner": "0x0100000000004248",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x0100000000004253",
+                "Target": "0x0100000000004250"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "DialogueFragment",
+      "Properties": {
+        "TechnicalName": "DFr_E1D144A8",
+        "Id": "0x0100000000003842",
+        "Parent": "0x01000000000036C3",
+        "MenuText": "",
+        "StageDirections": "",
+        "Speaker": "0x0100000000000136",
+        "SplitHeight": 64.0,
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "DFr_E1D144A8.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 200.0,
+          "y": 525.0
+        },
+        "ZIndex": 2.0,
+        "Size": {
+          "w": 225.0,
+          "h": 200.0
+        },
+        "ShortId": 3788588200,
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000003845",
+            "Owner": "0x0100000000003842"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000003846",
+            "Owner": "0x0100000000003842",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x0100000000003955",
+                "Target": "0x0100000000003953"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "DialogueFragment",
+      "Properties": {
+        "TechnicalName": "DFr_F66A1A55",
+        "Id": "0x0100000000003849",
+        "Parent": "0x01000000000036C3",
+        "MenuText": "",
+        "StageDirections": "",
+        "Speaker": "0x0100000000000136",
+        "SplitHeight": 64.0,
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "DFr_F66A1A55.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 1225.0,
+          "y": 375.0
+        },
+        "ZIndex": 3.0,
+        "Size": {
+          "w": 225.0,
+          "h": 200.0
+        },
+        "ShortId": 4134148693,
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x010000000000384C",
+            "Owner": "0x0100000000003849"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x010000000000384D",
+            "Owner": "0x0100000000003849",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x0100000000003853",
+                "Target": "0x0100000000003850"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "DialogueFragment",
+      "Properties": {
+        "TechnicalName": "DFr_AD592E00",
+        "Id": "0x0100000000003850",
+        "Parent": "0x01000000000036C3",
+        "MenuText": "",
+        "StageDirections": "",
+        "Speaker": "0x01000000000001A8",
+        "SplitHeight": 64.0,
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "DFr_AD592E00.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 1575.0,
+          "y": 375.0
+        },
+        "ZIndex": 4.0,
+        "Size": {
+          "w": 225.0,
+          "h": 200.0
+        },
+        "ShortId": 2908302848,
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000003853",
+            "Owner": "0x0100000000003850"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000003854",
+            "Owner": "0x0100000000003850",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x010000000000385A",
+                "Target": "0x0100000000003857"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "DialogueFragment",
+      "Properties": {
+        "TechnicalName": "DFr_CF026575",
+        "Id": "0x0100000000003857",
+        "Parent": "0x01000000000036C3",
+        "MenuText": "",
+        "StageDirections": "smirks",
+        "Speaker": "0x0100000000000136",
+        "SplitHeight": 64.0,
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "DFr_CF026575.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 1925.0,
+          "y": 375.0
+        },
+        "ZIndex": 5.0,
+        "Size": {
+          "w": 225.0,
+          "h": 200.0
+        },
+        "ShortId": 3473040757,
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x010000000000385A",
+            "Owner": "0x0100000000003857"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x010000000000385B",
+            "Owner": "0x0100000000003857",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x0100000000003862",
+                "Target": "0x010000000000385F"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "DialogueFragment",
+      "Properties": {
+        "TechnicalName": "DFr_1C31E623",
+        "Id": "0x010000000000385F",
+        "Parent": "0x01000000000036C3",
+        "MenuText": "",
+        "StageDirections": "",
+        "Speaker": "0x01000000000001A8",
+        "SplitHeight": 64.0,
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "DFr_1C31E623.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 2275.0,
+          "y": 375.0
+        },
+        "ZIndex": 6.0,
+        "Size": {
+          "w": 225.0,
+          "h": 200.0
+        },
+        "ShortId": 473032227,
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000003862",
+            "Owner": "0x010000000000385F"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000003863",
+            "Owner": "0x010000000000385F",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x0100000000003869",
+                "Target": "0x0100000000003866"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "DialogueFragment",
+      "Properties": {
+        "TechnicalName": "DFr_74FA77F2",
+        "Id": "0x0100000000003866",
+        "Parent": "0x01000000000036C3",
+        "MenuText": "",
+        "StageDirections": "",
+        "Speaker": "0x0100000000000136",
+        "SplitHeight": 64.0,
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "DFr_74FA77F2.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 2625.0,
+          "y": 375.0
+        },
+        "ZIndex": 7.0,
+        "Size": {
+          "w": 225.0,
+          "h": 200.0
+        },
+        "ShortId": 1962571762,
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000003869",
+            "Owner": "0x0100000000003866"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x010000000000386A",
+            "Owner": "0x0100000000003866",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x0100000000003870",
+                "Target": "0x010000000000386D"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "DialogueFragment",
+      "Properties": {
+        "TechnicalName": "DFr_93ABBB31",
+        "Id": "0x010000000000386D",
+        "Parent": "0x01000000000036C3",
+        "MenuText": "",
+        "StageDirections": "",
+        "Speaker": "0x0100000000000136",
+        "SplitHeight": 64.0,
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "DFr_93ABBB31.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 2950.0,
+          "y": 375.0
+        },
+        "ZIndex": 8.0,
+        "Size": {
+          "w": 225.0,
+          "h": 200.0
+        },
+        "ShortId": 2477505329,
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000003870",
+            "Owner": "0x010000000000386D"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000003871",
+            "Owner": "0x010000000000386D",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 1.0,
+                  "g": 0.0,
+                  "b": 0.0
+                },
+                "Label": "",
+                "TargetPin": "0x010000000000388F",
+                "Target": "0x010000000000388C"
+              },
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x0100000000003876",
+                "Target": "0x0100000000003874"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "DialogueFragment",
+      "Properties": {
+        "TechnicalName": "DFr_68FD9FF5",
+        "Id": "0x010000000000387A",
+        "Parent": "0x01000000000036C3",
+        "MenuText": "DFr_68FD9FF5.MenuText",
+        "StageDirections": "",
+        "Speaker": "0x01000000000001A8",
+        "SplitHeight": 64.0,
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "DFr_68FD9FF5.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 3562.0,
+          "y": 0.0
+        },
+        "ZIndex": 10.0,
+        "Size": {
+          "w": 225.0,
+          "h": 200.0
+        },
+        "ShortId": 1761452021,
+        "InputPins": [
+          {
+            "Text": "// Hides node when visited\nunseen",
+            "Id": "0x010000000000387D",
+            "Owner": "0x010000000000387A"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x010000000000387E",
+            "Owner": "0x010000000000387A",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x0100000000003896",
+                "Target": "0x0100000000003893"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "DialogueFragment",
+      "Properties": {
+        "TechnicalName": "DFr_AD57DFD9",
+        "Id": "0x0100000000003880",
+        "Parent": "0x01000000000036C3",
+        "MenuText": "DFr_AD57DFD9.MenuText",
+        "StageDirections": "",
+        "Speaker": "0x01000000000001A8",
+        "SplitHeight": 64.0,
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "DFr_AD57DFD9.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 3562.0,
+          "y": 250.0
+        },
+        "ZIndex": 11.0,
+        "Size": {
+          "w": 225.0,
+          "h": 200.0
+        },
+        "ShortId": 2908217305,
+        "InputPins": [
+          {
+            "Text": "// Hides node when visited\nunseen",
+            "Id": "0x0100000000003883",
+            "Owner": "0x0100000000003880"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000003884",
+            "Owner": "0x0100000000003880",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x01000000000038A5",
+                "Target": "0x01000000000038A2"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "DialogueFragment",
+      "Properties": {
+        "TechnicalName": "DFr_6EFE198A",
+        "Id": "0x0100000000003886",
+        "Parent": "0x01000000000036C3",
+        "MenuText": "DFr_6EFE198A.MenuText",
+        "StageDirections": "",
+        "Speaker": "0x01000000000001A8",
+        "SplitHeight": 64.0,
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "DFr_6EFE198A.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 3562.0,
+          "y": 500.0
+        },
+        "ZIndex": 12.0,
+        "Size": {
+          "w": 225.0,
+          "h": 200.0
+        },
+        "ShortId": 1862146442,
+        "InputPins": [
+          {
+            "Text": "// Option only visible if above nodes have been visited.\nfallback()",
+            "Id": "0x0100000000003889",
+            "Owner": "0x0100000000003886"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x010000000000388A",
+            "Owner": "0x0100000000003886",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x01000000000038B0",
+                "Target": "0x01000000000038AD"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "DialogueFragment",
+      "Properties": {
+        "TechnicalName": "DFr_5B051EC9",
+        "Id": "0x010000000000388C",
+        "Parent": "0x01000000000036C3",
+        "MenuText": "DFr_5B051EC9.MenuText",
+        "StageDirections": "",
+        "Speaker": "0x01000000000001A8",
+        "SplitHeight": 64.0,
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "DFr_5B051EC9.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 3562.0,
+          "y": 750.0
+        },
+        "ZIndex": 13.0,
+        "Size": {
+          "w": 225.0,
+          "h": 200.0
+        },
+        "ShortId": 1527062217,
+        "InputPins": [
+          {
+            "Text": "// Option only visible if Mina has stake item or is level 3 or higher\nInventory.stake == true || GameState.playerLevel > 2\n",
+            "Id": "0x010000000000388F",
+            "Owner": "0x010000000000388C"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000003890",
+            "Owner": "0x010000000000388C",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "Mina has advantage",
+                "TargetPin": "0x01000000000038B7",
+                "Target": "0x01000000000038B4"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "DialogueFragment",
+      "Properties": {
+        "TechnicalName": "DFr_53E250E4",
+        "Id": "0x0100000000003893",
+        "Parent": "0x01000000000036C3",
+        "MenuText": "",
+        "StageDirections": "",
+        "Speaker": "0x0100000000000136",
+        "SplitHeight": 64.0,
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "DFr_53E250E4.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 3850.0,
+          "y": 0.0
+        },
+        "ZIndex": 14.0,
+        "Size": {
+          "w": 225.0,
+          "h": 200.0
+        },
+        "ShortId": 1407340772,
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000003896",
+            "Owner": "0x0100000000003893"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000003897",
+            "Owner": "0x0100000000003893",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x01000000000038A0",
+                "Target": "0x010000000000389D"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "DialogueFragment",
+      "Properties": {
+        "TechnicalName": "DFr_DDF374BE",
+        "Id": "0x01000000000038A2",
+        "Parent": "0x01000000000036C3",
+        "MenuText": "",
+        "StageDirections": "",
+        "Speaker": "0x0100000000000136",
+        "SplitHeight": 64.0,
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "DFr_DDF374BE.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 3850.0,
+          "y": 250.0
+        },
+        "ZIndex": 16.0,
+        "Size": {
+          "w": 225.0,
+          "h": 200.0
+        },
+        "ShortId": 3723719870,
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x01000000000038A5",
+            "Owner": "0x01000000000038A2"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x01000000000038A6",
+            "Owner": "0x01000000000038A2",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x01000000000038A0",
+                "Target": "0x010000000000389D"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "DialogueFragment",
+      "Properties": {
+        "TechnicalName": "DFr_27740989",
+        "Id": "0x01000000000038AD",
+        "Parent": "0x01000000000036C3",
+        "MenuText": "",
+        "StageDirections": "",
+        "Speaker": "0x0100000000000136",
+        "SplitHeight": 64.0,
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "DFr_27740989.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 3850.0,
+          "y": 500.0
+        },
+        "ZIndex": 17.0,
+        "Size": {
+          "w": 225.0,
+          "h": 200.0
+        },
+        "ShortId": 661916041,
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x01000000000038B0",
+            "Owner": "0x01000000000038AD"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x01000000000038B1",
+            "Owner": "0x01000000000038AD",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x01000000000038B7",
+                "Target": "0x01000000000038B4"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "DialogueFragment",
+      "Properties": {
+        "TechnicalName": "DFr_FBA8580C",
+        "Id": "0x0100000000003959",
+        "Parent": "0x01000000000036C3",
+        "MenuText": "",
+        "StageDirections": "",
+        "Speaker": "0x0100000000000136",
+        "SplitHeight": 64.0,
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "DFr_FBA8580C.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 875.0,
+          "y": 375.0
+        },
+        "ZIndex": 20.0,
+        "Size": {
+          "w": 225.0,
+          "h": 200.0
+        },
+        "ShortId": 4222113804,
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x010000000000395C",
+            "Owner": "0x0100000000003959"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x010000000000395D",
+            "Owner": "0x0100000000003959",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x010000000000384C",
+                "Target": "0x0100000000003849"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "DialogueFragment",
+      "Properties": {
+        "TechnicalName": "DFr_EED3834C",
+        "Id": "0x0100000000003961",
+        "Parent": "0x01000000000036C3",
+        "MenuText": "",
+        "StageDirections": "",
+        "Speaker": "0x0100000000000136",
+        "SplitHeight": 64.0,
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "DFr_EED3834C.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 875.0,
+          "y": 625.0
+        },
+        "ZIndex": 21.0,
+        "Size": {
+          "w": 225.0,
+          "h": 200.0
+        },
+        "ShortId": 4006839116,
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000003964",
+            "Owner": "0x0100000000003961"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000003965",
+            "Owner": "0x0100000000003961",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x010000000000396B",
+                "Target": "0x0100000000003968"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "DialogueFragment",
+      "Properties": {
+        "TechnicalName": "DFr_E9B9F1EF",
+        "Id": "0x0100000000003968",
+        "Parent": "0x01000000000036C3",
+        "MenuText": "",
+        "StageDirections": "",
+        "Speaker": "0x0100000000000136",
+        "SplitHeight": 64.0,
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "DFr_E9B9F1EF.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 1225.0,
+          "y": 625.0
+        },
+        "ZIndex": 22.0,
+        "Size": {
+          "w": 225.0,
+          "h": 200.0
+        },
+        "ShortId": 3921277423,
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x010000000000396B",
+            "Owner": "0x0100000000003968"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x010000000000396C",
+            "Owner": "0x0100000000003968",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x0100000000003978",
+                "Target": "0x0100000000003975"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "DialogueFragment",
+      "Properties": {
+        "TechnicalName": "DFr_3426F6D2",
+        "Id": "0x0100000000003975",
+        "Parent": "0x01000000000036C3",
+        "MenuText": "",
+        "StageDirections": "",
+        "Speaker": "0x01000000000001A8",
+        "SplitHeight": 64.0,
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "DFr_3426F6D2.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 1575.0,
+          "y": 625.0
+        },
+        "ZIndex": 23.0,
+        "Size": {
+          "w": 225.0,
+          "h": 200.0
+        },
+        "ShortId": 874968786,
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000003978",
+            "Owner": "0x0100000000003975"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000003979",
+            "Owner": "0x0100000000003975",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x010000000000385A",
+                "Target": "0x0100000000003857"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Hub",
+      "Properties": {
+        "TechnicalName": "Hub_FBEE07A8",
+        "Id": "0x0100000000003874",
+        "Parent": "0x01000000000036C3",
+        "DisplayName": "Questions",
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "",
+        "ExternalId": "",
+        "Position": {
+          "x": 3275.0,
+          "y": 450.0
+        },
+        "ZIndex": 9.0,
+        "Size": {
+          "w": 175.0,
+          "h": 50.0
+        },
+        "ShortId": 4226680744,
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000003876",
+            "Owner": "0x0100000000003874"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000003877",
+            "Owner": "0x0100000000003874",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x010000000000387D",
+                "Target": "0x010000000000387A"
+              },
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x0100000000003883",
+                "Target": "0x0100000000003880"
+              },
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x0100000000003889",
+                "Target": "0x0100000000003886"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "ModelTemplate_02",
+      "Properties": {
+        "TechnicalName": "Jmp_566F0979",
+        "Id": "0x0100000000004250",
+        "Parent": "0x01000000000036BD",
+        "Target": "0x010000000000385F",
+        "TargetPin": "0x0100000000003862",
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "",
+        "ExternalId": "",
+        "Position": {
+          "x": 1100.0,
+          "y": 450.0
+        },
+        "ZIndex": 4.0,
+        "Size": {
+          "w": 175.0,
+          "h": 150.0
+        },
+        "ShortId": 1450117497,
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000004253",
+            "Owner": "0x0100000000004250"
+          }
+        ]
+      },
+      "Template": {
+        "Weapon": {
+          "CombatModifier": null,
+          "Uses": null
+        }
+      }
+    },
+    {
+      "Type": "Jump",
+      "Properties": {
+        "TechnicalName": "Jmp_E3D0922F",
+        "Id": "0x010000000000389D",
+        "Parent": "0x01000000000036C3",
+        "Target": "0x0100000000003874",
+        "TargetPin": "0x0100000000003876",
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "",
+        "ExternalId": "",
+        "Position": {
+          "x": 4150.0,
+          "y": 25.0
+        },
+        "ZIndex": 15.0,
+        "Size": {
+          "w": 175.0,
+          "h": 150.0
+        },
+        "ShortId": 3822096943,
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x01000000000038A0",
+            "Owner": "0x010000000000389D"
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Condition",
+      "Properties": {
+        "TechnicalName": "Cnd_E47052C7",
+        "Id": "0x0100000000003953",
+        "Parent": "0x01000000000036C3",
+        "DisplayName": "// did Mina defeat Renfield?",
+        "Text": "",
+        "ExternalId": "",
+        "Position": {
+          "x": 525.0,
+          "y": 575.0
+        },
+        "ZIndex": 19.0,
+        "Size": {
+          "w": 225.0,
+          "h": 100.0
+        },
+        "ShortId": 3832566471,
+        "Expression": "// did Mina defeat Renfield?\nGameState.isRenfieldDefeated == true",
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000003955",
+            "Owner": "0x0100000000003953"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000003956",
+            "Owner": "0x0100000000003953",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x010000000000395C",
+                "Target": "0x0100000000003959"
+              }
+            ]
+          },
+          {
+            "Text": "",
+            "Id": "0x0100000000003957",
+            "Owner": "0x0100000000003953",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x0100000000003964",
+                "Target": "0x0100000000003961"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Condition",
+      "Properties": {
+        "TechnicalName": "Cnd_2466CD61",
+        "Id": "0x01000000000036C9",
+        "Parent": "0x01000000000036B3",
+        "DisplayName": "// Was Mina's name revealed to Dracu ...",
+        "Text": "",
+        "ExternalId": "",
+        "Position": {
+          "x": 275.0,
+          "y": 525.0
+        },
+        "ZIndex": 2.0,
+        "Size": {
+          "w": 225.0,
+          "h": 100.0
+        },
+        "ShortId": 610717025,
+        "Expression": "// Was Mina's name revealed to Dracula earlier?\nGameState.isNameRevealed == true",
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x01000000000036CB",
+            "Owner": "0x01000000000036C9"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x01000000000036CC",
+            "Owner": "0x01000000000036C9",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x01000000000036C0",
+                "Target": "0x01000000000036BD"
+              }
+            ]
+          },
+          {
+            "Text": "",
+            "Id": "0x01000000000036CD",
+            "Owner": "0x01000000000036C9",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x01000000000036C6",
+                "Target": "0x01000000000036C3"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Instruction",
+      "Properties": {
+        "TechnicalName": "Ins_90063CD7",
+        "Id": "0x0100000000003D1C",
+        "Parent": "0x0100000000002CC2",
+        "DisplayName": "//Mina's name was revealed to Dracul ...",
+        "Text": "",
+        "ExternalId": "",
+        "Position": {
+          "x": 2125.0,
+          "y": 775.0
+        },
+        "ZIndex": 29.0,
+        "Size": {
+          "w": 225.0,
+          "h": 100.0
+        },
+        "ShortId": 2416327895,
+        "Expression": "//Mina's name was revealed to Dracula in this branch\nGameState.isNameRevealed = true",
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "InputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000003D1E",
+            "Owner": "0x0100000000003D1C"
+          }
+        ],
+        "OutputPins": [
+          {
+            "Text": "",
+            "Id": "0x0100000000003D1F",
+            "Owner": "0x0100000000003D1C",
+            "Connections": [
+              {
+                "Color": {
+                  "a": 1.0,
+                  "r": 0.78431374,
+                  "g": 0.8862745,
+                  "b": 0.90588236
+                },
+                "Label": "",
+                "TargetPin": "0x0100000000002CFF",
+                "Target": "0x0100000000002CFE"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Comment",
+      "Properties": {
+        "TechnicalName": "CMT_72057594037944896",
+        "Id": "0x0100000000004240",
+        "Parent": "0x0100000000002CC2",
+        "CreatedBy": "",
+        "CreatedOn": "2024-08-08T08:49:06.1071396",
+        "Color": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0
+        },
+        "Text": "Player choice point",
+        "ExternalId": "",
+        "Position": {
+          "x": 1150.0,
+          "y": 50.0
+        },
+        "ZIndex": 31.0,
+        "Size": {
+          "w": 225.0,
+          "h": 100.0
+        },
+        "ShortId": 705918367
+      }
+    },
+    {
+      "Type": "Comment",
+      "Properties": {
+        "TechnicalName": "CMT_72057594037944917",
+        "Id": "0x0100000000004255",
+        "Parent": "0x01000000000036BD",
+        "CreatedBy": "",
+        "CreatedOn": "2024-08-08T08:56:32.5279655",
+        "Color": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0
+        },
+        "Text": "Just a temporary mockup dialogue, for testing. Jumps over to \"name unknown\" dialogue.",
+        "ExternalId": "",
+        "Position": {
+          "x": 425.0,
+          "y": 275.0
+        },
+        "ZIndex": 6.0,
+        "Size": {
+          "w": 225.0,
+          "h": 100.0
+        },
+        "ShortId": 1408920755
+      }
+    },
+    {
+      "Type": "Comment",
+      "Properties": {
+        "TechnicalName": "CMT_72057594037942459",
+        "Id": "0x01000000000038BB",
+        "Parent": "0x01000000000036C3",
+        "CreatedBy": "",
+        "CreatedOn": "2024-07-11T13:29:47.2565868",
+        "Color": {
+          "r": 0.7529412,
+          "g": 0.0,
+          "b": 0.0
+        },
+        "Text": "",
+        "ExternalId": "",
+        "Position": {
+          "x": 3475.0,
+          "y": 725.0
+        },
+        "ZIndex": 0.0,
+        "Size": {
+          "w": 900.0,
+          "h": 250.0
+        },
+        "ShortId": 963621766
+      }
+    },
+    {
+      "Type": "Document",
+      "Properties": {
+        "TechnicalName": "Doc_5799F7B6",
+        "Id": "0x010000000000414B",
+        "Parent": "0x03000000103AA2F0",
+        "DisplayName": "Cutscene",
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "",
+        "ExternalId": "",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "ZIndex": 0.0,
+        "Size": {
+          "w": 256.0,
+          "h": 196.0
+        },
+        "ShortId": 1469708214
+      }
+    },
+    {
+      "Type": "Character",
+      "Properties": {
+        "TechnicalName": "Ntt_0D0E25AA",
+        "Id": "0x0100000000000136",
+        "Parent": "0x0100000000003421",
+        "Attachments": [],
+        "DisplayName": "Ntt_0D0E25AA.DisplayName",
+        "Color": {
+          "r": 0.7529412,
+          "g": 0.0,
+          "b": 0.0
+        },
+        "Text": "Ntt_0D0E25AA.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "ZIndex": 0.0,
+        "Size": {
+          "w": 256.0,
+          "h": 196.0
+        },
+        "PreviewImage": {
+          "ViewBox": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.0,
+            "h": 0.0
+          },
+          "Mode": "FromAsset",
+          "Asset": "0x0100000000000B22"
+        },
+        "ShortId": 219030954
+      },
+      "Template": {
+        "CharacterInfo": {
+          "PlayableCharacter": false,
+          "Background": "Ntt_0D0E25AA.CharacterInfo.Background",
+          "Motivation": "Ntt_0D0E25AA.CharacterInfo.Motivation",
+          "Appearance": "Ntt_0D0E25AA.CharacterInfo.Appearance",
+          "VoiceActor": "Peter"
+        }
+      }
+    },
+    {
+      "Type": "Character",
+      "Properties": {
+        "TechnicalName": "Ntt_55B1A627",
+        "Id": "0x01000000000001A8",
+        "Parent": "0x0100000000003421",
+        "Attachments": [],
+        "DisplayName": "Ntt_55B1A627.DisplayName",
+        "Color": {
+          "r": 1.0,
+          "g": 0.7529412,
+          "b": 0.0
+        },
+        "Text": "Ntt_55B1A627.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 40.0,
+          "y": 40.0
+        },
+        "ZIndex": 2.0,
+        "Size": {
+          "w": 256.0,
+          "h": 196.0
+        },
+        "PreviewImage": {
+          "ViewBox": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.0,
+            "h": 0.0
+          },
+          "Mode": "FromAsset",
+          "Asset": "0x0100000000000B25"
+        },
+        "ShortId": 1437705767
+      },
+      "Template": {
+        "CharacterInfo": {
+          "PlayableCharacter": true,
+          "Background": "Ntt_55B1A627.CharacterInfo.Background",
+          "Motivation": "Ntt_55B1A627.CharacterInfo.Motivation",
+          "Appearance": "Ntt_55B1A627.CharacterInfo.Appearance",
+          "VoiceActor": "Janine"
+        }
+      }
+    },
+    {
+      "Type": "Character",
+      "Properties": {
+        "TechnicalName": "Ntt_EB2BB718",
+        "Id": "0x0100000000000335",
+        "Parent": "0x0100000000003421",
+        "Attachments": [],
+        "DisplayName": "Ntt_EB2BB718.DisplayName",
+        "Color": {
+          "r": 0.21176471,
+          "g": 0.3764706,
+          "b": 0.57254905
+        },
+        "Text": "Ntt_EB2BB718.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 40.0,
+          "y": 40.0
+        },
+        "ZIndex": 2.0,
+        "Size": {
+          "w": 256.0,
+          "h": 196.0
+        },
+        "PreviewImage": {
+          "ViewBox": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.0,
+            "h": 0.0
+          },
+          "Mode": "FromAsset",
+          "Asset": "0x0100000000003451"
+        },
+        "ShortId": 3945510680
+      },
+      "Template": {
+        "CharacterInfo": {
+          "PlayableCharacter": false,
+          "Background": "Ntt_EB2BB718.CharacterInfo.Background",
+          "Motivation": "Ntt_EB2BB718.CharacterInfo.Motivation",
+          "Appearance": "Ntt_EB2BB718.CharacterInfo.Appearance",
+          "VoiceActor": ""
+        }
+      }
+    },
+    {
+      "Type": "Merchant",
+      "Properties": {
+        "TechnicalName": "Ntt_D4B565DB",
+        "Id": "0x01000000000039C4",
+        "Parent": "0x0100000000003421",
+        "Attachments": [],
+        "DisplayName": "Ntt_D4B565DB.DisplayName",
+        "Color": {
+          "r": 0.60784316,
+          "g": 0.73333335,
+          "b": 0.34901962
+        },
+        "Text": "Ntt_D4B565DB.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 80.0,
+          "y": 80.0
+        },
+        "ZIndex": 4.0,
+        "Size": {
+          "w": 256.0,
+          "h": 196.0
+        },
+        "PreviewImage": {
+          "ViewBox": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.0,
+            "h": 0.0
+          },
+          "Mode": "FromAsset",
+          "Asset": "0x0100000000003721"
+        },
+        "ShortId": 3568657883
+      },
+      "Template": {
+        "MerchantInfo": {
+          "Cash": 100.0,
+          "BuyStuff": true,
+          "Stock": [
+            "0x01000000000039C8"
+          ]
+        },
+        "CharacterInfo": {
+          "PlayableCharacter": false,
+          "Background": "",
+          "Motivation": "",
+          "Appearance": "",
+          "VoiceActor": ""
+        }
+      }
+    },
+    {
+      "Type": "Weapons",
+      "Properties": {
+        "TechnicalName": "Stake",
+        "Id": "0x0100000000000A02",
+        "Parent": "0x0100000000003423",
+        "Attachments": [],
+        "DisplayName": "Stake.DisplayName",
+        "Color": {
+          "r": 0.7529412,
+          "g": 0.3137255,
+          "b": 0.3019608
+        },
+        "Text": "Stake.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 216.0,
+          "y": 142.0
+        },
+        "ZIndex": 2.0,
+        "Size": {
+          "w": 256.0,
+          "h": 196.0
+        },
+        "PreviewImage": {
+          "ViewBox": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.0,
+            "h": 0.0
+          },
+          "Mode": "FromAsset",
+          "Asset": "0x0100000000000B2E"
+        },
+        "ShortId": 1886527662
+      },
+      "Template": {
+        "Weapon": {
+          "CombatModifier": 10.0,
+          "Uses": 3.0
+        },
+        "ItemBasics": {
+          "QuestItem": true,
+          "FlavorText": "Stake.ItemBasics.FlavorText",
+          "SalesValue": null
+        }
+      }
+    },
+    {
+      "Type": "Recipe",
+      "Properties": {
+        "TechnicalName": "ReflexPotion",
+        "Id": "0x01000000000027FB",
+        "Parent": "0x0100000000003423",
+        "Attachments": [],
+        "DisplayName": "ReflexPotion.DisplayName",
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "ReflexPotion.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 270.8571428571429,
+          "y": 89.7142857142857
+        },
+        "ZIndex": 1.0,
+        "Size": {
+          "w": 256.0,
+          "h": 196.0
+        },
+        "PreviewImage": {
+          "ViewBox": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.0,
+            "h": 0.0
+          },
+          "Mode": "FromAsset",
+          "Asset": "0x0100000000003431"
+        },
+        "ShortId": 1380065349
+      },
+      "Template": {
+        "Recipe": {
+          "Ingredient_01": "0x0100000000002825",
+          "Ingredient_02": "0x010000000000282D",
+          "Ingredient_03": "0x0100000000002831"
+        },
+        "ItemBasics": {
+          "QuestItem": false,
+          "FlavorText": "",
+          "SalesValue": null
+        }
+      }
+    },
+    {
+      "Type": "Ingredient",
+      "Properties": {
+        "TechnicalName": "Peppermint",
+        "Id": "0x010000000000282D",
+        "Parent": "0x0100000000003423",
+        "Attachments": [],
+        "DisplayName": "Peppermint.DisplayName",
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "Peppermint.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 588.5714285714286,
+          "y": 96.57142857142856
+        },
+        "ZIndex": 4.0,
+        "Size": {
+          "w": 256.0,
+          "h": 196.0
+        },
+        "PreviewImage": {
+          "ViewBox": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.0,
+            "h": 0.0
+          },
+          "Mode": "FromAsset",
+          "Asset": "0x010000000000342E"
+        },
+        "ShortId": 93457239
+      },
+      "Template": {
+        "Ingredient": {
+          "UsedRecipes": [
+            "0x01000000000027FB"
+          ]
+        },
+        "ItemBasics": {
+          "QuestItem": false,
+          "FlavorText": "",
+          "SalesValue": null
+        }
+      }
+    },
+    {
+      "Type": "Ingredient",
+      "Properties": {
+        "TechnicalName": "Milk",
+        "Id": "0x0100000000002829",
+        "Parent": "0x0100000000003423",
+        "Attachments": [],
+        "DisplayName": "Milk.DisplayName",
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "Milk.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 475.42857142857144,
+          "y": 118.85714285714285
+        },
+        "ZIndex": 3.0,
+        "Size": {
+          "w": 256.0,
+          "h": 196.0
+        },
+        "PreviewImage": {
+          "ViewBox": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.0,
+            "h": 0.0
+          },
+          "Mode": "FromAsset",
+          "Asset": "0x010000000000342B"
+        },
+        "ShortId": 914897585
+      },
+      "Template": {
+        "Ingredient": {
+          "UsedRecipes": []
+        },
+        "ItemBasics": {
+          "QuestItem": false,
+          "FlavorText": "",
+          "SalesValue": null
+        }
+      }
+    },
+    {
+      "Type": "Ingredient",
+      "Properties": {
+        "TechnicalName": "FirabolicusSparkles",
+        "Id": "0x0100000000002831",
+        "Parent": "0x0100000000003423",
+        "Attachments": [],
+        "DisplayName": "FirabolicusSparkles.DisplayName",
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "FirabolicusSparkles.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 694.2857142857143,
+          "y": 128.0
+        },
+        "ZIndex": 5.0,
+        "Size": {
+          "w": 256.0,
+          "h": 196.0
+        },
+        "PreviewImage": {
+          "ViewBox": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.0,
+            "h": 0.0
+          },
+          "Mode": "FromAsset",
+          "Asset": "0x0100000000003434"
+        },
+        "ShortId": 3181287841
+      },
+      "Template": {
+        "Ingredient": {
+          "UsedRecipes": [
+            "0x01000000000027FB"
+          ]
+        },
+        "ItemBasics": {
+          "QuestItem": false,
+          "FlavorText": "",
+          "SalesValue": null
+        }
+      }
+    },
+    {
+      "Type": "Ingredient",
+      "Properties": {
+        "TechnicalName": "Ntt_067CDBA3",
+        "Id": "0x01000000000039C8",
+        "Parent": "0x0100000000003423",
+        "Attachments": [],
+        "DisplayName": "Ntt_067CDBA3.DisplayName",
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "Ntt_067CDBA3.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 254.0,
+          "y": 159.0
+        },
+        "ZIndex": 6.0,
+        "Size": {
+          "w": 256.0,
+          "h": 196.0
+        },
+        "PreviewImage": {
+          "ViewBox": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.0,
+            "h": 0.0
+          },
+          "Mode": "FromAsset",
+          "Asset": "0x01000000000039CC"
+        },
+        "ShortId": 108845987
+      },
+      "Template": {
+        "Ingredient": {
+          "UsedRecipes": []
+        },
+        "ItemBasics": {
+          "QuestItem": false,
+          "FlavorText": "",
+          "SalesValue": null
+        }
+      }
+    },
+    {
+      "Type": "Ingredient",
+      "Properties": {
+        "TechnicalName": "Alcohol",
+        "Id": "0x0100000000002825",
+        "Parent": "0x0100000000003423",
+        "Attachments": [],
+        "DisplayName": "Alcohol.DisplayName",
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "Alcohol.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 482.8571428571429,
+          "y": 106.28571428571428
+        },
+        "ZIndex": 2.0,
+        "Size": {
+          "w": 256.0,
+          "h": 196.0
+        },
+        "PreviewImage": {
+          "ViewBox": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.0,
+            "h": 0.0
+          },
+          "Mode": "FromAsset",
+          "Asset": "0x0100000000003428"
+        },
+        "ShortId": 3437753190
+      },
+      "Template": {
+        "Ingredient": {
+          "UsedRecipes": [
+            "0x01000000000027FB"
+          ]
+        },
+        "ItemBasics": {
+          "QuestItem": false,
+          "FlavorText": "",
+          "SalesValue": null
+        }
+      }
+    },
+    {
+      "Type": "Ingredient",
+      "Properties": {
+        "TechnicalName": "SkimmedMilk",
+        "Id": "0x0100000000004232",
+        "Parent": "0x0100000000003423",
+        "Attachments": [],
+        "DisplayName": "SkimmedMilk.DisplayName",
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "SkimmedMilk.Text",
+        "ExternalId": "",
+        "Position": {
+          "x": 374.0,
+          "y": 70.0
+        },
+        "ZIndex": 3.0,
+        "Size": {
+          "w": 256.0,
+          "h": 196.0
+        },
+        "PreviewImage": {
+          "ViewBox": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.0,
+            "h": 0.0
+          },
+          "Mode": "FromAsset",
+          "Asset": "0x010000000000423B"
+        },
+        "ShortId": 2925251319
+      },
+      "Template": {
+        "Ingredient": {
+          "UsedRecipes": []
+        },
+        "ItemBasics": {
+          "QuestItem": false,
+          "FlavorText": "",
+          "SalesValue": null
+        }
+      }
+    },
+    {
+      "Type": "Location",
+      "Properties": {
+        "TechnicalName": "Loc_81B82EB1",
+        "Id": "0x01000000000013CB",
+        "Parent": "0x030000003140D3AC",
+        "Attachments": [],
+        "DisplayName": "Map",
+        "PreviewImage": {
+          "ViewBox": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.0,
+            "h": 0.0
+          },
+          "Mode": "FromAsset",
+          "Asset": "0x0000000000000000"
+        },
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "",
+        "ExternalId": "",
+        "Position": {
+          "x": 197.0,
+          "y": 186.0
+        },
+        "ZIndex": 0.0,
+        "Size": {
+          "w": 256.0,
+          "h": 196.0
+        },
+        "ShortId": 2176331441
+      }
+    },
+    {
+      "Type": "Zone",
+      "Properties": {
+        "TechnicalName": "Zon_30C2C828",
+        "Id": "0x01000000000013D4",
+        "Parent": "0x01000000000013CB",
+        "DisplayName": "Sanitorium",
+        "PreviewImage": {
+          "ViewBox": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.0,
+            "h": 0.0
+          },
+          "Mode": "FromAsset",
+          "Asset": "0x0000000000000000"
+        },
+        "Vertices": [
+          {
+            "x": 10.909092903137207,
+            "y": 104.2424087524414
+          },
+          {
+            "x": 107.87879180908203,
+            "y": 32.727272033691406
+          },
+          {
+            "x": 161.21212768554688,
+            "y": 43.63636016845703
+          },
+          {
+            "x": 169.6969757080078,
+            "y": 7.967217243276536E-06
+          },
+          {
+            "x": 191.51515197753906,
+            "y": 7.967217243276536E-06
+          },
+          {
+            "x": 197.5757598876953,
+            "y": 41.212135314941406
+          },
+          {
+            "x": 212.12120056152344,
+            "y": 53.33332061767578
+          },
+          {
+            "x": 208.48484802246094,
+            "y": 214.5454559326172
+          },
+          {
+            "x": 178.18182373046875,
+            "y": 232.72727966308594
+          },
+          {
+            "x": 143.03030395507812,
+            "y": 238.7878875732422
+          },
+          {
+            "x": 110.30303192138672,
+            "y": 256.9696960449219
+          },
+          {
+            "x": 84.8484878540039,
+            "y": 256.9696960449219
+          },
+          {
+            "x": 69.09091186523438,
+            "y": 260.6060485839844
+          },
+          {
+            "x": 58.181819915771484,
+            "y": 253.33335876464844
+          },
+          {
+            "x": 32.727272033691406,
+            "y": 265.4545593261719
+          },
+          {
+            "x": 1.2121244668960571,
+            "y": 248.48484802246094
+          },
+          {
+            "x": 3.636364698410034,
+            "y": 231.5151824951172
+          },
+          {
+            "x": -3.1766865049576154E-06,
+            "y": 204.84849548339844
+          },
+          {
+            "x": 15.757573127746582,
+            "y": 189.09092712402344
+          }
+        ],
+        "Transform": {
+          "Pivot": {
+            "x": 123.8287124633789,
+            "y": 157.64964294433594
+          },
+          "Rotation": 0.0,
+          "Translation": {
+            "x": 122.424417749256,
+            "y": 721.8928762788997
+          },
+          "Matrix": [
+            1.1675279,
+            0.0,
+            0.0,
+            0.0,
+            1.1739671,
+            0.0,
+            122.424416,
+            721.8929,
+            1.0
+          ]
+        },
+        "ShapeType": 5,
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "",
+        "ExternalId": "",
+        "ZIndex": 1.0,
+        "Size": {
+          "w": 256.0,
+          "h": 196.0
+        },
+        "ShortId": 818071592,
+        "Visibility": 1,
+        "OutlineColor": {
+          "a": 1.0,
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "OutlineSize": 1.0,
+        "OutlineStyle": 0,
+        "ShowDisplayName": true,
+        "DisplayNameColor": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0
+        },
+        "DisplayNameSize": 22,
+        "DropShadow": true,
+        "Selectability": 1
+      }
+    },
+    {
+      "Type": "Zone",
+      "Properties": {
+        "TechnicalName": "Zon_9E116C36",
+        "Id": "0x01000000000013EB",
+        "Parent": "0x01000000000013CB",
+        "DisplayName": "Harbor",
+        "PreviewImage": {
+          "ViewBox": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.0,
+            "h": 0.0
+          },
+          "Mode": "FromAsset",
+          "Asset": "0x0000000000000000"
+        },
+        "Vertices": [
+          {
+            "x": 18.18181610107422,
+            "y": 284.8484802246094
+          },
+          {
+            "x": 109.09091186523438,
+            "y": 367.2727355957031
+          },
+          {
+            "x": 301.81817626953125,
+            "y": 255.757568359375
+          },
+          {
+            "x": 355.1515197753906,
+            "y": 281.2121276855469
+          },
+          {
+            "x": 459.3626403808594,
+            "y": 300.1799621582031
+          },
+          {
+            "x": 519.3626708984375,
+            "y": 285.5132751464844
+          },
+          {
+            "x": 576.6959228515625,
+            "y": 254.84658813476562
+          },
+          {
+            "x": 587.3626708984375,
+            "y": 218.84658813476562
+          },
+          {
+            "x": 592.6959228515625,
+            "y": 170.84661865234375
+          },
+          {
+            "x": 584.6959228515625,
+            "y": 148.179931640625
+          },
+          {
+            "x": 574.029296875,
+            "y": 72.179931640625
+          },
+          {
+            "x": 520.6959228515625,
+            "y": 40.179931640625
+          },
+          {
+            "x": 513.9393920898438,
+            "y": 6.060605049133301
+          },
+          {
+            "x": 455.757568359375,
+            "y": 0.0
+          },
+          {
+            "x": 455.757568359375,
+            "y": 60.60606002807617
+          },
+          {
+            "x": 451.3626403808594,
+            "y": 80.179931640625
+          },
+          {
+            "x": 436.6959533691406,
+            "y": 78.84661865234375
+          },
+          {
+            "x": 426.6666564941406,
+            "y": 46.060604095458984
+          },
+          {
+            "x": 407.2727355957031,
+            "y": 43.6363639831543
+          },
+          {
+            "x": 408.48486328125,
+            "y": 75.1515121459961
+          },
+          {
+            "x": 384.242431640625,
+            "y": 72.7272720336914
+          },
+          {
+            "x": 370.9090881347656,
+            "y": 146.6666717529297
+          },
+          {
+            "x": 329.69696044921875,
+            "y": 121.21212005615234
+          },
+          {
+            "x": 309.0909118652344,
+            "y": 132.1212158203125
+          },
+          {
+            "x": 243.63636779785156,
+            "y": 90.90908813476562
+          },
+          {
+            "x": 0.0,
+            "y": 243.63636779785156
+          }
+        ],
+        "Transform": {
+          "Pivot": {
+            "x": 369.4783935546875,
+            "y": 214.67984008789062
+          },
+          "Rotation": 0.0,
+          "Translation": {
+            "x": 947.7350549766966,
+            "y": 667.9644222535949
+          },
+          "Matrix": [
+            1.2467722,
+            0.0,
+            0.0,
+            0.0,
+            1.1595781,
+            0.0,
+            947.73505,
+            667.9644,
+            1.0
+          ]
+        },
+        "ShapeType": 5,
+        "Color": {
+          "r": 0.96862745,
+          "g": 0.5882353,
+          "b": 0.27450982
+        },
+        "Text": "",
+        "ExternalId": "",
+        "ZIndex": 3.0,
+        "Size": {
+          "w": 256.0,
+          "h": 196.0
+        },
+        "ShortId": 2651941942,
+        "Visibility": 1,
+        "OutlineColor": {
+          "a": 1.0,
+          "r": 0.96862745,
+          "g": 0.5882353,
+          "b": 0.27450982
+        },
+        "OutlineSize": 1.0,
+        "OutlineStyle": 0,
+        "ShowDisplayName": true,
+        "DisplayNameColor": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0
+        },
+        "DisplayNameSize": 22,
+        "DropShadow": true,
+        "Selectability": 1
+      }
+    },
+    {
+      "Type": "Zone",
+      "Properties": {
+        "TechnicalName": "Zon_4A876607",
+        "Id": "0x0100000000001412",
+        "Parent": "0x01000000000013CB",
+        "DisplayName": "Graveyard",
+        "PreviewImage": {
+          "ViewBox": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.0,
+            "h": 0.0
+          },
+          "Mode": "FromAsset",
+          "Asset": "0x0000000000000000"
+        },
+        "Vertices": [
+          {
+            "x": 0.0,
+            "y": 104.72828674316406
+          },
+          {
+            "x": 188.00653076171875,
+            "y": 0.0
+          },
+          {
+            "x": 319.9846496582031,
+            "y": 69.41293334960938
+          },
+          {
+            "x": 332.3137512207031,
+            "y": 1.6557865142822266
+          },
+          {
+            "x": 362.6168518066406,
+            "y": 4.0800275802612305
+          },
+          {
+            "x": 367.29754638671875,
+            "y": 79.15509796142578
+          },
+          {
+            "x": 400.91461181640625,
+            "y": 87.67949676513672
+          },
+          {
+            "x": 414.6104736328125,
+            "y": 125.43038940429688
+          },
+          {
+            "x": 520.4419555664062,
+            "y": 186.3189239501953
+          },
+          {
+            "x": 457.1622619628906,
+            "y": 218.62548828125
+          },
+          {
+            "x": 420.7986145019531,
+            "y": 208.9285125732422
+          },
+          {
+            "x": 331.1903381347656,
+            "y": 273.9984130859375
+          },
+          {
+            "x": 239.05467224121094,
+            "y": 241.11862182617188
+          }
+        ],
+        "Transform": {
+          "Pivot": {
+            "x": 278.4336853027344,
+            "y": 149.8745880126953
+          },
+          "Rotation": 0.0,
+          "Translation": {
+            "x": 1166.007670296804,
+            "y": 148.72971040075188
+          },
+          "Matrix": [
+            1.0699894,
+            0.0,
+            0.0,
+            0.0,
+            1.0939814,
+            0.0,
+            1166.0077,
+            148.7297,
+            1.0
+          ]
+        },
+        "ShapeType": 5,
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "",
+        "ExternalId": "",
+        "ZIndex": 4.0,
+        "Size": {
+          "w": 256.0,
+          "h": 196.0
+        },
+        "ShortId": 1250387463,
+        "Visibility": 1,
+        "OutlineColor": {
+          "a": 1.0,
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "OutlineSize": 1.0,
+        "OutlineStyle": 0,
+        "ShowDisplayName": true,
+        "DisplayNameColor": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0
+        },
+        "DisplayNameSize": 22,
+        "DropShadow": true,
+        "Selectability": 1
+      }
+    },
+    {
+      "Type": "Zone",
+      "Properties": {
+        "TechnicalName": "Zon_9763CB24",
+        "Id": "0x0100000000001421",
+        "Parent": "0x01000000000013CB",
+        "DisplayName": "Dracula's Mansion",
+        "PreviewImage": {
+          "ViewBox": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.0,
+            "h": 0.0
+          },
+          "Mode": "FromAsset",
+          "Asset": "0x0000000000000000"
+        },
+        "Vertices": [
+          {
+            "x": -5.756725386163453E-06,
+            "y": 23.9999942779541
+          },
+          {
+            "x": 14.666666030883789,
+            "y": 11.999994277954102
+          },
+          {
+            "x": 42.666664123535156,
+            "y": 9.333337783813477
+          },
+          {
+            "x": 125.33332824707031,
+            "y": 34.666664123535156
+          },
+          {
+            "x": 148.0,
+            "y": 19.9999942779541
+          },
+          {
+            "x": 157.3333282470703,
+            "y": 19.9999942779541
+          },
+          {
+            "x": 174.6666717529297,
+            "y": -6.011038294673199E-06
+          },
+          {
+            "x": 200.0,
+            "y": 7.999993801116943
+          },
+          {
+            "x": 206.6666717529297,
+            "y": 92.0
+          },
+          {
+            "x": 217.3333282470703,
+            "y": 110.66666412353516
+          },
+          {
+            "x": 218.6666717529297,
+            "y": 162.6666717529297
+          },
+          {
+            "x": 146.6666717529297,
+            "y": 206.6666717529297
+          },
+          {
+            "x": 39.99999237060547,
+            "y": 141.3333282470703
+          },
+          {
+            "x": -5.756725386163453E-06,
+            "y": 153.3333282470703
+          }
+        ],
+        "Transform": {
+          "Pivot": {
+            "x": 126.7246322631836,
+            "y": 109.42028045654297
+          },
+          "Rotation": 0.0,
+          "Translation": {
+            "x": 30.46365006435608,
+            "y": 50.040827284110904
+          },
+          "Matrix": [
+            1.1590668,
+            0.0,
+            0.0,
+            0.0,
+            1.0420758,
+            0.0,
+            30.46365,
+            50.04083,
+            1.0
+          ]
+        },
+        "ShapeType": 5,
+        "Color": {
+          "r": 0.96862745,
+          "g": 0.5882353,
+          "b": 0.27450982
+        },
+        "Text": "",
+        "ExternalId": "",
+        "ZIndex": 5.0,
+        "Size": {
+          "w": 256.0,
+          "h": 196.0
+        },
+        "ShortId": 2539899684,
+        "Visibility": 1,
+        "OutlineColor": {
+          "a": 1.0,
+          "r": 0.96862745,
+          "g": 0.5882353,
+          "b": 0.27450982
+        },
+        "OutlineSize": 1.0,
+        "OutlineStyle": 0,
+        "ShowDisplayName": true,
+        "DisplayNameColor": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0
+        },
+        "DisplayNameSize": 22,
+        "DropShadow": true,
+        "Selectability": 1
+      }
+    },
+    {
+      "Type": "Zone",
+      "Properties": {
+        "TechnicalName": "Zon_89F5400E",
+        "Id": "0x0100000000004132",
+        "Parent": "0x01000000000013CB",
+        "DisplayName": "Mina's house",
+        "PreviewImage": {
+          "ViewBox": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.0,
+            "h": 0.0
+          },
+          "Mode": "FromAsset",
+          "Asset": "0x0000000000000000"
+        },
+        "Vertices": [
+          {
+            "x": 70.66668701171875,
+            "y": 0.0
+          },
+          {
+            "x": 188.0,
+            "y": 61.33331298828125
+          },
+          {
+            "x": 214.5211181640625,
+            "y": 102.6666488647461
+          },
+          {
+            "x": 223.1877899169922,
+            "y": 119.33332061767578
+          },
+          {
+            "x": 254.666748046875,
+            "y": 148.0
+          },
+          {
+            "x": 245.3333740234375,
+            "y": 157.33331298828125
+          },
+          {
+            "x": 246.666748046875,
+            "y": 210.6666259765625
+          },
+          {
+            "x": 146.66668701171875,
+            "y": 269.33331298828125
+          },
+          {
+            "x": 74.66668701171875,
+            "y": 230.6666259765625
+          },
+          {
+            "x": 54.66668701171875,
+            "y": 226.6666259765625
+          },
+          {
+            "x": 22.66668701171875,
+            "y": 212.0
+          },
+          {
+            "x": 24.0,
+            "y": 190.6666259765625
+          },
+          {
+            "x": 0.0,
+            "y": 177.33331298828125
+          },
+          {
+            "x": 0.0,
+            "y": 116.0
+          }
+        ],
+        "Transform": {
+          "Pivot": {
+            "x": 127.3333740234375,
+            "y": 134.66665649414062
+          },
+          "Rotation": 0.0,
+          "Translation": {
+            "x": 833.9168701171876,
+            "y": 433.21313476562506
+          },
+          "Matrix": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            833.9169,
+            433.21313,
+            1.0
+          ]
+        },
+        "ShapeType": 5,
+        "Color": {
+          "r": 0.96862745,
+          "g": 0.5882353,
+          "b": 0.27450982
+        },
+        "Text": "",
+        "ExternalId": "",
+        "ZIndex": 8.0,
+        "Size": {
+          "w": 256.0,
+          "h": 196.0
+        },
+        "ShortId": 2314551310,
+        "Visibility": 1,
+        "OutlineColor": {
+          "a": 1.0,
+          "r": 0.96862745,
+          "g": 0.5882353,
+          "b": 0.27450982
+        },
+        "OutlineSize": 1.0,
+        "OutlineStyle": 0,
+        "ShowDisplayName": true,
+        "DisplayNameColor": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0
+        },
+        "DisplayNameSize": 22,
+        "DropShadow": true,
+        "Selectability": 1
+      }
+    },
+    {
+      "Type": "Link",
+      "Properties": {
+        "TechnicalName": "Lnk_B204F08D",
+        "Id": "0x010000000000143C",
+        "Parent": "0x01000000000013CB",
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "",
+        "ExternalId": "",
+        "Position": {
+          "x": 914.2358366271408,
+          "y": 502.7667984189726
+        },
+        "ZIndex": 6.0,
+        "Size": {
+          "w": 256.0,
+          "h": 196.0
+        },
+        "Target": "0x0100000000004197",
+        "ShortId": 2986668173,
+        "Visibility": 1,
+        "ShowDisplayName": true,
+        "DisplayNameColor": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0
+        },
+        "DisplayNameSize": 11,
+        "Selectability": 1,
+        "DropShadow": true
+      }
+    },
+    {
+      "Type": "Link",
+      "Properties": {
+        "TechnicalName": "Lnk_9CBD399D",
+        "Id": "0x010000000000143F",
+        "Parent": "0x01000000000013CB",
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "",
+        "ExternalId": "",
+        "Position": {
+          "x": 1481.8866930171275,
+          "y": 792.997364953887
+        },
+        "ZIndex": 7.0,
+        "Size": {
+          "w": 256.0,
+          "h": 196.0
+        },
+        "Target": "0x01000000000036B3",
+        "ShortId": 2629646749,
+        "Visibility": 1,
+        "ShowDisplayName": true,
+        "DisplayNameColor": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0
+        },
+        "DisplayNameSize": 11,
+        "Selectability": 1,
+        "DropShadow": true
+      }
+    },
+    {
+      "Type": "Link",
+      "Properties": {
+        "TechnicalName": "Lnk_1F99CFAF",
+        "Id": "0x0100000000004145",
+        "Parent": "0x01000000000013CB",
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "",
+        "ExternalId": "",
+        "Position": {
+          "x": 218.43799099226996,
+          "y": 113.73510094329656
+        },
+        "ZIndex": 11.0,
+        "Size": {
+          "w": 256.0,
+          "h": 196.0
+        },
+        "Target": "0x0100000000002CC2",
+        "ShortId": 530173871,
+        "Visibility": 1,
+        "ShowDisplayName": true,
+        "DisplayNameColor": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0
+        },
+        "DisplayNameSize": 11,
+        "Selectability": 1,
+        "DropShadow": true
+      }
+    },
+    {
+      "Type": "Link",
+      "Properties": {
+        "TechnicalName": "Lnk_563A0623",
+        "Id": "0x0100000000004148",
+        "Parent": "0x01000000000013CB",
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "",
+        "ExternalId": "",
+        "Position": {
+          "x": 1490.4379909922702,
+          "y": 347.0684342766298
+        },
+        "ZIndex": 12.0,
+        "Size": {
+          "w": 256.0,
+          "h": 196.0
+        },
+        "Target": "0x0100000000000A02",
+        "ShortId": 1446643235,
+        "Visibility": 1,
+        "ShowDisplayName": true,
+        "DisplayNameColor": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "DisplayNameSize": 11,
+        "Selectability": 1,
+        "DropShadow": true
+      }
+    },
+    {
+      "Type": "Spot",
+      "Properties": {
+        "TechnicalName": "Spt_951922C0",
+        "Id": "0x01000000000013D0",
+        "Parent": "0x01000000000013CB",
+        "DisplayName": "Dr. Seward's Office",
+        "Color": {
+          "r": 0.12156863,
+          "g": 0.28627452,
+          "b": 0.49019608
+        },
+        "Text": "",
+        "ExternalId": "",
+        "Position": {
+          "x": 271.13192812628375,
+          "y": 851.6476842896053
+        },
+        "ZIndex": 2.0,
+        "Size": {
+          "w": 256.0,
+          "h": 196.0
+        },
+        "PreviewImage": {
+          "ViewBox": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.0,
+            "h": 0.0
+          },
+          "Mode": "FromAsset",
+          "Asset": "0x0000000000000000"
+        },
+        "ShortId": 2501452480,
+        "Visibility": 1,
+        "ShowDisplayName": true,
+        "DisplayNameColor": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "DisplayNameSize": 11,
+        "OutlineColor": {
+          "a": 1.0,
+          "r": 0.12156863,
+          "g": 0.28627452,
+          "b": 0.49019608
+        },
+        "OutlineSize": 1.0,
+        "OutlineStyle": 0,
+        "DropShadow": true,
+        "Selectability": 1
+      }
+    },
+    {
+      "Type": "Spot",
+      "Properties": {
+        "TechnicalName": "Spt_FC7053ED",
+        "Id": "0x0100000000004138",
+        "Parent": "0x01000000000013CB",
+        "DisplayName": "Lucy's Tomb",
+        "Color": {
+          "r": 0.12156863,
+          "g": 0.28627452,
+          "b": 0.49019608
+        },
+        "Text": "",
+        "ExternalId": "",
+        "Position": {
+          "x": 1352.4379909922695,
+          "y": 219.8797879608807
+        },
+        "ZIndex": 9.0,
+        "Size": {
+          "w": 256.0,
+          "h": 196.0
+        },
+        "PreviewImage": {
+          "ViewBox": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.0,
+            "h": 0.0
+          },
+          "Mode": "FromAsset",
+          "Asset": "0x0000000000000000"
+        },
+        "ShortId": 4235219949,
+        "Visibility": 1,
+        "ShowDisplayName": true,
+        "DisplayNameColor": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0
+        },
+        "DisplayNameSize": 11,
+        "OutlineColor": {
+          "a": 1.0,
+          "r": 0.12156863,
+          "g": 0.28627452,
+          "b": 0.49019608
+        },
+        "OutlineSize": 1.0,
+        "OutlineStyle": 0,
+        "DropShadow": true,
+        "Selectability": 1
+      }
+    },
+    {
+      "Type": "LocationImage",
+      "Properties": {
+        "TechnicalName": "LIm_3ECFACBB",
+        "Id": "0x0100000000003719",
+        "Parent": "0x01000000000013CB",
+        "DisplayName": "dracula_map",
+        "PreviewImage": {
+          "ViewBox": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.0,
+            "h": 0.0
+          },
+          "Mode": "FromAsset",
+          "Asset": "0x0100000000003709"
+        },
+        "Anchors": [],
+        "Vertices": [
+          {
+            "x": -2.972751644847449E-07,
+            "y": 5.8412211956238025E-08
+          },
+          {
+            "x": 1094.0,
+            "y": 5.8412211956238025E-08
+          },
+          {
+            "x": 1094.0,
+            "y": 668.0
+          },
+          {
+            "x": -2.972751644847449E-07,
+            "y": 668.0
+          }
+        ],
+        "Transform": {
+          "Pivot": {
+            "x": 926.1304321289062,
+            "y": 565.498291015625
+          },
+          "Rotation": 0.0,
+          "Translation": {
+            "x": 2.972751644847449E-07,
+            "y": 0.999999941587788
+          },
+          "Matrix": [
+            1.6931087,
+            0.0,
+            0.0,
+            0.0,
+            1.6931087,
+            0.0,
+            2.9727516E-07,
+            0.99999994,
+            1.0
+          ]
+        },
+        "ShapeType": 3,
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "",
+        "ExternalId": "",
+        "ZIndex": 0.0,
+        "Size": {
+          "w": 256.0,
+          "h": 196.0
+        },
+        "ShortId": 1053797563,
+        "Visibility": 1,
+        "OutlineColor": {
+          "a": 1.0,
+          "r": 0.8980392,
+          "g": 0.9490196,
+          "b": 0.95686275
+        },
+        "OutlineSize": 0.0,
+        "OutlineStyle": 0,
+        "Selectability": 0,
+        "DropShadow": true,
+        "ClipRect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 1.0,
+          "h": 1.0
+        },
+        "ImageOpacity": 1.0,
+        "ImageAsset": "0x0100000000003709",
+        "CachedImageWidth": 1094,
+        "CachedImageHeight": 668,
+        "ShowDisplayName": false,
+        "DisplayNameColor": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "DisplayNameSize": 11
+      }
+    },
+    {
+      "Type": "LocationText",
+      "Properties": {
+        "TechnicalName": "LTx_A9C4EDD9",
+        "Id": "0x0100000000004140",
+        "Parent": "0x01000000000013CB",
+        "DisplayName": "Final confrontation concludes chapt...",
+        "PreviewImage": {
+          "ViewBox": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.0,
+            "h": 0.0
+          },
+          "Mode": "FromAsset",
+          "Asset": "0x0000000000000000"
+        },
+        "Anchors": [
+          {
+            "AnchorPositionX": 1537.1046576589367,
+            "AnchorPositionY": 805.7351009432965,
+            "AnchorColor": {
+              "a": 1.0,
+              "r": 0.69411767,
+              "g": 0.8117647,
+              "b": 0.8117647
+            },
+            "AnchorSize": "Medium"
+          }
+        ],
+        "Vertices": [
+          {
+            "x": -2.711019988055341E-06,
+            "y": 6.478578598034801E-06
+          },
+          {
+            "x": 272.9700012207031,
+            "y": 6.478578598034801E-06
+          },
+          {
+            "x": 272.9700012207031,
+            "y": 107.7300033569336
+          },
+          {
+            "x": -2.711019988055341E-06,
+            "y": 107.7300033569336
+          }
+        ],
+        "Transform": {
+          "Pivot": {
+            "x": 136.48500061035156,
+            "y": 53.86499786376953
+          },
+          "Rotation": 0.0,
+          "Translation": {
+            "x": 1878.43799099227,
+            "y": 665.7351009432965
+          },
+          "Matrix": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            1878.438,
+            665.7351,
+            1.0
+          ]
+        },
+        "ShapeType": 3,
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "Final confrontation concludes chapter 1.",
+        "ExternalId": "",
+        "ZIndex": 10.0,
+        "Size": {
+          "w": 256.0,
+          "h": 196.0
+        },
+        "ShortId": 2848255449,
+        "Visibility": 1,
+        "OutlineColor": {
+          "a": 1.0,
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "OutlineSize": 0.0,
+        "OutlineStyle": 0,
+        "Selectability": 1,
+        "ForcedWidth": 273.333254664145,
+        "ForcedHeight": 108.00000115081592,
+        "DropShadow": true
+      }
+    },
+    {
+      "Type": "Asset",
+      "AssetRef": "Assets/Images/Stake.png",
+      "Category": "Image",
+      "Properties": {
+        "TechnicalName": "Ast_08C1D4A0",
+        "Id": "0x0100000000000B2E",
+        "Parent": "0x0100000000000105",
+        "DisplayName": "Stake",
+        "Filename": "Stake(0A2E).png",
+        "OriginalSource": "file:///D:/Articy/Assets/Basics/Stake.png",
+        "PreviewImage": {
+          "ViewBox": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.0,
+            "h": 0.0
+          }
+        },
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "",
+        "ExternalId": "",
+        "Position": {
+          "x": 80.0,
+          "y": 80.0
+        },
+        "ZIndex": 4.0,
+        "Size": {
+          "w": 256.0,
+          "h": 196.0
+        },
+        "ShortId": 146920608
+      }
+    },
+    {
+      "Type": "Asset",
+      "AssetRef": "Assets/Images/Mina.png",
+      "Category": "Image",
+      "Properties": {
+        "TechnicalName": "Ast_89DFCAF2",
+        "Id": "0x0100000000000B25",
+        "Parent": "0x0100000000000105",
+        "DisplayName": "Mina",
+        "Filename": "Mina_final(0A25).png",
+        "OriginalSource": "file:///D:/Articy/Assets/Basics/Mina_final.png",
+        "PreviewImage": {
+          "ViewBox": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.0,
+            "h": 0.0
+          }
+        },
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "",
+        "ExternalId": "",
+        "Position": {
+          "x": 20.0,
+          "y": 20.0
+        },
+        "ZIndex": 1.0,
+        "Size": {
+          "w": 256.0,
+          "h": 196.0
+        },
+        "ShortId": 2313145074
+      }
+    },
+    {
+      "Type": "Asset",
+      "AssetRef": "Assets/Images/Dracula.png",
+      "Category": "Image",
+      "Properties": {
+        "TechnicalName": "Ast_7D98E07D",
+        "Id": "0x0100000000000B22",
+        "Parent": "0x0100000000000105",
+        "DisplayName": "Dracula",
+        "Filename": "Dracula(0A22).png",
+        "OriginalSource": "file:///D:/Articy/Assets/Basics/Dracula.png",
+        "PreviewImage": {
+          "ViewBox": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.0,
+            "h": 0.0
+          }
+        },
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "",
+        "ExternalId": "",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "ZIndex": 0.0,
+        "Size": {
+          "w": 256.0,
+          "h": 196.0
+        },
+        "ShortId": 2107170941
+      }
+    },
+    {
+      "Type": "Asset",
+      "AssetRef": "Assets/Images/PreviewImage_ReflexPotion.png",
+      "Category": "Image",
+      "Properties": {
+        "TechnicalName": "Ast_8404CE2F",
+        "Id": "0x0100000000003431",
+        "Parent": "0x0100000000000105",
+        "DisplayName": "PreviewImage_ReflexPotion",
+        "Filename": "90fcb773-8939-4eff-8fd9-e63b5d6d2e00(3531).png",
+        "OriginalSource": "file:///C:/Users/karsten.feyerabend/AppData/Local/Temp/90fcb773-8939-4eff-8fd9-e63b5d6d2e00.png",
+        "PreviewImage": {
+          "ViewBox": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.0,
+            "h": 0.0
+          }
+        },
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "",
+        "ExternalId": "",
+        "Position": {
+          "x": 160.0,
+          "y": 160.0
+        },
+        "ZIndex": 8.0,
+        "Size": {
+          "w": 256.0,
+          "h": 196.0
+        },
+        "ShortId": 2214907439
+      }
+    },
+    {
+      "Type": "Asset",
+      "AssetRef": "Assets/Images/PreviewImage_Peppermint.png",
+      "Category": "Image",
+      "Properties": {
+        "TechnicalName": "Ast_91D8F063",
+        "Id": "0x010000000000342E",
+        "Parent": "0x0100000000000105",
+        "DisplayName": "PreviewImage_Peppermint",
+        "Filename": "c9b5d70d-b11d-49dc-aeff-46f8030c28b1(352E).png",
+        "OriginalSource": "file:///C:/Users/karsten.feyerabend/AppData/Local/Temp/c9b5d70d-b11d-49dc-aeff-46f8030c28b1.png",
+        "PreviewImage": {
+          "ViewBox": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.0,
+            "h": 0.0
+          }
+        },
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "",
+        "ExternalId": "",
+        "Position": {
+          "x": 140.0,
+          "y": 140.0
+        },
+        "ZIndex": 7.0,
+        "Size": {
+          "w": 256.0,
+          "h": 196.0
+        },
+        "ShortId": 2446913635
+      }
+    },
+    {
+      "Type": "Asset",
+      "AssetRef": "Assets/Images/PreviewImage_Milk.png",
+      "Category": "Image",
+      "Properties": {
+        "TechnicalName": "Ast_D39B6E5B",
+        "Id": "0x010000000000342B",
+        "Parent": "0x0100000000000105",
+        "DisplayName": "PreviewImage_Milk",
+        "Filename": "18db4476-06ac-4425-b4f8-5e780362e939(352B).png",
+        "OriginalSource": "file:///C:/Users/karsten.feyerabend/AppData/Local/Temp/18db4476-06ac-4425-b4f8-5e780362e939.png",
+        "PreviewImage": {
+          "ViewBox": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.0,
+            "h": 0.0
+          }
+        },
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "",
+        "ExternalId": "",
+        "Position": {
+          "x": 120.0,
+          "y": 120.0
+        },
+        "ZIndex": 6.0,
+        "Size": {
+          "w": 256.0,
+          "h": 196.0
+        },
+        "ShortId": 3550178907
+      }
+    },
+    {
+      "Type": "Asset",
+      "AssetRef": "Assets/Images/PreviewImage_FirabolicusSparkles.png",
+      "Category": "Image",
+      "Properties": {
+        "TechnicalName": "Ast_BF14098D",
+        "Id": "0x0100000000003434",
+        "Parent": "0x0100000000000105",
+        "DisplayName": "PreviewImage_FirabolicusSparkles",
+        "Filename": "a1939199-1c52-4ed0-b121-c6a331946afb(3534).png",
+        "OriginalSource": "file:///C:/Users/karsten.feyerabend/AppData/Local/Temp/a1939199-1c52-4ed0-b121-c6a331946afb.png",
+        "PreviewImage": {
+          "ViewBox": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.0,
+            "h": 0.0
+          }
+        },
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "",
+        "ExternalId": "",
+        "Position": {
+          "x": 180.0,
+          "y": 180.0
+        },
+        "ZIndex": 9.0,
+        "Size": {
+          "w": 256.0,
+          "h": 196.0
+        },
+        "ShortId": 3205761421
+      }
+    },
+    {
+      "Type": "Asset",
+      "AssetRef": "Assets/Images/PreviewImage_Alcohol.png",
+      "Category": "Image",
+      "Properties": {
+        "TechnicalName": "Ast_C2E65B4B",
+        "Id": "0x0100000000003428",
+        "Parent": "0x0100000000000105",
+        "DisplayName": "PreviewImage_Alcohol",
+        "Filename": "7719cc5b-fe14-49b8-993c-229ea0cf2af9(3528).png",
+        "OriginalSource": "file:///C:/Users/karsten.feyerabend/AppData/Local/Temp/7719cc5b-fe14-49b8-993c-229ea0cf2af9.png",
+        "PreviewImage": {
+          "ViewBox": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.0,
+            "h": 0.0
+          }
+        },
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "",
+        "ExternalId": "",
+        "Position": {
+          "x": 100.0,
+          "y": 100.0
+        },
+        "ZIndex": 5.0,
+        "Size": {
+          "w": 256.0,
+          "h": 196.0
+        },
+        "ShortId": 3269876555
+      }
+    },
+    {
+      "Type": "Asset",
+      "AssetRef": "Assets/Images/VanHelsing.png",
+      "Category": "Image",
+      "Properties": {
+        "TechnicalName": "Ast_11B477DF",
+        "Id": "0x0100000000003451",
+        "Parent": "0x0100000000000105",
+        "DisplayName": "VanHelsing",
+        "Filename": "VanHelsing(3551).png",
+        "OriginalSource": "file:///D:/Articy/Assets/Basics/VanHelsing.png",
+        "PreviewImage": {
+          "ViewBox": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.0,
+            "h": 0.0
+          }
+        },
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "",
+        "ExternalId": "",
+        "Position": {
+          "x": 200.0,
+          "y": 200.0
+        },
+        "ZIndex": 10.0,
+        "Size": {
+          "w": 256.0,
+          "h": 196.0
+        },
+        "ShortId": 297039839
+      }
+    },
+    {
+      "Type": "Asset",
+      "AssetRef": "Assets/Images/PreviewImage_Harbor.png",
+      "Category": "Image",
+      "Properties": {
+        "TechnicalName": "Ast_ED8DDDF0",
+        "Id": "0x0100000000003640",
+        "Parent": "0x0100000000000105",
+        "DisplayName": "PreviewImage_Harbor",
+        "Filename": "25f70df5-c5b7-4415-93dd-6623e3928c4a(3740).png",
+        "OriginalSource": "file:///C:/Users/karsten.feyerabend/AppData/Local/Temp/25f70df5-c5b7-4415-93dd-6623e3928c4a.png",
+        "PreviewImage": {
+          "ViewBox": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.0,
+            "h": 0.0
+          }
+        },
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "",
+        "ExternalId": "",
+        "Position": {
+          "x": 100.0,
+          "y": 100.0
+        },
+        "ZIndex": 5.0,
+        "Size": {
+          "w": 256.0,
+          "h": 196.0
+        },
+        "ShortId": 3985497584
+      }
+    },
+    {
+      "Type": "Asset",
+      "AssetRef": "Assets/Images/dracula_map.png",
+      "Category": "Image",
+      "Properties": {
+        "TechnicalName": "Ast_97978EAA",
+        "Id": "0x0100000000003709",
+        "Parent": "0x0100000000000105",
+        "DisplayName": "dracula_map",
+        "Filename": "dracula_map(3609).png",
+        "OriginalSource": "file:///D:/Articy/Assets/Basics/dracula_map.png",
+        "PreviewImage": {
+          "ViewBox": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.0,
+            "h": 0.0
+          }
+        },
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "",
+        "ExternalId": "",
+        "Position": {
+          "x": 220.0,
+          "y": 220.0
+        },
+        "ZIndex": 11.0,
+        "Size": {
+          "w": 256.0,
+          "h": 196.0
+        },
+        "ShortId": 2543292074
+      }
+    },
+    {
+      "Type": "Asset",
+      "AssetRef": "Assets/Images/Hamster.png",
+      "Category": "Image",
+      "Properties": {
+        "TechnicalName": "Ast_1D2996B5",
+        "Id": "0x010000000000371E",
+        "Parent": "0x0100000000000105",
+        "DisplayName": "Hamster",
+        "Filename": "Hamster(361E).png",
+        "OriginalSource": "file:///D:/Articy/Assets/Basics/Hamster.png",
+        "PreviewImage": {
+          "ViewBox": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.0,
+            "h": 0.0
+          }
+        },
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "",
+        "ExternalId": "",
+        "Position": {
+          "x": 220.0,
+          "y": 220.0
+        },
+        "ZIndex": 11.0,
+        "Size": {
+          "w": 256.0,
+          "h": 196.0
+        },
+        "ShortId": 489264821
+      }
+    },
+    {
+      "Type": "Asset",
+      "AssetRef": "Assets/Images/AppleGirl.png",
+      "Category": "Image",
+      "Properties": {
+        "TechnicalName": "Ast_E1F5C965",
+        "Id": "0x0100000000003721",
+        "Parent": "0x0100000000000105",
+        "DisplayName": "AppleGirl",
+        "Filename": "AppleGirl(3621).png",
+        "OriginalSource": "file:///D:/Articy/Assets/Basics/AppleGirl.png",
+        "PreviewImage": {
+          "ViewBox": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.0,
+            "h": 0.0
+          }
+        },
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "",
+        "ExternalId": "",
+        "Position": {
+          "x": 240.0,
+          "y": 240.0
+        },
+        "ZIndex": 12.0,
+        "Size": {
+          "w": 256.0,
+          "h": 196.0
+        },
+        "ShortId": 3790981477
+      }
+    },
+    {
+      "Type": "Asset",
+      "AssetRef": "Assets/Images/PreviewImage_Ntt_067CDBA3.png",
+      "Category": "Image",
+      "Properties": {
+        "TechnicalName": "Ast_D5086481",
+        "Id": "0x01000000000039CC",
+        "Parent": "0x0100000000000105",
+        "DisplayName": "PreviewImage_Ntt_067CDBA3",
+        "Filename": "a2d29ad1-0b37-425d-81fc-56213138d28e(38CC).png",
+        "OriginalSource": "file:///C:/Users/karsten.feyerabend/AppData/Local/Temp/a2d29ad1-0b37-425d-81fc-56213138d28e.png",
+        "PreviewImage": {
+          "ViewBox": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.0,
+            "h": 0.0
+          }
+        },
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "",
+        "ExternalId": "",
+        "Position": {
+          "x": 100.0,
+          "y": 100.0
+        },
+        "ZIndex": 5.0,
+        "Size": {
+          "w": 256.0,
+          "h": 196.0
+        },
+        "ShortId": 3574097025
+      }
+    },
+    {
+      "Type": "Asset",
+      "AssetRef": "Assets/Images/SkimmedMilk.png",
+      "Category": "Image",
+      "Properties": {
+        "TechnicalName": "Ast_415F11F0",
+        "Id": "0x010000000000423B",
+        "Parent": "0x0100000000000105",
+        "DisplayName": "SkimmedMilk",
+        "Filename": "SkimmedMilk(433B).png",
+        "OriginalSource": "file:///D:/Articy/Assets/Basics/SkimmedMilk.png",
+        "PreviewImage": {
+          "ViewBox": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.0,
+            "h": 0.0
+          }
+        },
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "",
+        "ExternalId": "",
+        "Position": {
+          "x": 280.0,
+          "y": 280.0
+        },
+        "ZIndex": 14.0,
+        "Size": {
+          "w": 256.0,
+          "h": 196.0
+        },
+        "ShortId": 1096749552
+      }
+    },
+    {
+      "Type": "Asset",
+      "AssetRef": "Assets/VO/Dracula_Dracula_DE_01.wav",
+      "Category": "Audio",
+      "Properties": {
+        "TechnicalName": "Ast_6FCF9441",
+        "Id": "0x01000000000040FF",
+        "Parent": "0x0100000000004239",
+        "DisplayName": "Dracula_Dracula_DE_01",
+        "Filename": "Dracula_Dracula_DE_01(41FF).wav",
+        "OriginalSource": "file:///D:/_Video Projects/adx/Tutorials/Basics series/source/VO/Project_VO_Mockup/Dracula_Dracula_DE_01.wav",
+        "PreviewImage": {
+          "ViewBox": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.0,
+            "h": 0.0
+          }
+        },
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "",
+        "ExternalId": "",
+        "Position": {
+          "x": 120.0,
+          "y": 120.0
+        },
+        "ZIndex": 6.0,
+        "Size": {
+          "w": 256.0,
+          "h": 196.0
+        },
+        "ShortId": 1875874881
+      }
+    },
+    {
+      "Type": "Asset",
+      "AssetRef": "Assets/VO/Dracula_Dracula_DE_02.wav",
+      "Category": "Audio",
+      "Properties": {
+        "TechnicalName": "Ast_35AE0909",
+        "Id": "0x0100000000004102",
+        "Parent": "0x0100000000004239",
+        "DisplayName": "Dracula_Dracula_DE_02",
+        "Filename": "Dracula_Dracula_DE_02(4002).wav",
+        "OriginalSource": "file:///D:/_Video Projects/adx/Tutorials/Basics series/source/VO/Project_VO_Mockup/Dracula_Dracula_DE_02.wav",
+        "PreviewImage": {
+          "ViewBox": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.0,
+            "h": 0.0
+          }
+        },
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "",
+        "ExternalId": "",
+        "Position": {
+          "x": 140.0,
+          "y": 140.0
+        },
+        "ZIndex": 7.0,
+        "Size": {
+          "w": 256.0,
+          "h": 196.0
+        },
+        "ShortId": 900598025
+      }
+    },
+    {
+      "Type": "Asset",
+      "AssetRef": "Assets/VO/Dracula_Dracula_DE_03.wav",
+      "Category": "Audio",
+      "Properties": {
+        "TechnicalName": "Ast_117034D7",
+        "Id": "0x0100000000004108",
+        "Parent": "0x0100000000004239",
+        "DisplayName": "Dracula_Dracula_DE_03",
+        "Filename": "Dracula_Dracula_DE_03(4008).wav",
+        "OriginalSource": "file:///D:/_Video Projects/adx/Tutorials/Basics series/source/VO/Project_VO_Mockup/Dracula_Dracula_DE_03.wav",
+        "PreviewImage": {
+          "ViewBox": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.0,
+            "h": 0.0
+          }
+        },
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "",
+        "ExternalId": "",
+        "Position": {
+          "x": 180.0,
+          "y": 180.0
+        },
+        "ZIndex": 9.0,
+        "Size": {
+          "w": 256.0,
+          "h": 196.0
+        },
+        "ShortId": 292566231
+      }
+    },
+    {
+      "Type": "Asset",
+      "AssetRef": "Assets/VO/Dracula_Dracula_DE_04.wav",
+      "Category": "Audio",
+      "Properties": {
+        "TechnicalName": "Ast_812AE4C1",
+        "Id": "0x0100000000004114",
+        "Parent": "0x0100000000004239",
+        "DisplayName": "Dracula_Dracula_DE_04",
+        "Filename": "Dracula_Dracula_DE_04(4014).wav",
+        "OriginalSource": "file:///D:/_Video Projects/adx/Tutorials/Basics series/source/VO/Project_VO_Mockup/Dracula_Dracula_DE_04.wav",
+        "PreviewImage": {
+          "ViewBox": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.0,
+            "h": 0.0
+          }
+        },
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "",
+        "ExternalId": "",
+        "Position": {
+          "x": 260.0,
+          "y": 260.0
+        },
+        "ZIndex": 13.0,
+        "Size": {
+          "w": 256.0,
+          "h": 196.0
+        },
+        "ShortId": 2167071937
+      }
+    },
+    {
+      "Type": "Asset",
+      "AssetRef": "Assets/VO/Dracula_Mina_DE_01.wav",
+      "Category": "Audio",
+      "Properties": {
+        "TechnicalName": "Ast_5BA4A32F",
+        "Id": "0x0100000000004105",
+        "Parent": "0x0100000000004239",
+        "DisplayName": "Dracula_Mina_DE_01",
+        "Filename": "Dracula_Mina_DE_01(4005).wav",
+        "OriginalSource": "file:///D:/_Video Projects/adx/Tutorials/Basics series/source/VO/Project_VO_Mockup/Dracula_Mina_DE_01.wav",
+        "PreviewImage": {
+          "ViewBox": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.0,
+            "h": 0.0
+          }
+        },
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "",
+        "ExternalId": "",
+        "Position": {
+          "x": 160.0,
+          "y": 160.0
+        },
+        "ZIndex": 8.0,
+        "Size": {
+          "w": 256.0,
+          "h": 196.0
+        },
+        "ShortId": 1537516335
+      }
+    },
+    {
+      "Type": "Asset",
+      "AssetRef": "Assets/VO/Dracula_Mina_DE_02.wav",
+      "Category": "Audio",
+      "Properties": {
+        "TechnicalName": "Ast_2C4EBCBD",
+        "Id": "0x010000000000410E",
+        "Parent": "0x0100000000004239",
+        "DisplayName": "Dracula_Mina_DE_02",
+        "Filename": "Dracula_Mina_DE_02(400E).wav",
+        "OriginalSource": "file:///D:/_Video Projects/adx/Tutorials/Basics series/source/VO/Project_VO_Mockup/Dracula_Mina_DE_02.wav",
+        "PreviewImage": {
+          "ViewBox": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.0,
+            "h": 0.0
+          }
+        },
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "",
+        "ExternalId": "",
+        "Position": {
+          "x": 220.0,
+          "y": 220.0
+        },
+        "ZIndex": 11.0,
+        "Size": {
+          "w": 256.0,
+          "h": 196.0
+        },
+        "ShortId": 743357629
+      }
+    },
+    {
+      "Type": "Asset",
+      "AssetRef": "Assets/VO/Dracula_Mina_DE_03.wav",
+      "Category": "Audio",
+      "Properties": {
+        "TechnicalName": "Ast_D7593D23",
+        "Id": "0x010000000000410B",
+        "Parent": "0x0100000000004239",
+        "DisplayName": "Dracula_Mina_DE_03",
+        "Filename": "Dracula_Mina_DE_03(400B).wav",
+        "OriginalSource": "file:///D:/_Video Projects/adx/Tutorials/Basics series/source/VO/Project_VO_Mockup/Dracula_Mina_DE_03.wav",
+        "PreviewImage": {
+          "ViewBox": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.0,
+            "h": 0.0
+          }
+        },
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "",
+        "ExternalId": "",
+        "Position": {
+          "x": 200.0,
+          "y": 200.0
+        },
+        "ZIndex": 10.0,
+        "Size": {
+          "w": 256.0,
+          "h": 196.0
+        },
+        "ShortId": 3612949795
+      }
+    },
+    {
+      "Type": "Asset",
+      "AssetRef": "Assets/VO/Dracula_Mina_DE_04.wav",
+      "Category": "Audio",
+      "Properties": {
+        "TechnicalName": "Ast_E678CDF8",
+        "Id": "0x0100000000004111",
+        "Parent": "0x0100000000004239",
+        "DisplayName": "Dracula_Mina_DE_04",
+        "Filename": "Dracula_Mina_DE_04(4011).wav",
+        "OriginalSource": "file:///D:/_Video Projects/adx/Tutorials/Basics series/source/VO/Project_VO_Mockup/Dracula_Mina_DE_04.wav",
+        "PreviewImage": {
+          "ViewBox": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.0,
+            "h": 0.0
+          }
+        },
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "",
+        "ExternalId": "",
+        "Position": {
+          "x": 240.0,
+          "y": 240.0
+        },
+        "ZIndex": 12.0,
+        "Size": {
+          "w": 256.0,
+          "h": 196.0
+        },
+        "ShortId": 3866676728
+      }
+    },
+    {
+      "Type": "Asset",
+      "AssetRef": "Assets/VO/Dracula_Mina_DE_17.mp3",
+      "Category": "Audio",
+      "Properties": {
+        "TechnicalName": "Ast_A2E31DEF",
+        "Id": "0x010000000000411F",
+        "Parent": "0x0100000000004239",
+        "DisplayName": "Dracula_Mina_DE_17",
+        "Filename": "Dracula_Mina_DE_17(401F).mp3",
+        "OriginalSource": "file:///D:/_Video Projects/adx/Tutorials/Basics series/source/VO/Project_VO_Mockup/Dracula_Mina_DE_17.mp3",
+        "PreviewImage": {
+          "ViewBox": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.0,
+            "h": 0.0
+          }
+        },
+        "Color": {
+          "r": 0.78431374,
+          "g": 0.8862745,
+          "b": 0.90588236
+        },
+        "Text": "",
+        "ExternalId": "",
+        "Position": {
+          "x": 280.0,
+          "y": 280.0
+        },
+        "ZIndex": 14.0,
+        "Size": {
+          "w": 256.0,
+          "h": 196.0
+        },
+        "ShortId": 2732793327
+      }
+    },
+    {
+      "Type": "UserFolder",
+      "Properties": {
+        "TechnicalName": "Ufo_27884659",
+        "Id": "0x0100000000000105",
+        "Parent": "0x030000004C3DAF54",
+        "DisplayName": "Images",
+        "ExternalId": "",
+        "ShortId": 663242329
+      }
+    },
+    {
+      "Type": "UserFolder",
+      "Properties": {
+        "TechnicalName": "Ufo_57B38932",
+        "Id": "0x0100000000000107",
+        "Parent": "0x030000004C3DAF54",
+        "DisplayName": "Videos",
+        "ExternalId": "",
+        "ShortId": 1471383858
+      }
+    },
+    {
+      "Type": "UserFolder",
+      "Properties": {
+        "TechnicalName": "Ufo_0A335756",
+        "Id": "0x0100000000000109",
+        "Parent": "0x030000004C3DAF54",
+        "DisplayName": "Audio",
+        "ExternalId": "",
+        "ShortId": 171136854
+      }
+    },
+    {
+      "Type": "UserFolder",
+      "Properties": {
+        "TechnicalName": "Ufo_2D5E8E00",
+        "Id": "0x010000000000010B",
+        "Parent": "0x030000004C3DAF54",
+        "DisplayName": "Documents",
+        "ExternalId": "",
+        "ShortId": 761171456
+      }
+    },
+    {
+      "Type": "UserFolder",
+      "Properties": {
+        "TechnicalName": "Ufo_E64A34DF",
+        "Id": "0x010000000000010D",
+        "Parent": "0x030000004C3DAF54",
+        "DisplayName": "Miscellaneous",
+        "ExternalId": "",
+        "ShortId": 3863622879
+      }
+    },
+    {
+      "Type": "UserFolder",
+      "Properties": {
+        "TechnicalName": "Ufo_6865705E",
+        "Id": "0x0100000000004239",
+        "Parent": "0x030000004C3DAF54",
+        "DisplayName": "VO",
+        "ExternalId": "",
+        "ShortId": 1751478366
+      }
+    },
+    {
+      "Type": "UserFolder",
+      "Properties": {
+        "TechnicalName": "Ufo_FAFAA312",
+        "Id": "0x0100000000003421",
+        "Parent": "0x03000000AC61A2B3",
+        "DisplayName": "Characters",
+        "ExternalId": "",
+        "ShortId": 4210729746
+      }
+    },
+    {
+      "Type": "UserFolder",
+      "Properties": {
+        "TechnicalName": "Ufo_BD5F72D4",
+        "Id": "0x0100000000003423",
+        "Parent": "0x03000000AC61A2B3",
+        "DisplayName": "Items",
+        "ExternalId": "",
+        "ShortId": 3177149140
+      }
+    }
+  ]
+}

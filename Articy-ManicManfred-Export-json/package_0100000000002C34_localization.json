@@ -1,0 +1,3136 @@
+{
+  "FFr_Cell.DisplayName": {
+    "en": {
+      "Text": "Cell"
+    },
+    "de": {
+      "Text": "Zelle"
+    },
+    "Context": "Flow/Cell"
+  },
+  "FFr_Cell.Text": {
+    "en": {
+      "Text": "Manfred wakes up in a padded cell without any memory how he got there. With him is Dr. Artie Cee, who is absolutely convinced that Manfred is insane and needs professional help. But will Manfred cooperate?"
+    },
+    "de": {
+      "Text": "Manfred wacht in einer Gummizelle auf und weiß nicht mehr, wie er dorthin gekommen ist. Bei ihm ist Dr. Artie Cee, der fest davon überzeugt ist, dass Manfred geisteskrank ist und professionelle Hilfe braucht. Aber wird Manfred kooperieren?"
+    },
+    "Context": "Flow/Cell"
+  },
+  "FFr_Corridor.DisplayName": {
+    "en": {
+      "Text": "Corridor"
+    },
+    "de": {
+      "Text": "Korridor"
+    },
+    "Context": "Flow/Corridor"
+  },
+  "FFr_Corridor.Text": {
+    "en": {
+      "Text": "Manfred managed to escape his cell, but he's still inside the mental home. In the corridor he has to choose whether he wants to take the direct route through the lobby or if he wants to try his luck in the cellar."
+    },
+    "de": {
+      "Text": "Manfred hat es geschafft, aus seiner Zelle zu entkommen, aber er ist immer noch in der Nervenheilanstalt. Im Korridor muss er sich entscheiden, ob er den direkten Weg durch die Eingangshalle nehmen oder sein Glück im Keller versuchen will."
+    },
+    "Context": "Flow/Corridor"
+  },
+  "FFr_Cellar.DisplayName": {
+    "en": {
+      "Text": "Cellar"
+    },
+    "de": {
+      "Text": "Keller"
+    },
+    "Context": "Flow/Cellar"
+  },
+  "FFr_Cellar.Text": {
+    "en": {
+      "Text": "A hamster turns out to be the only living being in the cellar. The way back is closed, so Manfred needs to be \"creative\" to escape the looney bin."
+    },
+    "de": {
+      "Text": "Ein Hamster entpuppt sich als das einzige Lebewesen im Keller. Der Weg zurück ist verschlossen, also muss Manfred \"kreativ\" sein, um der Klapsmühle zu entkommen."
+    },
+    "Context": "Flow/Cellar"
+  },
+  "FFr_TheEnd.DisplayName": {
+    "en": {
+      "Text": "The End"
+    },
+    "de": {
+      "Text": "Das Ende"
+    },
+    "Context": "Flow/The End"
+  },
+  "FFr_TheEnd.Text": {
+    "en": {
+      "Text": "Manfred managed to escape the sanitarium somehow. Now is judgement day!"
+    },
+    "de": {
+      "Text": "Manfred hat es irgendwie geschafft, aus dem Sanatorium zu entkommen. Jetzt ist der Tag des Jüngsten Gerichts!"
+    },
+    "Context": "Flow/The End"
+  },
+  "FFr_Lobby.DisplayName": {
+    "en": {
+      "Text": "Lobby"
+    },
+    "de": {
+      "Text": "Lobby"
+    },
+    "Context": "Flow/Lobby"
+  },
+  "FFr_Lobby.Text": {
+    "en": {
+      "Text": "Depending on Manfred's decision in the cell, he either needs to get past the Guard or Dr. Artie Cee (again)."
+    },
+    "de": {
+      "Text": "Je nach Manfreds Entscheidung in der Zelle muss er entweder an der Wache oder an Dr. Artie Cee (wieder) vorbeikommen."
+    },
+    "Context": "Flow/Lobby"
+  },
+  "Dlg_649F8435.DisplayName": {
+    "en": {
+      "Text": "Waking Up"
+    },
+    "Context": "Documents/Dialogue: Waking Up/Waking Up"
+  },
+  "Dlg_649F8435.Text": {
+    "en": {
+      "Text": "Manfred wakes up in a padded cell without any memory how he got there. With him is Dr. Artie Cee, who is absolutely convinced that Manfred is insane and needs professional help. But will Manfred cooperate?"
+    },
+    "Context": "Documents/Dialogue: Waking Up/Waking Up"
+  },
+  "Dlg_TheTherapist.DisplayName": {
+    "en": {
+      "Text": "The Therapist"
+    },
+    "de": {
+      "Text": "Der Therapeut"
+    },
+    "Context": "Flow/Cell/The Therapist"
+  },
+  "Dlg_TheTherapist.Text": {
+    "en": {
+      "Text": "Talk to the therapist."
+    },
+    "de": {
+      "Text": "Sprechen Sie mit dem Therapeuten."
+    },
+    "Context": "Flow/Cell/The Therapist"
+  },
+  "Dlg_TheClosedDoor.DisplayName": {
+    "en": {
+      "Text": "The Closed Door"
+    },
+    "de": {
+      "Text": "Die geschlossene Tür"
+    },
+    "Context": "Flow/Cell/The Closed Door"
+  },
+  "Dlg_TheClosedDoor.Text": {
+    "en": {
+      "Text": "Try to open the door."
+    },
+    "de": {
+      "Text": "Versuche die Tür zu öffnen."
+    },
+    "Context": "Flow/Cell/The Closed Door"
+  },
+  "Dlg_Umbrella.DisplayName": {
+    "en": {
+      "Text": "Umbrella"
+    },
+    "de": {
+      "Text": "Regenschirm"
+    },
+    "Context": "Flow/Cell/Umbrella"
+  },
+  "Dlg_Umbrella.Text": {
+    "en": {
+      "Text": "Have a closer look at the umbrella."
+    },
+    "de": {
+      "Text": "Untersuche den Regenschirm."
+    },
+    "Context": "Flow/Cell/Umbrella"
+  },
+  "Dlg_HelpMe.DisplayName": {
+    "en": {
+      "Text": "Help me!"
+    },
+    "de": {
+      "Text": "Helfen Sie mir!"
+    },
+    "Context": "Flow/Corridor/Help me!"
+  },
+  "Dlg_HelpMe.Text": {
+    "en": {
+      "Text": "A mysterious voice is asking Manfred for help. Will Manfred follow this cry for help?"
+    },
+    "de": {
+      "Text": "Eine geheimnisvolle Stimme bittet Manfred um Hilfe. Wird Manfred diesem Hilferuf folgen?"
+    },
+    "Context": "Flow/Corridor/Help me!"
+  },
+  "Dlg_EnvironmentComments.DisplayName": {
+    "en": {
+      "Text": "Environment Comments"
+    },
+    "de": {
+      "Text": "Umwelt Kommentare"
+    },
+    "Context": "Flow/Corridor/Environment Comments"
+  },
+  "Dlg_EnvironmentComments.Text": {
+    "en": {
+      "Text": "All player comments on objects in the environment."
+    },
+    "de": {
+      "Text": "Alle Kommentare der Spieler zu Objekten in der Umgebung."
+    },
+    "Context": "Flow/Corridor/Environment Comments"
+  },
+  "Dlg_Trapped.DisplayName": {
+    "en": {
+      "Text": "Trapped"
+    },
+    "de": {
+      "Text": "Gefangen"
+    },
+    "Context": "Flow/Cellar/Trapped"
+  },
+  "Dlg_Trapped.Text": {
+    "en": {
+      "Text": "The door falls shut behind you."
+    },
+    "de": {
+      "Text": "Die Tür fällt hinter dir zu."
+    },
+    "Context": "Flow/Cellar/Trapped"
+  },
+  "Dlg_TheHamster.DisplayName": {
+    "en": {
+      "Text": "The Hamster"
+    },
+    "de": {
+      "Text": "Der Hamster"
+    },
+    "Context": "Flow/Cellar/The Hamster"
+  },
+  "Dlg_TheHamster.Text": {
+    "Context": "Flow/Cellar/The Hamster"
+  },
+  "Dlg_UpperDrawer.DisplayName": {
+    "en": {
+      "Text": "Upper drawer"
+    },
+    "de": {
+      "Text": "Obere Schublade"
+    },
+    "Context": "Flow/Cellar/Upper drawer"
+  },
+  "Dlg_UpperDrawer.Text": {
+    "Context": "Flow/Cellar/Upper drawer"
+  },
+  "Dlg_Overflow.DisplayName": {
+    "en": {
+      "Text": "Overflow"
+    },
+    "de": {
+      "Text": "Überlauf"
+    },
+    "Context": "Flow/Cellar/Overflow"
+  },
+  "Dlg_Overflow.Text": {
+    "Context": "Flow/Cellar/Overflow"
+  },
+  "Dlg_EnvironmentComments_Cellar.DisplayName": {
+    "en": {
+      "Text": "Environment Comments"
+    },
+    "de": {
+      "Text": "Umwelt Kommentare"
+    },
+    "Context": "Flow/Cellar/Environment Comments"
+  },
+  "Dlg_EnvironmentComments_Cellar.Text": {
+    "Context": "Flow/Cellar/Environment Comments"
+  },
+  "Dlg_BombConstructionManual.DisplayName": {
+    "en": {
+      "Text": "Bomb construction manual"
+    },
+    "de": {
+      "Text": "Handbuch Bombenbau"
+    },
+    "Context": "Flow/Cellar/Bomb construction manual"
+  },
+  "Dlg_BombConstructionManual.Text": {
+    "Context": "Flow/Cellar/Bomb construction manual"
+  },
+  "Dlg_Locker.DisplayName": {
+    "en": {
+      "Text": "Locker"
+    },
+    "de": {
+      "Text": "Schließfach"
+    },
+    "Context": "Flow/Cellar/Locker"
+  },
+  "Dlg_Locker.Text": {
+    "Context": "Flow/Cellar/Locker"
+  },
+  "Dlg_Judgement.DisplayName": {
+    "en": {
+      "Text": "Judgement"
+    },
+    "de": {
+      "Text": "Urteil"
+    },
+    "Context": "Flow/The End/Judgement"
+  },
+  "Dlg_Judgement.Text": {
+    "en": {
+      "Text": "The final judgement based on the player's choices."
+    },
+    "de": {
+      "Text": "Das endgültige Urteil auf der Grundlage der Entscheidungen des Spielers."
+    },
+    "Context": "Flow/The End/Judgement"
+  },
+  "Dlg_ManfredVsDrArtieCee.DisplayName": {
+    "en": {
+      "Text": "Manfred vs Dr. Artie Cee"
+    },
+    "de": {
+      "Text": "Manfred gegen Dr. Artie Cee"
+    },
+    "Context": "Flow/Lobby/Manfred vs Dr. Artie Cee"
+  },
+  "Dlg_ManfredVsDrArtieCee.Text": {
+    "en": {
+      "Text": "Find a way past the doctor to get the full taste of freedom again!"
+    },
+    "de": {
+      "Text": "Finde einen Weg am Arzt vorbei, um wieder den vollen Geschmack der Freiheit zu erleben!"
+    },
+    "Context": "Flow/Lobby/Manfred vs Dr. Artie Cee"
+  },
+  "Dlg_ManfredVsTheGuard.DisplayName": {
+    "en": {
+      "Text": "Manfred vs the Guard"
+    },
+    "de": {
+      "Text": "Manfred gegen die Wache"
+    },
+    "Context": "Flow/Lobby/Manfred vs the Guard"
+  },
+  "Dlg_ManfredVsTheGuard.Text": {
+    "en": {
+      "Text": "Find a way past the guard to get the full taste of freedom again!"
+    },
+    "de": {
+      "Text": "Finde einen Weg an der Wache vorbei, um wieder den vollen Geschmack der Freiheit zu erleben!"
+    },
+    "Context": "Flow/Lobby/Manfred vs the Guard"
+  },
+  "Dlg_ItemInteractions_Lobby.DisplayName": {
+    "en": {
+      "Text": "Item Interactions"
+    },
+    "de": {
+      "Text": "Artikel Interaktionen"
+    },
+    "Context": "Flow/Lobby/Item Interactions"
+  },
+  "Dlg_ItemInteractions_Lobby.Text": {
+    "Context": "Flow/Lobby/Item Interactions"
+  },
+  "Dlg_EnvironmentComments_Lobby.DisplayName": {
+    "en": {
+      "Text": "Environment Comments"
+    },
+    "de": {
+      "Text": "Umwelt Kommentare"
+    },
+    "Context": "Flow/Lobby/Environment Comments"
+  },
+  "Dlg_EnvironmentComments_Lobby.Text": {
+    "Context": "Flow/Lobby/Environment Comments"
+  },
+  "Dlg_ItemInteractions.DisplayName": {
+    "en": {
+      "Text": "Item Interactions"
+    },
+    "de": {
+      "Text": "Artikel Interaktionen"
+    },
+    "Context": "Flow/Item Interactions"
+  },
+  "Dlg_ItemInteractions.Text": {
+    "en": {
+      "Text": "General item interaction comments."
+    },
+    "de": {
+      "Text": "Allgemeine Kommentare zur Interaktion mit dem Artikel."
+    },
+    "Context": "Flow/Item Interactions"
+  },
+  "DFr_3417D7D7.Text": {
+    "en": {
+      "Text": "Ah, you're recovering from the anaesthesia. How are you feeling?"
+    },
+    "Context": "Documents/Waking Up/Dr. Artie Cee: \"Ah, you're recovering from the anae...\""
+  },
+  "DFr_FE85200B.Text": {
+    "en": {
+      "Text": "I'm not sure... I'm a bit dizzy... Is it just me or is the perspective of this room somehow incorrect?"
+    },
+    "Context": "Documents/Waking Up/Manfred: \"I'm not sure... I'm a bit dizzy......\""
+  },
+  "DFr_570BFF47.Text": {
+    "en": {
+      "Text": "Just the usual side-effect of the narcotic."
+    },
+    "Context": "Documents/Waking Up/Dr. Artie Cee: \"Just the usual side-effect of the n...\""
+  },
+  "DFr_62812D41.Text": {
+    "en": {
+      "Text": "Where am I?"
+    },
+    "Context": "Documents/Waking Up/Manfred: \"Where am I?\""
+  },
+  "DFr_768FD20A.Text": {
+    "en": {
+      "Text": "Interesting. It seems you lost your memory. Well, nothing to worry about."
+    },
+    "Context": "Documents/Waking Up/Dr. Artie Cee: \"Interesting. It seems you lost your...\""
+  },
+  "DFr_E3AC36E6.Text": {
+    "en": {
+      "Text": "You are in the \"Lucas Artsington Sanitarium for the mentally disordered\"."
+    },
+    "Context": "Documents/Waking Up/Dr. Artie Cee: \"You are in the \"Lucas Artsington Sa...\""
+  },
+  "DFr_AFFEF7FB.MenuText": {
+    "en": {
+      "Text": "I'm in a looney bin?"
+    },
+    "Context": "Documents/Waking Up/Manfred: \"Whoa, wait a second, are you tellin...\""
+  },
+  "DFr_AFFEF7FB.Text": {
+    "en": {
+      "Text": "Whoa, wait a second, are you telling me I'm in a looney bin?"
+    },
+    "Context": "Documents/Waking Up/Manfred: \"Whoa, wait a second, are you tellin...\""
+  },
+  "DFr_CFD417A4.Text": {
+    "en": {
+      "Text": "Well, I would use a different term, but basically yes. You admitted yourself to flee from something you called \"uncontrollable interactivity\"."
+    },
+    "Context": "Documents/Waking Up/Dr. Artie Cee: \"Well, I would use a different term,...\""
+  },
+  "DFr_B99D1535.Text": {
+    "en": {
+      "Text": "But you're in good hands, trust me. With my patented thought organizing therapy we'll have everything under control."
+    },
+    "Context": "Documents/Waking Up/Dr. Artie Cee: \"But you're in good hands, trust me....\""
+  },
+  "DFr_47A622A4.Text": {
+    "en": {
+      "Text": "Okay, you think I'm insane... But you are wrong, doctor! I'm absolutely fine."
+    },
+    "Context": "Documents/Waking Up/Manfred: \"Okay, you think I'm insane... But y...\""
+  },
+  "DFr_21529E2A.Text": {
+    "en": {
+      "Text": "So, would you be so kind to show me the way out?"
+    },
+    "Context": "Documents/Waking Up/Manfred: \"So, would you be so kind to show me...\""
+  },
+  "DFr_F807073D.Text": {
+    "en": {
+      "Text": "No offense, but I'm the one who decides who is a maddish lunatic and who is not. And your case definitely needs further investigation before we can confirm a diagnosis."
+    },
+    "Context": "Documents/Waking Up/Dr. Artie Cee: \"No offense, but I'm the one who dec...\""
+  },
+  "DFr_Awake.MenuText": {
+    "Context": "Flow/The Therapist/Dr. Artie Cee: \"Oh my dear, you're recovering from...\""
+  },
+  "DFr_Awake.Text": {
+    "en": {
+      "Text": "Oh my dear, you're recovering from the anaesthesia. How are you feeling?",
+      "VOAsset": "0x01000000000030A4"
+    },
+    "de": {
+      "Text": "Oh, mein Lieber, Sie erholen sich von der Narkose. Wie fühlen Sie sich?",
+      "VOAsset": "0x0100000000003077"
+    },
+    "Context": "Flow/The Therapist/Dr. Artie Cee: \"Oh my dear, you're recovering from...\""
+  },
+  "DFr_E76A8DE7.MenuText": {
+    "en": {
+      "Text": "What happened?"
+    },
+    "de": {
+      "Text": "Was ist passiert?"
+    },
+    "Context": "Flow/The Therapist/Manfred: \"Anaesthesia? What the hell happened...\""
+  },
+  "DFr_E76A8DE7.Text": {
+    "en": {
+      "Text": "Anaesthesia? What the hell happened?",
+      "VOAsset": "0x01000000000030BC"
+    },
+    "de": {
+      "Text": "Anästhesie? Was zum Teufel ist passiert?",
+      "VOAsset": "0x010000000000308F"
+    },
+    "Context": "Flow/The Therapist/Manfred: \"Anaesthesia? What the hell happened...\""
+  },
+  "DFr_077D21C0.MenuText": {
+    "en": {
+      "Text": "I feel dizzy."
+    },
+    "de": {
+      "Text": "Mir ist schwindlig."
+    },
+    "Context": "Flow/The Therapist/Manfred: \"I'm not sure... I'm a bit dizzy......\""
+  },
+  "DFr_077D21C0.Text": {
+    "en": {
+      "Text": "I'm not sure... I'm a bit dizzy... Is it just me or is the perspective of this room somehow incorrect?",
+      "VOAsset": "0x01000000000030BF"
+    },
+    "de": {
+      "Text": "Ich bin mir nicht sicher... Mir ist ein bisschen schwindlig... Liegt es nur an mir, oder stimmt die Perspektive dieses Raumes irgendwie nicht?",
+      "VOAsset": "0x0100000000003092"
+    },
+    "Context": "Flow/The Therapist/Manfred: \"I'm not sure... I'm a bit dizzy......\""
+  },
+  "DFr_F83B9B96.MenuText": {
+    "Context": "Flow/The Therapist/Dr. Artie Cee: \"Interesting. It seems you lost your...\""
+  },
+  "DFr_F83B9B96.Text": {
+    "en": {
+      "Text": "Interesting. It seems you lost your memory. Well, nothing to worry about.",
+      "VOAsset": "0x01000000000030AA"
+    },
+    "de": {
+      "Text": "Interessant. Es scheint, Sie haben Ihr Gedächtnis verloren. Nun, kein Grund zur Sorge.",
+      "VOAsset": "0x010000000000307D"
+    },
+    "Context": "Flow/The Therapist/Dr. Artie Cee: \"Interesting. It seems you lost your...\""
+  },
+  "DFr_2A757012.MenuText": {
+    "Context": "Flow/The Therapist/Dr. Artie Cee: \"Just the usual side-effect of the n...\""
+  },
+  "DFr_2A757012.Text": {
+    "en": {
+      "Text": "Just the usual side-effect of the narcotic.",
+      "VOAsset": "0x01000000000030A7"
+    },
+    "de": {
+      "Text": "Nur die übliche Nebenwirkung des Betäubungsmittels",
+      "VOAsset": "0x010000000000307A"
+    },
+    "Context": "Flow/The Therapist/Dr. Artie Cee: \"Just the usual side-effect of the n...\""
+  },
+  "DFr_E6F6D67C.MenuText": {
+    "Context": "Flow/The Therapist/Dr. Artie Cee: \"You are in the \"Lucas Artsington Sa...\""
+  },
+  "DFr_E6F6D67C.Text": {
+    "en": {
+      "Text": "You are in the \"Lucas Artsington Sanitarium for the Mentally Disordered\".",
+      "VOAsset": "0x01000000000030AD"
+    },
+    "de": {
+      "Text": "Sie befinden sich im \"Lucas Artsington Sanatorium für geistig Verwirrte\".",
+      "VOAsset": "0x0100000000003080"
+    },
+    "Context": "Flow/The Therapist/Dr. Artie Cee: \"You are in the \"Lucas Artsington Sa...\""
+  },
+  "DFr_85615A1C.MenuText": {
+    "Context": "Flow/The Therapist/Manfred: \"Where am I?\""
+  },
+  "DFr_85615A1C.Text": {
+    "en": {
+      "Text": "Where am I?",
+      "VOAsset": "0x01000000000030C2"
+    },
+    "de": {
+      "Text": "Wo bin ich?",
+      "VOAsset": "0x0100000000003095"
+    },
+    "Context": "Flow/The Therapist/Manfred: \"Where am I?\""
+  },
+  "DFr_07F8B90E.MenuText": {
+    "en": {
+      "Text": "I'm in a looney bin?"
+    },
+    "de": {
+      "Text": "Ich bin in einer Klapsmühle?"
+    },
+    "Context": "Flow/The Therapist/Manfred: \"Whoa, wait a second, are you tellin...\""
+  },
+  "DFr_07F8B90E.Text": {
+    "en": {
+      "Text": "Whoa, wait a second, are you telling me I'm in a looney bin?",
+      "VOAsset": "0x01000000000030C5"
+    },
+    "de": {
+      "Text": "Moment mal, soll das heißen, ich bin in einer Klapsmühle?",
+      "VOAsset": "0x0100000000003098"
+    },
+    "Context": "Flow/The Therapist/Manfred: \"Whoa, wait a second, are you tellin...\""
+  },
+  "DFr_DBDEF386.MenuText": {
+    "en": {
+      "Text": "I lost my memory?"
+    },
+    "de": {
+      "Text": "Ich habe mein Gedächtnis verloren?"
+    },
+    "Context": "Flow/The Therapist/Manfred: \"I lost my memory? That's definitely...\""
+  },
+  "DFr_DBDEF386.Text": {
+    "en": {
+      "Text": "I lost my memory? That's definitely something I worry about!",
+      "VOAsset": "0x01000000000030C8"
+    },
+    "de": {
+      "Text": "Ich habe mein Gedächtnis verloren? Das ist definitiv etwas, worüber ich mir Sorgen mache!",
+      "VOAsset": "0x010000000000309B"
+    },
+    "Context": "Flow/The Therapist/Manfred: \"I lost my memory? That's definitely...\""
+  },
+  "DFr_86AB90CE.MenuText": {
+    "en": {
+      "Text": "I'm absolutely sane!"
+    },
+    "de": {
+      "Text": "Ich bin absolut zurechnungsfähig!"
+    },
+    "Context": "Flow/The Therapist/Manfred: \"Okay, you think I'm insane... But y...\""
+  },
+  "DFr_86AB90CE.Text": {
+    "en": {
+      "Text": "Okay, you think I'm insane... But you are wrong, doctor! I'm absolutely fine.",
+      "VOAsset": "0x01000000000030CB"
+    },
+    "de": {
+      "Text": "Okay, Sie denken, ich bin verrückt... Aber Sie irren sich, Doktor! Mir geht es absolut gut.",
+      "VOAsset": "0x010000000000309E"
+    },
+    "Context": "Flow/The Therapist/Manfred: \"Okay, you think I'm insane... But y...\""
+  },
+  "DFr_93D35222.MenuText": {
+    "Context": "Flow/The Therapist/Dr. Artie Cee: \"Well, I would use a different term,...\""
+  },
+  "DFr_93D35222.Text": {
+    "en": {
+      "Text": "Well, I would use a different term, but basically yes. You admitted yourself to flee from something you called \"uncontrollable interactivity\".",
+      "VOAsset": "0x01000000000030B0"
+    },
+    "de": {
+      "Text": "Nun, ich würde einen anderen Begriff verwenden, aber im Grunde genommen ja. Sie haben selbst zugegeben, dass Sie vor etwas fliehen, das Sie \"unkontrollierbare Interaktivität\" nennen.",
+      "VOAsset": "0x0100000000003083"
+    },
+    "Context": "Flow/The Therapist/Dr. Artie Cee: \"Well, I would use a different term,...\""
+  },
+  "DFr_7E36A9C4.MenuText": {
+    "Context": "Flow/The Therapist/Dr. Artie Cee: \"Nothing we can't fix. Just needs so...\""
+  },
+  "DFr_7E36A9C4.Text": {
+    "en": {
+      "Text": "Nothing we can't fix. Just needs some more sessions full of questions, hypnosis and perhaps a little brain surgery... and soon all your awful memories will return.",
+      "VOAsset": "0x01000000000030B6"
+    },
+    "de": {
+      "Text": "Nichts, was wir nicht in Ordnung bringen können. Es braucht nur ein paar weitere Sitzungen voller Fragen, Hypnose und vielleicht eine kleine Gehirnoperation... und bald werden all Ihre schrecklichen Erinnerungen zurückkehren.",
+      "VOAsset": "0x0100000000003089"
+    },
+    "Context": "Flow/The Therapist/Dr. Artie Cee: \"Nothing we can't fix. Just needs so...\""
+  },
+  "DFr_DECDC4FC.MenuText": {
+    "Context": "Flow/The Therapist/Dr. Artie Cee: \"You tried to tame the \"beast of non...\""
+  },
+  "DFr_DECDC4FC.Text": {
+    "en": {
+      "Text": "You tried to tame the \"beast of nonlinearity\" with Post-it notes on the wall. At first it seemed to work, but then.... one of your notes fell down and you had a complete breakdown.",
+      "VOAsset": "0x0000000000000000"
+    },
+    "de": {
+      "Text": "Sie haben versucht, die \"Bestie der Nichtlinearität\" mit Post-it-Zetteln an der Wand zu bändigen. Zuerst schien es zu funktionieren, aber dann... fiel einer Ihrer Zettel herunter und Sie hatten einen kompletten Zusammenbruch."
+    },
+    "Context": "Flow/The Therapist/Dr. Artie Cee: \"You tried to tame the \"beast of non...\""
+  },
+  "DFr_C7E26921.MenuText": {
+    "Context": "Flow/The Therapist/Manfred: \"So, would you be so kind to show me...\""
+  },
+  "DFr_C7E26921.Text": {
+    "en": {
+      "Text": "So, would you be so kind to show me the way out?",
+      "VOAsset": "0x01000000000030A1"
+    },
+    "de": {
+      "Text": "Wären Sie also so freundlich, mir den Weg nach draußen zu zeigen?",
+      "VOAsset": "0x0100000000003074"
+    },
+    "Context": "Flow/The Therapist/Manfred: \"So, would you be so kind to show me...\""
+  },
+  "DFr_2D82B578.MenuText": {
+    "Context": "Flow/The Therapist/Dr. Artie Cee: \"No offense, but I'm the one who dec...\""
+  },
+  "DFr_2D82B578.Text": {
+    "en": {
+      "Text": "No offense, but I'm the one who decides who is a maddish lunatic and who is not. And your case definitely needs further investigation before we can confirm a diagnosis.",
+      "VOAsset": "0x01000000000030B9"
+    },
+    "de": {
+      "Text": "Nichts für ungut, aber ich bin derjenige, der entscheidet, wer ein verrückter Spinner ist und wer nicht. Und Ihr Fall muss definitiv weiter untersucht werden, bevor wir eine Diagnose stellen können.",
+      "VOAsset": "0x010000000000308C"
+    },
+    "Context": "Flow/The Therapist/Dr. Artie Cee: \"No offense, but I'm the one who dec...\""
+  },
+  "DFr_BF4DF05C.MenuText": {
+    "en": {
+      "Text": "I'm right back."
+    },
+    "de": {
+      "Text": "Ich bin gleich wieder da."
+    },
+    "Context": "Flow/The Therapist/Manfred: \"Wait a moment, I'm right back to ex...\""
+  },
+  "DFr_BF4DF05C.Text": {
+    "en": {
+      "Text": "Wait a moment, I'm right back to explain to you why I'm NOT crazy!"
+    },
+    "de": {
+      "Text": "Warten Sie einen Moment, ich bin gleich zurück, um Ihnen zu erklären, warum ich NICHT verrückt bin!"
+    },
+    "Context": "Flow/The Therapist/Manfred: \"Wait a moment, I'm right back to ex...\""
+  },
+  "DFr_D477B140.MenuText": {
+    "Context": "Flow/The Therapist/Manfred: \"Ok, I have the key. Let's get out o...\""
+  },
+  "DFr_D477B140.Text": {
+    "en": {
+      "Text": "Ok, I have the key. Let's get out of here!"
+    },
+    "de": {
+      "Text": "Ok, ich habe den Schlüssel. Lasst uns hier verschwinden!"
+    },
+    "Context": "Flow/The Therapist/Manfred: \"Ok, I have the key. Let's get out o...\""
+  },
+  "DFr_3C986E7C.MenuText": {
+    "en": {
+      "Text": "Let me convince you!"
+    },
+    "de": {
+      "Text": "Ich will Sie überzeugen!"
+    },
+    "Context": "Flow/The Therapist/Manfred: \"Well, think about it. One is insane...\""
+  },
+  "DFr_3C986E7C.Text": {
+    "en": {
+      "Text": "Well, think about it. One is insane, if one does crazy things, right?"
+    },
+    "de": {
+      "Text": "Nun, denken Sie darüber nach. Man ist verrückt, wenn man verrückte Dinge tut, richtig?"
+    },
+    "Context": "Flow/The Therapist/Manfred: \"Well, think about it. One is insane...\""
+  },
+  "DFr_3CE3A7C7.MenuText": {
+    "Context": "Flow/The Therapist/Dr. Artie Cee: \"Ah, my favorite weirdo. Do you want...\""
+  },
+  "DFr_3CE3A7C7.Text": {
+    "en": {
+      "Text": "Ah, my favorite weirdo. Do you want to continue the therapy?"
+    },
+    "de": {
+      "Text": "Ah, mein Lieblingsspinner. Möchten Sie die Therapie fortsetzen?",
+      "VOAsset": "0x0000000000000000"
+    },
+    "Context": "Flow/The Therapist/Dr. Artie Cee: \"Ah, my favorite weirdo. Do you want...\""
+  },
+  "DFr_42EBB506.MenuText": {
+    "Context": "Flow/The Therapist/Manfred: \"I somehow feel bad... but he was re...\""
+  },
+  "DFr_42EBB506.Text": {
+    "en": {
+      "Text": "I somehow feel bad... but he was really annoying, right?"
+    },
+    "de": {
+      "Text": "Ich fühle mich irgendwie schlecht... aber er war wirklich nervig, oder?"
+    },
+    "Context": "Flow/The Therapist/Manfred: \"I somehow feel bad... but he was re...\""
+  },
+  "DFr_19FC09FB.MenuText": {
+    "Context": "Flow/The Therapist/Dr. Artie Cee: \"But you're in good hands, trust me....\""
+  },
+  "DFr_19FC09FB.Text": {
+    "en": {
+      "Text": "But you're in good hands, trust me. With my patented thought organizing therapy we'll have everything under control.",
+      "VOAsset": "0x01000000000030B3"
+    },
+    "de": {
+      "Text": "Aber Sie sind in guten Händen, vertrauen Sie mir. Mit meiner patentierten Gedankenorganisationstherapie werden wir alles unter Kontrolle haben.",
+      "VOAsset": "0x0100000000003086"
+    },
+    "Context": "Flow/The Therapist/Dr. Artie Cee: \"But you're in good hands, trust me....\""
+  },
+  "DFr_4F1A58AA.MenuText": {
+    "Context": "Flow/The Therapist/Manfred: \"To do crazy things you have to be r...\""
+  },
+  "DFr_4F1A58AA.Text": {
+    "en": {
+      "Text": "To do crazy things you have to be really crazy, right? To diagnose that somebody is crazy, you actually have to see him do crazy things, right?"
+    },
+    "de": {
+      "Text": "Um verrückte Dinge zu tun, muss man wirklich verrückt sein, richtig? Um zu diagnostizieren, dass jemand verrückt ist, muss man ihn tatsächlich dabei beobachten, wie er verrückte Dinge tut, richtig?"
+    },
+    "Context": "Flow/The Therapist/Manfred: \"To do crazy things you have to be r...\""
+  },
+  "DFr_4B99DDD8.MenuText": {
+    "Context": "Flow/The Therapist/Manfred: \"And even if somebody does something...\""
+  },
+  "DFr_4B99DDD8.Text": {
+    "en": {
+      "Text": "And even if somebody does something crazy but no one is there to see it, you have to assume that it never happened, right?"
+    },
+    "de": {
+      "Text": "Und selbst wenn jemand etwas Verrücktes tut, aber niemand da ist, um es zu sehen, muss man davon ausgehen, dass es nie passiert ist, oder?"
+    },
+    "Context": "Flow/The Therapist/Manfred: \"And even if somebody does something...\""
+  },
+  "DFr_B1D1FCD6.MenuText": {
+    "Context": "Flow/The Therapist/Manfred: \"So a high profiled scientist like y...\""
+  },
+  "DFr_B1D1FCD6.Text": {
+    "en": {
+      "Text": "So a high profiled scientist like you has to reason that if I'm not doing anything crazy right now, then I'm neither crazy nor insane, right? And then you have to let me go, right?"
+    },
+    "de": {
+      "Text": "Also muss ein profilierter Wissenschaftler wie Sie zu dem Schluss kommen, dass ich weder verrückt noch geisteskrank bin, wenn ich gerade nichts Verrücktes tue, richtig? Und dann müssen Sie mich gehen lassen, richtig?"
+    },
+    "Context": "Flow/The Therapist/Manfred: \"So a high profiled scientist like y...\""
+  },
+  "DFr_94BFD742.MenuText": {
+    "Context": "Flow/The Therapist/Dr. Artie Cee: \"I guess...\""
+  },
+  "DFr_94BFD742.Text": {
+    "en": {
+      "Text": "I guess..."
+    },
+    "de": {
+      "Text": "Ich denke..."
+    },
+    "Context": "Flow/The Therapist/Dr. Artie Cee: \"I guess...\""
+  },
+  "DFr_C2E7F261.MenuText": {
+    "Context": "Flow/The Therapist/Manfred: \"So, you have to let me go, right?\""
+  },
+  "DFr_C2E7F261.Text": {
+    "en": {
+      "Text": "So, you have to let me go, right?"
+    },
+    "de": {
+      "Text": "Du musst mich also gehen lassen, oder?"
+    },
+    "Context": "Flow/The Therapist/Manfred: \"So, you have to let me go, right?\""
+  },
+  "DFr_C8372D95.MenuText": {
+    "Context": "Flow/The Therapist/Dr. Artie Cee: \"Will you stop saying \"right\"?\""
+  },
+  "DFr_C8372D95.Text": {
+    "en": {
+      "Text": "Will you stop saying \"right\"?"
+    },
+    "de": {
+      "Text": "Werden Sie aufhören, \"rechts\" zu sagen?"
+    },
+    "Context": "Flow/The Therapist/Dr. Artie Cee: \"Will you stop saying \"right\"?\""
+  },
+  "DFr_A79A0E3C.MenuText": {
+    "en": {
+      "Text": "No\r\n"
+    },
+    "de": {
+      "Text": "Nein"
+    },
+    "Context": "Flow/The Therapist/Manfred: \"No.\""
+  },
+  "DFr_A79A0E3C.Text": {
+    "en": {
+      "Text": "No."
+    },
+    "de": {
+      "Text": "Nein."
+    },
+    "Context": "Flow/The Therapist/Manfred: \"No.\""
+  },
+  "DFr_1C9B7D0D.MenuText": {
+    "Context": "Flow/The Therapist/Dr. Artie Cee: \"Ok... I'll leave you now. The door...\""
+  },
+  "DFr_1C9B7D0D.Text": {
+    "en": {
+      "Text": "Ok... I'll leave you now. The door will be open... it's up to you to, if you want to stay and get help or if you want to go and try your luck out there."
+    },
+    "de": {
+      "Text": "Ok... ich werde dich jetzt verlassen. Die Tür wird offen sein... es liegt an euch, ob ihr bleiben und Hilfe holen wollt oder ob ihr gehen und euer Glück draußen versuchen wollt."
+    },
+    "Context": "Flow/The Therapist/Dr. Artie Cee: \"Ok... I'll leave you now. The door...\""
+  },
+  "DFr_97691CB3.MenuText": {
+    "Context": "Flow/The Therapist/Manfred: \"Well... that was easy.\""
+  },
+  "DFr_97691CB3.Text": {
+    "en": {
+      "Text": "Well... that was easy."
+    },
+    "de": {
+      "Text": "Nun... das war einfach."
+    },
+    "Context": "Flow/The Therapist/Manfred: \"Well... that was easy.\""
+  },
+  "DFr_E2D713E1.MenuText": {
+    "Context": "Flow/The Therapist/Dr. Artie Cee: \"In this case... no! It would be irr...\""
+  },
+  "DFr_E2D713E1.Text": {
+    "en": {
+      "Text": "In this case... no! It would be irresponsible to let you get in contact with society in your current state of mind."
+    },
+    "de": {
+      "Text": "In diesem Fall... nein! Es wäre unverantwortlich, Sie in Ihrem derzeitigen Geisteszustand mit der Gesellschaft in Kontakt treten zu lassen."
+    },
+    "Context": "Flow/The Therapist/Dr. Artie Cee: \"In this case... no! It would be irr...\""
+  },
+  "DFr_1A1ED2B9.MenuText": {
+    "Context": "Flow/The Therapist/Dr. Artie Cee: \"[turns around] At least you didn't...\""
+  },
+  "DFr_1A1ED2B9.Text": {
+    "en": {
+      "Text": "[turns around] At least you didn't lose your sense of humor."
+    },
+    "de": {
+      "Text": "[Wenigstens hast du deinen Sinn für Humor nicht verloren."
+    },
+    "Context": "Flow/The Therapist/Dr. Artie Cee: \"[turns around] At least you didn't...\""
+  },
+  "DFr_BA3AEDF3.MenuText": {
+    "Context": "Flow/The Therapist/Dr. Artie Cee: \"Well, in case you want to go on wit...\""
+  },
+  "DFr_BA3AEDF3.Text": {
+    "en": {
+      "Text": "Well, in case you want to go on with the therapy... just start banging on the door like a maniac. [leaves the cell]"
+    },
+    "de": {
+      "Text": "Nun, falls du die Therapie fortsetzen willst... fang einfach an, wie ein Irrer gegen die Tür zu hämmern. (verlässt die Zelle)"
+    },
+    "Context": "Flow/The Therapist/Dr. Artie Cee: \"Well, in case you want to go on wit...\""
+  },
+  "DFr_D27CBDAD.MenuText": {
+    "Context": "Flow/The Therapist/Manfred: \"Ah, I found a key! But I won't tell...\""
+  },
+  "DFr_D27CBDAD.Text": {
+    "en": {
+      "Text": "Ah, I found a key! But I won't tell where I found it... believe me, you don't wanna know."
+    },
+    "de": {
+      "Text": "Ah, ich habe einen Schlüssel gefunden! Aber ich werde nicht verraten, wo ich ihn gefunden habe... glaubt mir, das wollt ihr nicht wissen."
+    },
+    "Context": "Flow/The Therapist/Manfred: \"Ah, I found a key! But I won't tell...\""
+  },
+  "DFr_Looted.MenuText": {
+    "en": {
+      "Text": "*Search therapist*"
+    },
+    "de": {
+      "Text": "*Suchtherapeut*"
+    },
+    "Context": "Flow/The Therapist/Manfred: \"Well... looting time!\""
+  },
+  "DFr_Looted.Text": {
+    "en": {
+      "Text": "Well... looting time!"
+    },
+    "de": {
+      "Text": "Nun... Zeit zum Plündern!"
+    },
+    "Context": "Flow/The Therapist/Manfred: \"Well... looting time!\""
+  },
+  "DFr_EFE0F58F.MenuText": {
+    "Context": "Flow/The Therapist/Manfred: \"I searched him more than enough...\""
+  },
+  "DFr_EFE0F58F.Text": {
+    "en": {
+      "Text": "I searched him more than enough..."
+    },
+    "de": {
+      "Text": "Ich habe ihn mehr als genug durchsucht..."
+    },
+    "Context": "Flow/The Therapist/Manfred: \"I searched him more than enough...\""
+  },
+  "DFr_715BDAA9.MenuText": {
+    "Context": "Flow/The Therapist/Manfred: \"Oops... I slipped and dropped the c...\""
+  },
+  "DFr_715BDAA9.Text": {
+    "en": {
+      "Text": "Oops... I slipped and dropped the crowbar, but the kind doctor catched it..."
+    },
+    "de": {
+      "Text": "Oops... Ich bin ausgerutscht und habe das Brecheisen fallen lassen, aber der nette Arzt hat es aufgefangen..."
+    },
+    "Context": "Flow/The Therapist/Manfred: \"Oops... I slipped and dropped the c...\""
+  },
+  "DFr_CE137142.MenuText": {
+    "Context": "Flow/The Therapist/Manfred: \"No, no, no. I don't want to disturb...\""
+  },
+  "DFr_CE137142.Text": {
+    "en": {
+      "Text": "No, no, no. I don't want to disturb his slumber."
+    },
+    "de": {
+      "Text": "Nein, nein, nein. Ich will ihn nicht in seinem Schlummer stören."
+    },
+    "Context": "Flow/The Therapist/Manfred: \"No, no, no. I don't want to disturb...\""
+  },
+  "DFr_B6E69130.MenuText": {
+    "Context": "Flow/The Therapist/Manfred: \"...with his head. How lucky.\""
+  },
+  "DFr_B6E69130.Text": {
+    "en": {
+      "Text": "...with his head. How lucky."
+    },
+    "de": {
+      "Text": "...mit seinem Kopf. Was für ein Glück."
+    },
+    "Context": "Flow/The Therapist/Manfred: \"...with his head. How lucky.\""
+  },
+  "DFr_C438B0AE.MenuText": {
+    "en": {
+      "Text": "The door is locked. "
+    },
+    "de": {
+      "Text": "Die Tür ist verschlossen. "
+    },
+    "Context": "Flow/The Closed Door/Manfred: \"The door is locked.\""
+  },
+  "DFr_C438B0AE.Text": {
+    "en": {
+      "Text": "The door is locked."
+    },
+    "de": {
+      "Text": "Die Tür ist abgeschlossen."
+    },
+    "Context": "Flow/The Closed Door/Manfred: \"The door is locked.\""
+  },
+  "DFr_0B985180.MenuText": {
+    "en": {
+      "Text": "Let's see... [inspect door]"
+    },
+    "de": {
+      "Text": "Schauen wir mal... [Tür inspizieren]"
+    },
+    "Context": "Flow/The Closed Door/Manfred: \"I guess I need a magic potion to sh...\""
+  },
+  "DFr_0B985180.Text": {
+    "en": {
+      "Text": "I guess I need a magic potion to shrink myself and escape through the keyhole... or I manage to get the key, but that sounds rather ridiculous."
+    },
+    "de": {
+      "Text": "Ich schätze, ich brauche einen Zaubertrank, um mich zu schrumpfen und durch das Schlüsselloch zu entkommen ... oder ich schaffe es, den Schlüssel zu bekommen, aber das klingt ziemlich lächerlich."
+    },
+    "Context": "Flow/The Closed Door/Manfred: \"I guess I need a magic potion to sh...\""
+  },
+  "DFr_2A7F31C2.MenuText": {
+    "Context": "Flow/Umbrella/Manfred: \"Of course, I could fight my way out...\""
+  },
+  "DFr_2A7F31C2.Text": {
+    "en": {
+      "Text": "Of course, I could fight my way out armed with nothing but an umbrella... I just don't want to."
+    },
+    "de": {
+      "Text": "Natürlich könnte ich mich mit nichts als einem Regenschirm bewaffnet herauskämpfen... Ich will es nur nicht."
+    },
+    "Context": "Flow/Umbrella/Manfred: \"Of course, I could fight my way out...\""
+  },
+  "DFr_6C6083FC.MenuText": {
+    "Context": "Flow/Umbrella/Manfred: \"Interesting. It seems the previous...\""
+  },
+  "DFr_6C6083FC.Text": {
+    "en": {
+      "Text": "Interesting. It seems the previous tenant of this cell has replaced the umbrella's hold with a crowbar... I better take that, before somebody gets hurt."
+    },
+    "de": {
+      "Text": "Interessant. Es scheint, als hätte der Vormieter dieser Zelle den Griff des Regenschirms durch ein Brecheisen ersetzt... Ich nehme das besser mit, bevor jemand verletzt wird."
+    },
+    "Context": "Flow/Umbrella/Manfred: \"Interesting. It seems the previous...\""
+  },
+  "DFr_VoiceTalking.MenuText": {
+    "Context": "Flow/Help me!/Unknown Voice: \"Hey you! Yes, I'm talking to YOU.\""
+  },
+  "DFr_VoiceTalking.Text": {
+    "en": {
+      "Text": "Hey you! Yes, I'm talking to YOU."
+    },
+    "de": {
+      "Text": "Hallo du! Ja, ich spreche mit DIR."
+    },
+    "Context": "Flow/Help me!/Unknown Voice: \"Hey you! Yes, I'm talking to YOU.\""
+  },
+  "DFr_681EE828.MenuText": {
+    "Context": "Flow/Help me!/Manfred: \"Where are you? Wait... you're not i...\""
+  },
+  "DFr_681EE828.Text": {
+    "en": {
+      "Text": "Where are you? Wait... you're not in my head, right? Otherwise I would have to reconsider my decision to leave this place..."
+    },
+    "de": {
+      "Text": "Wo bist du? Warte... du bist nicht in meinem Kopf, richtig? Sonst müsste ich meine Entscheidung, diesen Ort zu verlassen, noch einmal überdenken..."
+    },
+    "Context": "Flow/Help me!/Manfred: \"Where are you? Wait... you're not i...\""
+  },
+  "DFr_3C11FAA9.MenuText": {
+    "Context": "Flow/Help me!/Unknown Voice: \"Don't worry, I'm real! I'm down in...\""
+  },
+  "DFr_3C11FAA9.Text": {
+    "en": {
+      "Text": "Don't worry, I'm real! I'm down in the cellar."
+    },
+    "de": {
+      "Text": "Keine Sorge, ich bin echt! Ich bin unten im Keller."
+    },
+    "Context": "Flow/Help me!/Unknown Voice: \"Don't worry, I'm real! I'm down in...\""
+  },
+  "DFr_C27F787D.MenuText": {
+    "Context": "Flow/Help me!/Unknown Voice: \"Unfortunately I'm trapped down here...\""
+  },
+  "DFr_C27F787D.Text": {
+    "en": {
+      "Text": "Unfortunately I'm trapped down here... Please, help me out! I'm running out of water and nobody seems to care!"
+    },
+    "de": {
+      "Text": "Leider bin ich hier unten gefangen... Bitte, hilf mir raus! Mir geht das Wasser aus und niemanden scheint es zu interessieren!"
+    },
+    "Context": "Flow/Help me!/Unknown Voice: \"Unfortunately I'm trapped down here...\""
+  },
+  "DFr_52056F78.MenuText": {
+    "en": {
+      "Text": "Could be a trap..."
+    },
+    "de": {
+      "Text": "Könnte eine Falle sein..."
+    },
+    "Context": "Flow/Help me!/Manfred: \"I don't know... could be a trap...\""
+  },
+  "DFr_52056F78.Text": {
+    "en": {
+      "Text": "I don't know... could be a trap..."
+    },
+    "de": {
+      "Text": "Ich weiß nicht... könnte eine Falle sein..."
+    },
+    "Context": "Flow/Help me!/Manfred: \"I don't know... could be a trap...\""
+  },
+  "DFr_E5F7310F.MenuText": {
+    "en": {
+      "Text": "I'll rescue you!"
+    },
+    "de": {
+      "Text": "Ich werde dich retten!"
+    },
+    "Context": "Flow/Help me!/Manfred: \"I'll get you out, my fellow inmate!...\""
+  },
+  "DFr_E5F7310F.Text": {
+    "en": {
+      "Text": "I'll get you out, my fellow inmate! Together we'll escape this nightmare!"
+    },
+    "de": {
+      "Text": "Ich hole dich raus, mein Mitgefangener! Gemeinsam werden wir diesem Albtraum entkommen!"
+    },
+    "Context": "Flow/Help me!/Manfred: \"I'll get you out, my fellow inmate!...\""
+  },
+  "DFr_9EAE8C3A.MenuText": {
+    "Context": "Flow/Environment Comments/Manfred: \"That socks!\""
+  },
+  "DFr_9EAE8C3A.Text": {
+    "en": {
+      "Text": "That socks!"
+    },
+    "de": {
+      "Text": "Diese Socken!"
+    },
+    "Context": "Flow/Environment Comments/Manfred: \"That socks!\""
+  },
+  "DFr_5A7BEF84.MenuText": {
+    "Context": "Flow/Environment Comments/Manfred: \"I really hope they are just doing r...\""
+  },
+  "DFr_5A7BEF84.Text": {
+    "en": {
+      "Text": "I really hope they are just doing radium therapy down there..."
+    },
+    "de": {
+      "Text": "Ich hoffe wirklich, dass sie da unten nur eine Radiumtherapie machen..."
+    },
+    "Context": "Flow/Environment Comments/Manfred: \"I really hope they are just doing r...\""
+  },
+  "DFr_23D0CE3F.MenuText": {
+    "Context": "Flow/Environment Comments/Manfred: \"This seems to be the shortest way o...\""
+  },
+  "DFr_23D0CE3F.Text": {
+    "en": {
+      "Text": "This seems to be the shortest way out of here. But what if the front door is under surveillance?"
+    },
+    "de": {
+      "Text": "Das scheint der kürzeste Weg nach draußen zu sein. Aber was ist, wenn die Vordertür überwacht wird?"
+    },
+    "Context": "Flow/Environment Comments/Manfred: \"This seems to be the shortest way o...\""
+  },
+  "DFr_8575F80E.MenuText": {
+    "Context": "Flow/Environment Comments/Manfred: \"Somebody down there seems to need m...\""
+  },
+  "DFr_8575F80E.Text": {
+    "en": {
+      "Text": "Somebody down there seems to need my help... but what if it's a trap?"
+    },
+    "de": {
+      "Text": "Jemand da unten scheint meine Hilfe zu brauchen... aber was ist, wenn es eine Falle ist?"
+    },
+    "Context": "Flow/Environment Comments/Manfred: \"Somebody down there seems to need m...\""
+  },
+  "DFr_CE087842.MenuText": {
+    "Context": "Flow/Environment Comments/Manfred: \"Dr. Mansion is selling his house fo...\""
+  },
+  "DFr_CE087842.Text": {
+    "en": {
+      "Text": "Dr. Mansion is selling his house for a maniac price! Call..."
+    },
+    "de": {
+      "Text": "Dr. Mansion verkauft sein Haus zu einem Wahnsinnspreis! Rufen Sie an..."
+    },
+    "Context": "Flow/Environment Comments/Manfred: \"Dr. Mansion is selling his house fo...\""
+  },
+  "DFr_56CFD22B.MenuText": {
+    "Context": "Flow/Environment Comments/Manfred: \"An ode to my best friend: I like...\""
+  },
+  "DFr_56CFD22B.Text": {
+    "en": {
+      "Text": "An ode to my best friend:\r\n\r\nI like you very much\r\n'cause you are gentle to touch\r\nI build you a lair\r\nin which you stand and stare\r\nSometimes I think it's not fair\r\nthat you're just a hamster"
+    },
+    "de": {
+      "Text": "Eine Ode an meinen besten Freund:\r\n\r\nIch mag dich sehr\r\ndenn du bist sanft zu berühren\r\nIch baue dir eine Höhle\r\nin der du stehst und starrst\r\nManchmal denke ich, es ist nicht fair\r\ndass du nur ein Hamster bist"
+    },
+    "Context": "Flow/Environment Comments/Manfred: \"An ode to my best friend: I like...\""
+  },
+  "DFr_5912A2F1.MenuText": {
+    "Context": "Flow/Environment Comments/Manfred: \"Nevigo... I guess that's the compan...\""
+  },
+  "DFr_5912A2F1.Text": {
+    "en": {
+      "Text": "Nevigo... I guess that's the company that made the pinboard. I should write that down. Maybe I'll need a quality pinboard in the future."
+    },
+    "de": {
+      "Text": "Articy... Ich schätze, das ist die Firma, die die Pinnwand gemacht hat. Das sollte ich mir aufschreiben. Vielleicht brauche ich in Zukunft eine hochwertige Pinnwand."
+    },
+    "Context": "Flow/Environment Comments/Manfred: \"Nevigo... I guess that's the compan...\""
+  },
+  "DFr_49A08935.MenuText": {
+    "Context": "Flow/Trapped/Manfred: \"Looks like I need to find another w...\""
+  },
+  "DFr_49A08935.Text": {
+    "en": {
+      "Text": "Looks like I need to find another way out."
+    },
+    "de": {
+      "Text": "Sieht aus, als müsste ich einen anderen Ausweg finden."
+    },
+    "Context": "Flow/Trapped/Manfred: \"Looks like I need to find another w...\""
+  },
+  "DFr_7C8A154A.MenuText": {
+    "Context": "Flow/The Hamster/Manfred: \"*looks around* Nobody here but this...\""
+  },
+  "DFr_7C8A154A.Text": {
+    "en": {
+      "Text": "*looks around* Nobody here but this cute little hamster. Could it be that..."
+    },
+    "de": {
+      "Text": "*schaut sich um* Niemand hier außer diesem süßen kleinen Hamster. Könnte es sein, dass..."
+    },
+    "Context": "Flow/The Hamster/Manfred: \"*looks around* Nobody here but this...\""
+  },
+  "DFr_FE8748B3.MenuText": {
+    "Context": "Flow/The Hamster/Hamster: \"*stares at you ominously*\""
+  },
+  "DFr_FE8748B3.Text": {
+    "en": {
+      "Text": "*stares at you ominously*"
+    },
+    "de": {
+      "Text": "*starrt dich bedrohlich an*"
+    },
+    "Context": "Flow/The Hamster/Hamster: \"*stares at you ominously*\""
+  },
+  "DFr_88D22A4D.MenuText": {
+    "Context": "Flow/The Hamster/Manfred: \"*You are just about to prepare the...\""
+  },
+  "DFr_88D22A4D.Text": {
+    "en": {
+      "Text": "*You are just about to prepare the detonation as you realize that the explosion will very likely kill the hamster in its nearby cage...*"
+    },
+    "de": {
+      "Text": "*Du bist gerade dabei, die Detonation vorzubereiten, als dir klar wird, dass die Explosion höchstwahrscheinlich den Hamster in seinem nahen Käfig töten wird...*"
+    },
+    "Context": "Flow/The Hamster/Manfred: \"*You are just about to prepare the...\""
+  },
+  "DFr_5B9FCCF3.MenuText": {
+    "en": {
+      "Text": "*turn to the hamster*"
+    },
+    "de": {
+      "Text": "*Wende dich an den Hamster*"
+    },
+    "Context": "Flow/The Hamster/Manfred: \"Ok, my little furry friend...\""
+  },
+  "DFr_5B9FCCF3.Text": {
+    "en": {
+      "Text": "Ok, my little furry friend..."
+    },
+    "de": {
+      "Text": "Ok, mein kleiner pelziger Freund..."
+    },
+    "Context": "Flow/The Hamster/Manfred: \"Ok, my little furry friend...\""
+  },
+  "DFr_28A974CA.MenuText": {
+    "en": {
+      "Text": "I don't trust him."
+    },
+    "de": {
+      "Text": "Ich traue ihm nicht."
+    },
+    "Context": "Flow/The Hamster/Manfred: \"I don't know... I simply don't trus...\""
+  },
+  "DFr_28A974CA.Text": {
+    "en": {
+      "Text": "I don't know... I simply don't trust that guy. He looks like he's planning something truly evil!"
+    },
+    "de": {
+      "Text": "Ich weiß es nicht... Ich traue dem Kerl einfach nicht. Er sieht aus, als würde er etwas wirklich Böses planen!"
+    },
+    "Context": "Flow/The Hamster/Manfred: \"I don't know... I simply don't trus...\""
+  },
+  "DFr_9C7EF2C9.MenuText": {
+    "en": {
+      "Text": "*stare back*"
+    },
+    "de": {
+      "Text": "*zurückstarren*"
+    },
+    "Context": "Flow/The Hamster/Manfred: \"*stares back*\""
+  },
+  "DFr_9C7EF2C9.Text": {
+    "en": {
+      "Text": "*stares back*"
+    },
+    "de": {
+      "Text": "*starrt zurück"
+    },
+    "Context": "Flow/The Hamster/Manfred: \"*stares back*\""
+  },
+  "DFr_EB39E1F9.MenuText": {
+    "en": {
+      "Text": "It's your fault!"
+    },
+    "de": {
+      "Text": "Das ist deine Schuld!"
+    },
+    "Context": "Flow/The Hamster/Manfred: \"Ok, Mr. Hamster! Spit it out! Did Y...\""
+  },
+  "DFr_EB39E1F9.Text": {
+    "en": {
+      "Text": "Ok, Mr. Hamster! Spit it out! Did YOU lure me into this trap?!"
+    },
+    "de": {
+      "Text": "Ok, Mr. Hamster! Spuck es aus! Hast DU mich in diese Falle gelockt?!"
+    },
+    "Context": "Flow/The Hamster/Manfred: \"Ok, Mr. Hamster! Spit it out! Did Y...\""
+  },
+  "DFr_B490BE6A.MenuText": {
+    "Context": "Flow/The Hamster/Hamster: \"*keeps staring at you*\""
+  },
+  "DFr_B490BE6A.Text": {
+    "en": {
+      "Text": "*keeps staring at you*"
+    },
+    "de": {
+      "Text": "*starrt dich weiter an*"
+    },
+    "Context": "Flow/The Hamster/Hamster: \"*keeps staring at you*\""
+  },
+  "DFr_F146A6C3.MenuText": {
+    "Context": "Flow/The Hamster/Hamster: \"*keeps staring, but you think you s...\""
+  },
+  "DFr_F146A6C3.Text": {
+    "en": {
+      "Text": "*keeps staring, but you think you saw him blink at you*"
+    },
+    "de": {
+      "Text": "*starrt weiter, aber du glaubst, er hat dir zugeblinzelt*"
+    },
+    "Context": "Flow/The Hamster/Hamster: \"*keeps staring, but you think you s...\""
+  },
+  "DFr_39F9B428.MenuText": {
+    "Context": "Flow/The Hamster/Hamster: \"*looks panic-fueled and after a few...\""
+  },
+  "DFr_39F9B428.Text": {
+    "en": {
+      "Text": "*looks panic-fueled and after a few seconds of hesitation he drops the letter opener.*"
+    },
+    "de": {
+      "Text": "*sieht panisch aus und lässt nach ein paar Sekunden des Zögerns den Brieföffner fallen.*"
+    },
+    "Context": "Flow/The Hamster/Hamster: \"*looks panic-fueled and after a few...\""
+  },
+  "DFr_C6890105.MenuText": {
+    "Context": "Flow/The Hamster/Hamster: \"*the hamster seems to agree*\""
+  },
+  "DFr_C6890105.Text": {
+    "en": {
+      "Text": "*the hamster seems to agree*"
+    },
+    "de": {
+      "Text": "*der Hamster scheint zuzustimmen*"
+    },
+    "Context": "Flow/The Hamster/Hamster: \"*the hamster seems to agree*\""
+  },
+  "DFr_6C4EA058.MenuText": {
+    "Context": "Flow/The Hamster/Hamster: \"*looks grateful and hands you the l...\""
+  },
+  "DFr_6C4EA058.Text": {
+    "en": {
+      "Text": "*looks grateful and hands you the letter opener*"
+    },
+    "de": {
+      "Text": "*sieht dankbar aus und reicht dir den Brieföffner*"
+    },
+    "Context": "Flow/The Hamster/Hamster: \"*looks grateful and hands you the l...\""
+  },
+  "DFr_93F81F2F.MenuText": {
+    "Context": "Flow/The Hamster/Manfred: \"*You try to reach the cage, but it'...\""
+  },
+  "DFr_93F81F2F.Text": {
+    "en": {
+      "Text": "*You try to reach the cage, but it's too high* Don't worry, I'll get you out... somehow..."
+    },
+    "de": {
+      "Text": "*Du versuchst, den Käfig zu erreichen, aber er ist zu hoch* Keine Sorge, ich hole dich raus... irgendwie..."
+    },
+    "Context": "Flow/The Hamster/Manfred: \"*You try to reach the cage, but it'...\""
+  },
+  "DFr_394ABAA4.MenuText": {
+    "en": {
+      "Text": ""
+    },
+    "Context": "Flow/The Hamster/Manfred: \"*Somehow you manage to open the cag...\""
+  },
+  "DFr_394ABAA4.Text": {
+    "en": {
+      "Text": "*Somehow you manage to open the cage with the broom.*"
+    },
+    "de": {
+      "Text": "*Irgendwie schaffst du es, den Käfig mit dem Besen zu öffnen."
+    },
+    "Context": "Flow/The Hamster/Manfred: \"*Somehow you manage to open the cag...\""
+  },
+  "DFr_56D9430D.MenuText": {
+    "Context": "Flow/The Hamster/Manfred: \"Ok, fellow. I put you in my pocket....\""
+  },
+  "DFr_56D9430D.Text": {
+    "en": {
+      "Text": "Ok, fellow. I put you in my pocket... but no nut-nibbling down there!"
+    },
+    "de": {
+      "Text": "Okay, Kumpel. Ich stecke dich in meine Tasche... aber keine Nüsse knabbern da unten!"
+    },
+    "Context": "Flow/The Hamster/Manfred: \"Ok, fellow. I put you in my pocket....\""
+  },
+  "DFr_68B2223D.MenuText": {
+    "Context": "Flow/The Hamster/Manfred: \"What are you holding there? Is that...\""
+  },
+  "DFr_68B2223D.Text": {
+    "en": {
+      "Text": "What are you holding there? Is that one of these designer letter openers I've heard so much of?"
+    },
+    "de": {
+      "Text": "Was hältst du da in der Hand? Ist das einer dieser Designer-Brieföffner, von denen ich schon so viel gehört habe?"
+    },
+    "Context": "Flow/The Hamster/Manfred: \"What are you holding there? Is that...\""
+  },
+  "DFr_E615FB35.MenuText": {
+    "Context": "Flow/The Hamster/Manfred: \"*You try to grab the letter opener,...\""
+  },
+  "DFr_E615FB35.Text": {
+    "en": {
+      "Text": "*You try to grab the letter opener, but the cage is too high and the hamster seems to hold on to it very tight.*"
+    },
+    "de": {
+      "Text": "*Du versuchst, den Brieföffner zu greifen, aber der Käfig ist zu hoch und der Hamster scheint sich sehr gut daran festzuhalten."
+    },
+    "Context": "Flow/The Hamster/Manfred: \"*You try to grab the letter opener,...\""
+  },
+  "DFr_B9A7548E.MenuText": {
+    "Context": "Flow/The Hamster/Manfred: \"Thank you...\""
+  },
+  "DFr_B9A7548E.Text": {
+    "en": {
+      "Text": "Thank you..."
+    },
+    "de": {
+      "Text": "Danke…"
+    },
+    "Context": "Flow/The Hamster/Manfred: \"Thank you...\""
+  },
+  "DFr_10A5AB43.MenuText": {
+    "Context": "Flow/The Hamster/Manfred: \"The cage is too high. I cannot open...\""
+  },
+  "DFr_10A5AB43.Text": {
+    "en": {
+      "Text": "The cage is too high. I cannot open it from here."
+    },
+    "de": {
+      "Text": "Der Käfig ist zu hoch. Ich kann ihn von hier aus nicht öffnen."
+    },
+    "Context": "Flow/The Hamster/Manfred: \"The cage is too high. I cannot open...\""
+  },
+  "DFr_25289F3F.MenuText": {
+    "Context": "Flow/The Hamster/Manfred: \"I have what I need.\""
+  },
+  "DFr_25289F3F.Text": {
+    "en": {
+      "Text": "I have what I need."
+    },
+    "de": {
+      "Text": "Ich habe, was ich brauche."
+    },
+    "Context": "Flow/The Hamster/Manfred: \"I have what I need.\""
+  },
+  "DFr_425E8DD7.MenuText": {
+    "Context": "Flow/The Hamster/Hamster: \"*looks grateful*\""
+  },
+  "DFr_425E8DD7.Text": {
+    "en": {
+      "Text": "*looks grateful*"
+    },
+    "de": {
+      "Text": "*sieht dankbar aus*"
+    },
+    "Context": "Flow/The Hamster/Hamster: \"*looks grateful*\""
+  },
+  "DFr_6AB1BD5D.MenuText": {
+    "Context": "Flow/Upper drawer/Manfred: \"A chainsaw, gasoline for chainsaws...\""
+  },
+  "DFr_6AB1BD5D.Text": {
+    "en": {
+      "Text": "A chainsaw, gasoline for chainsaws only... aaaand... aluminium foil!"
+    },
+    "de": {
+      "Text": "Eine Kettensäge, Benzin nur für Kettensägen... und... Alufolie!"
+    },
+    "Context": "Flow/Upper drawer/Manfred: \"A chainsaw, gasoline for chainsaws...\""
+  },
+  "DFr_0EC2019D.MenuText": {
+    "Context": "Flow/Upper drawer/Manfred: \"I don't have a chainsaw licence, so...\""
+  },
+  "DFr_0EC2019D.Text": {
+    "en": {
+      "Text": "I don't have a chainsaw licence, so the aluminium foil will have to do the trick."
+    },
+    "de": {
+      "Text": "Ich habe keinen Kettensägenführerschein, also muss die Alufolie herhalten."
+    },
+    "Context": "Flow/Upper drawer/Manfred: \"I don't have a chainsaw licence, so...\""
+  },
+  "DFr_107F54F6.MenuText": {
+    "Context": "Flow/Upper drawer/Manfred: \"Nothing.\""
+  },
+  "DFr_107F54F6.Text": {
+    "en": {
+      "Text": "Nothing."
+    },
+    "de": {
+      "Text": "Nichts."
+    },
+    "Context": "Flow/Upper drawer/Manfred: \"Nothing.\""
+  },
+  "DFr_C0D213B7.MenuText": {
+    "Context": "Flow/Overflow/Manfred: \"This chunk of metal looks strange.....\""
+  },
+  "DFr_C0D213B7.Text": {
+    "en": {
+      "Text": "This chunk of metal looks strange... here's a label: \"Handle with care! - Weapon-grade Plutonium!\""
+    },
+    "de": {
+      "Text": "Dieser Metallbrocken sieht seltsam aus... hier ist ein Aufkleber: \"Vorsicht bei der Handhabung! - Waffenfähiges Plutonium!\""
+    },
+    "Context": "Flow/Overflow/Manfred: \"This chunk of metal looks strange.....\""
+  },
+  "DFr_8CB5784C.MenuText": {
+    "Context": "Flow/Overflow/Manfred: \"I think my radiation level is alrea...\""
+  },
+  "DFr_8CB5784C.Text": {
+    "en": {
+      "Text": "I think my radiation level is already high enough..."
+    },
+    "de": {
+      "Text": "Ich glaube, mein Strahlungsniveau ist schon hoch genug..."
+    },
+    "Context": "Flow/Overflow/Manfred: \"I think my radiation level is alrea...\""
+  },
+  "DFr_B6E93F0B.MenuText": {
+    "Context": "Flow/Overflow/Manfred: \"There's some kind of metal-like thi...\""
+  },
+  "DFr_B6E93F0B.Text": {
+    "en": {
+      "Text": "There's some kind of metal-like thing... but I can't reach it through the grid."
+    },
+    "de": {
+      "Text": "Da ist so ein metallähnliches Ding... aber ich kann es nicht durch das Gitter erreichen."
+    },
+    "Context": "Flow/Overflow/Manfred: \"There's some kind of metal-like thi...\""
+  },
+  "DFr_1B5A17C9.MenuText": {
+    "Context": "Flow/Overflow/Manfred: \"Not the best screwdriver, but it wo...\""
+  },
+  "DFr_1B5A17C9.Text": {
+    "en": {
+      "Text": "Not the best screwdriver, but it worked. I can reach the glowing cylinder."
+    },
+    "de": {
+      "Text": "Nicht der beste Schraubenzieher, aber er hat funktioniert. Ich kann den glühenden Zylinder erreichen."
+    },
+    "Context": "Flow/Overflow/Manfred: \"Not the best screwdriver, but it wo...\""
+  },
+  "DFr_7FC38387.MenuText": {
+    "Context": "Flow/Environment Comments/Manfred: \"That window looks very robust. But...\""
+  },
+  "DFr_7FC38387.Text": {
+    "en": {
+      "Text": "That window looks very robust. But I bet it couldn't withstand a good explosion."
+    },
+    "de": {
+      "Text": "Das Fenster sieht sehr robust aus. Aber ich wette, es könnte einer Explosion nicht standhalten."
+    },
+    "Context": "Flow/Environment Comments/Manfred: \"That window looks very robust. But...\""
+  },
+  "DFr_01788986.MenuText": {
+    "Context": "Flow/Environment Comments/Manfred: \"Nothing.\""
+  },
+  "DFr_01788986.Text": {
+    "en": {
+      "Text": "Nothing."
+    },
+    "de": {
+      "Text": "Nichts."
+    },
+    "Context": "Flow/Environment Comments/Manfred: \"Nothing.\""
+  },
+  "DFr_02D545F0.MenuText": {
+    "Context": "Flow/Environment Comments/Manfred: \"There's something in there... let's...\""
+  },
+  "DFr_02D545F0.Text": {
+    "en": {
+      "Text": "There's something in there... let's see... come... out!"
+    },
+    "de": {
+      "Text": "Da ist etwas drin... mal sehen... komm... raus!"
+    },
+    "Context": "Flow/Environment Comments/Manfred: \"There's something in there... let's...\""
+  },
+  "DFr_0656B604.MenuText": {
+    "Context": "Flow/Environment Comments/Manfred: \"I pulled nearly five meters of cabl...\""
+  },
+  "DFr_0656B604.Text": {
+    "en": {
+      "Text": "I pulled nearly five meters of cable out of the wall... you can never have enough of that stuff!"
+    },
+    "de": {
+      "Text": "Ich habe fast fünf Meter Kabel aus der Wand gezogen... von dem Zeug kann man nie genug haben!"
+    },
+    "Context": "Flow/Environment Comments/Manfred: \"I pulled nearly five meters of cabl...\""
+  },
+  "DFr_F4548992.MenuText": {
+    "Context": "Flow/Environment Comments/Manfred: \"Perhaps I can use it to senselessly...\""
+  },
+  "DFr_F4548992.Text": {
+    "en": {
+      "Text": "Perhaps I can use it to senselessly destroy things!"
+    },
+    "de": {
+      "Text": "Vielleicht kann ich damit sinnlos Dinge zerstören!"
+    },
+    "Context": "Flow/Environment Comments/Manfred: \"Perhaps I can use it to senselessly...\""
+  },
+  "DFr_B75B93A4.MenuText": {
+    "Context": "Flow/Environment Comments/Manfred: \"This calender seems to be the duty...\""
+  },
+  "DFr_B75B93A4.Text": {
+    "en": {
+      "Text": "This calender seems to be the duty roster."
+    },
+    "de": {
+      "Text": "Dieser Kalender scheint der Dienstplan zu sein."
+    },
+    "Context": "Flow/Environment Comments/Manfred: \"This calender seems to be the duty...\""
+  },
+  "DFr_2787F0CF.MenuText": {
+    "Context": "Flow/Environment Comments/Manfred: \"Some dates are especially highlight...\""
+  },
+  "DFr_2787F0CF.Text": {
+    "en": {
+      "Text": "Some dates are especially highlighted, most notably May, 25th... it says \"Don't forget: Towel Day!\" in large red letters."
+    },
+    "de": {
+      "Text": "Einige Daten sind besonders hervorgehoben, vor allem der 25. Mai... da steht in großen roten Buchstaben \"Nicht vergessen: Towel Day!\" in großen roten Buchstaben."
+    },
+    "Context": "Flow/Environment Comments/Manfred: \"Some dates are especially highlight...\""
+  },
+  "DFr_E999AB56.MenuText": {
+    "Context": "Flow/Environment Comments/Manfred: \"Seems to be a really important date...\""
+  },
+  "DFr_E999AB56.Text": {
+    "en": {
+      "Text": "Seems to be a really important date for the person working here."
+    },
+    "de": {
+      "Text": "Für die Person, die hier arbeitet, scheint es ein sehr wichtiges Datum zu sein."
+    },
+    "Context": "Flow/Environment Comments/Manfred: \"Seems to be a really important date...\""
+  },
+  "DFr_D2B4CCAF.MenuText": {
+    "Context": "Flow/Environment Comments/Manfred: \"A complete miniature version of our...\""
+  },
+  "DFr_D2B4CCAF.Text": {
+    "en": {
+      "Text": "A complete miniature version of our universe."
+    },
+    "de": {
+      "Text": "Eine vollständige Miniaturversion unseres Universums."
+    },
+    "Context": "Flow/Environment Comments/Manfred: \"A complete miniature version of our...\""
+  },
+  "DFr_FBBDF9D5.MenuText": {
+    "Context": "Flow/Environment Comments/Manfred: \"I've seen better ones. This one is...\""
+  },
+  "DFr_FBBDF9D5.Text": {
+    "en": {
+      "Text": "I've seen better ones. This one is still in Stone Age."
+    },
+    "de": {
+      "Text": "Ich habe schon bessere gesehen. Diese hier ist noch in der Steinzeit."
+    },
+    "Context": "Flow/Environment Comments/Manfred: \"I've seen better ones. This one is...\""
+  },
+  "DFr_06641B21.MenuText": {
+    "Context": "Flow/Environment Comments/Manfred: \"Perhaps I could escape through the...\""
+  },
+  "DFr_06641B21.Text": {
+    "en": {
+      "Text": "Perhaps I could escape through the ventilation pipe!"
+    },
+    "de": {
+      "Text": "Vielleicht könnte ich durch das Lüftungsrohr entkommen!"
+    },
+    "Context": "Flow/Environment Comments/Manfred: \"Perhaps I could escape through the...\""
+  },
+  "DFr_53325C87.MenuText": {
+    "Context": "Flow/Environment Comments/Manfred: \"Well, maybe after several weeks of...\""
+  },
+  "DFr_53325C87.Text": {
+    "en": {
+      "Text": "Well, maybe after several weeks of fasting..."
+    },
+    "de": {
+      "Text": "Nun, vielleicht nach einigen Wochen des Fastens..."
+    },
+    "Context": "Flow/Environment Comments/Manfred: \"Well, maybe after several weeks of...\""
+  },
+  "DFr_D38EE8D8.MenuText": {
+    "Context": "Flow/Environment Comments/Manfred: \"HEY! CAN ANYBODY HEAR ME? I'M TRAPP...\""
+  },
+  "DFr_D38EE8D8.Text": {
+    "en": {
+      "Text": "HEY! CAN ANYBODY HEAR ME? I'M TRAPPED DOWN HERE!"
+    },
+    "de": {
+      "Text": "HEY! KANN MICH JEMAND HÖREN? ICH BIN HIER UNTEN GEFANGEN!"
+    },
+    "Context": "Flow/Environment Comments/Manfred: \"HEY! CAN ANYBODY HEAR ME? I'M TRAPP...\""
+  },
+  "DFr_AB5DF4BF.MenuText": {
+    "Context": "Flow/Environment Comments/Manfred: \"I bet the only person who could hea...\""
+  },
+  "DFr_AB5DF4BF.Text": {
+    "en": {
+      "Text": "I bet the only person who could hear me is the doctor... who I knocked out unfortunately..."
+    },
+    "de": {
+      "Text": "Ich wette, die einzige Person, die mich hören kann, ist der Arzt... den ich leider ausgeknockt habe..."
+    },
+    "Context": "Flow/Environment Comments/Manfred: \"I bet the only person who could hea...\""
+  },
+  "DFr_246F8902.MenuText": {
+    "Context": "Flow/Environment Comments/Manfred: \"Yay, a Rorschach test!\""
+  },
+  "DFr_246F8902.Text": {
+    "en": {
+      "Text": "Yay, a Rorschach test!"
+    },
+    "de": {
+      "Text": "Juhu, ein Rorschachtest!"
+    },
+    "Context": "Flow/Environment Comments/Manfred: \"Yay, a Rorschach test!\""
+  },
+  "DFr_2EDF03C7.MenuText": {
+    "Context": "Flow/Environment Comments/Manfred: \"I see a beautiful butterfly!\""
+  },
+  "DFr_2EDF03C7.Text": {
+    "en": {
+      "Text": "I see a beautiful butterfly!"
+    },
+    "de": {
+      "Text": "Ich sehe einen schönen Schmetterling!"
+    },
+    "Context": "Flow/Environment Comments/Manfred: \"I see a beautiful butterfly!\""
+  },
+  "DFr_6F93B775.MenuText": {
+    "Context": "Flow/Environment Comments/Manfred: \"And a mushroom cloud...\""
+  },
+  "DFr_6F93B775.Text": {
+    "en": {
+      "Text": "And a mushroom cloud..."
+    },
+    "de": {
+      "Text": "Und ein Atompilz..."
+    },
+    "Context": "Flow/Environment Comments/Manfred: \"And a mushroom cloud...\""
+  },
+  "DFr_ReadBook.Text": {
+    "en": {
+      "Text": "A book from my favorite German: \"How I learned to love the bomb\" by Albert Einstein."
+    },
+    "de": {
+      "Text": "Ein Buch von meinem Lieblingsdeutschen: \"Wie ich lernte, die Bombe zu lieben\" von Albert Einstein."
+    },
+    "Context": "Flow/Bomb construction manual/Manfred: \"A book from my favorite German: \"Ho...\""
+  },
+  "DFr_AEACB12C.Text": {
+    "en": {
+      "Text": "Here's a complete construction manual for miniature atomic bombs..."
+    },
+    "de": {
+      "Text": "Hier ist eine komplette Bauanleitung für Miniatur-Atombomben..."
+    },
+    "Context": "Flow/Bomb construction manual/Manfred: \"Here's a complete construction manu...\""
+  },
+  "DFr_E7F5ABBC.Text": {
+    "en": {
+      "Text": "Second: Use cable to wire the whole thing and to create the bomb's detonator."
+    },
+    "de": {
+      "Text": "Zweitens: Verwenden Sie Kabel, um das Ganze zu verkabeln und den Zünder der Bombe herzustellen."
+    },
+    "Context": "Flow/Bomb construction manual/\"How I Learned to Love the Bomb\": \"Second: Use cable to wire the whole...\""
+  },
+  "DFr_E90A3F07.Text": {
+    "en": {
+      "Text": "Third: Create the cladding - you can save money here by using off-the-shelf aluminium foil."
+    },
+    "de": {
+      "Text": "Drittens: Erstellen Sie die Verkleidung - Sie können hier Geld sparen, indem Sie handelsübliche Aluminiumfolie verwenden."
+    },
+    "Context": "Flow/Bomb construction manual/\"How I Learned to Love the Bomb\": \"Third: Create the cladding - you ca...\""
+  },
+  "DFr_8D1A7482.MenuText": {
+    "Context": "Flow/Locker/Manfred: \"Hey, a bomb construction kit for ki...\""
+  },
+  "DFr_8D1A7482.Text": {
+    "en": {
+      "Text": "Hey, a bomb construction kit for kids!"
+    },
+    "de": {
+      "Text": "Hey, ein Bombenbaukasten für Kinder!"
+    },
+    "Context": "Flow/Locker/Manfred: \"Hey, a bomb construction kit for ki...\""
+  },
+  "DFr_666EB4ED.MenuText": {
+    "Context": "Flow/Locker/Manfred: \"It's locked with a combination lock...\""
+  },
+  "DFr_666EB4ED.Text": {
+    "en": {
+      "Text": "It's locked with a combination lock..."
+    },
+    "de": {
+      "Text": "Es ist mit einem Zahlenschloss verriegelt..."
+    },
+    "Context": "Flow/Locker/Manfred: \"It's locked with a combination lock...\""
+  },
+  "DFr_E98F2F40.MenuText": {
+    "en": {
+      "Text": "*try to open the lock*"
+    },
+    "de": {
+      "Text": "*Versuch, das Schloss zu öffnen*"
+    },
+    "Context": "Flow/Locker/Manfred: \"Ok, the lock has four numbers. Let'...\""
+  },
+  "DFr_E98F2F40.Text": {
+    "en": {
+      "Text": "Ok, the lock has four numbers. Let's start with the first..."
+    },
+    "de": {
+      "Text": "Ok, das Schloss hat vier Zahlen. Beginnen wir mit der ersten..."
+    },
+    "Context": "Flow/Locker/Manfred: \"Ok, the lock has four numbers. Let'...\""
+  },
+  "DFr_4FDD3547.MenuText": {
+    "en": {
+      "Text": "*leave the locker*"
+    },
+    "de": {
+      "Text": "*Verlassen Sie den Schrank*"
+    },
+    "Context": "Flow/Locker/Manfred: \"I have no clue what the combination...\""
+  },
+  "DFr_4FDD3547.Text": {
+    "en": {
+      "Text": "I have no clue what the combination could be and I'm not very lucky when it comes to gambling."
+    },
+    "de": {
+      "Text": "Ich habe keine Ahnung, was die Kombination sein könnte, und ich habe kein gutes Händchen, wenn es um Glücksspiele geht."
+    },
+    "Context": "Flow/Locker/Manfred: \"I have no clue what the combination...\""
+  },
+  "DFr_6DA9C67D.MenuText": {
+    "en": {
+      "Text": "2"
+    },
+    "de": {
+      "Text": "2"
+    },
+    "Context": "Flow/Locker/Manfred: \"2\""
+  },
+  "DFr_6DA9C67D.Text": {
+    "en": {
+      "Text": "2"
+    },
+    "de": {
+      "Text": "2"
+    },
+    "Context": "Flow/Locker/Manfred: \"2\""
+  },
+  "DFr_06920BAB.MenuText": {
+    "en": {
+      "Text": "3"
+    },
+    "de": {
+      "Text": "3"
+    },
+    "Context": "Flow/Locker/Manfred: \"3\""
+  },
+  "DFr_06920BAB.Text": {
+    "en": {
+      "Text": "3"
+    },
+    "de": {
+      "Text": "3"
+    },
+    "Context": "Flow/Locker/Manfred: \"3\""
+  },
+  "DFr_F2F0CDCC.MenuText": {
+    "en": {
+      "Text": "4"
+    },
+    "de": {
+      "Text": "4"
+    },
+    "Context": "Flow/Locker/Manfred: \"4\""
+  },
+  "DFr_F2F0CDCC.Text": {
+    "en": {
+      "Text": "4"
+    },
+    "de": {
+      "Text": "4"
+    },
+    "Context": "Flow/Locker/Manfred: \"4\""
+  },
+  "DFr_A5CE60FC.MenuText": {
+    "en": {
+      "Text": "5"
+    },
+    "de": {
+      "Text": "5"
+    },
+    "Context": "Flow/Locker/Manfred: \"5\""
+  },
+  "DFr_A5CE60FC.Text": {
+    "en": {
+      "Text": "5"
+    },
+    "de": {
+      "Text": "5"
+    },
+    "Context": "Flow/Locker/Manfred: \"5\""
+  },
+  "DFr_B7E87B90.MenuText": {
+    "en": {
+      "Text": "6"
+    },
+    "de": {
+      "Text": "6"
+    },
+    "Context": "Flow/Locker/Manfred: \"6\""
+  },
+  "DFr_B7E87B90.Text": {
+    "en": {
+      "Text": "6"
+    },
+    "de": {
+      "Text": "6"
+    },
+    "Context": "Flow/Locker/Manfred: \"6\""
+  },
+  "DFr_C9D40B8E.MenuText": {
+    "en": {
+      "Text": "7"
+    },
+    "de": {
+      "Text": "7"
+    },
+    "Context": "Flow/Locker/Manfred: \"7\""
+  },
+  "DFr_C9D40B8E.Text": {
+    "en": {
+      "Text": "7"
+    },
+    "de": {
+      "Text": "7"
+    },
+    "Context": "Flow/Locker/Manfred: \"7\""
+  },
+  "DFr_710412EF.MenuText": {
+    "en": {
+      "Text": "8"
+    },
+    "de": {
+      "Text": "8"
+    },
+    "Context": "Flow/Locker/Manfred: \"8\""
+  },
+  "DFr_710412EF.Text": {
+    "en": {
+      "Text": "8"
+    },
+    "de": {
+      "Text": "8"
+    },
+    "Context": "Flow/Locker/Manfred: \"8\""
+  },
+  "DFr_F3B810F0.MenuText": {
+    "en": {
+      "Text": "9"
+    },
+    "de": {
+      "Text": "9"
+    },
+    "Context": "Flow/Locker/Manfred: \"9\""
+  },
+  "DFr_F3B810F0.Text": {
+    "en": {
+      "Text": "9"
+    },
+    "de": {
+      "Text": "9"
+    },
+    "Context": "Flow/Locker/Manfred: \"9\""
+  },
+  "DFr_9D242423.MenuText": {
+    "en": {
+      "Text": "0"
+    },
+    "de": {
+      "Text": "0"
+    },
+    "Context": "Flow/Locker/Manfred: \"0\""
+  },
+  "DFr_9D242423.Text": {
+    "en": {
+      "Text": "0"
+    },
+    "de": {
+      "Text": "0"
+    },
+    "Context": "Flow/Locker/Manfred: \"0\""
+  },
+  "DFr_AFC16F26.MenuText": {
+    "en": {
+      "Text": "1"
+    },
+    "de": {
+      "Text": "1"
+    },
+    "Context": "Flow/Locker/Manfred: \"1\""
+  },
+  "DFr_AFC16F26.Text": {
+    "en": {
+      "Text": "1"
+    },
+    "de": {
+      "Text": "1"
+    },
+    "Context": "Flow/Locker/Manfred: \"1\""
+  },
+  "DFr_87E5499D.MenuText": {
+    "en": {
+      "Text": "*try to open the lock*"
+    },
+    "de": {
+      "Text": "*Versuch, das Schloss zu öffnen*"
+    },
+    "Context": "Flow/Locker/Manfred: \"Woohoo! It's open!\""
+  },
+  "DFr_87E5499D.Text": {
+    "en": {
+      "Text": "Woohoo! It's open!"
+    },
+    "de": {
+      "Text": "Woohoo! Es ist offen!"
+    },
+    "Context": "Flow/Locker/Manfred: \"Woohoo! It's open!\""
+  },
+  "DFr_FC431B5F.MenuText": {
+    "en": {
+      "Text": "*try to open the lock*"
+    },
+    "de": {
+      "Text": "*Versuch, das Schloss zu öffnen*"
+    },
+    "Context": "Flow/Locker/Manfred: \"Nothing, seems the combination was...\""
+  },
+  "DFr_FC431B5F.Text": {
+    "en": {
+      "Text": "Nothing, seems the combination was wrong,."
+    },
+    "de": {
+      "Text": "Nichts, anscheinend war die Kombination falsch,."
+    },
+    "Context": "Flow/Locker/Manfred: \"Nothing, seems the combination was...\""
+  },
+  "DFr_3BEB7B36.Text": {
+    "en": {
+      "Text": "You, sir, are a good guy! That may have helped you in the game... but don't expect that it will get you anywhere in the real world!"
+    },
+    "de": {
+      "Text": "Du bist ein guter Kerl! Das mag dir im Spiel geholfen haben... aber erwarte nicht, dass es dich in der echten Welt weiterbringt!"
+    },
+    "Context": "Flow/Judgement/Unknown Voice: \"You, sir, are a good guy! That may...\""
+  },
+  "DFr_4A27DF71.Text": {
+    "en": {
+      "Text": "What makes a man turn neutral? Lust for gold? Power? Or were you just born with a heart full of neutrality?"
+    },
+    "de": {
+      "Text": "Was bringt einen Mann dazu, neutral zu werden? Lust auf Gold? Macht? Oder wurdest du einfach mit einem Herzen voller Neutralität geboren?"
+    },
+    "Context": "Flow/Judgement/Unknown Voice: \"What makes a man turn neutral? Lust...\""
+  },
+  "DFr_D03D2C9F.Text": {
+    "en": {
+      "Text": "You are truly evil, even more evil than people harming innocent animals with microwave radiation! Shame on you!"
+    },
+    "de": {
+      "Text": "Du bist wirklich böse, sogar noch böser als Menschen, die unschuldige Tiere mit Mikrowellenstrahlung schädigen! Schande über dich!"
+    },
+    "Context": "Flow/Judgement/Unknown Voice: \"You are truly evil, even more evil...\""
+  },
+  "DFr_7EA1CE48.Text": {
+    "en": {
+      "Text": "What are you still doing here?"
+    },
+    "de": {
+      "Text": "Was machen Sie noch hier?"
+    },
+    "Context": "Flow/Manfred vs Dr. Artie Cee/Dr. Artie Cee: \"What are you still doing here?\""
+  },
+  "DFr_3E1D9D45.Text": {
+    "en": {
+      "Text": "Hey you! Have you seen my keys? I seem to have lost them..."
+    },
+    "de": {
+      "Text": "Hey! Haben Sie meine Schlüssel gesehen? Ich scheine sie verloren zu haben..."
+    },
+    "Context": "Flow/Manfred vs Dr. Artie Cee/Dr. Artie Cee: \"Hey you! Have you seen my keys? I s...\""
+  },
+  "DFr_0DE3848D.Text": {
+    "en": {
+      "Text": "This is the way out, right?"
+    },
+    "de": {
+      "Text": "Da geht's zum Ausgang, richtig?"
+    },
+    "Context": "Flow/Manfred vs Dr. Artie Cee/Manfred: \"This is the way out, right?\""
+  },
+  "DFr_4FE7EEDE.MenuText": {
+    "en": {
+      "Text": "Lie low!"
+    },
+    "de": {
+      "Text": "Versteck dich!"
+    },
+    "Context": "Flow/Manfred vs Dr. Artie Cee/Manfred: \"No, I did not see any keys. I swear...\""
+  },
+  "DFr_4FE7EEDE.Text": {
+    "en": {
+      "Text": "No, I did not see any keys. I swear!"
+    },
+    "de": {
+      "Text": "Nein, ich habe keine Schlüssel gesehen. Ich schwöre es!"
+    },
+    "Context": "Flow/Manfred vs Dr. Artie Cee/Manfred: \"No, I did not see any keys. I swear...\""
+  },
+  "DFr_353F7A34.Text": {
+    "en": {
+      "Text": "Ok, I will turn around to look at it. But this is the last time! There better be a real Three-headed giraffe this time!"
+    },
+    "de": {
+      "Text": "Ok, ich werde mich umdrehen und es mir ansehen. Aber das ist das letzte Mal! Diesmal sollte es besser eine echte dreiköpfige Giraffe sein!"
+    },
+    "Context": "Flow/Manfred vs Dr. Artie Cee/Dr. Artie Cee: \"Ok, I will turn around to look at i...\""
+  },
+  "DFr_EE745BA4.MenuText": {
+    "en": {
+      "Text": "Play it cool..."
+    },
+    "de": {
+      "Text": "Bleib cool..."
+    },
+    "Context": "Flow/Manfred vs Dr. Artie Cee/Manfred: \"Nope, sorry dude...\""
+  },
+  "DFr_EE745BA4.Text": {
+    "en": {
+      "Text": "Nope, sorry dude..."
+    },
+    "de": {
+      "Text": "Nö, tut mir leid, Kumpel..."
+    },
+    "Context": "Flow/Manfred vs Dr. Artie Cee/Manfred: \"Nope, sorry dude...\""
+  },
+  "DFr_4A17BFDC.Text": {
+    "en": {
+      "Text": "Look behind you! A three-headed giraffe!"
+    },
+    "de": {
+      "Text": "Hinter Ihnen! Eine dreiköpfige Giraffe!"
+    },
+    "Context": "Flow/Manfred vs Dr. Artie Cee/Manfred: \"Look behind you! A three-headed gir...\""
+  },
+  "DFr_196B82CE.Text": {
+    "en": {
+      "Text": "Wait! Shouldn't you be in a cell?"
+    },
+    "de": {
+      "Text": "Warte! Sollten Sie nicht in einer Zelle sein?"
+    },
+    "Context": "Flow/Manfred vs Dr. Artie Cee/Dr. Artie Cee: \"Wait! Shouldn't you be in a cell?\""
+  },
+  "DFr_5F9A9351.Text": {
+    "en": {
+      "Text": "Do you really think I'm that stupid?"
+    },
+    "de": {
+      "Text": "Halten Sie mich wirklich für so dumm?"
+    },
+    "Context": "Flow/Manfred vs Dr. Artie Cee/Dr. Artie Cee: \"Do you really think I'm that stupid...\""
+  },
+  "DFr_070679BE.Text": {
+    "en": {
+      "Text": "No really! Look!"
+    },
+    "de": {
+      "Text": "Nein, wirklich! Schauen Sie doch!"
+    },
+    "Context": "Flow/Manfred vs Dr. Artie Cee/Manfred: \"No really! Look!\""
+  },
+  "DFr_354E0745.MenuText": {
+    "en": {
+      "Text": "Just visiting!"
+    },
+    "de": {
+      "Text": "Nur zu Besuch!"
+    },
+    "Context": "Flow/Manfred vs Dr. Artie Cee/Manfred: \"Me? No, I'm just visiting.\""
+  },
+  "DFr_354E0745.Text": {
+    "en": {
+      "Text": "Me? No, I'm just visiting."
+    },
+    "de": {
+      "Text": "Ich? Nein, ich bin nur zu Besuch."
+    },
+    "Context": "Flow/Manfred vs Dr. Artie Cee/Manfred: \"Me? No, I'm just visiting.\""
+  },
+  "DFr_2DDC39C2.MenuText": {
+    "en": {
+      "Text": "Try a lie!"
+    },
+    "de": {
+      "Text": "Versuch eine Lüge!"
+    },
+    "Context": "Flow/Manfred vs Dr. Artie Cee/Manfred: \"No, I'm free to go. Dr. Mansion dia...\""
+  },
+  "DFr_2DDC39C2.Text": {
+    "en": {
+      "Text": "No, I'm free to go. Dr. Mansion diagnosis says - and I'm quoting here - that I'm not a maniac!"
+    },
+    "de": {
+      "Text": "Nein, ich bin frei und kann gehen. Die Diagnose von Dr. Mansion besagt - und ich zitiere hier - dass ich kein Verrückter bin!"
+    },
+    "Context": "Flow/Manfred vs Dr. Artie Cee/Manfred: \"No, I'm free to go. Dr. Mansion dia...\""
+  },
+  "DFr_AC6C3414.Text": {
+    "en": {
+      "Text": "I don't really believe you. I think I'm going to get our guard."
+    },
+    "de": {
+      "Text": "Ich glaube Ihnen nicht wirklich. Ich glaube, ich werde unsere Wache holen."
+    },
+    "Context": "Flow/Manfred vs Dr. Artie Cee/Dr. Artie Cee: \"I don't really believe you. I think...\""
+  },
+  "DFr_7CDD09B6.Text": {
+    "en": {
+      "Text": "Dr. Mansion doesn't work here any more young man. So..."
+    },
+    "de": {
+      "Text": "Dr. Mansion arbeitet hier nicht mehr, junger Mann. Also..."
+    },
+    "Context": "Flow/Manfred vs Dr. Artie Cee/Dr. Artie Cee: \"Dr. Mansion doesn't work here any m...\""
+  },
+  "DFr_75A0C9B8.Text": {
+    "en": {
+      "Text": "Well, visiting hours are long over young man. So..."
+    },
+    "de": {
+      "Text": "Nun, die Besuchszeit ist längst vorbei, junger Mann. Also..."
+    },
+    "Context": "Flow/Manfred vs Dr. Artie Cee/Dr. Artie Cee: \"Well, visiting hours are long over...\""
+  },
+  "DFr_2935ED59.MenuText": {
+    "en": {
+      "Text": "Don't worry, be happy!"
+    },
+    "de": {
+      "Text": "Mach dir keine Sorgen, sei glücklich!"
+    },
+    "Context": "Flow/Manfred vs Dr. Artie Cee/Manfred: \"Me? Treatment? No! Im fine, just su...\""
+  },
+  "DFr_2935ED59.Text": {
+    "en": {
+      "Text": "Me? Treatment? No! Im fine, just superfine. I'm smiling, right?"
+    },
+    "de": {
+      "Text": "Ich? Behandlung? Nein! Mir geht's gut, einfach super gut. Ich lächle doch, oder?"
+    },
+    "Context": "Flow/Manfred vs Dr. Artie Cee/Manfred: \"Me? Treatment? No! Im fine, just su...\""
+  },
+  "DFr_0A2C46C7.MenuText": {
+    "en": {
+      "Text": "Crowbar! Crowbar!"
+    },
+    "de": {
+      "Text": "Brechstange! Brechstange!"
+    },
+    "Context": "Flow/Manfred vs Dr. Artie Cee/Manfred: \"Treatment? Me? In a second class fa...\""
+  },
+  "DFr_0A2C46C7.Text": {
+    "en": {
+      "Text": "Treatment? Me? In a second class facility like this? Never! I'm going and I'm going now!"
+    },
+    "de": {
+      "Text": "Behandlung? Ich? In einer zweitklassigen Einrichtung wie dieser? Niemals! Ich gehe, und zwar sofort!"
+    },
+    "Context": "Flow/Manfred vs Dr. Artie Cee/Manfred: \"Treatment? Me? In a second class fa...\""
+  },
+  "DFr_CFB99958.Text": {
+    "en": {
+      "Text": "Oh not this word again! Can't you stop saying it? You may have a compulsion neurosis. I think you need treatment."
+    },
+    "de": {
+      "Text": "Oh, nicht schon wieder dieses Wort! Können Sie nicht aufhören, es zu sagen? Sie haben vielleicht eine Zwangsneurose. Ich glaube, Sie brauchen eine Behandlung."
+    },
+    "Context": "Flow/Manfred vs Dr. Artie Cee/Dr. Artie Cee: \"Oh not this word again! Can't you s...\""
+  },
+  "DFr_C88B4E45.Text": {
+    "en": {
+      "Text": "Second class facility? You are definitely not lucid! This is the finest hospital of the city!"
+    },
+    "de": {
+      "Text": "Eine Einrichtung zweiter Klasse? Sie sind definitiv nicht bei klarem Verstand! Dies ist das beste Krankenhaus der Stadt!"
+    },
+    "Context": "Flow/Manfred vs Dr. Artie Cee/Dr. Artie Cee: \"Second class facility? You are defi...\""
+  },
+  "DFr_1DDDA871.Text": {
+    "en": {
+      "Text": "Ha! Never! This is the worst place I've ever seen. Who did the decoration? A game designer?"
+    },
+    "de": {
+      "Text": "Ha! Niemals! Das ist der schlimmste Ort, den ich je gesehen habe. Wer hat die Dekoration gemacht? Ein Spieldesigner?"
+    },
+    "Context": "Flow/Manfred vs Dr. Artie Cee/Manfred: \"Ha! Never! This is the worst place...\""
+  },
+  "DFr_D4BEAB38.Text": {
+    "en": {
+      "Text": "This is an outrage! I'm going to call the guard!"
+    },
+    "de": {
+      "Text": "Das ist ein Skandal! Ich werde die Wache rufen!"
+    },
+    "Context": "Flow/Manfred vs Dr. Artie Cee/Dr. Artie Cee: \"This is an outrage! I'm going to ca...\""
+  },
+  "DFr_2205A178.Text": {
+    "en": {
+      "Text": "Hey doc! You look hungry. Can I interest you in a tasty banana?"
+    },
+    "de": {
+      "Text": "Hey Doc! Sie sehen hungrig aus. Kann ich Sie für eine leckere Banane begeistern?"
+    },
+    "Context": "Flow/Manfred vs Dr. Artie Cee/Manfred: \"Hey doc! You look hungry. Can I int...\""
+  },
+  "DFr_A0BC16E0.Text": {
+    "en": {
+      "Text": "Oh thanks, did you know that the reason bananas are curved has to do with how they grow? Bananas grow in bunches known as 'hands'. As the bananas in a hand grow larger, they eventually curve upwards so that instead of pointing towards the ground, they bend up and point at the sky. This is called 'negative geotropism'. Bananas have this so that they can reach out towards the sun and get more light! Amazing, isn't it?"
+    },
+    "de": {
+      "Text": "Oh danke, wussten Sie, dass der Grund für die Krümmung der Bananen mit ihrem Wachstum zu tun hat? Bananen wachsen in Bündeln, die als \"Hände\" bezeichnet werden. Wenn die Bananen in einer Hand größer werden, krümmen sie sich schließlich nach oben, so dass sie nicht mehr auf den Boden zeigen, sondern nach oben und in den Himmel. Dies wird als \"negativer Geotropismus\" bezeichnet. Bananen haben diese Eigenschaft, damit sie sich der Sonne entgegenstrecken und mehr Licht bekommen können! Erstaunlich, nicht wahr?"
+    },
+    "Context": "Flow/Manfred vs Dr. Artie Cee/Dr. Artie Cee: \"Oh thanks, did you know that the re...\""
+  },
+  "DFr_99D6DB8B.Text": {
+    "en": {
+      "Text": "Uhm, yes really doc. Fascinating story. But they also taste very good. So enjoy your meal!"
+    },
+    "de": {
+      "Text": "Ähm, ja wirklich Doc. Faszinierende Geschichte. Aber sie schmecken auch sehr gut. Also guten Appetit!"
+    },
+    "Context": "Flow/Manfred vs Dr. Artie Cee/Manfred: \"Uhm, yes really doc. Fascinating st...\""
+  },
+  "DFr_29F2674D.Text": {
+    "en": {
+      "Text": "Oh yes, thanks young man. [He's eating the banana with three big bites.]"
+    },
+    "de": {
+      "Text": "Oh ja, danke, junger Mann. (Er isst die Banane mit drei großen Bissen.)"
+    },
+    "Context": "Flow/Manfred vs Dr. Artie Cee/Dr. Artie Cee: \"Oh yes, thanks young man. [He's eat...\""
+  },
+  "DFr_39BEA97D.Text": {
+    "en": {
+      "Text": "Well, interesting taste. But I feel very sleepy now. Did you know that the reason for that... [Sits down && falls asleep.]"
+    },
+    "de": {
+      "Text": "Nun, interessanter Geschmack. Aber ich fühle mich jetzt sehr schläfrig. Wussten Sie, dass der Grund dafür... [Setzt sich hin und schläft ein.]"
+    },
+    "Context": "Flow/Manfred vs Dr. Artie Cee/Dr. Artie Cee: \"Well, interesting taste. But I feel...\""
+  },
+  "DFr_9D824AF2.Text": {
+    "en": {
+      "Text": "...is that the banana is full of sleeping pills. Yes doc. I actually knew that. Sleep well! I'm out of here!"
+    },
+    "de": {
+      "Text": "...ist, dass die Banane voller Schlaftabletten ist. Ja, Doc. Das wusste ich tatsächlich. Schlafen Sie gut! Ich haue jetzt ab!"
+    },
+    "Context": "Flow/Manfred vs Dr. Artie Cee/Manfred: \"...is that the banana is full of sl...\""
+  },
+  "DFr_0092C8D0.MenuText": {
+    "en": {
+      "Text": ""
+    },
+    "Context": "Flow/Manfred vs the Guard/Manfred: \"Oh I'm just visiting. You know... m...\""
+  },
+  "DFr_0092C8D0.Text": {
+    "en": {
+      "Text": "Oh I'm just visiting. You know... my old nanny. She's, well... 'Spoing' - got more than one screw loose - very sad actually. She played too many bad videogames I fear."
+    },
+    "de": {
+      "Text": "Oh, ich bin nur zu Besuch. Du weißt schon... mein altes Kindermädchen. Sie hat, nun ja... 'Sproing' - hat mehr als eine Schraube locker - sehr traurig eigentlich. Sie hat zu viele schlechte Videospiele gespielt, fürchte ich."
+    },
+    "Context": "Flow/Manfred vs the Guard/Manfred: \"Oh I'm just visiting. You know... m...\""
+  },
+  "DFr_GuardGreet.Text": {
+    "en": {
+      "Text": "Hey, who are you?"
+    },
+    "de": {
+      "Text": "Hey, wer bist du?"
+    },
+    "Context": "Flow/Manfred vs the Guard/Guard: \"Hey, who are you?\""
+  },
+  "DFr_89C7D092.Text": {
+    "en": {
+      "Text": "Thanks for the banana. This tastes really good. Just feelin' a little slee..."
+    },
+    "de": {
+      "Text": "Danke für die Banane. Das schmeckt wirklich gut. Ich fühle mich nur ein wenig schläfrig..."
+    },
+    "Context": "Flow/Manfred vs the Guard/Guard: \"Thanks for the banana. This tastes...\""
+  },
+  "DFr_4B823652.Text": {
+    "en": {
+      "Text": "Didn't see you coming in and visiting ours are over. I don't think you are telling the truth."
+    },
+    "de": {
+      "Text": "Ich habe dich nicht hereinkommen sehen und die Besuchszeit ist vorbei. Ich glaube nicht, dass du die Wahrheit sagst."
+    },
+    "Context": "Flow/Manfred vs the Guard/Guard: \"Didn't see you coming in and visiti...\""
+  },
+  "DFr_AC0BCAE5.Text": {
+    "en": {
+      "Text": "I'm not your friend sir. Step back from the parameter!"
+    },
+    "de": {
+      "Text": "Ich bin nicht dein Freund, mein Junge. Trete zurück!"
+    },
+    "Context": "Flow/Manfred vs the Guard/Guard: \"I'm not your friend sir. Step back...\""
+  },
+  "DFr_13AEA032.Text": {
+    "en": {
+      "Text": "(You hear the guards stomach growling)"
+    },
+    "de": {
+      "Text": "(Du hörst den Magen des Wächters knurren)"
+    },
+    "Context": "Flow/Manfred vs the Guard/Guard: \"(You hear the guards stomach growli...\""
+  },
+  "DFr_3C4E3F7F.Text": {
+    "en": {
+      "Text": "Well, sounds like my friend here is very hungry. I should give him something to eat. Something that lets him enter never-never land. But the crowbar would also do the trick."
+    },
+    "de": {
+      "Text": "Klingt, als ob mein Freund hier sehr hungrig ist. Ich sollte ihm etwas zu essen geben. Etwas, das ihn ins Nimmerland bringt. Aber das Brecheisen würde auch genügen."
+    },
+    "Context": "Flow/Manfred vs the Guard/Manfred: \"Well, sounds like my friend here is...\""
+  },
+  "DFr_44E6CBD6.Text": {
+    "en": {
+      "Text": "I don't know. Mama always says that you shouldn't accept things from strangers. But I'm really hungry."
+    },
+    "de": {
+      "Text": "Ich weiß es nicht. Mama sagt immer, dass man keine Sachen von Fremden annehmen soll. Aber ich bin wirklich hungrig."
+    },
+    "Context": "Flow/Manfred vs the Guard/Guard: \"I don't know. Mama always says that...\""
+  },
+  "DFr_AE0031C4.MenuText": {
+    "en": {
+      "Text": "Introduce yourself..."
+    },
+    "de": {
+      "Text": "Stellen Sie sich vor..."
+    },
+    "Context": "Flow/Manfred vs the Guard/Manfred: \"Well, that can be solved easily. I'...\""
+  },
+  "DFr_AE0031C4.Text": {
+    "en": {
+      "Text": "Well, that can be solved easily. I'm Manfred. I'm older than I look and I really like kittens. As a friendly gesture I gift you this delicous banana. Enjoy your meal - buddy!"
+    },
+    "de": {
+      "Text": "Nun, das lässt sich leicht lösen. Ich bin Manfred. Ich bin älter, als ich aussehe, und ich mag Kätzchen sehr. Als freundliche Geste schenke ich dir diese leckere Banane. Guten Appetit - Kumpel!"
+    },
+    "Context": "Flow/Manfred vs the Guard/Manfred: \"Well, that can be solved easily. I'...\""
+  },
+  "DFr_0DC8C28C.MenuText": {
+    "en": {
+      "Text": "Reason with him."
+    },
+    "de": {
+      "Text": "Diskutieren Sie mit ihm."
+    },
+    "Context": "Flow/Manfred vs the Guard/Manfred: \"Oh I'm not really a stranger, I'm M...\""
+  },
+  "DFr_0DC8C28C.Text": {
+    "en": {
+      "Text": "Oh I'm not really a stranger, I'm Manfred. And I think a man in your position cannot risk to be weakend. Let me gift you this banana so that you may stay strong and vigilant!"
+    },
+    "de": {
+      "Text": "Oh, ich bin eigentlich kein Fremder, ich bin Manfred. Und ich denke, ein Mann in deiner Position kann es nicht riskieren, schwach zu sein. Ich möchte dir diese Banane schenken, damit du stark und wachsam bleibst!"
+    },
+    "Context": "Flow/Manfred vs the Guard/Manfred: \"Oh I'm not really a stranger, I'm M...\""
+  },
+  "DFr_16A2E81A.Text": {
+    "en": {
+      "Text": "Ok, I guess you're right. I accept your gift."
+    },
+    "de": {
+      "Text": "Ok, ich denke, du hast recht. Ich nehme dein Geschenk an."
+    },
+    "Context": "Flow/Manfred vs the Guard/Guard: \"Ok, I guess you're right. I accept...\""
+  },
+  "DFr_B4B971EB.Text": {
+    "en": {
+      "Text": "Oh, somebody is a little bit grumpy. Is it because one of your shoelaces is untied?"
+    },
+    "de": {
+      "Text": "Oh, da ist aber jemand ein bisschen mürrisch. Ist es, weil einer deiner Schnürsenkel offen ist?"
+    },
+    "Context": "Flow/Manfred vs the Guard/Manfred: \"Oh, somebody is a little bit grumpy...\""
+  },
+  "DFr_1B1972EF.Text": {
+    "en": {
+      "Text": "What? My shoelace is untied? Why didn't you tell me that straightaway?"
+    },
+    "de": {
+      "Text": "Was? Mein Schnürsenkel ist offen? Warum hast du mir das nicht gleich gesagt?"
+    },
+    "Context": "Flow/Manfred vs the Guard/Guard: \"What? My shoelace is untied? Why di...\""
+  },
+  "DFr_128AB6E2.Text": {
+    "en": {
+      "Text": "Well, I just realized..."
+    },
+    "de": {
+      "Text": "Nun, mir ist gerade klar geworden..."
+    },
+    "Context": "Flow/Manfred vs the Guard/Manfred: \"Well, I just realized...\""
+  },
+  "DFr_D06FB1AF.Text": {
+    "en": {
+      "Text": "This is a high security risk! It could get me killed! Echo_01 to base. I got a 404 here. I will initiate countermeasures immediately. Stay alert!"
+    },
+    "de": {
+      "Text": "Das ist ein hohes Sicherheitsrisiko! Es könnte mich umbringen! Echo_01 an Basis. Ich habe hier einen 404. Ich werde sofort Gegenmaßnahmen einleiten. Bleibt wachsam!"
+    },
+    "Context": "Flow/Manfred vs the Guard/Guard: \"This is a high security risk! It co...\""
+  },
+  "DFr_DA2E90F0.Text": {
+    "en": {
+      "Text": "Yes, bow down. Perfect head position. Say hello to my good old pal - the crowbar!"
+    },
+    "de": {
+      "Text": "Ja, verbeuge dich. Perfekte Kopfhaltung. Begrüße meinen guten alten Kumpel - die Brechstange!"
+    },
+    "Context": "Flow/Manfred vs the Guard/Manfred: \"Yes, bow down. Perfect head positio...\""
+  },
+  "DFr_3A8AA4C7.Text": {
+    "en": {
+      "Text": "That doesn't make sense yet..."
+    },
+    "de": {
+      "Text": "Das ergibt noch keinen Sinn..."
+    },
+    "Context": "Flow/Manfred vs the Guard/Manfred: \"That doesn't make sense yet...\""
+  },
+  "DFr_7F7FADA7.Text": {
+    "en": {
+      "Text": "He's gonna be fine. Just a headache when he wakes up. Time to go. Run Manfred, run!"
+    },
+    "de": {
+      "Text": "Es wird ihm gut gehen. Er hat nur Kopfschmerzen, wenn er aufwacht. Zeit zu gehen. Lauf Manfred, lauf!"
+    },
+    "Context": "Flow/Manfred vs the Guard/Manfred: \"He's gonna be fine. Just a headache...\""
+  },
+  "DFr_15A943E8.Text": {
+    "en": {
+      "Text": "Oh great, sleeping pills!"
+    },
+    "de": {
+      "Text": "Oh toll, Schlaftabletten!"
+    },
+    "Context": "Flow/Item Interactions/Manfred: \"Oh great, sleeping pills!\""
+  },
+  "DFr_22406A7F.Text": {
+    "en": {
+      "Text": "Wow, a banana. This must be my lucky day."
+    },
+    "de": {
+      "Text": "Wow, eine Banane. Heute muss mein Glückstag sein."
+    },
+    "Context": "Flow/Item Interactions/Manfred: \"Wow, a banana. This must be my luck...\""
+  },
+  "DFr_C931F0D3.Text": {
+    "en": {
+      "Text": "That's some kind of advertisement. It says:"
+    },
+    "de": {
+      "Text": "Das ist eine Art Werbung. Da steht:"
+    },
+    "Context": "Flow/Environment Comments/Manfred: \"That's some kind of advertisement....\""
+  },
+  "DFr_C148C027.Text": {
+    "en": {
+      "Text": "Well... primitive paintings. Maybe kids drew them or cats? Hard to tell. Either way, they don't make sense."
+    },
+    "de": {
+      "Text": "Na ja... primitive Gemälde. Vielleicht haben Kinder sie gemalt oder Katzen? Schwer zu sagen. Wie auch immer, sie ergeben keinen Sinn."
+    },
+    "Context": "Flow/Environment Comments/Manfred: \"Well... primitive paintings. Maybe...\""
+  },
+  "DFr_E8BD2F86.Text": {
+    "en": {
+      "Text": "It has a biohazard sticker attached. Why? I don't know. I guess for good reasons and that is good enough for me. I won't touch it."
+    },
+    "de": {
+      "Text": "Es ist ein Aufkleber für biologische Gefahren angebracht. Warum das so ist? Ich weiß es nicht. Ich vermute, aus guten Gründen, und das reicht mir. Ich werde es nicht anfassen."
+    },
+    "Context": "Flow/Environment Comments/Manfred: \"It has a biohazard sticker attached...\""
+  },
+  "DFr_A95BD732.Text": {
+    "en": {
+      "Text": "Just leaflets. I leave-let them alone..."
+    },
+    "de": {
+      "Text": "Nur Flugblätter. Ich lasse sie in Ruhe..."
+    },
+    "Context": "Flow/Environment Comments/Manfred: \"Just leaflets. I leave-let them alo...\""
+  },
+  "DFr_822770D3.Text": {
+    "en": {
+      "Text": "We want you!\r\n\r\nYou are a good listener?\r\nYou look good in white?\r\nYou bring your own pen?\r\n\r\nThen you have all it takes to be a therapist! Submit your application now!"
+    },
+    "de": {
+      "Text": "Wir wollen Sie!\r\n\r\nSie können gut zuhören?\r\nSie sehen gut aus in Weiß?\r\nSie bringen Ihren eigenen Stift mit?\r\n\r\nDann haben Sie alles, was Sie brauchen, um Therapeut zu werden! Bewerben Sie sich jetzt!"
+    },
+    "Context": "Flow/Environment Comments/Manfred: \"We want you! You are a good list...\""
+  },
+  "DFr_E0874EF8.Text": {
+    "en": {
+      "Text": "Hey, I remember this phrase. My girlfriend use to say it when I ask her to stroke my monkey. I found it on an island. The monkey, not the girlfriend. She's from... from..."
+    },
+    "de": {
+      "Text": "Hey, ich erinnere mich an diesen Satz. Meine Freundin hat ihn immer gesagt, wenn ich sie gebeten habe, meinen Affen zu streicheln. Ich habe ihn auf einer Insel gefunden. Den Affen, nicht die Freundin. Sie ist aus... aus..."
+    },
+    "Context": "Flow/Environment Comments/Manfred: \"Hey, I remember this phrase. My gir...\""
+  },
+  "DFr_7BF106D5.Text": {
+    "en": {
+      "Text": "Well, let's just say this is a tale for another time!"
+    },
+    "de": {
+      "Text": "Nun, sagen wir einfach, das ist eine Geschichte für ein anderes Mal!"
+    },
+    "Context": "Flow/Environment Comments/Manfred: \"Well, let's just say this is a tale...\""
+  },
+  "DFr_BE3600C1.Text": {
+    "en": {
+      "Text": "I cannot unlock that."
+    },
+    "de": {
+      "Text": "Ich kann das nicht aufschließen."
+    },
+    "Context": "Flow/Item Interactions/Manfred: \"I cannot unlock that.\""
+  },
+  "DFr_82B76009.Text": {
+    "en": {
+      "Text": "No, I don't want to destroy that."
+    },
+    "de": {
+      "Text": "Nein, ich will das nicht zerstören."
+    },
+    "Context": "Flow/Item Interactions/Manfred: \"No, I don't want to destroy that.\""
+  },
+  "DFr_D5639C5B.Text": {
+    "en": {
+      "Text": "That has no plug and I don't think it would become any better with electricity."
+    },
+    "de": {
+      "Text": "Das hat keinen Stecker und ich glaube nicht, dass es mit Strom besser werden würde."
+    },
+    "Context": "Flow/Item Interactions/Manfred: \"That has no plug and I don't think...\""
+  },
+  "DFr_47E8B497.Text": {
+    "en": {
+      "Text": "Nah, that makes no sense at all!"
+    },
+    "de": {
+      "Text": "Nein, das ergibt überhaupt keinen Sinn!"
+    },
+    "Context": "Flow/Item Interactions/Manfred: \"Nah, that makes no sense at all!\""
+  },
+  "DFr_9185D792.Text": {
+    "en": {
+      "Text": "I don't want to clean that!"
+    },
+    "de": {
+      "Text": "Ich will das nicht sauber machen!"
+    },
+    "Context": "Flow/Item Interactions/Manfred: \"I don't want to clean that!\""
+  },
+  "DFr_0444F69A.MenuText": {
+    "Context": "Flow/The Therapist/Manfred: \"[You knock down the doctor with a s...\""
+  },
+  "DFr_0444F69A.Text": {
+    "en": {
+      "Text": "[You knock down the doctor with a single, well aimed hit.]"
+    },
+    "de": {
+      "Text": "[Du schlägst den Arzt mit einem einzigen, gut gezielten Schlag nieder.]"
+    },
+    "Context": "Flow/The Therapist/Manfred: \"[You knock down the doctor with a s...\""
+  },
+  "DFr_9E1CC622.MenuText": {
+    "en": {
+      "Text": "Distract the doctor and steal his key."
+    },
+    "de": {
+      "Text": "Lenken Sie den Arzt ab und stehlen Sie seinen Schlüssel."
+    },
+    "Context": "Flow/The Therapist/Manfred: \"Hey, look! Right behind you a three...\""
+  },
+  "DFr_9E1CC622.Text": {
+    "en": {
+      "Text": "Hey, look! Right behind you a three-headed giraffe!"
+    },
+    "de": {
+      "Text": "Hey, schau mal! Direkt hinter dir eine dreiköpfige Giraffe!"
+    },
+    "Context": "Flow/The Therapist/Manfred: \"Hey, look! Right behind you a three...\""
+  },
+  "DFr_2DFD6AA5.MenuText": {
+    "en": {
+      "Text": "Yes"
+    },
+    "de": {
+      "Text": "Ja"
+    },
+    "Context": "Flow/The Therapist/Manfred: \"Yes.\""
+  },
+  "DFr_2DFD6AA5.Text": {
+    "en": {
+      "Text": "Yes."
+    },
+    "de": {
+      "Text": "Ja."
+    },
+    "Context": "Flow/The Therapist/Manfred: \"Yes.\""
+  },
+  "DFr_EB31984C.MenuText": {
+    "en": {
+      "Text": ""
+    },
+    "Context": "Flow/The Closed Door/Manfred: \"Ha, it worked! I hoped for somethin...\""
+  },
+  "DFr_EB31984C.Text": {
+    "en": {
+      "Text": "Ha, it worked! I hoped for something more unconventional... but I won't complain."
+    },
+    "de": {
+      "Text": "Ha, es hat funktioniert! Ich hatte auf etwas Unkonventionelleres gehofft... aber ich will mich nicht beschweren."
+    },
+    "Context": "Flow/The Closed Door/Manfred: \"Ha, it worked! I hoped for somethin...\""
+  },
+  "DFr_7F891C88.MenuText": {
+    "Context": "Flow/Trapped/Manfred: \"Damn! The door fell shut...\""
+  },
+  "DFr_7F891C88.Text": {
+    "en": {
+      "Text": "Damn! The door fell shut..."
+    },
+    "de": {
+      "Text": "Verdammt! Die Tür ist zugefallen..."
+    },
+    "Context": "Flow/Trapped/Manfred: \"Damn! The door fell shut...\""
+  },
+  "DFr_312E067B.MenuText": {
+    "en": {
+      "Text": "*shrug* I don't care..."
+    },
+    "de": {
+      "Text": "*Achselzucken* Das ist mir egal..."
+    },
+    "Context": "Flow/The Hamster/Manfred: \"*You ignore the hamster's beseechin...\""
+  },
+  "DFr_312E067B.Text": {
+    "en": {
+      "Text": "*You ignore the hamster's beseeching look and start the countdown. *"
+    },
+    "de": {
+      "Text": "*Du ignorierst den flehenden Blick des Hamsters und beginnst den Countdown. *"
+    },
+    "Context": "Flow/The Hamster/Manfred: \"*You ignore the hamster's beseechin...\""
+  },
+  "DFr_0B6CF64A.MenuText": {
+    "en": {
+      "Text": "*threaten*"
+    },
+    "de": {
+      "Text": "*Drohung*"
+    },
+    "Context": "Flow/The Hamster/Manfred: \"Think you're clever, right? I warn...\""
+  },
+  "DFr_0B6CF64A.Text": {
+    "en": {
+      "Text": "Think you're clever, right? I warn you... I know how to use a microwave!"
+    },
+    "de": {
+      "Text": "Du hältst dich wohl für clever, was? Ich warne dich... Ich weiß, wie man eine Mikrowelle benutzt!"
+    },
+    "Context": "Flow/The Hamster/Manfred: \"Think you're clever, right? I warn...\""
+  },
+  "DFr_7AB5D546.MenuText": {
+    "en": {
+      "Text": "*work together*"
+    },
+    "de": {
+      "Text": "*gemeinsam arbeiten*"
+    },
+    "Context": "Flow/The Hamster/Manfred: \"You're right, we have to cooperate...\""
+  },
+  "DFr_7AB5D546.Text": {
+    "en": {
+      "Text": "You're right, we have to cooperate to get out of here."
+    },
+    "de": {
+      "Text": "Du hast Recht, wir müssen kooperieren, um hier rauszukommen."
+    },
+    "Context": "Flow/The Hamster/Manfred: \"You're right, we have to cooperate...\""
+  },
+  "DFr_36D49D5E.MenuText": {
+    "Context": "Flow/The Hamster/Manfred: \"Freedom!\""
+  },
+  "DFr_36D49D5E.Text": {
+    "en": {
+      "Text": "Freedom!"
+    },
+    "de": {
+      "Text": "Freiheit!"
+    },
+    "Context": "Flow/The Hamster/Manfred: \"Freedom!\""
+  },
+  "DFr_C097A441.MenuText": {
+    "Context": "Flow/Bomb construction manual/\"How I Learned to Love the Bomb\": \"First: Enrich the plutonium. A spec...\""
+  },
+  "DFr_C097A441.Text": {
+    "en": {
+      "Text": "First: Enrich the plutonium. A special a-bomb construction kit comes in handy at this point."
+    },
+    "de": {
+      "Text": "Erstens: Reichern Sie das Plutonium an. Ein spezieller A-Bomben-Baukasten ist an dieser Stelle sehr hilfreich."
+    },
+    "Context": "Flow/Bomb construction manual/\"How I Learned to Love the Bomb\": \"First: Enrich the plutonium. A spec...\""
+  },
+  "DFr_23231BDC.MenuText": {
+    "en": {
+      "Text": "Use the crowbar!"
+    },
+    "de": {
+      "Text": "Nimm das Brecheisen!"
+    },
+    "Context": "Flow/Manfred vs Dr. Artie Cee/Manfred: \"This is pointless! Sleep well docto...\""
+  },
+  "DFr_23231BDC.Text": {
+    "en": {
+      "Text": "This is pointless! Sleep well doctor!"
+    },
+    "de": {
+      "Text": "Das ist sinnlos! Schlafen Sie gut, Doktor!"
+    },
+    "Context": "Flow/Manfred vs Dr. Artie Cee/Manfred: \"This is pointless! Sleep well docto...\""
+  },
+  "DFr_64E10DC9.Text": {
+    "en": {
+      "Text": "Well... that was easy. I guess I'm a people person after all..."
+    },
+    "de": {
+      "Text": "Nun... das war einfach. Ich schätze, ich bin wohl doch ein Menschenkenner..."
+    },
+    "Context": "Flow/Manfred vs Dr. Artie Cee/Manfred: \"Well... that was easy. I guess I'm...\""
+  },
+  "DFr_21E11067.Text": {
+    "en": {
+      "Text": "- Yeah, good idea. Let's draw the good doc a ticket to never-never land. -"
+    },
+    "de": {
+      "Text": "- Ja, gute Idee. Lasst uns dem guten Doc ein Ticket ins Nimmerland ziehen. -"
+    },
+    "Context": "Flow/Manfred vs Dr. Artie Cee/Manfred: \"- Yeah, good idea. Let's draw the g...\""
+  },
+  "DFr_43C0CAA3.Text": {
+    "en": {
+      "Text": "He's gonna be fine. Just a headache when he wakes up. Time to go. Run Manfred, run!"
+    },
+    "de": {
+      "Text": "Es wird ihm gut gehen. Er hat nur Kopfschmerzen, wenn er aufwacht. Zeit zu gehen. Lauf Manfred, lauf!"
+    },
+    "Context": "Flow/Manfred vs Dr. Artie Cee/Manfred: \"He's gonna be fine. Just a headache...\""
+  },
+  "DFr_3C77A816.MenuText": {
+    "en": {
+      "Text": "Crowbar! Crowbar!"
+    },
+    "de": {
+      "Text": "Brechstange! Brechstange!"
+    },
+    "Context": "Flow/Manfred vs the Guard/Manfred: \"Howdy friend!\""
+  },
+  "DFr_3C77A816.Text": {
+    "en": {
+      "Text": "Howdy friend!"
+    },
+    "de": {
+      "Text": "Guten Tag, mein Freund!"
+    },
+    "Context": "Flow/Manfred vs the Guard/Manfred: \"Howdy friend!\""
+  },
+  "DFr_7FCFDB25.Text": {
+    "en": {
+      "Text": "Hey friend! Sounds like you need something to bite."
+    },
+    "de": {
+      "Text": "Hallo Freund! Klingt, als bräuchtest du etwas zu beißen."
+    },
+    "Context": "Flow/Manfred vs the Guard/Manfred: \"Hey friend! Sounds like you need so...\""
+  },
+  "DFr_4824DD3B.Text": {
+    "en": {
+      "Text": "Here you go!"
+    },
+    "de": {
+      "Text": "So geht's!"
+    },
+    "Context": "Flow/Manfred vs the Guard/Manfred: \"Here you go!\""
+  },
+  "Itm_BombConstructionKit.DisplayName": {
+    "en": {
+      "Text": "Nuke it! A-bomb construction kit"
+    },
+    "Context": "Entities/Items/Nuke it! A-bomb construction kit"
+  },
+  "Itm_SleepingPills.DisplayName": {
+    "en": {
+      "Text": "Sleeping pills"
+    },
+    "Context": "Entities/Items/Sleeping pills"
+  },
+  "Itm_WeaponsGradePlutonium.DisplayName": {
+    "en": {
+      "Text": "Weapons-grade plutonium"
+    },
+    "Context": "Entities/Items/Weapons-grade plutonium"
+  },
+  "Itm_Key.DisplayName": {
+    "en": {
+      "Text": "Key"
+    },
+    "Context": "Entities/Items/Key"
+  },
+  "Itm_Crowbar.DisplayName": {
+    "en": {
+      "Text": "Crowbar"
+    },
+    "Context": "Entities/Items/Crowbar"
+  },
+  "Itm_Cable.DisplayName": {
+    "en": {
+      "Text": "Cable"
+    },
+    "Context": "Entities/Items/Cable"
+  },
+  "Itm_Bomb.DisplayName": {
+    "en": {
+      "Text": "Bomb"
+    },
+    "Context": "Entities/Items/Bomb"
+  },
+  "Itm_Banana.DisplayName": {
+    "en": {
+      "Text": "Banana"
+    },
+    "Context": "Entities/Items/Banana"
+  },
+  "Itm_AluminiumFoil.DisplayName": {
+    "en": {
+      "Text": "Aluminium foil"
+    },
+    "Context": "Entities/Items/Aluminium foil"
+  },
+  "Itm_EnrichedPlutonium.DisplayName": {
+    "en": {
+      "Text": "Enriched plutonium"
+    },
+    "Context": "Entities/Items/Enriched plutonium"
+  },
+  "Itm_Detonator.DisplayName": {
+    "en": {
+      "Text": "Detonator"
+    },
+    "Context": "Entities/Items/Detonator"
+  },
+  "Itm_Hamster.DisplayName": {
+    "en": {
+      "Text": "Hamster"
+    },
+    "Context": "Entities/Items/Hamster"
+  },
+  "Itm_BananaWithSleepingPills.DisplayName": {
+    "en": {
+      "Text": "Banana with sleeping pills"
+    },
+    "Context": "Entities/Items/Banana with sleeping pills"
+  },
+  "Itm_Broom.DisplayName": {
+    "en": {
+      "Text": "Broom"
+    },
+    "Context": "Entities/Items/Broom"
+  },
+  "Itm_LetterOpener.DisplayName": {
+    "en": {
+      "Text": "Letter Opener"
+    },
+    "Context": "Entities/Items/Letter Opener"
+  },
+  "Chr_UnknownVoice.DisplayName": {
+    "en": {
+      "Text": "Unknown Voice"
+    },
+    "Context": "Entities/Characters/Unknown Voice"
+  },
+  "Chr_Hamster.DisplayName": {
+    "en": {
+      "Text": "Hamster"
+    },
+    "Context": "Entities/Characters/Hamster"
+  },
+  "Chr_Guard.DisplayName": {
+    "en": {
+      "Text": "Guard"
+    },
+    "Context": "Entities/Characters/Guard"
+  },
+  "Chr_DrArtieCee.DisplayName": {
+    "en": {
+      "Text": "Dr. Artie Cee"
+    },
+    "Context": "Entities/Characters/Dr. Artie Cee"
+  },
+  "Chr_HowILearnedToLoveTheBomb.DisplayName": {
+    "en": {
+      "Text": "\"How I Learned to Love the Bomb\""
+    },
+    "Context": "Entities/Characters/\"How I Learned to Love the Bomb\""
+  },
+  "Chr_Manfred.DisplayName": {
+    "en": {
+      "Text": "Manfred"
+    },
+    "Context": "Entities/Characters/Manfred"
+  },
+  "Chr_Manfred.Text": {
+    "en": {
+      "Text": "Manfred is the protagonist and player character. \r\nHe was just a usual game designer and lived a happy life, until he tried to create a game with a truly non-linear storyline. In the end he had a nervous breakdown and admitted himself to a mental home."
+    },
+    "de": {
+      "Text": "Manfred ist der Protagonist und Spielercharakter.\r\nEr war ein ganz normaler Spieleentwickler und führte ein glückliches Leben, bis er versuchte, ein Spiel mit einer wirklich nicht-linearen Handlung zu entwickeln. Am Ende hatte er einen Nervenzusammenbruch und wies sich selbst in eine Nervenheilanstalt ein."
+    },
+    "Context": "Entities/Characters/Manfred"
+  }
+}

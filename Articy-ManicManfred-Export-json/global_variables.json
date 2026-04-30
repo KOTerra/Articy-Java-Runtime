@@ -1,0 +1,214 @@
+{
+  "GlobalVariables": [
+    {
+      "Namespace": "GameState",
+      "Description": "",
+      "Variables": [
+        {
+          "Variable": "memory",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": "True after talking about that topic with the therapist."
+        },
+        {
+          "Variable": "therapist_knockedOut",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": "True after knocking down the therapist in the cell."
+        },
+        {
+          "Variable": "therapist_gone",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": "True after the therapist left the cell."
+        },
+        {
+          "Variable": "door_open",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": "True as soon as the cell door is open."
+        },
+        {
+          "Variable": "therapist_convinced",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": "True after convincing the therapist. "
+        },
+        {
+          "Variable": "dialogue_beforeLobby",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": "True after clicking on the lobby door."
+        },
+        {
+          "Variable": "dialogue_beforeCellar",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": "True after trying to enter the cellar."
+        },
+        {
+          "Variable": "hamster_talkedTo",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": "True after talking to the hamster."
+        },
+        {
+          "Variable": "hamster_saved",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": "True after getting the hamster out of his cage."
+        },
+        {
+          "Variable": "overflow_open",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": "True after opening the overflow in the cellar."
+        },
+        {
+          "Variable": "locker_open",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": "True after opening the locker."
+        },
+        {
+          "Variable": "lock_number",
+          "Type": "Integer",
+          "Value": "0",
+          "Description": "The current number in a try to open the locker."
+        },
+        {
+          "Variable": "lock_correctNumbers",
+          "Type": "Integer",
+          "Value": "0",
+          "Description": "The amount of correct numbers in a try to open the locker in the cellar."
+        },
+        {
+          "Variable": "exit_open",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": "True if the exit in the lobby is open."
+        },
+        {
+          "Variable": "therapist_down",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": "True after knocking the therapist down in the lobby."
+        },
+        {
+          "Variable": "therapist_knockedOut2",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": "True after handing the sleeping pills to the therapist."
+        },
+        {
+          "Variable": "guard_knockedOut",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": "True after knocking out the guard in the lobby."
+        },
+        {
+          "Variable": "guard_drugged",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": "True if the guard was drugged"
+        }
+      ]
+    },
+    {
+      "Namespace": "Inventory",
+      "Description": "",
+      "Variables": [
+        {
+          "Variable": "crowbar",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": "True after finding the crowbar in the cell."
+        },
+        {
+          "Variable": "key",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": "True after getting the key from the therapist."
+        },
+        {
+          "Variable": "opener",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": "True after receiving the opener from the hamster."
+        },
+        {
+          "Variable": "hamster",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": "True after helping the hamster."
+        },
+        {
+          "Variable": "aluminium",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": "True after finding the aluminium in the cellar."
+        },
+        {
+          "Variable": "bomb",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": "True after creating the bomb."
+        },
+        {
+          "Variable": "plutonium",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": "True after finding the plutonium in the cellar."
+        },
+        {
+          "Variable": "detonator",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": "True after combining enriched plutonium with cable."
+        },
+        {
+          "Variable": "enrichedPlutonium",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": "True after combining plutonium with construction kit."
+        },
+        {
+          "Variable": "cable",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": "True after finding the cable in the cellar."
+        },
+        {
+          "Variable": "broom",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": "True after finding the broom in the cellar."
+        },
+        {
+          "Variable": "constructionKit",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": "True after finding the construction kit in the cellar."
+        },
+        {
+          "Variable": "bananaPill",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": "True after combining the banana with the sleeping pills."
+        },
+        {
+          "Variable": "banana",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": "True after finding the banana in the lobby."
+        },
+        {
+          "Variable": "sleepingPills",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": "True after finding the sleeping pills in the lobby."
+        }
+      ]
+    }
+  ]
+}

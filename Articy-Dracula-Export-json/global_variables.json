@@ -1,0 +1,40 @@
+{
+  "GlobalVariables": [
+    {
+      "Namespace": "GameState",
+      "Description": "",
+      "Variables": [
+        {
+          "Variable": "isNameRevealed",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": ""
+        },
+        {
+          "Variable": "playerLevel",
+          "Type": "Integer",
+          "Value": "1",
+          "Description": ""
+        },
+        {
+          "Variable": "isRenfieldDefeated",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": ""
+        }
+      ]
+    },
+    {
+      "Namespace": "Inventory",
+      "Description": "",
+      "Variables": [
+        {
+          "Variable": "stake",
+          "Type": "Boolean",
+          "Value": "True",
+          "Description": ""
+        }
+      ]
+    }
+  ]
+}
