@@ -1,5 +1,6 @@
 plugins {
     id 'java-library'
+    id 'maven-publish'
 }
 
 group = 'com.articy.runtime'
@@ -33,4 +34,38 @@ test {
 java {
     sourceCompatibility = JavaVersion.VERSION_1_8
     targetCompatibility = JavaVersion.VERSION_1_8
+    withSourcesJar()
+    withJavadocJar()
+}
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            from components.java
+            groupId = project.group
+            artifactId = 'articy-java-runtime'
+            version = project.version
+        }
+    }
+    repositories {
+        mavenLocal()
+    }
+}
+
+task runDracula(type: JavaExec) {
+    group = 'Verification'
+    description = 'Runs the interactive Dracula console application.'
+    classpath = sourceSets.main.runtimeClasspath + sourceSets.test.runtimeClasspath
+    mainClass = 'com.articy.runtime.DraculaConsoleApp'
+    standardInput = System.in
+}
+
+jar {
+    manifest {
+        attributes(
+            'Implementation-Title': 'Articy Java Runtime',
+            'Implementation-Version': project.version,
+            'Bundle-SymbolicName': 'com.articy.runtime'
+        )
+    }
 }
