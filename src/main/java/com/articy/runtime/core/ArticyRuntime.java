@@ -45,6 +45,39 @@ public class ArticyRuntime {
         return database;
     }
 
+    /**
+     * Initializes the runtime by loading data from a .articygen archive.
+     * @param archivePath The path to the .articygen archive file.
+     * @param methodProvider Provider for custom script methods.
+     * @return The initialized ArticyDatabase.
+     * @throws IOException If loading fails.
+     */
+    public static ArticyDatabase initializeFromArchive(String archivePath, IScriptMethodProvider methodProvider) throws IOException {
+        database = new ArticyDatabase();
+        variableManager = new ArticyVariableManager();
+        engine = new ExpressoEngine(methodProvider);
+        localizationManager = new LocalizationManager();
+
+        File archiveFile = new File(archivePath);
+        ArticyLoader loader = new ArticyLoader(database, variableManager);
+        loader.loadFromArchive(archiveFile);
+
+        // Load all localization.json files from the archive
+        try (java.util.zip.ZipFile zip = new java.util.zip.ZipFile(archiveFile)) {
+            java.util.Enumeration<? extends java.util.zip.ZipEntry> entries = zip.entries();
+            while (entries.hasMoreElements()) {
+                java.util.zip.ZipEntry entry = entries.nextElement();
+                if (entry.getName().endsWith("localization.json")) {
+                    try (java.io.InputStream is = zip.getInputStream(entry)) {
+                        localizationManager.loadFromStream(is);
+                    }
+                }
+            }
+        }
+
+        return database;
+    }
+
     public static LocalizationManager getLocalization() {
         return localizationManager;
     }

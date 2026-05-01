@@ -19,8 +19,17 @@ public class LocalizationManager {
      * Loads localization data from an Articy localization JSON file.
      */
     public void loadFromFile(File file) throws IOException {
+        try (java.io.InputStream is = new java.io.FileInputStream(file)) {
+            loadFromStream(is);
+        }
+    }
+
+    /**
+     * Loads localization data from an Articy localization JSON input stream.
+     */
+    public void loadFromStream(java.io.InputStream stream) throws IOException {
         ObjectMapper mapper = new ObjectMapper();
-        JsonNode root = mapper.readTree(file);
+        JsonNode root = mapper.readTree(stream);
         
         // Handle both root-level entries and wrapped in "L10n"
         JsonNode l10n = root.has("L10n") ? root.get("L10n") : root;

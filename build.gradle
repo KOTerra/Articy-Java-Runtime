@@ -60,6 +60,14 @@ task runDracula(type: JavaExec) {
     standardInput = System.in
 }
 
+task runGenericDracula(type: JavaExec) {
+    group = 'Verification'
+    description = 'Runs the interactive Generic Dracula console application (archive loading).'
+    classpath = sourceSets.main.runtimeClasspath + sourceSets.test.runtimeClasspath
+    mainClass = 'com.articy.runtime.GenericDraculaConsoleApp'
+    standardInput = System.in
+}
+
 jar {
     manifest {
         attributes(

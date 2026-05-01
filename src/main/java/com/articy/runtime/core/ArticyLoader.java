@@ -7,8 +7,11 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.File;
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.Iterator;
 import java.util.Map;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipFile;
 
 /**
  * Handles parsing and loading of Articy JSON export files.
@@ -53,8 +56,63 @@ public class ArticyLoader {
         }
     }
 
+    /**
+     * Loads Articy data directly from a .articygen (ZIP) archive.
+     */
+    public void loadFromArchive(File archiveFile) throws IOException {
+        try (ZipFile zip = new ZipFile(archiveFile)) {
+            ZipEntry manifestEntry = zip.getEntry("manifest.json");
+            if (manifestEntry == null) {
+                throw new IOException("Archive is missing manifest.json");
+            }
+
+            JsonNode manifest;
+            try (InputStream is = zip.getInputStream(manifestEntry)) {
+                manifest = mapper.readTree(is);
+            }
+
+            // 1. Load Global Variables
+            if (manifest.has("GlobalVariables")) {
+                String gvFile = manifest.get("GlobalVariables").get("FileName").asText();
+                ZipEntry entry = zip.getEntry(gvFile);
+                if (entry != null) {
+                    try (InputStream is = zip.getInputStream(entry)) {
+                        loadGlobalVariables(mapper.readTree(is));
+                    }
+                }
+            }
+
+            // 2. Load Packages
+            if (manifest.has("Packages")) {
+                for (JsonNode pkg : manifest.get("Packages")) {
+                    String objFile = pkg.get("Files").get("Objects").get("FileName").asText();
+                    ZipEntry entry = zip.getEntry(objFile);
+                    if (entry != null) {
+                        try (InputStream is = zip.getInputStream(entry)) {
+                            loadObjects(mapper.readTree(is));
+                        }
+                    }
+                }
+            }
+
+            // 3. Resolve Hierarchy
+            if (manifest.has("Hierarchy")) {
+                String hierarchyFile = manifest.get("Hierarchy").get("FileName").asText();
+                ZipEntry entry = zip.getEntry(hierarchyFile);
+                if (entry != null) {
+                    try (InputStream is = zip.getInputStream(entry)) {
+                        loadHierarchy(mapper.readTree(is));
+                    }
+                }
+            }
+        }
+    }
+
     private void loadGlobalVariables(File file) throws IOException {
-        JsonNode root = mapper.readTree(file);
+        loadGlobalVariables(mapper.readTree(file));
+    }
+
+    private void loadGlobalVariables(JsonNode root) {
         if (root.has("GlobalVariables")) {
             for (JsonNode setNode : root.get("GlobalVariables")) {
                 String setName = setNode.get("Namespace").asText();
@@ -89,7 +147,10 @@ public class ArticyLoader {
     }
 
     private void loadHierarchy(File file) throws IOException {
-        JsonNode root = mapper.readTree(file);
+        loadHierarchy(mapper.readTree(file));
+    }
+
+    private void loadHierarchy(JsonNode root) {
         if (root.has("Hierarchy")) {
             parseHierarchyNode(root.get("Hierarchy"), 0);
         } else {
@@ -113,7 +174,10 @@ public class ArticyLoader {
     }
 
     private void loadObjects(File file) throws IOException {
-        JsonNode root = mapper.readTree(file);
+        loadObjects(mapper.readTree(file));
+    }
+
+    private void loadObjects(JsonNode root) {
         for (JsonNode objNode : root.get("Objects")) {
             parseObject(objNode);
         }
