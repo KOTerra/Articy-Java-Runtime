@@ -3,6 +3,9 @@ package com.articy.runtime.model;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Base class for all objects in the Articy database.
+ */
 public abstract class ArticyObject {
     private long id;
     private String technicalName;

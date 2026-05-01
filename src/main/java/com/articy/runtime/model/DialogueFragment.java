@@ -1,5 +1,8 @@
 package com.articy.runtime.model;
 
+/**
+ * Represents a single line of dialogue or a choice.
+ */
 public class DialogueFragment extends PausableNode {
     private long speakerId;
     private String text;

@@ -7,6 +7,10 @@ import com.articy.runtime.model.*;
 
 import java.util.*;
 
+/**
+ * Manages the traversal of the Articy flow (dialogues, stories, etc.).
+ * Handles condition evaluation, instruction execution, and branch forecasting.
+ */
 public class ArticyFlowPlayer {
     private final ArticyDatabase database;
     private final ExpressoEngine engine;
@@ -30,10 +34,16 @@ public class ArticyFlowPlayer {
         this.pauseOnTypes.add(DialogueFragment.class);
     }
 
+    /**
+     * Defines which node types should cause the flow player to pause.
+     */
     public void setPauseOn(Set<Class<? extends FlowObject>> types) {
         this.pauseOnTypes = types;
     }
 
+    /**
+     * Starts flow traversal at the specified node.
+     */
     public void startOn(long id) {
         ArticyObject obj = database.getObject(id, ArticyObject.class);
         if (obj == null) {
@@ -70,6 +80,9 @@ public class ArticyFlowPlayer {
         }
     }
 
+    /**
+     * Advances the flow along the specified branch, executing all scripts on the path.
+     */
     public void advance(Branch branch) {
         for (Branch.PathItem item : branch.getPath()) {
             if (item.outputPin != null && item.outputPin.getScript() != null && !item.outputPin.getScript().isEmpty()) {
@@ -91,6 +104,9 @@ public class ArticyFlowPlayer {
         return currentPausedObject != null ? currentPausedObject.getId() : -1L;
     }
 
+    /**
+     * Restores the flow player to a specific node state, usually for save/load.
+     */
     public void restoreState(long nodeId) {
         if (nodeId == -1L) {
             currentPausedObject = null;

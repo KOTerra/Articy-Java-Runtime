@@ -15,7 +15,7 @@ public class DraculaConsoleApp {
     private static boolean running = true;
 
     public static void main(String[] args) throws IOException {
-        String exportDir = "Articy-Dracula-Export-json";
+        String exportDir = "exports/Articy-Dracula-Export-json";
         
         System.out.println("--- Articy Java Runtime: Interactive Dracula Test ---");
         

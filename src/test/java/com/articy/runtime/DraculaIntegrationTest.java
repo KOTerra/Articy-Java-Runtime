@@ -16,7 +16,7 @@ public class DraculaIntegrationTest {
     private ArticyDatabase db;
     private ArticyVariableManager vm;
     private IScriptMethodProvider provider;
-    private static final String EXPORT_DIR = "Articy-Dracula-Export-json";
+    private static final String EXPORT_DIR = "exports/Articy-Dracula-Export-json";
 
     @BeforeEach
     public void setup() throws IOException {

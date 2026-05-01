@@ -16,7 +16,7 @@ public class ManicManfredIntegrationTest {
     private ArticyDatabase db;
     private ArticyVariableManager vm;
     private MockMethodProvider provider = new MockMethodProvider();
-    private static final String EXPORT_DIR = "Articy-ManicManfred-Export-json";
+    private static final String EXPORT_DIR = "exports/Articy-ManicManfred-Export-json";
 
     public static class MockMethodProvider implements IScriptMethodProvider {
         private ArticyVariableManager context;

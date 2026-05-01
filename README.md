@@ -10,6 +10,15 @@ A pure, engine-agnostic Java library (JDK 8+) for parsing and executing narrativ
 - **Expresso Logic Engine**: Integrated with Apache Commons JEXL 3.3 for strict, secure script evaluation.
 - **Recursive Traversal**: Automatically resolves transparent nodes (Hubs, Conditions, Jumps) and halts at interaction points (DialogueFragments).
 
+## Core Components
+
+- **ArticyRuntime**: The central entry point for initializing the library and accessing global managers.
+- **ArticyDatabase**: A thread-safe registry that stores and retrieves all narrative objects by ID or technical name.
+- **ArticyFlowPlayer**: The engine that traverses the story graph, evaluating conditions and executing instructions.
+- **ArticyVariableManager**: Manages global variables and supports "shadow states" for non-destructive branch prediction.
+- **ExpressoEngine**: A JEXL-based evaluator for Articy's internal scripting language (Expresso).
+- **LocalizationManager**: Handles localized text retrieval with support for multiple languages and fallbacks.
+
 ## Installation
 
 Add the following dependencies to your `build.gradle`:

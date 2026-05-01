@@ -10,6 +10,10 @@ import java.io.IOException;
 import java.util.Iterator;
 import java.util.Map;
 
+/**
+ * Handles parsing and loading of Articy JSON export files.
+ * Populates the database with objects and sets up global variables.
+ */
 public class ArticyLoader {
     private final ArticyDatabase database;
     private final ArticyVariableManager variableManager;
@@ -20,6 +24,10 @@ public class ArticyLoader {
         this.variableManager = variableManager;
     }
 
+    /**
+     * Loads all Articy data from the specified directory.
+     * Parses manifest.json to find and load packages, variables, and hierarchy.
+     */
     public void loadFromDirectory(String exportDir) throws IOException {
         File manifestFile = new File(exportDir, "manifest.json");
         JsonNode manifest = mapper.readTree(manifestFile);
@@ -47,28 +55,50 @@ public class ArticyLoader {
 
     private void loadGlobalVariables(File file) throws IOException {
         JsonNode root = mapper.readTree(file);
-        for (JsonNode setNode : root.get("VariableSets")) {
-            String setName = setNode.get("Name").asText();
-            for (JsonNode varNode : setNode.get("Variables")) {
-                String varName = varNode.get("Name").asText();
-                String type = varNode.get("Type").asText();
-                String valueStr = varNode.get("Value").asText();
+        if (root.has("GlobalVariables")) {
+            for (JsonNode setNode : root.get("GlobalVariables")) {
+                String setName = setNode.get("Namespace").asText();
+                for (JsonNode varNode : setNode.get("Variables")) {
+                    String varName = varNode.get("Variable").asText();
+                    String type = varNode.get("Type").asText();
+                    String valueStr = varNode.get("Value").asText();
 
-                Object value = valueStr;
-                if ("Boolean".equals(type)) value = Boolean.parseBoolean(valueStr);
-                else if ("Integer".equals(type)) value = Integer.parseInt(valueStr);
+                    Object value = valueStr;
+                    if ("Boolean".equals(type)) value = Boolean.parseBoolean(valueStr);
+                    else if ("Integer".equals(type)) value = Integer.parseInt(valueStr);
 
-                variableManager.setVariable(setName, varName, value);
+                    variableManager.setVariable(setName, varName, value);
+                }
+            }
+        } else if (root.has("VariableSets")) {
+            for (JsonNode setNode : root.get("VariableSets")) {
+                String setName = setNode.get("Name").asText();
+                for (JsonNode varNode : setNode.get("Variables")) {
+                    String varName = varNode.get("Name").asText();
+                    String type = varNode.get("Type").asText();
+                    String valueStr = varNode.get("Value").asText();
+
+                    Object value = valueStr;
+                    if ("Boolean".equals(type)) value = Boolean.parseBoolean(valueStr);
+                    else if ("Integer".equals(type)) value = Integer.parseInt(valueStr);
+
+                    variableManager.setVariable(setName, varName, value);
+                }
             }
         }
     }
 
     private void loadHierarchy(File file) throws IOException {
         JsonNode root = mapper.readTree(file);
-        parseHierarchyNode(root.get("Hierarchy"), 0);
+        if (root.has("Hierarchy")) {
+            parseHierarchyNode(root.get("Hierarchy"), 0);
+        } else {
+            parseHierarchyNode(root, 0);
+        }
     }
 
     private void parseHierarchyNode(JsonNode node, long parentId) {
+        if (node == null) return;
         long id = ArticyDatabase.parseHexId(node.get("Id").asText());
         ArticyObject obj = database.getObject(id, ArticyObject.class);
         if (obj != null) {

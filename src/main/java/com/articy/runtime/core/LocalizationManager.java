@@ -7,10 +7,17 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Manages localized text for Articy objects.
+ * Supports multiple languages and fallbacks.
+ */
 public class LocalizationManager {
     private final Map<String, Map<String, String>> localizations = new HashMap<>();
     private String currentLanguage = "en";
 
+    /**
+     * Loads localization data from an Articy localization JSON file.
+     */
     public void loadFromFile(File file) throws IOException {
         ObjectMapper mapper = new ObjectMapper();
         JsonNode root = mapper.readTree(file);
@@ -40,6 +47,10 @@ public class LocalizationManager {
         }
     }
 
+    /**
+     * Returns the localized string for the given key in the current language.
+     * Falls back to any available language if the current one is missing.
+     */
     public String localize(String key) {
         if (key == null) return "";
         Map<String, String> langMap = localizations.get(key);

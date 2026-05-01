@@ -3,7 +3,13 @@ package com.articy.runtime.model;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Represents a possible path in the flow from the current node to a target "pausable" node.
+ */
 public class Branch {
+    /**
+     * Represents a single step (node and pins) along a branch's path.
+     */
     public static class PathItem {
         public final FlowObject node;
         public final Pin outputPin;

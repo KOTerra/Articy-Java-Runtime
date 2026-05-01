@@ -5,6 +5,10 @@ import org.apache.commons.jexl3.introspection.JexlPermissions;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Evaluates Articy Expresso scripts (conditions and instructions).
+ * Uses JEXL as the underlying expression engine.
+ */
 public class ExpressoEngine {
     private final JexlEngine jexl;
 
@@ -25,6 +29,9 @@ public class ExpressoEngine {
         this.jexl = builder.create();
     }
 
+    /**
+     * Evaluates a script as a boolean condition.
+     */
     public boolean evaluateCondition(String script, ArticyVariableManager vars, IScriptMethodProvider provider) {
         if (script == null || script.trim().isEmpty()) {
             return true;
@@ -41,6 +48,9 @@ public class ExpressoEngine {
         return true; // Default to true for side-effect-only scripts
     }
 
+    /**
+     * Executes a script as an instruction (side effects only).
+     */
     public void executeInstruction(String script, ArticyVariableManager vars, IScriptMethodProvider provider) {
         if (script == null || script.trim().isEmpty()) {
             return;

@@ -4,6 +4,10 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
+/**
+ * Manages the global variables of an Articy project.
+ * Supports "shadow states" for non-destructive flow forecasting.
+ */
 public class ArticyVariableManager {
     private final Map<String, Map<String, Object>> variableSets;
     private final boolean isShadowState;
@@ -59,6 +63,9 @@ public class ArticyVariableManager {
         return isShadowState;
     }
 
+    /**
+     * Creates a copy of the current variable state that can be modified without affecting the master state.
+     */
     public ArticyVariableManager createShadowState() {
         Map<String, Map<String, Object>> clonedSets = new ConcurrentHashMap<>();
         for (Map.Entry<String, Map<String, Object>> setEntry : variableSets.entrySet()) {

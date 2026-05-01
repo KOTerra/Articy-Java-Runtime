@@ -13,7 +13,7 @@ public class ArticyRuntimeTest {
     private ArticyDatabase db;
     private ArticyVariableManager vm;
     private IScriptMethodProvider provider;
-    private static String exportDir = "Articy-Dracula-Export-json";
+    private static String exportDir = "exports/Articy-Dracula-Export-json";
 
     @BeforeEach
     public void setup() throws IOException {
