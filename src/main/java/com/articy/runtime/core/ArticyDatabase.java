@@ -23,6 +23,15 @@ public class ArticyDatabase {
         return getObject(parseHexId(hexId), type);
     }
 
+    public <T extends ArticyObject> T getObjectByTechnicalName(String technicalName, Class<T> type) {
+        for (ArticyObject obj : objectRegistry.values()) {
+            if (technicalName.equals(obj.getTechnicalName()) && type.isInstance(obj)) {
+                return type.cast(obj);
+            }
+        }
+        return null;
+    }
+
     public static long parseHexId(String hexId) {
         if (hexId == null || hexId.isEmpty()) {
             return 0L;

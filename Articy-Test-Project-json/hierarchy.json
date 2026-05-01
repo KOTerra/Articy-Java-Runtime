@@ -1,0 +1,18 @@
+{
+  "Hierarchy": {
+    "Id": "0x0",
+    "TechnicalName": "Project",
+    "Type": "Project",
+    "Children": [
+      {
+        "Id": "0x0100000000000001",
+        "TechnicalName": "TestPackage",
+        "Type": "Package",
+        "Children": [
+          { "Id": "0x010000000000000A", "TechnicalName": "Zone_Trigger_Camera", "Type": "FlowFragment" },
+          { "Id": "0x010000000000000B", "TechnicalName": "Dialogue_Test", "Type": "Dialogue" }
+        ]
+      }
+    ]
+  }
+}

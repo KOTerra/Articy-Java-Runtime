@@ -15,16 +15,27 @@ import static org.junit.jupiter.api.Assertions.*;
 public class DraculaIntegrationTest {
     private ArticyDatabase db;
     private ArticyVariableManager vm;
+    private IScriptMethodProvider provider;
     private static final String EXPORT_DIR = "Articy-Dracula-Export-json";
 
     @BeforeEach
     public void setup() throws IOException {
-        db = ArticyRuntime.initialize(EXPORT_DIR, new IScriptMethodProvider() {
+        provider = new IScriptMethodProvider() {
+            private ArticyVariableManager context;
             @Override
             public Object invokeCustomMethod(String name, Object... args) {
                 return null;
             }
-        });
+            @Override
+            public void setVariableContext(ArticyVariableManager vars) {
+                this.context = vars;
+            }
+            @Override
+            public boolean isShadowState() {
+                return context != null && context.isInShadowState();
+            }
+        };
+        db = ArticyRuntime.initialize(EXPORT_DIR, provider);
         vm = ArticyRuntime.getVariableManager();
     }
 
@@ -34,7 +45,7 @@ public class DraculaIntegrationTest {
         AtomicInteger branchCount = new AtomicInteger(0);
         List<Branch> lastBranches = new ArrayList<>();
 
-        ArticyFlowPlayer player = new ArticyFlowPlayer(db, vm, ArticyRuntime.getEngine(), null, new IArticyFlowPlayerCallbacks() {
+        ArticyFlowPlayer player = new ArticyFlowPlayer(db, vm, ArticyRuntime.getEngine(), provider, new IArticyFlowPlayerCallbacks() {
             @Override
             public void onFlowPlayerPaused(FlowObject object) {
                 pauseCount.incrementAndGet();
@@ -54,32 +65,24 @@ public class DraculaIntegrationTest {
         });
 
         // Start on "Dracula and Mina - First meeting" (Dlg_56A97563)
-        // This is a Dialogue container. startOn should enter it and find the first DialogueFragment.
+        // This is a Dialogue container. startOn should enter it and auto-advance to the first DialogueFragment.
         player.startOn(0x0100000000002CC2L);
 
-        // It should NOT have paused on the Dialogue itself, but it should have found branches (the first DialogueFragment)
-        assertEquals(0, pauseCount.get(), "Should not have paused on the container node itself");
-        assertFalse(lastBranches.isEmpty(), "Should have found branches from the container entry");
-        
-        // The first branch target should be DFr_A30F0F3E
-        assertEquals("DFr_A30F0F3E", lastBranches.get(0).getTargetNode().getTechnicalName());
-
-        // Advance to the first line
-        Branch firstLineBranch = lastBranches.get(0);
-        player.advance(firstLineBranch);
-        
-        // Now it should have paused on the first line
-        assertEquals(1, pauseCount.get());
+        // It should have auto-advanced to the first DialogueFragment (DFr_A30F0F3E)
+        assertEquals(1, pauseCount.get(), "Should have auto-advanced to the first fragment");
         assertEquals("DFr_A30F0F3E", player.getCurrentPausedObject().getTechnicalName());
+        assertFalse(lastBranches.isEmpty(), "Should have found branches from the first fragment");
+        
+        // Advance to the next branch (there should be only one)
+        Branch nextBranch = lastBranches.get(0);
+        player.advance(nextBranch);
+        
+        // Now it should have paused on the second node in the flow
+        assertEquals(2, pauseCount.get());
     }
 
     @Test
     public void testGlobalVariablesInitialization() {
-        // From global_variables.json
-        // GameState.isNameRevealed: False
-        // GameState.playerLevel: 1
-        // Inventory.stake: True
-        
         assertEquals(false, vm.getVariable("GameState", "isNameRevealed"));
         assertEquals(1, vm.getVariable("GameState", "playerLevel"));
         assertEquals(true, vm.getVariable("Inventory", "stake"));

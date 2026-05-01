@@ -1,0 +1,6 @@
+[
+  { "Name": "print", "ParameterTypes": ["System.String"] },
+  { "Name": "cameraPan", "ParameterTypes": ["System.Single", "System.Single", "System.Single"] },
+  { "Name": "cameraRotate", "ParameterTypes": ["System.Single", "System.Single"] },
+  { "Name": "startDialogue", "ParameterTypes": ["System.String"] }
+]

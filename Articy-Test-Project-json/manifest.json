@@ -1,0 +1,37 @@
+{
+  "Project": {
+    "Name": "Integration Test Project",
+    "Guid": "0x1234567890ABCDEF"
+  },
+  "GlobalVariables": {
+    "FileName": "global_variables.json"
+  },
+  "ObjectDefinitions": {
+    "Types": {
+      "FileName": "object_definitions.json"
+    },
+    "Texts": {
+      "FileName": "object_definitions_localization.json"
+    }
+  },
+  "Packages": [
+    {
+      "Name": "TestPackage",
+      "Id": "0x0100000000000001",
+      "Files": {
+        "Objects": {
+          "FileName": "package_0100000000000001_objects.json"
+        },
+        "Texts": {
+          "FileName": "package_0100000000000001_localization.json"
+        }
+      }
+    }
+  ],
+  "ScriptMethods": {
+    "FileName": "script_methods.json"
+  },
+  "Hierarchy": {
+    "FileName": "hierarchy.json"
+  }
+}

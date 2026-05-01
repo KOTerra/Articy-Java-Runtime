@@ -1,0 +1,15 @@
+{
+  "Templates": [
+    {
+      "TechnicalName": "Tpl_DynamicEntity",
+      "Features": [
+        {
+          "TechnicalName": "AIConfiguration",
+          "Properties": [
+            { "TechnicalName": "BehaviorTreePath", "Type": "String" }
+          ]
+        }
+      ]
+    }
+  ]
+}

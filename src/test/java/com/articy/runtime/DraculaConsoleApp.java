@@ -20,10 +20,20 @@ public class DraculaConsoleApp {
         System.out.println("--- Articy Java Runtime: Interactive Dracula Test ---");
         
         // 1. Initialize Runtime
+
         IScriptMethodProvider provider = new IScriptMethodProvider() {
+            private ArticyVariableManager context;
             @Override
             public Object invokeCustomMethod(String name, Object... args) {
                 return null;
+            }
+            @Override
+            public void setVariableContext(ArticyVariableManager vars) {
+                this.context = vars;
+            }
+            @Override
+            public boolean isShadowState() {
+                return context != null && context.isInShadowState();
             }
         };
         
@@ -62,10 +72,10 @@ public class DraculaConsoleApp {
                             String localizedMenu = ArticyRuntime.getLocalization().localize(df.getMenuText());
                             String localizedText = ArticyRuntime.getLocalization().localize(df.getText());
                             
-                            idStr = df.getMenuText().isEmpty() ? df.getText() : df.getMenuText();
-                            menuText = localizedMenu.isEmpty() || localizedMenu.equals(df.getMenuText()) ? localizedText : localizedMenu;
+                            idStr = (df.getMenuText() == null || df.getMenuText().isEmpty()) ? df.getText() : df.getMenuText();
+                            menuText = (localizedMenu == null || localizedMenu.isEmpty() || localizedMenu.equals(df.getMenuText())) ? localizedText : localizedMenu;
                             
-                            if (menuText.length() > 80) menuText = menuText.substring(0, 77) + "...";
+                            if (menuText != null && menuText.length() > 80) menuText = menuText.substring(0, 77) + "...";
                         }
                         System.out.println((i + 1) + ". [" + idStr + "] " + menuText);
                     }
@@ -88,7 +98,7 @@ public class DraculaConsoleApp {
             
             try {
                 int choice = Integer.parseInt(input) - 1;
-                if (choice >= 0 && choice < currentBranches.size()) {
+                if (currentBranches != null && choice >= 0 && choice < currentBranches.size()) {
                     player.advance(currentBranches.get(choice));
                 } else {
                     System.out.println("Invalid choice.");

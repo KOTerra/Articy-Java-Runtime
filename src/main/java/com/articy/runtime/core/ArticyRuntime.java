@@ -11,6 +11,7 @@ public class ArticyRuntime {
     private static ArticyVariableManager variableManager;
     private static ExpressoEngine engine;
     private static LocalizationManager localizationManager;
+    private static ArticyFlowPlayer flowPlayer;
 
     public static ArticyDatabase initialize(String exportDir, IScriptMethodProvider methodProvider) throws IOException {
         database = new ArticyDatabase();
@@ -47,5 +48,13 @@ public class ArticyRuntime {
 
     public static ExpressoEngine getEngine() {
         return engine;
+    }
+
+    public static ArticyFlowPlayer getFlowPlayer() {
+        return flowPlayer;
+    }
+
+    public static void setFlowPlayer(ArticyFlowPlayer player) {
+        flowPlayer = player;
     }
 }

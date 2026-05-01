@@ -1,0 +1,99 @@
+{
+  "Objects": [
+    {
+      "Type": "Entity",
+      "Properties": {
+        "Id": "0x010000000000000F",
+        "TechnicalName": "NPC_Goblin"
+      }
+    },
+    {
+      "Type": "FlowFragment",
+      "Properties": {
+        "Id": "0x010000000000000A",
+        "TechnicalName": "Zone_Trigger_Camera",
+        "OutputPins": [
+          {
+            "Id": "0x010000000000001A",
+            "Expression": "print('Entering Camera Zone'); cameraRotate(45.0, 1.0); NPCState.Camera_IsRotated = true;",
+            "Connections": [
+              { "TargetPin": "0x010000000000001B", "Target": "0x010000000000000B" }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Dialogue",
+      "Properties": {
+        "Id": "0x010000000000000B",
+        "TechnicalName": "Dialogue_Test",
+        "InputPins": [
+          { "Id": "0x010000000000001B", "Expression": "" }
+        ],
+        "OutputPins": [
+          {
+            "Id": "0x010000000000002B",
+            "Connections": [
+              { "TargetPin": "0x010000000000001C", "Target": "0x010000000000000C" }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "DialogueFragment",
+      "Properties": {
+        "Id": "0x010000000000000C",
+        "TechnicalName": "Greeting",
+        "Text": "Hello there! The camera has rotated, hasn't it?",
+        "Speaker": "0x0200000000000001",
+        "MenuText": "",
+        "InputPins": [
+          { "Id": "0x010000000000001C" }
+        ],
+        "OutputPins": [
+          {
+            "Id": "0x010000000000002C",
+            "Connections": [
+              { "TargetPin": "0x010000000000001D", "Target": "0x010000000000000D" },
+              { "TargetPin": "0x010000000000001E", "Target": "0x010000000000000E" }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "DialogueFragment",
+      "Properties": {
+        "Id": "0x010000000000000D",
+        "TechnicalName": "Option_Yes",
+        "MenuText": "Yes, it's quite dizzying.",
+        "Text": "I'm glad you noticed. It's for the cinematic effect!",
+        "Speaker": "0x0200000000000001",
+        "InputPins": [
+          { "Id": "0x010000000000001D", "Expression": "cameraRotate(0.0, 1.0); print('Restoring Camera');" }
+        ],
+        "OutputPins": [
+          { "Id": "0x010000000000002D", "Expression": "" }
+        ]
+      }
+    },
+    {
+      "Type": "DialogueFragment",
+      "Properties": {
+        "Id": "0x010000000000000E",
+        "TechnicalName": "Option_No",
+        "MenuText": "I didn't notice anything.",
+        "Text": "Then perhaps you should pay more attention! Goodbye.",
+        "Speaker": "0x0200000000000001",
+        "InputPins": [
+          { "Id": "0x010000000000001E", "Expression": "NPCState.NPC_Goblin_Visible = false; print('NPC Disappearing...');" }
+        ],
+        "OutputPins": [
+          { "Id": "0x010000000000002E", "Expression": "" }
+        ]
+      }
+    }
+  ]
+}

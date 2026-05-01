@@ -7,6 +7,7 @@ import java.util.concurrent.ConcurrentHashMap;
 public class ArticyVariableManager {
     private final Map<String, Map<String, Object>> variableSets;
     private final boolean isShadowState;
+    private boolean isDirty = false;
 
     public ArticyVariableManager() {
         this.variableSets = new ConcurrentHashMap<>();
@@ -28,7 +29,26 @@ public class ArticyVariableManager {
 
     public void setVariable(String set, String var, Object value) {
         Map<String, Object> setMap = variableSets.computeIfAbsent(set, k -> new ConcurrentHashMap<>());
-        setMap.put(var, value);
+        Object oldValue = setMap.put(var, value);
+        if (!isShadowState && (oldValue == null || !oldValue.equals(value))) {
+            isDirty = true;
+        }
+    }
+
+    public boolean isDirty() {
+        return isDirty;
+    }
+
+    public void clearDirty() {
+        isDirty = false;
+    }
+
+    public void restoreState(Map<String, Map<String, Object>> state) {
+        this.variableSets.clear();
+        for (Map.Entry<String, Map<String, Object>> entry : state.entrySet()) {
+            this.variableSets.put(entry.getKey(), new ConcurrentHashMap<>(entry.getValue()));
+        }
+        this.isDirty = true;
     }
 
     public Map<String, Map<String, Object>> getVariableSets() {

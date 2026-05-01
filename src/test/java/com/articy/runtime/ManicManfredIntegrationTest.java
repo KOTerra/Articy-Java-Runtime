@@ -19,9 +19,23 @@ public class ManicManfredIntegrationTest {
     private static final String EXPORT_DIR = "Articy-ManicManfred-Export-json";
 
     public static class MockMethodProvider implements IScriptMethodProvider {
+        private ArticyVariableManager context;
         @Override
         public Object invokeCustomMethod(String name, Object... args) {
+            if ("getSeenCounter".equals(name)) {
+                return 0;
+            }
             return null;
+        }
+
+        @Override
+        public void setVariableContext(ArticyVariableManager vars) {
+            this.context = vars;
+        }
+
+        @Override
+        public boolean isShadowState() {
+            return context != null && context.isInShadowState();
         }
         
         public int getSeenCounter(String id) {
@@ -37,8 +51,6 @@ public class ManicManfredIntegrationTest {
 
     @Test
     public void testManicManfredVariables() {
-        // GameState.memory: False
-        // GameState.lock_number: 0
         assertEquals(false, vm.getVariable("GameState", "memory"));
         assertEquals(0, vm.getVariable("GameState", "lock_number"));
     }
@@ -66,24 +78,11 @@ public class ManicManfredIntegrationTest {
         // Start on "Dlg_TheTherapist" (0x01000001000002AA)
         player.startOn(0x01000001000002AAL);
 
-        // It should find branches from the input pin
-        assertFalse(lastBranches.isEmpty(), "Should have branches from entry");
-        
-        // One of the branches should be DFr_Awake (0x01000001000002B8)
-        // or DFr_3CE3A7C7. DFr_3CE3A7C7 has a condition: getSeenCounter("DFr_Awake") > 0
-        // Since getSeenCounter returns 0, only DFr_Awake should be valid if it has no condition or true condition.
-        
-        boolean foundAwake = false;
-        for (Branch b : lastBranches) {
-            if ("DFr_Awake".equals(b.getTargetNode().getTechnicalName())) {
-                foundAwake = true;
-                player.advance(b);
-                break;
-            }
-        }
-        
-        assertTrue(foundAwake, "Should have found DFr_Awake branch");
-        assertEquals(1, pauseCount.get());
+        // It should have auto-advanced to the first fragment (DFr_Awake)
+        assertEquals(1, pauseCount.get(), "Should have auto-advanced to first fragment");
         assertEquals("DFr_Awake", player.getCurrentPausedObject().getTechnicalName());
+        
+        // lastBranches should contain branches FROM DFr_Awake
+        assertFalse(lastBranches.isEmpty(), "Should have branches from DFr_Awake");
     }
 }

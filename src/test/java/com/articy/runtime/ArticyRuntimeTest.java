@@ -12,16 +12,27 @@ import static org.junit.jupiter.api.Assertions.*;
 public class ArticyRuntimeTest {
     private ArticyDatabase db;
     private ArticyVariableManager vm;
+    private IScriptMethodProvider provider;
     private static String exportDir = "Articy-Dracula-Export-json";
 
     @BeforeEach
     public void setup() throws IOException {
-        db = ArticyRuntime.initialize(exportDir, new IScriptMethodProvider() {
+        provider = new IScriptMethodProvider() {
+            private ArticyVariableManager context;
             @Override
             public Object invokeCustomMethod(String name, Object... args) {
                 return null;
             }
-        });
+            @Override
+            public void setVariableContext(ArticyVariableManager vars) {
+                this.context = vars;
+            }
+            @Override
+            public boolean isShadowState() {
+                return context != null && context.isInShadowState();
+            }
+        };
+        db = ArticyRuntime.initialize(exportDir, provider);
         vm = ArticyRuntime.getVariableManager();
     }
 
@@ -65,7 +76,7 @@ public class ArticyRuntimeTest {
         
         vm.setVariable("GameState", "isNameRevealed", false);
         
-        ArticyFlowPlayer player = new ArticyFlowPlayer(db, vm, ArticyRuntime.getEngine(), null, new IArticyFlowPlayerCallbacks() {
+        ArticyFlowPlayer player = new ArticyFlowPlayer(db, vm, ArticyRuntime.getEngine(), provider, new IArticyFlowPlayerCallbacks() {
             @Override
             public void onFlowPlayerPaused(FlowObject object) {}
             @Override

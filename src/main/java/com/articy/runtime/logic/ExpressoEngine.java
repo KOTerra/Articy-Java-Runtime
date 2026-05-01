@@ -29,31 +29,42 @@ public class ExpressoEngine {
         if (script == null || script.trim().isEmpty()) {
             return true;
         }
-        JexlExpression expression = jexl.createExpression(preprocess(script));
+        if (provider != null) {
+            provider.setVariableContext(vars);
+        }
+        JexlScript s = jexl.createScript(preprocess(script));
         JexlContext context = createContext(vars, provider);
-        Object result = expression.evaluate(context);
+        Object result = s.execute(context);
         if (result instanceof Boolean) {
             return (Boolean) result;
         }
-        return false;
+        return true; // Default to true for side-effect-only scripts
     }
 
     public void executeInstruction(String script, ArticyVariableManager vars, IScriptMethodProvider provider) {
         if (script == null || script.trim().isEmpty()) {
             return;
         }
-        JexlExpression expression = jexl.createExpression(preprocess(script));
+        if (provider != null) {
+            provider.setVariableContext(vars);
+        }
+        JexlScript s = jexl.createScript(preprocess(script));
         JexlContext context = createContext(vars, provider);
-        expression.evaluate(context);
+        s.execute(context);
     }
 
     private String preprocess(String script) {
         if (script == null) return null;
-        // Simple regex to transform var++ into var = var + 1
-        // and var-- into var = var - 1
-        // Note: This is a basic implementation for the purpose of the runtime.
+        // 1. Transform var++ and var--
         String processed = script.replaceAll("([a-zA-Z0-9_.]+)\\s*\\+\\+", "$1 = $1 + 1");
         processed = processed.replaceAll("([a-zA-Z0-9_.]+)\\s*--", "$1 = $1 - 1");
+        
+        // 2. Redirect global function calls to articy.invokeCustomMethod
+        // Matches "func(" that isn't preceded by a dot or "articy."
+        // Excludes reserved words like if, while, etc.
+        // Handles optional leading minus for numeric arguments
+        processed = processed.replaceAll("(?<![a-zA-Z0-9_.]|articy\\.)\\b(?!(?:if|while|for|else|switch|return|true|false|null|new|var|function)\\b)([a-zA-Z_][a-zA-Z0-9_]*)\\s*\\(", "articy.invokeCustomMethod('$1', ");
+        
         return processed;
     }
 
