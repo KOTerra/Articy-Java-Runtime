@@ -146,7 +146,6 @@ public class ArticyFlowPlayer {
             }
 
             if (isPausable(targetNode)) {
-                System.out.println("FOUND PAUSABLE: " + targetNode.getTechnicalName() + " ID: " + Long.toHexString(targetNode.getId()));
                 branches.add(new Branch(targetNode, currentPath));
             } else {
                 List<FlowObject> nextPath = new ArrayList<>(currentPath);
@@ -193,7 +192,6 @@ public class ArticyFlowPlayer {
     private boolean isPausable(FlowObject node) {
         for (Class<? extends FlowObject> type : pauseOnTypes) {
             if (type.isInstance(node)) {
-                System.out.println("isPausable TRUE for " + node.getTechnicalName() + " (matches " + type.getSimpleName() + ")");
                 return true;
             }
         }

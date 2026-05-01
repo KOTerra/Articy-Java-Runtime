@@ -14,18 +14,28 @@ public class LocalizationManager {
     public void loadFromFile(File file) throws IOException {
         ObjectMapper mapper = new ObjectMapper();
         JsonNode root = mapper.readTree(file);
-        JsonNode l10n = root.get("L10n");
+        
+        // Handle both root-level entries and wrapped in "L10n"
+        JsonNode l10n = root.has("L10n") ? root.get("L10n") : root;
+        
         if (l10n != null && l10n.isObject()) {
             l10n.fields().forEachRemaining(entry -> {
                 String key = entry.getKey();
                 JsonNode languages = entry.getValue();
+                if (!languages.isObject()) return;
+                
                 Map<String, String> langMap = new HashMap<>();
                 languages.fields().forEachRemaining(langEntry -> {
                     String lang = langEntry.getKey();
-                    String text = langEntry.getValue().get("Text").asText();
-                    langMap.put(lang, text);
+                    JsonNode langNode = langEntry.getValue();
+                    if (langNode.isObject() && langNode.has("Text")) {
+                        String text = langNode.get("Text").asText();
+                        langMap.put(lang, text);
+                    }
                 });
-                localizations.put(key, langMap);
+                if (!langMap.isEmpty()) {
+                    localizations.put(key, langMap);
+                }
             });
         }
     }

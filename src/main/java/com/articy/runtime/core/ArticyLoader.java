@@ -138,9 +138,6 @@ public class ArticyLoader {
         }
 
         database.registerObject(obj);
-        if (id == 0x0100000000002CC3L) {
-            System.out.println("LOGGED TARGET OBJECT: " + type + " " + Long.toHexString(id));
-        }
     }
 
     private void parseFlowProperties(FlowObject flowObj, JsonNode props) {

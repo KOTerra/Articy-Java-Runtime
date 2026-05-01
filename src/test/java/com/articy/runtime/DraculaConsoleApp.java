@@ -56,14 +56,18 @@ public class DraculaConsoleApp {
                     for (int i = 0; i < branches.size(); i++) {
                         FlowObject target = branches.get(i).getTargetNode();
                         String menuText = "";
+                        String idStr = "";
                         if (target instanceof DialogueFragment) {
-                            menuText = ArticyRuntime.getLocalization().localize(((DialogueFragment) target).getMenuText());
-                            if (menuText.isEmpty()) {
-                                menuText = ArticyRuntime.getLocalization().localize(((DialogueFragment) target).getText());
-                                if (menuText.length() > 50) menuText = menuText.substring(0, 47) + "...";
-                            }
+                            DialogueFragment df = (DialogueFragment) target;
+                            String localizedMenu = ArticyRuntime.getLocalization().localize(df.getMenuText());
+                            String localizedText = ArticyRuntime.getLocalization().localize(df.getText());
+                            
+                            idStr = df.getMenuText().isEmpty() ? df.getText() : df.getMenuText();
+                            menuText = localizedMenu.isEmpty() || localizedMenu.equals(df.getMenuText()) ? localizedText : localizedMenu;
+                            
+                            if (menuText.length() > 80) menuText = menuText.substring(0, 77) + "...";
                         }
-                        System.out.println((i + 1) + ". " + menuText);
+                        System.out.println((i + 1) + ". [" + idStr + "] " + menuText);
                     }
                 }
             }
