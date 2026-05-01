@@ -12,6 +12,11 @@
           "Name": "Camera_IsRotated",
           "Type": "Boolean",
           "Value": "False"
+        },
+        {
+          "Name": "First_Goblin_Spawned",
+          "Type": "Boolean",
+          "Value": "False"
         }
       ]
     }

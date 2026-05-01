@@ -26,7 +26,7 @@ public class ArticyFlowPlayer {
         this.methodProvider = methodProvider;
         this.callbacks = callbacks;
         
-        // Default pause types
+        // Default pause types: Only Dialogue Fragments
         this.pauseOnTypes.add(DialogueFragment.class);
     }
 
@@ -37,17 +37,14 @@ public class ArticyFlowPlayer {
     public void startOn(long id) {
         ArticyObject obj = database.getObject(id, ArticyObject.class);
         if (obj == null) {
-            System.err.println("Articy: startOn failed, object not found: " + Long.toHexString(id));
             return;
         }
         if (obj instanceof FlowObject) {
             FlowObject flowObj = (FlowObject) obj;
-            System.out.println("Articy: Starting on " + flowObj.getTechnicalName() + " (" + flowObj.getClass().getSimpleName() + ")");
             
             if (isPausable(flowObj)) {
                 advanceTo(flowObj);
             } else {
-                // If it's a container (not pausable), we should check its InputPins for internal flow.
                 List<Branch> branches = new ArrayList<>();
                 ArticyVariableManager shadowVars = masterVars.createShadowState();
                 
@@ -61,15 +58,12 @@ public class ArticyFlowPlayer {
                 
                 if (hasInternalFlow) {
                     if (branches.size() == 1) {
-                         System.out.println("Articy: startOn auto-advancing through internal flow of: " + flowObj.getTechnicalName());
                          advance(branches.get(0));
                     } else {
-                         // Multiple choices from entrance or no valid path found (branches might be empty if conditions failed)
                          callbacks.onFlowPlayerPaused(flowObj);
                          callbacks.onBranchesUpdated(branches);
                     }
                 } else {
-                    // No internal flow defined, treat as a normal node and look at output pins
                     advanceTo(flowObj);
                 }
             }
@@ -77,24 +71,15 @@ public class ArticyFlowPlayer {
     }
 
     public void advance(Branch branch) {
-        System.out.println("Articy: Advancing to branch " + branch.getTargetNode().getTechnicalName());
-        // Replay the path on master state to commit side effects
         for (Branch.PathItem item : branch.getPath()) {
-            // 1. Output Pin of previous node
             if (item.outputPin != null && item.outputPin.getScript() != null && !item.outputPin.getScript().isEmpty()) {
-                System.out.println("Articy Advance: Executing output pin script: " + item.outputPin.getScript());
                 engine.executeInstruction(item.outputPin.getScript(), masterVars, methodProvider);
             }
-            // 2. Input Pin of current node
             if (item.inputPin != null && item.inputPin.getScript() != null && !item.inputPin.getScript().isEmpty()) {
-                System.out.println("Articy Advance: Executing input pin script: " + item.inputPin.getScript());
                 engine.executeInstruction(item.inputPin.getScript(), masterVars, methodProvider);
             }
-            // 3. The Node itself
             executeNodeInstructions(item.node, masterVars);
         }
-        
-        // Final move to the target node
         advanceTo(branch.getTargetNode());
     }
 
@@ -119,7 +104,6 @@ public class ArticyFlowPlayer {
 
     private void advanceTo(FlowObject node) {
         currentPausedObject = node;
-        System.out.println("Articy: Pausing on " + node.getTechnicalName() + " (" + node.getClass().getSimpleName() + ")");
 
         if (isPausable(node)) {
             executeNodeInstructions(node, masterVars);
@@ -127,13 +111,10 @@ public class ArticyFlowPlayer {
             List<Branch> branches = forecastBranches(node);
             callbacks.onBranchesUpdated(branches);
         } else {
-            // Auto-advance if there's only one branch
             List<Branch> branches = forecastBranches(node);
             if (branches.size() == 1) {
-                System.out.println("Articy: Auto-advancing through non-pausable node: " + node.getTechnicalName());
                 advance(branches.get(0));
             } else {
-                // Multiple choices or end of flow, must pause anyway
                 callbacks.onFlowPlayerPaused(node);
                 callbacks.onBranchesUpdated(branches);
             }
@@ -144,11 +125,9 @@ public class ArticyFlowPlayer {
         List<Branch> branches = new ArrayList<>();
         ArticyVariableManager shadowVars = masterVars.createShadowState();
         
-        System.out.println("Articy: Forecasting branches for " + node.getTechnicalName() + ". Output pin count: " + node.getOutputPins().size());
         for (Pin outPin : node.getOutputPins()) {
             evaluateForecasting(outPin, shadowVars, branches, new ArrayList<>(), new HashSet<>());
         }
-        System.out.println("Articy: Forecast finished. Branches found: " + branches.size());
         return branches;
     }
 
@@ -156,13 +135,10 @@ public class ArticyFlowPlayer {
                                      List<Branch> branches, List<Branch.PathItem> currentPath, 
                                      Set<Long> visitedNodes) {
         
-        // Execute pin instructions
         if (currentPin.getScript() != null && !currentPin.getScript().isEmpty()) {
-            System.out.println("Articy Forecast: Executing pin script: " + currentPin.getScript());
             engine.executeInstruction(currentPin.getScript(), shadowVars, methodProvider);
         }
 
-        System.out.println("Articy Forecast: Checking " + currentPin.getConnections().size() + " connections from pin " + Long.toHexString(currentPin.getId()));
         for (Connection conn : currentPin.getConnections()) {
             ArticyObject targetObj = database.getObject(conn.getTargetNodeId(), ArticyObject.class);
             if (!(targetObj instanceof FlowObject)) {
@@ -170,9 +146,7 @@ public class ArticyFlowPlayer {
             }
             
             FlowObject targetNode = (FlowObject) targetObj;
-            System.out.println("Articy Forecast: Reached " + targetNode.getTechnicalName() + " (" + targetNode.getClass().getSimpleName() + ")");
             
-            // Check target pin condition
             Pin inputPin = null;
             for(Pin p : targetNode.getInputPins()) {
                 if(p.getId() == conn.getTargetPinId()) {
@@ -183,13 +157,10 @@ public class ArticyFlowPlayer {
             
             if (inputPin != null && inputPin.getScript() != null && !inputPin.getScript().isEmpty()) {
                 if (!engine.evaluateCondition(inputPin.getScript(), shadowVars, methodProvider)) {
-                    System.out.println("Articy Forecast: Condition FAILED for " + targetNode.getTechnicalName() + ": " + inputPin.getScript());
                     continue;
                 }
-                System.out.println("Articy Forecast: Condition PASSED for " + targetNode.getTechnicalName());
             }
 
-            // Cycle detection
             if (targetNode instanceof TransparentNode && visitedNodes.contains(targetNode.getId())) {
                 continue;
             }
@@ -199,7 +170,6 @@ public class ArticyFlowPlayer {
             }
 
             if (isPausable(targetNode)) {
-                System.out.println("Articy Forecast: ADDING BRANCH: " + targetNode.getTechnicalName());
                 List<Branch.PathItem> finalPath = new ArrayList<>(currentPath);
                 finalPath.add(new Branch.PathItem(targetNode, currentPin, inputPin));
                 branches.add(new Branch(targetNode, finalPath));
@@ -229,17 +199,14 @@ public class ArticyFlowPlayer {
                         evaluateForecasting(out, shadowVars, branches, nextPath, visitedNodes);
                     }
                 } else {
-                    // Hub, Dialogue, FlowFragment, DialogueFragment (when not pausable)
                     for (Pin out : targetNode.getOutputPins()) {
                         evaluateForecasting(out, shadowVars, branches, nextPath, visitedNodes);
                     }
                 }
             }
             
-            // Always recurse through output pins if it is pausable to find what's AFTER the pause
             if (isPausable(targetNode)) {
-                 // For the case of branches, we've already added the branch. 
-                 // We don't recurse further here because we want to stop at the first pausable.
+                 // Stop at first pausable
             }
         }
     }
@@ -255,7 +222,6 @@ public class ArticyFlowPlayer {
 
     private void executeNodeInstructions(FlowObject node, ArticyVariableManager vars) {
         if (node instanceof Instruction) {
-            System.out.println("Articy Execute: Instruction " + ((Instruction) node).getExpression());
             engine.executeInstruction(((Instruction) node).getExpression(), vars, methodProvider);
         }
     }
