@@ -147,10 +147,10 @@ public class ArticyFlowPlayer {
         return branches;
     }
 
-    private void evaluateForecasting(Pin currentPin, ArticyVariableManager shadowVars, 
-                                     List<Branch> branches, List<Branch.PathItem> currentPath, 
+    private void evaluateForecasting(Pin currentPin, ArticyVariableManager shadowVars,
+                                     List<Branch> branches, List<Branch.PathItem> currentPath,
                                      Set<Long> visitedNodes) {
-        
+
         if (currentPin.getScript() != null && !currentPin.getScript().isEmpty()) {
             engine.executeInstruction(currentPin.getScript(), shadowVars, methodProvider);
         }
@@ -160,27 +160,41 @@ public class ArticyFlowPlayer {
             if (!(targetObj instanceof FlowObject)) {
                 continue;
             }
-            
+
             FlowObject targetNode = (FlowObject) targetObj;
-            
+
             Pin inputPin = null;
-            for(Pin p : targetNode.getInputPins()) {
-                if(p.getId() == conn.getTargetPinId()) {
+            Pin exitPin = null;
+
+            // 1. Check Input Pins (Tunneling IN)
+            for (Pin p : targetNode.getInputPins()) {
+                if (p.getId() == conn.getTargetPinId()) {
                     inputPin = p;
                     break;
                 }
             }
             
+            // 2. Check Output Pins (Tunneling OUT)
+            if (inputPin == null) {
+                for (Pin p : targetNode.getOutputPins()) {
+                    if (p.getId() == conn.getTargetPinId()) {
+                        exitPin = p;
+                        break;
+                    }
+                }
+            }
+
             if (inputPin != null && inputPin.getScript() != null && !inputPin.getScript().isEmpty()) {
                 if (!engine.evaluateCondition(inputPin.getScript(), shadowVars, methodProvider)) {
                     continue;
                 }
             }
 
-            if (targetNode instanceof TransparentNode && visitedNodes.contains(targetNode.getId())) {
+            // Prevent infinite loops, but allow re-visiting a container node IF we are explicitly exiting it
+            if (targetNode instanceof TransparentNode && visitedNodes.contains(targetNode.getId()) && exitPin == null) {
                 continue;
             }
-            
+
             if (targetNode instanceof TransparentNode) {
                 visitedNodes.add(targetNode.getId());
             }
@@ -191,14 +205,20 @@ public class ArticyFlowPlayer {
                 branches.add(new Branch(targetNode, finalPath));
             } else {
                 List<Branch.PathItem> nextPath = new ArrayList<>(currentPath);
-                nextPath.add(new Branch.PathItem(targetNode, currentPin, inputPin));
-                
-                if (targetNode instanceof Jump) {
+                nextPath.add(new Branch.PathItem(targetNode, currentPin, inputPin != null ? inputPin : exitPin));
+
+                if (exitPin != null) {
+                    // Tunneling OUT of a container
+                    evaluateForecasting(exitPin, shadowVars, branches, nextPath, visitedNodes);
+                } else if (inputPin != null && !inputPin.getConnections().isEmpty()) {
+                    // Tunneling IN to a container
+                    evaluateForecasting(inputPin, shadowVars, branches, nextPath, visitedNodes);
+                } else if (targetNode instanceof Jump) {
                     Jump jump = (Jump) targetNode;
                     ArticyObject jumpTarget = database.getObject(jump.getTargetId(), ArticyObject.class);
                     if (jumpTarget instanceof FlowObject) {
-                        for(Pin out : ((FlowObject)jumpTarget).getOutputPins()) {
-                             evaluateForecasting(out, shadowVars, branches, nextPath, visitedNodes);
+                        for (Pin out : ((FlowObject) jumpTarget).getOutputPins()) {
+                            evaluateForecasting(out, shadowVars, branches, nextPath, visitedNodes);
                         }
                     }
                 } else if (targetNode instanceof Condition) {
@@ -214,17 +234,11 @@ public class ArticyFlowPlayer {
                     for (Pin out : targetNode.getOutputPins()) {
                         evaluateForecasting(out, shadowVars, branches, nextPath, visitedNodes);
                     }
-                } else if (inputPin != null && !inputPin.getConnections().isEmpty()) {
-                    evaluateForecasting(inputPin, shadowVars, branches, nextPath, visitedNodes);
                 } else {
                     for (Pin out : targetNode.getOutputPins()) {
                         evaluateForecasting(out, shadowVars, branches, nextPath, visitedNodes);
                     }
                 }
-            }
-            
-            if (isPausable(targetNode)) {
-                 // Stop at first pausable
             }
         }
     }
