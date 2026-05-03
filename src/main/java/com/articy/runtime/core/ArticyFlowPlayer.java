@@ -214,6 +214,8 @@ public class ArticyFlowPlayer {
                     for (Pin out : targetNode.getOutputPins()) {
                         evaluateForecasting(out, shadowVars, branches, nextPath, visitedNodes);
                     }
+                } else if (inputPin != null && !inputPin.getConnections().isEmpty()) {
+                    evaluateForecasting(inputPin, shadowVars, branches, nextPath, visitedNodes);
                 } else {
                     for (Pin out : targetNode.getOutputPins()) {
                         evaluateForecasting(out, shadowVars, branches, nextPath, visitedNodes);
