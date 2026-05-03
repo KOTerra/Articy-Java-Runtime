@@ -17,6 +17,25 @@ public class ArticyRuntime {
     private static LocalizationManager localizationManager;
     private static ArticyFlowPlayer flowPlayer;
 
+    private static final java.util.Map<String, Class<? extends com.articy.runtime.model.ArticyObject>> customTypeRegistry = new java.util.concurrent.ConcurrentHashMap<>();
+
+    /**
+     * Registers a custom Java class to be instantiated for a specific Articy type.
+     * Use this for custom templates or entities.
+     * @param articyType The type name from Articy (e.g., "PlayerCharacter").
+     * @param javaClass The Java class extending ArticyObject.
+     */
+    public static void registerCustomType(String articyType, Class<? extends com.articy.runtime.model.ArticyObject> javaClass) {
+        customTypeRegistry.put(articyType, javaClass);
+    }
+
+    /**
+     * Package-private getter for the loader to access registered custom types.
+     */
+    static java.util.Map<String, Class<? extends com.articy.runtime.model.ArticyObject>> getCustomTypeRegistry() {
+        return customTypeRegistry;
+    }
+
     /**
      * Initializes the runtime by loading data from the specified export directory.
      * @param exportDir The path to the Articy JSON export directory.

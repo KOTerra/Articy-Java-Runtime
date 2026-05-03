@@ -251,9 +251,21 @@ public class ArticyLoader {
     }
 
     private ArticyObject createObjectByType(String type) {
+        // 1. Check dynamic registry first (No hardcoded game types!)
+        Map<String, Class<? extends ArticyObject>> registry = ArticyRuntime.getCustomTypeRegistry();
+        if (registry.containsKey(type)) {
+            try {
+                return registry.get(type).getDeclaredConstructor().newInstance();
+            } catch (Exception e) {
+                System.err.println("ArticyLoader: Failed to instantiate custom type: " + type);
+                return null;
+            }
+        }
+
+        // 2. Core Articy Flow Objects
         switch (type) {
             case "DialogueFragment":
-            case "DialogueLine": 
+            case "DialogueLine":
                 return new DialogueFragment();
             case "Dialogue":
                 return new Dialogue();
@@ -269,8 +281,47 @@ public class ArticyLoader {
                 return new Jump();
             case "Asset":
                 return new AssetObject();
-            default:
+
+            // 3. Known Structural/Editor Metadata Types
+            // We explicitly return null here so they aren't instantiated as Entities.
+            // This prevents test failures (e.g., Dracula/ManicManfred tests) and DB pollution.
+            case "Project":
+            case "UserFolder":
+            case "Comment":
+            case "Feature":
+            case "Template":
+            case "VariableSet":
+            case "Entities":
+            case "EntitiesUserFolder":
+            case "Locations":
+            case "LocationText":
+            case "LocationImage":
+            case "Documents":
+            case "Journeys":
+            case "TemplateDesign":
+            case "Features":
+            case "PropertyTemplates":
+            case "TypedPropertyTemplates":
+            case "Templates":
+            case "TemplateTypeFolder":
+            case "RuleSets":
+            case "RuleSet":
+            case "RuleSetPackage":
+            case "Assets":
+            case "AssetsUserFolder":
+            case "ProjectSettingsFolder":
+            case "ProjectSettingsFlow":
+            case "ProjectSettingsGeneral":
+            case "ProjectSettingsJourneys":
+            case "ProjectSettingsLocation":
+            case "GlobalVariables":
+            case "Flow":
                 return null;
+
+            // 4. THE TRUE CATCH-ALL
+            // Any type not caught above is assumed to be a custom game template or entity.
+            default:
+                return new Entity();
         }
     }
 }
